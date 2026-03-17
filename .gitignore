@@ -1,3 +1,7 @@
 .deveco/**
 .vscode/**
-
+**/build/
+**/interim_binary/ws63/
+output/
+*.pyc
+*.a
