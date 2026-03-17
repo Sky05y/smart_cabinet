@@ -1,0 +1,32 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_address.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_async.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_block.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_cache.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_debug.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_dtls.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_encode.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_hashkey.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_io.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_io_lwip.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_layers.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_net.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_netif.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_notls.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_option.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_pdu.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_resource.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_session.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_str.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_subscribe.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_tcp.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_uri.c.obj"
+  "CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_ws.c.obj"
+  "libcoap.a"
+  "libcoap.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/coap.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

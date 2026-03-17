@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdbool.h
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stddef.h
+bits/alltypes.h
+-
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
+bits/alltypes.h
+-
+bits/stdint.h
+-
+
+../../../../middleware/utils/common_headers/chip_io.h
+stdint.h
+-
+stddef.h
+-
+stdbool.h
+-
+
+/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/dyn_mem/dyn_mem.c
+stdint.h
+-
+chip_io.h
+/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/dyn_mem/chip_io.h
+dyn_mem.h
+/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/dyn_mem/dyn_mem.h
+
+/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/dyn_mem/dyn_mem.h
+

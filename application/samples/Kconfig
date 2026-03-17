@@ -38,4 +38,3 @@ config ENABLE_PRODUCTS_SAMPLE
 if ENABLE_PRODUCTS_SAMPLE
 osource "application/samples/products/Kconfig"
 endif
-

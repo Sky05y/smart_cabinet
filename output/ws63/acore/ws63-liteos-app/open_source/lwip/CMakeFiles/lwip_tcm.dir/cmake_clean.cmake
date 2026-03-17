@@ -1,0 +1,31 @@
+file(REMOVE_RECURSE
+  "../../../../../../interim_binary/ws63/libs/wifi/ws63-liteos-app/liblwip_tcm.a"
+  "../../../../../../interim_binary/ws63/libs/wifi/ws63-liteos-app/liblwip_tcm.pdb"
+  "CMakeFiles/lwip_tcm.dir/lwip_adapter/liteos_207/src/arch/sys_arch.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_lib.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_msg.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/netbuf.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/sockets.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/tcpip.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/inet_chksum.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip_addr.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/etharp.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_addr.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_frag.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/mem.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/memp.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/netif.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/pbuf.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/raw.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/tcp.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/udp.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/driverif.c.obj"
+  "CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/ethernet.c.obj"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/lwip_tcm.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

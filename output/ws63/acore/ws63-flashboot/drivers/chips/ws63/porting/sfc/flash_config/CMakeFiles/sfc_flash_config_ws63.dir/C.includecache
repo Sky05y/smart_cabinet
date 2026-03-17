@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../../bootloader/commonboot/libc/include/bits/alltypes.h
+
+../../../../bootloader/commonboot/libc/include/stdint.h
+bits/alltypes.h
+-
+
+../../../../drivers/chips/ws63/porting/sfc/flash_config_info.h
+stdint.h
+-
+
+../../../../include/common_def.h
+stdint.h
+-
+
+/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/flash_config/flash_config_info.c
+flash_config_info.h
+/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/flash_config/flash_config_info.h
+common_def.h
+/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/flash_config/common_def.h
+

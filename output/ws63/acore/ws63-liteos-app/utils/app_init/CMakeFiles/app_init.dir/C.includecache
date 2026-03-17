@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bearpi/project/bearpi-pico_h3863/middleware/utils/app_init/app_init.c
+app_init.h
+/home/bearpi/project/bearpi-pico_h3863/middleware/utils/app_init/app_init.h
+
+/home/bearpi/project/bearpi-pico_h3863/middleware/utils/app_init/app_init.h
+

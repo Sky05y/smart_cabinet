@@ -1,0 +1,1 @@
+/home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl/bin/riscv32-linux-musl-ar rcD libchip_boot_port.a  CMakeFiles/chip_boot_port.dir/delay/delay.c.obj CMakeFiles/chip_boot_port.dir/serial/serial.c.obj CMakeFiles/chip_boot_port.dir/watchdog/boot_watchdog.c.obj CMakeFiles/chip_boot_port.dir/reset/reset_porting.c.obj

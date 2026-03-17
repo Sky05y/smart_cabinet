@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../../bootloader/commonboot/libc/include/bits/alltypes.h
+
+../../../../bootloader/commonboot/libc/include/stddef.h
+bits/alltypes.h
+-
+
+../../../../bootloader/commonboot/libc/include/stdint.h
+bits/alltypes.h
+-
+
+../../../../include/common_def.h
+stdint.h
+-
+
+../../../../kernel/non_os/malloc/malloc.h
+stdint.h
+-
+stddef.h
+-
+common_def.h
+../../../../kernel/non_os/malloc/common_def.h
+
+/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/mem/malloc_porting.c
+stddef.h
+-
+dbg_heap_memory.h
+/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/mem/dbg_heap_memory.h
+malloc.h
+/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/mem/malloc.h
+malloc_porting.h
+/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/mem/malloc_porting.h
+
+/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/mem/malloc_porting.h
+

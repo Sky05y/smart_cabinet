@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../../drivers/drivers/hal/mips/hal_mips.h
+
+../../../../include/driver/tcxo.h
+stdint.h
+-
+errcode.h
+../../../../include/driver/errcode.h
+
+../../../../include/errcode.h
+stdint.h
+-
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdbool.h
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
+bits/alltypes.h
+-
+bits/stdint.h
+-
+
+../../../../middleware/utils/mips/public/mips.h
+stdint.h
+-
+stdbool.h
+-
+
+/home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips/private/mips.c
+mips.h
+/home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips/private/mips.h
+tcxo.h
+/home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips/private/tcxo.h
+hal_mips.h
+/home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips/private/hal_mips.h
+

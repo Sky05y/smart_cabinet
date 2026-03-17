@@ -1,0 +1,1 @@
+/home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libsfc_port_ws63.a  CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.obj CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.obj CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj

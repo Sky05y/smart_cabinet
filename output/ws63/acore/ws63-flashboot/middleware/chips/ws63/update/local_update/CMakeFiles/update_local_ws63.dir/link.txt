@@ -1,0 +1,1 @@
+/home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl/bin/riscv32-linux-musl-ar rcD libupdate_local_ws63.a  CMakeFiles/update_local_ws63.dir/upg_encry_porting.c.obj

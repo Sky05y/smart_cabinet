@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/alloca.h
+bits/alltypes.h
+-
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/features.h
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/malloc.h
+bits/alltypes.h
+-
+
+../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdlib.h
+malloc.h
+-
+features.h
+-
+bits/alltypes.h
+-
+alloca.h
+-
+
+/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/mips/hal_mips.c
+hal_mips.h
+/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/mips/hal_mips.h
+stdlib.h
+/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/mips/stdlib.h
+
+/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/mips/hal_mips.h
+
