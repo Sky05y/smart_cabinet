@@ -125,59 +125,86 @@ samples/fast:
 	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/build
 .PHONY : samples/fast
 
-ws63_client/sle_uart_client/sle_uart_client.obj: ws63_client/sle_uart_client/sle_uart_client.c.obj
+ws63_server/sle_uart_server/sle_uart_server.obj: ws63_server/sle_uart_server/sle_uart_server.c.obj
 
-.PHONY : ws63_client/sle_uart_client/sle_uart_client.obj
-
-# target to build an object file
-ws63_client/sle_uart_client/sle_uart_client.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj
-.PHONY : ws63_client/sle_uart_client/sle_uart_client.c.obj
-
-ws63_client/sle_uart_client/sle_uart_client.i: ws63_client/sle_uart_client/sle_uart_client.c.i
-
-.PHONY : ws63_client/sle_uart_client/sle_uart_client.i
-
-# target to preprocess a source file
-ws63_client/sle_uart_client/sle_uart_client.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.i
-.PHONY : ws63_client/sle_uart_client/sle_uart_client.c.i
-
-ws63_client/sle_uart_client/sle_uart_client.s: ws63_client/sle_uart_client/sle_uart_client.c.s
-
-.PHONY : ws63_client/sle_uart_client/sle_uart_client.s
-
-# target to generate assembly for a file
-ws63_client/sle_uart_client/sle_uart_client.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.s
-.PHONY : ws63_client/sle_uart_client/sle_uart_client.c.s
-
-ws63_client/src/main.obj: ws63_client/src/main.c.obj
-
-.PHONY : ws63_client/src/main.obj
+.PHONY : ws63_server/sle_uart_server/sle_uart_server.obj
 
 # target to build an object file
-ws63_client/src/main.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/main.c.obj
-.PHONY : ws63_client/src/main.c.obj
+ws63_server/sle_uart_server/sle_uart_server.c.obj:
+	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server.c.obj
+.PHONY : ws63_server/sle_uart_server/sle_uart_server.c.obj
 
-ws63_client/src/main.i: ws63_client/src/main.c.i
+ws63_server/sle_uart_server/sle_uart_server.i: ws63_server/sle_uart_server/sle_uart_server.c.i
 
-.PHONY : ws63_client/src/main.i
+.PHONY : ws63_server/sle_uart_server/sle_uart_server.i
 
 # target to preprocess a source file
-ws63_client/src/main.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/main.c.i
-.PHONY : ws63_client/src/main.c.i
+ws63_server/sle_uart_server/sle_uart_server.c.i:
+	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server.c.i
+.PHONY : ws63_server/sle_uart_server/sle_uart_server.c.i
 
-ws63_client/src/main.s: ws63_client/src/main.c.s
+ws63_server/sle_uart_server/sle_uart_server.s: ws63_server/sle_uart_server/sle_uart_server.c.s
 
-.PHONY : ws63_client/src/main.s
+.PHONY : ws63_server/sle_uart_server/sle_uart_server.s
 
 # target to generate assembly for a file
-ws63_client/src/main.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/main.c.s
-.PHONY : ws63_client/src/main.c.s
+ws63_server/sle_uart_server/sle_uart_server.c.s:
+	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server.c.s
+.PHONY : ws63_server/sle_uart_server/sle_uart_server.c.s
+
+ws63_server/sle_uart_server/sle_uart_server_adv.obj: ws63_server/sle_uart_server/sle_uart_server_adv.c.obj
+
+.PHONY : ws63_server/sle_uart_server/sle_uart_server_adv.obj
+
+# target to build an object file
+ws63_server/sle_uart_server/sle_uart_server_adv.c.obj:
+	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server_adv.c.obj
+.PHONY : ws63_server/sle_uart_server/sle_uart_server_adv.c.obj
+
+ws63_server/sle_uart_server/sle_uart_server_adv.i: ws63_server/sle_uart_server/sle_uart_server_adv.c.i
+
+.PHONY : ws63_server/sle_uart_server/sle_uart_server_adv.i
+
+# target to preprocess a source file
+ws63_server/sle_uart_server/sle_uart_server_adv.c.i:
+	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server_adv.c.i
+.PHONY : ws63_server/sle_uart_server/sle_uart_server_adv.c.i
+
+ws63_server/sle_uart_server/sle_uart_server_adv.s: ws63_server/sle_uart_server/sle_uart_server_adv.c.s
+
+.PHONY : ws63_server/sle_uart_server/sle_uart_server_adv.s
+
+# target to generate assembly for a file
+ws63_server/sle_uart_server/sle_uart_server_adv.c.s:
+	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server_adv.c.s
+.PHONY : ws63_server/sle_uart_server/sle_uart_server_adv.c.s
+
+ws63_server/src/main.obj: ws63_server/src/main.c.obj
+
+.PHONY : ws63_server/src/main.obj
+
+# target to build an object file
+ws63_server/src/main.c.obj:
+	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/src/main.c.obj
+.PHONY : ws63_server/src/main.c.obj
+
+ws63_server/src/main.i: ws63_server/src/main.c.i
+
+.PHONY : ws63_server/src/main.i
+
+# target to preprocess a source file
+ws63_server/src/main.c.i:
+	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/src/main.c.i
+.PHONY : ws63_server/src/main.c.i
+
+ws63_server/src/main.s: ws63_server/src/main.c.s
+
+.PHONY : ws63_server/src/main.s
+
+# target to generate assembly for a file
+ws63_server/src/main.c.s:
+	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/src/main.c.s
+.PHONY : ws63_server/src/main.c.s
 
 # Help Target
 help:
@@ -188,12 +215,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... samples"
-	@echo "... ws63_client/sle_uart_client/sle_uart_client.obj"
-	@echo "... ws63_client/sle_uart_client/sle_uart_client.i"
-	@echo "... ws63_client/sle_uart_client/sle_uart_client.s"
-	@echo "... ws63_client/src/main.obj"
-	@echo "... ws63_client/src/main.i"
-	@echo "... ws63_client/src/main.s"
+	@echo "... ws63_server/sle_uart_server/sle_uart_server.obj"
+	@echo "... ws63_server/sle_uart_server/sle_uart_server.i"
+	@echo "... ws63_server/sle_uart_server/sle_uart_server.s"
+	@echo "... ws63_server/sle_uart_server/sle_uart_server_adv.obj"
+	@echo "... ws63_server/sle_uart_server/sle_uart_server_adv.i"
+	@echo "... ws63_server/sle_uart_server/sle_uart_server_adv.s"
+	@echo "... ws63_server/src/main.obj"
+	@echo "... ws63_server/src/main.i"
+	@echo "... ws63_server/src/main.s"
 .PHONY : help
 
 

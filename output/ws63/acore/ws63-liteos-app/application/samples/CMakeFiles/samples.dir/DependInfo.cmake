@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/project/bearpi-pico_h3863/application/samples/ws63_client/sle_uart_client/sle_uart_client.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/application/samples/ws63_client/src/main.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_client/src/main.c.obj"
+  "/home/bearpi/project/bearpi-pico_h3863/application/samples/ws63_server/sle_uart_server/sle_uart_server.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server.c.obj"
+  "/home/bearpi/project/bearpi-pico_h3863/application/samples/ws63_server/sle_uart_server/sle_uart_server_adv.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server_adv.c.obj"
+  "/home/bearpi/project/bearpi-pico_h3863/application/samples/ws63_server/src/main.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_server/src/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -129,8 +130,8 @@ set(CMAKE_TARGET_DEFINITIONS_C
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include"
-  "../../../../application/samples/ws63_client/include"
-  "../../../../application/samples/ws63_client/sle_uart_client"
+  "../../../../application/samples/ws63_server/include"
+  "../../../../application/samples/ws63_server/sle_uart_server"
   "../../../../kernel/osal/include"
   "../../../../kernel/osal/include/atomic"
   "../../../../kernel/osal/include/debug"

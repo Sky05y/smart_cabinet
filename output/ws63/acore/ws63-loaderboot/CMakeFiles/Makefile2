@@ -134,37 +134,37 @@ application/clean: application/ws63/clean
 # Directory level rules for directory application/samples
 
 # Recursive "all" directory target.
-application/samples/all: application/samples/ws63_client/all
+application/samples/all: application/samples/ws63_server/all
 
 .PHONY : application/samples/all
 
 # Recursive "preinstall" directory target.
-application/samples/preinstall: application/samples/ws63_client/preinstall
+application/samples/preinstall: application/samples/ws63_server/preinstall
 
 .PHONY : application/samples/preinstall
 
 # Recursive "clean" directory target.
-application/samples/clean: application/samples/ws63_client/clean
+application/samples/clean: application/samples/ws63_server/clean
 
 .PHONY : application/samples/clean
 
 #=============================================================================
-# Directory level rules for directory application/samples/ws63_client
+# Directory level rules for directory application/samples/ws63_server
 
 # Recursive "all" directory target.
-application/samples/ws63_client/all:
+application/samples/ws63_server/all:
 
-.PHONY : application/samples/ws63_client/all
+.PHONY : application/samples/ws63_server/all
 
 # Recursive "preinstall" directory target.
-application/samples/ws63_client/preinstall:
+application/samples/ws63_server/preinstall:
 
-.PHONY : application/samples/ws63_client/preinstall
+.PHONY : application/samples/ws63_server/preinstall
 
 # Recursive "clean" directory target.
-application/samples/ws63_client/clean:
+application/samples/ws63_server/clean:
 
-.PHONY : application/samples/ws63_client/clean
+.PHONY : application/samples/ws63_server/clean
 
 #=============================================================================
 # Directory level rules for directory application/ws63

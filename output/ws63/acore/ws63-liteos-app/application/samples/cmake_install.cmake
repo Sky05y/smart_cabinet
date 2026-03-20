@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/ws63_client/cmake_install.cmake")
+  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/ws63_server/cmake_install.cmake")
 endif()
 

@@ -24,8 +24,8 @@
 /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/edit_cache.dir
 /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/rebuild_cache.dir
 /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir
-/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/ws63_client/CMakeFiles/rebuild_cache.dir
-/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/ws63_client/CMakeFiles/edit_cache.dir
+/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/ws63_server/CMakeFiles/rebuild_cache.dir
+/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/ws63_server/CMakeFiles/edit_cache.dir
 /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/ws63/CMakeFiles/rebuild_cache.dir
 /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/ws63/CMakeFiles/edit_cache.dir
 /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/ws63/ws63_liteos_application/CMakeFiles/edit_cache.dir
