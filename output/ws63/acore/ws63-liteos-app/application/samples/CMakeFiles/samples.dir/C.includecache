@@ -2463,12 +2463,6 @@ td_type.h
 /home/bearpi/project/bearpi-pico_h3863/application/samples/ws63_server/src/td_type.h
 stdlib.h
 /home/bearpi/project/bearpi-pico_h3863/application/samples/ws63_server/src/stdlib.h
-uart.h
-/home/bearpi/project/bearpi-pico_h3863/application/samples/ws63_server/src/uart.h
 cmsis_os2.h
 /home/bearpi/project/bearpi-pico_h3863/application/samples/ws63_server/src/cmsis_os2.h
-app_init.h
-/home/bearpi/project/bearpi-pico_h3863/application/samples/ws63_server/src/app_init.h
-soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/application/samples/ws63_server/src/soc_osal.h
 

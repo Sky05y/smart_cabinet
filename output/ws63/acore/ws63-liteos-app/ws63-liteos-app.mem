@@ -34,9 +34,9 @@
     .wifi_data_sram   0x00A0F460                     0                  
     .btc_data_sram    0x00A0F460                     0                  
     .bth_data_sram    0x00A0F460                     0                  
-    .btc_data_flash   0x00A0F460                  4928 load address 0x365428
-    .bth_data_flash   0x00A107A0                  2456 load address 0x366768
-    .data             0x00A11138                   516 load address 0x367100
+    .btc_data_flash   0x00A0F460                  4928 load address 0x3654A8
+    .bth_data_flash   0x00A107A0                  2456 load address 0x3667E8
+    .data             0x00A11138                   516 load address 0x367180
     .plat_bss_sram    0x00A11340                  1217                  
     .plat_bss_flash   0x00A11808                 12708                  
     .wifi_bss_flash   0x00A149B0                 37504                  
@@ -55,7 +55,7 @@
     startup           0x00230300                   424                  
     .sysintcall.init  0x002304A8                    52                  
   
-  PROGRAM             0x00230700    0x23F900  0x136C04 = 1272836
+  PROGRAM             0x00230700    0x23F900  0x136C84 = 1272964
     .patch            0x00230700                  2344                  
     .rom_ram_cb_text  0x00231028                  1816                  
     .plat_romdata     0x00231740                   212                  
@@ -71,13 +71,13 @@
     .wifi_text_flash  0x00263708                586254                  
     .patch_on_flash   0x002F2918                  1908                  
     .btc_text_flash   0x002F3090                132152                  
-    .bth_text_flash   0x003134C8                237738                  
-    .radar_text_flash  0x0034D578                 34036                  
-    .radar_ai_text_flash  0x00355A70                  9980                  
-    .text             0x00358170                 53940                  
-    .btc_data_flash   0x00365428                  4928                  
-    .bth_data_flash   0x00366768                  2456                  
-    .data             0x00367100                   516                  
+    .bth_text_flash   0x003134C8                237870                  
+    .radar_text_flash  0x0034D5F8                 34036                  
+    .radar_ai_text_flash  0x00355AF0                  9980                  
+    .text             0x003581F0                 53940                  
+    .btc_data_flash   0x003654A8                  4928                  
+    .bth_data_flash   0x003667E8                  2456                  
+    .data             0x00367180                   516                  
 
   ====================================================
 
@@ -1195,13 +1195,13 @@
   --------------------------------  --------  -----
 
 
-  .bth_text_flash                       3584
+  .bth_text_flash                       3646
 
     application                             
       samples                               
         ws63_server                         
-          src                           1492
-            main                                  1492
+          src                           1554
+            main                                  1554
 
           sle_uart_server               2092
             sle_uart_server_adv                    748

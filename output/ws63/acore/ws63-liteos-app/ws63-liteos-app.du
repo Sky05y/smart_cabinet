@@ -4353,12 +4353,13 @@
 0       ./startup/application/ws63/ws63_liteos_application/reset_vector.S/reset_vector
 10      ./startup/application/ws63/ws63_liteos_application/main.c/runtime_init
 0       ./startup/application/ws63/ws63_liteos_application/reset_vector.S/set_stack_loop
-4       ./startup/application/samples/ws63_server/src/main.c/__zinitcall_run_sle_uart_entry
+4       ./startup/application/samples/ws63_server/src/main.c/__zinitcall_run_server_entry
 80      ./.bth_text_flash/application/samples/ws63_server/src/main.c/example_check_dhcp_status
 210     ./.bth_text_flash/application/samples/ws63_server/src/main.c/example_get_match_network
 238     ./.bth_text_flash/application/samples/ws63_server/src/main.c/example_sta_function
 204     ./.bth_text_flash/application/samples/ws63_server/src/main.c/http_post_test
 18      ./.bth_text_flash/application/samples/ws63_server/src/main.c/http_upload_task
+200     ./.bth_text_flash/application/samples/ws63_server/src/main.c/server_entry
 20      ./.bth_text_flash/application/samples/ws63_server/sle_uart_server/sle_uart_server_adv.c/sle_announce_disable_cbk
 20      ./.bth_text_flash/application/samples/ws63_server/sle_uart_server/sle_uart_server_adv.c/sle_announce_enable_cbk
 18      ./.bth_text_flash/application/samples/ws63_server/sle_uart_server/sle_uart_server_adv.c/sle_announce_terminal_cbk
@@ -4367,7 +4368,6 @@
 418     ./.bth_text_flash/application/samples/ws63_server/sle_uart_server/sle_uart_server_adv.c/sle_set_default_announce_data
 70      ./.bth_text_flash/application/samples/ws63_server/sle_uart_server/sle_uart_server_adv.c/sle_uart_announce_register_cbks
 10      ./.bth_text_flash/application/samples/ws63_server/sle_uart_server/sle_uart_server.c/sle_uart_client_is_connected
-138     ./.bth_text_flash/application/samples/ws63_server/src/main.c/sle_uart_entry
 202     ./.bth_text_flash/application/samples/ws63_server/sle_uart_server/sle_uart_server_adv.c/sle_uart_server_adv_init
 638     ./.bth_text_flash/application/samples/ws63_server/sle_uart_server/sle_uart_server.c/sle_uart_server_init
 40      ./.bth_text_flash/application/samples/ws63_server/src/main.c/sle_uart_server_read_int_handler
@@ -4385,7 +4385,7 @@
 24      ./.bth_text_flash/application/samples/ws63_server/src/main.c/ssaps_server_read_request_cbk
 62      ./.bth_text_flash/application/samples/ws63_server/src/main.c/ssaps_server_write_request_cbk
 22      ./.bth_text_flash/application/samples/ws63_server/sle_uart_server/sle_uart_server.c/ssaps_start_service_cbk
-92      ./.bth_text_flash/application/samples/ws63_server/src/main.c/sta_sample_init
+92      ./.bth_text_flash/application/samples/ws63_server/src/main.c/sta_init
 50      ./.bth_text_flash/application/samples/ws63_server/src/main.c/wifi_connection_changed
 30      ./.bth_text_flash/application/samples/ws63_server/src/main.c/wifi_scan_state_changed
 8       ./.bss/middleware/chips/ws63/mac_addr/mac_addr.c/g_ap_dev_addr

@@ -1,63 +1,38 @@
-/**
- * Copyright (c) HiSilicon (Shanghai) Technologies Co., Ltd. 2023-2023. All rights reserved.
- *
- * Description: SLE UART Sample Source. \n
- *
- * History: \n
- * 2023-07-17, Create file. \n
- */
 #include "common_def.h"
 #include "soc_osal.h"
 #include "app_init.h"
 #include "pinctrl.h"
 #include "uart.h"
-// #include "pm_clock.h"
 #include "sle_low_latency.h"
-
 #include "securec.h"
 #include "sle_uart_server.h"
 #include "sle_uart_server_adv.h"
 #include "sle_device_discovery.h"
 #include "sle_errcode.h"
-
 #include "lwip/sockets.h"
 #include "lwip/netdb.h"
-
-#define SERVER_IP   "47.94.38.166"
-#define SERVER_PORT 8000
-
-
-#define SLE_UART_TASK_PRIO                  28
-#define SLE_UART_TASK_DURATION_MS           2000
-#define SLE_UART_BAUDRATE                   115200
-#define SLE_UART_TRANSFER_SIZE              512
-
-#define CONFIG_SLE_UART_BUS 0
-#define CONFIG_UART_TXD_PIN 17
-#define CONFIG_UART_RXD_PIN 18
-
-static uint8_t g_app_uart_rx_buff[SLE_UART_TRANSFER_SIZE] = { 0 };
-
-static uart_buffer_config_t g_app_uart_buffer_config = {
-    .rx_buffer = g_app_uart_rx_buff,
-    .rx_buffer_size = SLE_UART_TRANSFER_SIZE
-};
 #include "lwip/netifapi.h"
 #include "wifi_hotspot.h"
 #include "wifi_hotspot_config.h"
 #include "td_base.h"
 #include "td_type.h"
 #include "stdlib.h"
-#include "uart.h"
 #include "cmsis_os2.h"
-#include "app_init.h"
-#include "soc_osal.h"
+
+#define SERVER_IP   "47.94.38.166"      // 服务器公网ip
+#define SERVER_PORT 8000                // 发送端口
+#define SLE_UART_TASK_DURATION_MS           2000
+#define SLE_UART_BAUDRATE                   115200      // 波特率
+#define SLE_UART_TRANSFER_SIZE              512         // 接收缓冲区大小
+#define CONFIG_SLE_UART_BUS 0
+#define CONFIG_UART_TXD_PIN 17          // UART引脚
+#define CONFIG_UART_RXD_PIN 18
 
 #define WIFI_IFNAME_MAX_SIZE             16
 #define WIFI_MAX_SSID_LEN                33
 #define WIFI_SCAN_AP_LIMIT               64
 #define WIFI_MAC_LEN                     6
-#define WIFI_STA_SAMPLE_LOG              "[WIFI_STA_SAMPLE]"
+#define WIFI_STA_LOG              "[WIFI_STA]"
 #define WIFI_NOT_AVALLIABLE              0
 #define WIFI_AVALIABE                    1
 #define WIFI_GET_IP_MAX_COUNT            300
@@ -65,6 +40,25 @@ static uart_buffer_config_t g_app_uart_buffer_config = {
 #define WIFI_TASK_PRIO                  (osPriority_t)(13)
 #define WIFI_TASK_DURATION_MS           2000
 #define WIFI_TASK_STACK_SIZE            0x1000
+
+#define SLE_UART_SERVER_DELAY_COUNT         5
+
+#define SLE_ADV_HANDLE_DEFAULT              1
+#define SLE_UART_SERVER_MSG_QUEUE_LEN       5
+#define SLE_UART_SERVER_MSG_QUEUE_MAX_SIZE  32
+#define SLE_UART_SERVER_QUEUE_DELAY         0xFFFFFFFF
+#define SLE_UART_SERVER_BUFF_MAX_SIZE       800
+#define SLE_UART_TASK_STACK_SIZE   0x1200
+#define SLE_UART_TASK_PRIO         (osPriorityAboveNormal)
+
+unsigned long g_sle_uart_server_msgqueue_id;
+#define SLE_UART_SERVER_LOG                 "[sle uart server]"
+static uint8_t g_app_uart_rx_buff[SLE_UART_TRANSFER_SIZE] = { 0 };      // UART接收缓冲区，用于串口接收数据
+
+static uart_buffer_config_t g_app_uart_buffer_config = {
+    .rx_buffer = g_app_uart_rx_buff,
+    .rx_buffer_size = SLE_UART_TRANSFER_SIZE
+};                      // UART驱动用的缓冲配置
 
 static td_void wifi_scan_state_changed(td_s32 state, td_s32 size);
 static td_void wifi_connection_changed(td_s32 state, const wifi_linked_info_stru *info, td_s32 reason_code);
@@ -84,7 +78,7 @@ enum {
     WIFI_STA_SAMPLE_GET_IP,         /* 6:获取IP */
 } wifi_state_enum;
 
-static td_u8 g_wifi_state = WIFI_STA_SAMPLE_INIT;
+static td_u8 g_wifi_state = WIFI_STA_SAMPLE_INIT;       // 当前WiFi状态机
 
 /*****************************************************************************
   STA 扫描事件回调函数
@@ -93,7 +87,7 @@ static td_void wifi_scan_state_changed(td_s32 state, td_s32 size)
 {
     UNUSED(state);
     UNUSED(size);
-    PRINT("%s::Scan done!.\r\n", WIFI_STA_SAMPLE_LOG);
+    PRINT("%s::Scan done!.\r\n", WIFI_STA_LOG);
     g_wifi_state = WIFI_STA_SAMPLE_SCAN_DONE;
     return;
 }
@@ -107,10 +101,10 @@ static td_void wifi_connection_changed(td_s32 state, const wifi_linked_info_stru
     UNUSED(reason_code);
 
     if (state == WIFI_NOT_AVALLIABLE) {
-        PRINT("%s::Connect fail!. try agin !\r\n", WIFI_STA_SAMPLE_LOG);
+        PRINT("%s::Connect fail!. try agin !\r\n", WIFI_STA_LOG);
         g_wifi_state = WIFI_STA_SAMPLE_INIT;
     } else {
-        PRINT("%s::Connect succ!.\r\n", WIFI_STA_SAMPLE_LOG);
+        PRINT("%s::Connect succ!.\r\n", WIFI_STA_LOG);
         g_wifi_state = WIFI_STA_SAMPLE_CONNECT_DONE;
     }
 }
@@ -122,7 +116,7 @@ td_s32 example_get_match_network(wifi_sta_config_stru *expected_bss)
 {
     td_s32  ret;
     td_u32  num = 64; /* 64:扫描到的Wi-Fi网络数量 */
-    td_char expected_ssid[] = "XM";
+    td_char expected_ssid[] = "XM"; /* 待连接的网络SSID */
     td_char key[] = "Sky54321"; /* 待连接的网络接入密码 */
     td_bool find_ap = TD_FALSE;
     td_u8   bss_index;
@@ -199,12 +193,12 @@ td_bool example_check_dhcp_status(struct netif *netif_p, td_u32 *wait_count)
 {
     if ((ip_addr_isany(&(netif_p->ip_addr)) == 0) && (*wait_count <= WIFI_GET_IP_MAX_COUNT)) {
         /* DHCP成功 */
-        PRINT("%s::STA DHCP success.\r\n", WIFI_STA_SAMPLE_LOG);
+        PRINT("%s::STA DHCP success.\r\n", WIFI_STA_LOG);
         return 0;
     }
 
     if (*wait_count > WIFI_GET_IP_MAX_COUNT) {
-        PRINT("%s::STA DHCP timeout, try again !.\r\n", WIFI_STA_SAMPLE_LOG);
+        PRINT("%s::STA DHCP timeout, try again !.\r\n", WIFI_STA_LOG);
         *wait_count = 0;
         g_wifi_state = WIFI_STA_SAMPLE_INIT;
     }
@@ -222,12 +216,12 @@ td_s32 example_sta_function(td_void)
     if (wifi_sta_enable() != 0) {
         return -1;
     }
-    PRINT("%s::STA enable succ.\r\n", WIFI_STA_SAMPLE_LOG);
+    PRINT("%s::STA enable succ.\r\n", WIFI_STA_LOG);
 
     do {
         (void)osDelay(1); /* 1: 等待10ms后判断状态 */
         if (g_wifi_state == WIFI_STA_SAMPLE_INIT) {
-            PRINT("%s::Scan start!\r\n", WIFI_STA_SAMPLE_LOG);
+            PRINT("%s::Scan start!\r\n", WIFI_STA_LOG);
             g_wifi_state = WIFI_STA_SAMPLE_SCANING;
             /* 启动STA扫描 */
             if (wifi_sta_scan() != 0) {
@@ -237,13 +231,13 @@ td_s32 example_sta_function(td_void)
         } else if (g_wifi_state == WIFI_STA_SAMPLE_SCAN_DONE) {
             /* 获取待连接的网络 */
             if (example_get_match_network(&expected_bss) != 0) {
-                PRINT("%s::Do not find AP, try again !\r\n", WIFI_STA_SAMPLE_LOG);
+                PRINT("%s::Do not find AP, try again !\r\n", WIFI_STA_LOG);
                 g_wifi_state = WIFI_STA_SAMPLE_INIT;
                 continue;
             }
             g_wifi_state = WIFI_STA_SAMPLE_FOUND_TARGET;
         } else if (g_wifi_state == WIFI_STA_SAMPLE_FOUND_TARGET) {
-            PRINT("%s::Connect start.\r\n", WIFI_STA_SAMPLE_LOG);
+            PRINT("%s::Connect start.\r\n", WIFI_STA_LOG);
             g_wifi_state = WIFI_STA_SAMPLE_CONNECTING;
             /* 启动连接 */
             if (wifi_sta_connect(&expected_bss) != 0) {
@@ -251,11 +245,11 @@ td_s32 example_sta_function(td_void)
                 continue;
             }
         } else if (g_wifi_state == WIFI_STA_SAMPLE_CONNECT_DONE) {
-            PRINT("%s::DHCP start.\r\n", WIFI_STA_SAMPLE_LOG);
+            PRINT("%s::DHCP start.\r\n", WIFI_STA_LOG);
             g_wifi_state = WIFI_STA_SAMPLE_GET_IP;
             netif_p = netifapi_netif_find(ifname);
             if (netif_p == TD_NULL || netifapi_dhcp_start(netif_p) != 0) {
-                PRINT("%s::find netif or start DHCP fail, try again !\r\n", WIFI_STA_SAMPLE_LOG);
+                PRINT("%s::find netif or start DHCP fail, try again !\r\n", WIFI_STA_LOG);
                 g_wifi_state = WIFI_STA_SAMPLE_INIT;
                 continue;
             }
@@ -270,25 +264,25 @@ td_s32 example_sta_function(td_void)
     return 0;
 }
 
-int sta_sample_init(void *param)
+int sta_init(void *param)
 {
     param = param;
 
     /* 注册事件回调 */
     if (wifi_register_event_cb(&wifi_event_cb) != 0) {
-        PRINT("%s::wifi_event_cb register fail.\r\n", WIFI_STA_SAMPLE_LOG);
+        PRINT("%s::wifi_event_cb register fail.\r\n", WIFI_STA_LOG);
         return -1;
     }
-    PRINT("%s::wifi_event_cb register succ.\r\n", WIFI_STA_SAMPLE_LOG);
+    PRINT("%s::wifi_event_cb register succ.\r\n", WIFI_STA_LOG);
 
     /* 等待wifi初始化完成 */
     while (wifi_is_wifi_inited() == 0) {
         (void)osDelay(10); /* 1: 等待100ms后判断状态 */
     }
-    PRINT("%s::wifi init succ.\r\n", WIFI_STA_SAMPLE_LOG);
+    PRINT("%s::wifi init succ.\r\n", WIFI_STA_LOG);
 
     if (example_sta_function() != 0) {
-        PRINT("%s::example_sta_function fail.\r\n", WIFI_STA_SAMPLE_LOG);
+        PRINT("%s::example_sta_function fail.\r\n", WIFI_STA_LOG);
         return -1;
     }
     return 0;
@@ -338,12 +332,12 @@ void http_post_test(void)
     // 发送数据
     send(sock, request, strlen(request), 0);
 
-    osal_printk("POST发送成功\n");
+    osal_printk("POST发送成功 ");
 
     // 可选：接收返回
     char recv_buf[256] = {0};
     recv(sock, recv_buf, sizeof(recv_buf)-1, 0);
-    osal_printk("服务器返回: %s\n", recv_buf);
+    osal_printk("服务器返回: %s ", recv_buf);
 
     // 关闭
     closesocket(sock);
@@ -392,17 +386,7 @@ static void uart_init_config(void)
 
 }
 
-#define SLE_UART_SERVER_DELAY_COUNT         5
 
-#define SLE_UART_TASK_STACK_SIZE            0x1200
-#define SLE_ADV_HANDLE_DEFAULT              1
-#define SLE_UART_SERVER_MSG_QUEUE_LEN       5
-#define SLE_UART_SERVER_MSG_QUEUE_MAX_SIZE  32
-#define SLE_UART_SERVER_QUEUE_DELAY         0xFFFFFFFF
-#define SLE_UART_SERVER_BUFF_MAX_SIZE       800
-
-unsigned long g_sle_uart_server_msgqueue_id;
-#define SLE_UART_SERVER_LOG                 "[sle uart server]"
 static void ssaps_server_read_request_cbk(uint8_t server_id, uint16_t conn_id, ssaps_req_read_cb_t *read_cb_para,
     errcode_t status)
 {
@@ -504,40 +488,53 @@ static void *sle_uart_server_task(const char *arg)
 }
 
 
-static void sle_uart_entry(void)
+static void server_entry(void)
 {
-    
-    osal_task *task_handle = NULL;
-    osal_kthread_lock();
+    osal_kthread_lock();            // 加锁，防止任务创建被打断
+    /* ================= WiFi任务配置 ================= */
     osThreadAttr_t attr;
-    attr.name       = "sta_sample_task";
+    attr.name       = "sta_task";
     attr.attr_bits  = 0U;
     attr.cb_mem     = NULL;
     attr.cb_size    = 0U;
     attr.stack_mem  = NULL;
     attr.stack_size = WIFI_TASK_STACK_SIZE;
     attr.priority   = WIFI_TASK_PRIO;
-    if (osThreadNew((osThreadFunc_t)sta_sample_init, NULL, &attr) == NULL) {
-        PRINT("%s::Create sta_sample_task fail.\r\n", WIFI_STA_SAMPLE_LOG);
+    if (osThreadNew((osThreadFunc_t)sta_init, NULL, &attr) == NULL)
+        PRINT("%s::Create sta_task fail.\r\n", WIFI_STA_LOG);
+    else
+        PRINT("%s::Create sta_task succ.\r\n", WIFI_STA_LOG);
+    /* ================= SLE UART任务 ================= */
+    osThreadAttr_t sle_attr = {
+        .name       = "SLEUartServerTask",
+        .attr_bits  = 0U,
+        .cb_mem     = NULL,
+        .cb_size    = 0U,
+        .stack_mem  = NULL,
+        .stack_size = SLE_UART_TASK_STACK_SIZE,
+        .priority   = SLE_UART_TASK_PRIO
+    };
+    if (osThreadNew((osThreadFunc_t)sle_uart_server_task, NULL, &sle_attr) == NULL) {
+        osal_printk("[SLE] Create task fail\r\n");
+    } else {
+        osal_printk("[SLE] Create task succ\r\n");
     }
-    PRINT("%s::Create sta_sample_task succ.\r\n", WIFI_STA_SAMPLE_LOG);
-    task_handle = osal_kthread_create((osal_kthread_handler)sle_uart_server_task, 0, "SLEUartServerTask",
-                                      SLE_UART_TASK_STACK_SIZE);
-    if (task_handle != NULL) {
-        osal_kthread_set_priority(task_handle, SLE_UART_TASK_PRIO);
+    /* ================= HTTP上传任务 ================= */
+    osThreadAttr_t http_attr = {
+        .name       = "HttpUploadTask",
+        .attr_bits  = 0U,
+        .cb_mem     = NULL,
+        .cb_size    = 0U,
+        .stack_mem  = NULL,
+        .stack_size = 0x1000,
+        .priority   = (osPriority_t)25
+    };
+    if (osThreadNew((osThreadFunc_t)http_upload_task, NULL, &http_attr) == NULL) {
+        osal_printk("[HTTP] Create task fail\r\n");
+    } else {
+        osal_printk("[HTTP] Create task succ\r\n");
     }
-    osal_task *http_task = osal_kthread_create(
-    (osal_kthread_handler)http_upload_task,
-    0,
-    "HttpUploadTask",
-    0x1000
-    );
-
-    if (http_task != NULL) {
-        osal_kthread_set_priority(http_task, 25);
-    }
-    osal_kthread_unlock();
+    osal_kthread_unlock();  // 解锁，允许调度
 }
 
-/* Run the sle_uart_entry. */
-app_run(sle_uart_entry);
+app_run(server_entry);
