@@ -444,6 +444,10 @@
 38      ./.plat_text_flash/drivers/drivers/hal/uart/v151/hal_uart_v151.c/hal_uart_v151_write
 16      ./.plat_text_flash/drivers/drivers/hal/uart/hal_uart.c/hal_uart_write
 144     ./.plat_text_flash/open_source/mbedtls/mbedtls_v3.1.0/library/hmac_drbg.c/hmac_drbg_reseed_core
+22      ./.plat_text_flash/drivers/chips/ws63/porting/i2c/i2c_porting.c/i2c_port_get_clock_value
+14      ./.plat_text_flash/drivers/chips/ws63/porting/i2c/i2c_porting.c/i2c_porting_base_addr_get
+4       ./.plat_text_flash/drivers/chips/ws63/porting/i2c/i2c_porting.c/i2c_porting_lock
+6       ./.plat_text_flash/drivers/chips/ws63/porting/i2c/i2c_porting.c/i2c_porting_unlock
 18      ./.plat_text_flash/drivers/chips/ws63/porting/i2c/i2c_porting.c/i2c_port_set_clock_value
 10      ./.plat_text_flash/drivers/chips/ws63/porting/liteos/riscv31/idle_config.c/idle_task_config
 16      ./.plat_text_flash/drivers/chips/ws63/porting/liteos/riscv31/idle_config.c/idle_task_process
@@ -3661,6 +3665,10 @@
 4       ./.wifi_bss_flash/open_source/wpa_supplicant/src/utils/wpa_debug.c/wpa_debug_timestamp
 1       ./.wifi_bss_flash/open_source/wpa_supplicant/wpa_supplicant/wpa_supplicant.c/wpa_scan_triggered_by_rm_net_cli_flag
 240     ./.bth_text_flash/application/samples/ws63_client/src/mq_adc.c/adc_callback
+76      ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_init
+80      ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_read_lux
+136     ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_task
+70      ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_write_cmd
 10      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/get_g_sle_uart_conn_id
 8       ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/get_g_sle_uart_send_param
 90      ./.bth_text_flash/application/samples/ws63_client/src/mq_adc.c/mq_adc_task
@@ -3678,7 +3686,7 @@
 32      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_sample_sle_enable_cbk
 28      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_sample_write_cfm_cb
 120     ./.bth_text_flash/application/samples/ws63_client/src/main.c/sle_uart_client_task
-92      ./.bth_text_flash/application/samples/ws63_client/src/main.c/sle_uart_entry
+128     ./.bth_text_flash/application/samples/ws63_client/src/main.c/sle_uart_entry
 30      ./.bth_text_flash/application/samples/ws63_client/src/main.c/sle_uart_notification_cb
 46      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_start_scan
 1       ./.bss/drivers/drivers/driver/adc/adc.c/adc_is_initialised
@@ -3704,12 +3712,16 @@
 4       ./.bss/drivers/drivers/hal/adc/hal_adc.c/g_hal_adc_funcs
 4       ./.bss/drivers/drivers/driver/adc/adc.c/g_hal_funcs
 1       ./.bss/drivers/drivers/hal/security_unified/hal_cipher/spacc/hal_hash.c/g_hal_hash_initialize
+4       ./.bss/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/g_hal_i2c_callback
+8       ./.bss/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/g_hal_i2c_ctrl_func
 1       ./.bss/drivers/drivers/hal/security_unified/hal_cipher/trng/hal_trng.c/g_hal_trng_init_flag
 660     ./.bss/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_hash.c/g_hash_channel_ctx_list
 16      ./.bss/drivers/drivers/driver/security_unified/kapi/source/kapi_hash_simple.c/g_hash_ctx
 4       ./.bss/drivers/drivers/driver/security_unified/kapi/source/kapi_hash_simple.c/g_hash_ctx_used
 84      ./.bss/drivers/drivers/hal/security_unified/hal_cipher/spacc/hal_hash.c/g_hash_hard_ctx
 4       ./.bss/drivers/drivers/driver/security_unified/kapi/source/kapi_hash_simple.c/g_hash_mutex
+12      ./.bss/drivers/drivers/driver/i2c/i2c.c/g_i2c_ctrl
+8       ./.bss/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c/g_i2c_regs
 0       ./.bss/middleware/chips/ws63/partition/partition_porting.c/g_image_path
 1       ./.bss/drivers/drivers/driver/security_unified/init/cfbb/os/crypto_drv_init.c/g_is_sm3_disable
 4       ./.bss/drivers/drivers/driver/security_unified/kapi/source/kapi_symc.c/g_kapi_dma_addr
@@ -4048,6 +4060,33 @@
 30      ./.text/drivers/drivers/hal/security_unified/hal_cipher/spacc/hal_hash.c/hal_hash_debug_chn
 250     ./.text/drivers/drivers/hal/security_unified/hal_cipher/spacc/hal_hash.c/hal_hash_lock
 32      ./.text/drivers/drivers/hal/security_unified/hal_cipher/spacc/hal_hash.c/hal_hash_unlock
+42      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_ctrl
+140     ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c/hal_i2c_master_init
+46      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_read
+82      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_cfg_clk
+42      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_ctrl
+8       ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_ctrl_check_default
+8       ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_ctrl_check_default_false
+4       ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_ctrl_proc_default
+12      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_get_ctrl_info
+8       ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_get_write_num
+14      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_load_ctrl_func
+86      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c/hal_i2c_v150_master_cfg_target_addr
+140     ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c/hal_i2c_v150_master_init
+50      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c/hal_i2c_v150_master_read_prepeare
+50      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c/hal_i2c_v150_master_write_prepeare
+22      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c/hal_i2c_v150_master_write_restore
+46      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_read
+72      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_receive_byte
+10      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_register_callback
+22      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c/hal_i2c_v150_regs_init
+66      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c/hal_i2c_v150_reset_all_regs
+60      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_send_byte
+22      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.h/hal_i2c_v150_set_command
+34      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_stop
+122     ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_wait
+64      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_v150_write
+64      ./.text/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/hal_i2c_write
 142     ./.text/drivers/drivers/hal/security_unified/hal_km/hal_keyslot.c/hal_keyslot_lock
 172     ./.text/drivers/drivers/hal/security_unified/hal_km/hal_keyslot.c/hal_keyslot_unlock
 38      ./.text/drivers/drivers/hal/security_unified/hal_km/hal_klad.c/hal_klad_clear_data
@@ -4096,6 +4135,10 @@
 30      ./.text/drivers/drivers/hal/security_unified/hal_cipher/spacc/hal_symc.c/hal_symc_condition
 56      ./.text/drivers/drivers/hal/security_unified/hal_cipher/spacc/hal_symc.c/hal_wait_in_node_done
 144     ./.text/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_hash.c/hash_state_table
+4       ./.text/drivers/drivers/driver/i2c/i2c.c/i2c_evt_callback
+36      ./.text/drivers/drivers/driver/i2c/i2c.c/i2c_read_pre_check.part.1
+138     ./.text/drivers/drivers/driver/i2c/i2c.c/i2c_wait.isra.10.constprop.17
+36      ./.text/drivers/drivers/driver/i2c/i2c.c/i2c_write_pre_check.part.0
 4       ./.text/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/mbedtls_harden_adapt.c/init_adapt_func
 158     ./.text/middleware/chips/ws63/mac_addr/mac_addr.c/init_dev_addr
 42      ./.text/drivers/drivers/hal/security_unified/hal_km/hal_keyslot.c/inner_chk_kslot_busy
@@ -4321,6 +4364,9 @@
 22      ./.text/drivers/drivers/driver/gpio/gpio.c/uapi_gpio_init
 58      ./.text/drivers/drivers/driver/gpio/gpio.c/uapi_gpio_set_dir
 50      ./.text/drivers/drivers/driver/gpio/gpio.c/uapi_gpio_set_val
+88      ./.text/drivers/drivers/driver/i2c/i2c.c/uapi_i2c_master_init
+212     ./.text/drivers/drivers/driver/i2c/i2c.c/uapi_i2c_master_read
+230     ./.text/drivers/drivers/driver/i2c/i2c.c/uapi_i2c_master_write
 120     ./.text/middleware/utils/partition/partition.c/uapi_partition_get_info
 114     ./.text/middleware/utils/partition/partition.c/uapi_partition_init
 116     ./.text/drivers/drivers/driver/pmp/pmp.c/uapi_pmp_config
@@ -4467,6 +4513,7 @@
 10      ./startup/application/ws63/ws63_liteos_application/main.c/runtime_init
 0       ./startup/application/ws63/ws63_liteos_application/reset_vector.S/set_stack_loop
 4       ./startup/application/samples/ws63_client/src/main.c/__zinitcall_run_sle_uart_entry
+1       ./.bth_data_flash/application/samples/ws63_client/src/bh1750.c/g_addr
 8       ./.bth_data_flash/application/samples/ws63_client/src/main.c/g_app_uart_buffer_config
 512     ./.bth_bss_flash/application/samples/ws63_client/src/main.c/g_app_uart_rx_buff
 4       ./.bth_bss_flash/application/samples/ws63_client/src/mq_adc.c/g_display_val
@@ -4499,6 +4546,7 @@
 36      ./.wifi_data_tcm/drivers/drivers/hal/tsensor/v151/hal_tsensor_v151.c/g_hal_tsensor_v151_funcs
 24      ./.wifi_data_tcm/drivers/drivers/hal/uart/v151/hal_uart_v151.c/g_hal_uart_v51_funcs
 16      ./.wifi_data_tcm/middleware/utils/nv/nv_storage_lib/nv_key.c/g_header_cmp
+8       ./.wifi_data_tcm/drivers/chips/ws63/porting/i2c/i2c_porting.c/g_i2c_base_addrs
 8       ./.wifi_data_tcm/drivers/chips/ws63/porting/i2c/i2c_porting.c/g_i2c_clock
 4       ./.wifi_data_tcm/middleware/utils/at/at_wifi_cmd/at/at_register.c/g_ip_taskid
 16      ./.wifi_data_tcm/middleware/utils/nv/nv_storage_lib/nv_nvregion.c/g_kv_nvregion_area
@@ -4539,6 +4587,8 @@
 2       ./.wifi_data_tcm/open_source/lwip/lwip_v2.1.3/src/core/udp.c/udp_port
 4       ./.wifi_data_tcm/open_source/wpa_supplicant/src/utils/wpa_debug.c/wpa_debug_level
 36      ./.data/drivers/drivers/hal/adc/v154/hal_adc_v154.c/g_hal_adc_v154_funcs
+32      ./.data/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c/g_hal_i2c_ctrl_info
+60      ./.data/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c/g_hal_i2c_master_ctrl_func_array
 4       ./.data/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/hash_harden_impl_long_term.c/g_mbedtls_hash_handle
 1       ./.data/middleware/utils/dfx/dfx_print/dfx_print.c/g_print_level
 40      ./.data/drivers/drivers/hal/security_unified/hal_km/hal_rkp.c/g_rkp_alg_sel_table
@@ -4609,4 +4659,4 @@
 30      ./.plat_text_sram/drivers/chips/ws63/porting/sfc/porting/sfc_protect.c/sfc_port_write_unlock
 788     ./.patch/application/ws63/ws63_liteos_application/main.c/patch_cmp
 1552    ./.patch/application/ws63/ws63_liteos_application/main.c/patch_remap
-done. Lines: 17945, Matches: 4611
+done. Lines: 17997, Matches: 4661

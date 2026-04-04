@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../../../../application/samples/ws63_client/include/bh1750.h
+stdint.h
+-
+
 ../../../../application/samples/ws63_client/include/mq_adc.h
 stdint.h
 -
@@ -54,6 +58,14 @@ adc.h
 osal_interrupt.h
 ../../../../drivers/chips/ws63/porting/adc/osal_interrupt.h
 
+../../../../drivers/chips/ws63/porting/i2c/i2c_porting.h
+stdint.h
+-
+stdbool.h
+-
+platform_core.h
+../../../../drivers/chips/ws63/porting/i2c/platform_core.h
+
 ../../../../drivers/chips/ws63/porting/uart/uart_porting.h
 stdint.h
 -
@@ -80,6 +92,14 @@ platform_core_rom.h
 chip_io.h
 ../../../../drivers/chips/ws63/rom/drivers/chips/ws63/porting/pinctrl/chip_io.h
 
+../../../../drivers/drivers/hal/i2c/hal_i2c.h
+stdint.h
+-
+errcode.h
+../../../../drivers/drivers/hal/i2c/errcode.h
+i2c_porting.h
+../../../../drivers/drivers/hal/i2c/i2c_porting.h
+
 ../../../../drivers/drivers/hal/uart/hal_uart.h
 stdint.h
 -
@@ -103,6 +123,18 @@ stdbool.h
 -
 errcode.h
 ../../../../include/driver/errcode.h
+
+../../../../include/driver/i2c.h
+stdint.h
+-
+common_def.h
+../../../../include/driver/common_def.h
+errcode.h
+../../../../include/driver/errcode.h
+hal_i2c.h
+../../../../include/driver/hal_i2c.h
+i2c_porting.h
+../../../../include/driver/i2c_porting.h
 
 ../../../../include/driver/pinctrl.h
 stdint.h
@@ -998,6 +1030,18 @@ sle_uart_client.h
 sle_ssap_client.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/sle_uart_client/sle_ssap_client.h
 
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/bh1750.c
+bh1750.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/bh1750.h
+i2c.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/i2c.h
+soc_osal.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/soc_osal.h
+osal_debug.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/osal_debug.h
+pinctrl.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/pinctrl.h
+
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/main.c
 common_def.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/common_def.h
@@ -1019,6 +1063,8 @@ sle_ssap_client.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/sle_ssap_client.h
 sle_uart_client.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/sle_uart_client.h
+bh1750.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/bh1750.h
 mq_adc.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/mq_adc.h
 

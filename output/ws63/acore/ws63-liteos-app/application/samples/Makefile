@@ -152,6 +152,33 @@ ws63_client/sle_uart_client/sle_uart_client.c.s:
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.s
 .PHONY : ws63_client/sle_uart_client/sle_uart_client.c.s
 
+ws63_client/src/bh1750.obj: ws63_client/src/bh1750.c.obj
+
+.PHONY : ws63_client/src/bh1750.obj
+
+# target to build an object file
+ws63_client/src/bh1750.c.obj:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj
+.PHONY : ws63_client/src/bh1750.c.obj
+
+ws63_client/src/bh1750.i: ws63_client/src/bh1750.c.i
+
+.PHONY : ws63_client/src/bh1750.i
+
+# target to preprocess a source file
+ws63_client/src/bh1750.c.i:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.i
+.PHONY : ws63_client/src/bh1750.c.i
+
+ws63_client/src/bh1750.s: ws63_client/src/bh1750.c.s
+
+.PHONY : ws63_client/src/bh1750.s
+
+# target to generate assembly for a file
+ws63_client/src/bh1750.c.s:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.s
+.PHONY : ws63_client/src/bh1750.c.s
+
 ws63_client/src/main.obj: ws63_client/src/main.c.obj
 
 .PHONY : ws63_client/src/main.obj
@@ -218,6 +245,9 @@ help:
 	@echo "... ws63_client/sle_uart_client/sle_uart_client.obj"
 	@echo "... ws63_client/sle_uart_client/sle_uart_client.i"
 	@echo "... ws63_client/sle_uart_client/sle_uart_client.s"
+	@echo "... ws63_client/src/bh1750.obj"
+	@echo "... ws63_client/src/bh1750.i"
+	@echo "... ws63_client/src/bh1750.s"
 	@echo "... ws63_client/src/main.obj"
 	@echo "... ws63_client/src/main.i"
 	@echo "... ws63_client/src/main.s"

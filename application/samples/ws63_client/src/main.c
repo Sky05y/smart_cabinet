@@ -19,6 +19,7 @@
 #include "sle_connection_manager.h"
 #include "sle_ssap_client.h"
 #include "sle_uart_client.h"
+#include "bh1750.h"
 
 #include "mq_adc.h"
 
@@ -26,6 +27,9 @@
 #define SLE_UART_TASK_DURATION_MS           2000
 #define SLE_UART_BAUDRATE                   115200
 #define SLE_UART_TRANSFER_SIZE              512
+
+#define BH1750_TASK_STACK_SIZE   0x1000
+#define BH1750_TASK_PRIO         (osPriority_t)(17)
 
 #define CONFIG_SLE_UART_BUS 0
 #define CONFIG_UART_TXD_PIN 17
@@ -146,6 +150,14 @@ static void sle_uart_entry(void)
 
     if (osThreadNew((osThreadFunc_t)mq_adc_task, NULL, &attr) == NULL) {
         osal_printk("Create MQ ADC task fail!\r\n");
+    }
+    /************ 3. BH1750任务 ************/
+    attr.name = "BH1750Task";
+    attr.stack_size = BH1750_TASK_STACK_SIZE;
+    attr.priority = BH1750_TASK_PRIO;
+
+    if (osThreadNew((osThreadFunc_t)bh1750_task, NULL, &attr) == NULL) {
+        osal_printk("Create BH1750 task fail!\r\n");
     }
 }
 
