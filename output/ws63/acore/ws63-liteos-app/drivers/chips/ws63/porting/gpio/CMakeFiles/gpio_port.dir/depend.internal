@@ -103,5 +103,5 @@ drivers/chips/ws63/porting/gpio/CMakeFiles/gpio_port.dir/gpio_porting.c.obj
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/gpio_porting.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/gpio_porting.h
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/gpio_porting.c
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/gpio_porting.h

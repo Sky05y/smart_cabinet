@@ -96,8 +96,8 @@ open_source/cjson/CMakeFiles/cjson.dir/cjson/cJSON.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/soc/clock.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/cJSON.c
- /home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/cJSON.h
+ /home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/cJSON.c
+ /home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/cJSON.h
 open_source/cjson/CMakeFiles/cjson.dir/cjson/cJSON_Utils.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -192,6 +192,6 @@ open_source/cjson/CMakeFiles/cjson.dir/cjson/cJSON_Utils.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/soc/clock.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/cJSON.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/cJSON_Utils.c
- /home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/cJSON_Utils.h
+ /home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/cJSON.h
+ /home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/cJSON_Utils.c
+ /home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/cJSON_Utils.h

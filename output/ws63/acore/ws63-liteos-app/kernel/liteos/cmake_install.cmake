@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/kernel/liteos
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/kernel/liteos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,16 +34,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/ohos_adapt/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/liteos/ohos_adapt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/printf_adapt/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/liteos/printf_adapt/cmake_install.cmake")
 endif()
 

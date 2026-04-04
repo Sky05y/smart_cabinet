@@ -7,5 +7,5 @@ hal/mips/CMakeFiles/hal_mips.dir/hal_mips.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/features.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/malloc.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdlib.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/mips/hal_mips.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/mips/hal_mips.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/mips/hal_mips.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/mips/hal_mips.h

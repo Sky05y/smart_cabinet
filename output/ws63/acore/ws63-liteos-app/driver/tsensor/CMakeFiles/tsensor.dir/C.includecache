@@ -48,11 +48,11 @@ bits/alltypes.h
 bits/stdint.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/tsensor/tsensor.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/tsensor/tsensor.c
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/tsensor/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/tsensor/common_def.h
 hal_tsensor.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/tsensor/hal_tsensor.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/tsensor/hal_tsensor.h
 tsensor.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/tsensor/tsensor.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/tsensor/tsensor.h
 

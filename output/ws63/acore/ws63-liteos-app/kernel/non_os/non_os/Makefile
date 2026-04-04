@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/non_os/non_os/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/non_os/non_os/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/non_os/non_os/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/non_os/non_os/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/non_os/non_os/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/non_os/non_os/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/non_os/non_os/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/non_os/non_os/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/non_os/non_os/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/non_os/non_os/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kernel/non_os/non_os/CMakeFiles/non_os.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/non_os/non_os/CMakeFiles/non_os.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/non_os/non_os/CMakeFiles/non_os.dir/rule
 .PHONY : kernel/non_os/non_os/CMakeFiles/non_os.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ non_os: kernel/non_os/non_os/CMakeFiles/non_os.dir/rule
 
 # fast build rule for target.
 non_os/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/build
 .PHONY : non_os/fast
 
 non_os_nmi.obj: non_os_nmi.c.obj
@@ -131,7 +131,7 @@ non_os_nmi.obj: non_os_nmi.c.obj
 
 # target to build an object file
 non_os_nmi.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.obj
 .PHONY : non_os_nmi.c.obj
 
 non_os_nmi.i: non_os_nmi.c.i
@@ -140,7 +140,7 @@ non_os_nmi.i: non_os_nmi.c.i
 
 # target to preprocess a source file
 non_os_nmi.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.i
 .PHONY : non_os_nmi.c.i
 
 non_os_nmi.s: non_os_nmi.c.s
@@ -149,7 +149,7 @@ non_os_nmi.s: non_os_nmi.c.s
 
 # target to generate assembly for a file
 non_os_nmi.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.s
 .PHONY : non_os_nmi.c.s
 
 non_os_utils.obj: non_os_utils.c.obj
@@ -158,7 +158,7 @@ non_os_utils.obj: non_os_utils.c.obj
 
 # target to build an object file
 non_os_utils.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj
 .PHONY : non_os_utils.c.obj
 
 non_os_utils.i: non_os_utils.c.i
@@ -167,7 +167,7 @@ non_os_utils.i: non_os_utils.c.i
 
 # target to preprocess a source file
 non_os_utils.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.i
 .PHONY : non_os_utils.c.i
 
 non_os_utils.s: non_os_utils.c.s
@@ -176,7 +176,7 @@ non_os_utils.s: non_os_utils.c.s
 
 # target to generate assembly for a file
 non_os_utils.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/non_os/non_os/CMakeFiles/non_os.dir/build.make kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.s
 .PHONY : non_os_utils.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

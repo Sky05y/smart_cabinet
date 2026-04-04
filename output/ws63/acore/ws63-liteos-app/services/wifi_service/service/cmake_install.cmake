@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/middleware/services/wifi_service/service
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/middleware/services/wifi_service/service
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

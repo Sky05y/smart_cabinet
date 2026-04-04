@@ -66,25 +66,25 @@ bits/stdint.h
 
 ../../../../middleware/utils/common_headers/chip_definitions.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/dma/dma_porting.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/dma/dma_porting.c
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/dma/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/dma/common_def.h
 interrupt/osal_interrupt.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/dma/interrupt/osal_interrupt.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/dma/interrupt/osal_interrupt.h
 platform_core.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/dma/platform_core.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/dma/platform_core.h
 chip_core_irq.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/dma/chip_core_irq.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/dma/chip_core_irq.h
 hal_dmac_v151.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/dma/hal_dmac_v151.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/dma/hal_dmac_v151.h
 dma_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/dma/dma_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/dma/dma_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/dma/dma_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/dma/dma_porting.h
 stdint.h
 -
 stdbool.h
 -
 dma.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/dma/dma.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/dma/dma.h
 

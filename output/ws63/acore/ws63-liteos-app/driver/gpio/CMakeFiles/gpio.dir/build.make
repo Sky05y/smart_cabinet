@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include driver/gpio/CMakeFiles/gpio.dir/depend.make
@@ -59,16 +59,16 @@ include driver/gpio/CMakeFiles/gpio.dir/flags.make
 
 driver/gpio/CMakeFiles/gpio.dir/gpio.c.obj: driver/gpio/CMakeFiles/gpio.dir/flags.make
 driver/gpio/CMakeFiles/gpio.dir/gpio.c.obj: ../../../../drivers/drivers/driver/gpio/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/gpio/CMakeFiles/gpio.dir/gpio.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/gpio && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GPIO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gpio.dir/gpio.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/gpio/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/gpio/CMakeFiles/gpio.dir/gpio.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/gpio && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GPIO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gpio.dir/gpio.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/gpio/gpio.c
 
 driver/gpio/CMakeFiles/gpio.dir/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gpio.dir/gpio.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/gpio && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GPIO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/gpio/gpio.c > CMakeFiles/gpio.dir/gpio.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/gpio && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GPIO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/gpio/gpio.c > CMakeFiles/gpio.dir/gpio.c.i
 
 driver/gpio/CMakeFiles/gpio.dir/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gpio.dir/gpio.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/gpio && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GPIO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/gpio/gpio.c -o CMakeFiles/gpio.dir/gpio.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/gpio && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=GPIO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/gpio/gpio.c -o CMakeFiles/gpio.dir/gpio.c.s
 
 # Object files for target gpio
 gpio_OBJECTS = \
@@ -80,9 +80,9 @@ gpio_EXTERNAL_OBJECTS =
 driver/gpio/libgpio.a: driver/gpio/CMakeFiles/gpio.dir/gpio.c.obj
 driver/gpio/libgpio.a: driver/gpio/CMakeFiles/gpio.dir/build.make
 driver/gpio/libgpio.a: driver/gpio/CMakeFiles/gpio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libgpio.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/gpio && $(CMAKE_COMMAND) -P CMakeFiles/gpio.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/gpio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gpio.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libgpio.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/gpio && $(CMAKE_COMMAND) -P CMakeFiles/gpio.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/gpio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gpio.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 driver/gpio/CMakeFiles/gpio.dir/build: driver/gpio/libgpio.a
@@ -90,10 +90,10 @@ driver/gpio/CMakeFiles/gpio.dir/build: driver/gpio/libgpio.a
 .PHONY : driver/gpio/CMakeFiles/gpio.dir/build
 
 driver/gpio/CMakeFiles/gpio.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/gpio && $(CMAKE_COMMAND) -P CMakeFiles/gpio.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/gpio && $(CMAKE_COMMAND) -P CMakeFiles/gpio.dir/cmake_clean.cmake
 .PHONY : driver/gpio/CMakeFiles/gpio.dir/clean
 
 driver/gpio/CMakeFiles/gpio.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/gpio /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/gpio /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/gpio/CMakeFiles/gpio.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/gpio /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/gpio /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/gpio/CMakeFiles/gpio.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : driver/gpio/CMakeFiles/gpio.dir/depend
 

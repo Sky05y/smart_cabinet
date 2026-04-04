@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/local_update
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/middleware/utils/update/local_update
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

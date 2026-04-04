@@ -564,23 +564,23 @@ register_config.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/hal_efuse.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/hal_efuse.c
 stdio.h
 -
 hal_efuse.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/hal_efuse.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/hal_efuse.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/hal_efuse.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/hal_efuse.h
 stdint.h
 -
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/common_def.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/errcode.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/errcode.h
 efuse_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/efuse_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/efuse_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151.c
 stdint.h
 -
 stdio.h
@@ -588,35 +588,35 @@ stdio.h
 stdbool.h
 -
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/securec.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/securec.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/common_def.h
 hal_efuse.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse.h
 hal_efuse_v151_reg_op.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h
 efuse_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/efuse_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/efuse_porting.h
 tcxo.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/tcxo.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/tcxo.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_def.h
 stdint.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.c
 stdint.h
 -
 stdio.h
 -
 efuse_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/efuse_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/efuse_porting.h
 hal_efuse_v151_reg_op.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h
 stdint.h
 -
 hal_efuse_v151_reg_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_def.h
 

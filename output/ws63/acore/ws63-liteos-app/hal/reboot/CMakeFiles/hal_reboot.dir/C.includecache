@@ -456,29 +456,29 @@ panic.h
 non_os_reboot.h
 ../../../../middleware/utils/dfx/preserve/public/non_os_reboot.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/hal_reboot.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/hal_reboot.c
 hal_reboot.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/hal_reboot.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/hal_reboot.h
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/soc_osal.h
 core.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/core.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/core.h
 non_os_reboot.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/non_os_reboot.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/non_os_reboot.h
 debug_print.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/debug_print.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/debug_print.h
 chip_io.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/chip_io.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/chip_io.h
 reboot_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/reboot_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/reboot_porting.h
 hal_gpio.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/hal_gpio.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/hal_gpio.h
 preserve.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/preserve.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/preserve.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/hal_reboot.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/hal_reboot.h
 stdint.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/stdint.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/stdint.h
 stdbool.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/stdbool.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/stdbool.h
 

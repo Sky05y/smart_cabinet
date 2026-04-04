@@ -54,7 +54,7 @@ partition_resource_id.h
 errcode.h
 ../../../../middleware/chips/ws63/partition/errcode.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/partition/partition.c
+/home/bearpi/project/smart_cabinet-main/middleware/utils/partition/partition.c
 stdint.h
 -
 stdbool.h
@@ -62,21 +62,21 @@ stdbool.h
 stddef.h
 -
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/partition/common_def.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/partition/common_def.h
 partition_porting.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/partition/partition_porting.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/partition/partition_porting.h
 partition_info.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/partition/partition_info.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/partition/partition_info.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/partition/partition_info.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/partition/partition_info.h
 stdint.h
 -
 partition.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/partition/partition.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/partition/partition.h
 partition_resource_id.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/partition/partition_resource_id.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/partition/partition_resource_id.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/partition/errcode.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/partition/errcode.h
 stdio.h
 -
 

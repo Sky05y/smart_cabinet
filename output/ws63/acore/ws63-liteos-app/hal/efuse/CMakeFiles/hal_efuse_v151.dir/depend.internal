@@ -10,8 +10,8 @@ hal/efuse/CMakeFiles/hal_efuse_v151.dir/hal_efuse.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/features.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdio.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/hal_efuse.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/hal_efuse.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/hal_efuse.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/hal_efuse.h
 hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151.c.obj
  ../../../../drivers/chips/ws63/porting/efuse/efuse_porting.h
  ../../../../drivers/drivers/hal/efuse/hal_efuse.h
@@ -104,9 +104,9 @@ hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/soc/clock.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_def.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h
 hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151_reg_op.c.obj
  ../../../../drivers/chips/ws63/porting/efuse/efuse_porting.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
@@ -114,6 +114,6 @@ hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151_reg_op.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/features.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdio.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_def.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h

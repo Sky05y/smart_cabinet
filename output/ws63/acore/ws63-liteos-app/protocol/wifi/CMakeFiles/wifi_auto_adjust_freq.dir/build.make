@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/depend.make
@@ -59,16 +59,16 @@ include protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/flags.make
 
 protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.obj: protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/flags.make
 protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.obj: ../../../../protocol/wifi/source/host/feature/hmac_auto_adjust_freq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/protocol/wifi && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_MOD_ID=LOG_WIFIMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/protocol/wifi && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_MOD_ID=LOG_WIFIMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.obj   -c /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.c
 
 protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/protocol/wifi && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_MOD_ID=LOG_WIFIMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.c > CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/protocol/wifi && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_MOD_ID=LOG_WIFIMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.c > CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.i
 
 protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/protocol/wifi && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_MOD_ID=LOG_WIFIMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.c -o CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/protocol/wifi && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_MOD_ID=LOG_WIFIMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.c -o CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.s
 
 # Object files for target wifi_auto_adjust_freq
 wifi_auto_adjust_freq_OBJECTS = \
@@ -80,9 +80,9 @@ wifi_auto_adjust_freq_EXTERNAL_OBJECTS =
 ../../../../interim_binary/ws63/libs/wifi/ws63-liteos-app/libwifi_auto_adjust_freq.a: protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.obj
 ../../../../interim_binary/ws63/libs/wifi/ws63-liteos-app/libwifi_auto_adjust_freq.a: protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/build.make
 ../../../../interim_binary/ws63/libs/wifi/ws63-liteos-app/libwifi_auto_adjust_freq.a: protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../../../../../../interim_binary/ws63/libs/wifi/ws63-liteos-app/libwifi_auto_adjust_freq.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/protocol/wifi && $(CMAKE_COMMAND) -P CMakeFiles/wifi_auto_adjust_freq.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/protocol/wifi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wifi_auto_adjust_freq.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../../../../../../interim_binary/ws63/libs/wifi/ws63-liteos-app/libwifi_auto_adjust_freq.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/protocol/wifi && $(CMAKE_COMMAND) -P CMakeFiles/wifi_auto_adjust_freq.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/protocol/wifi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wifi_auto_adjust_freq.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/build: ../../../../interim_binary/ws63/libs/wifi/ws63-liteos-app/libwifi_auto_adjust_freq.a
@@ -90,10 +90,10 @@ protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/build: ../../../../interim_bi
 .PHONY : protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/build
 
 protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/protocol/wifi && $(CMAKE_COMMAND) -P CMakeFiles/wifi_auto_adjust_freq.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/protocol/wifi && $(CMAKE_COMMAND) -P CMakeFiles/wifi_auto_adjust_freq.dir/cmake_clean.cmake
 .PHONY : protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/clean
 
 protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/protocol/wifi /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/protocol/wifi /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/protocol/wifi /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/protocol/wifi /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/bootloader/commonboot/libc
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/bootloader/commonboot/libc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

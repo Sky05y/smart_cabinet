@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/bootloader/flashboot_ws63
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/bootloader/flashboot_ws63
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

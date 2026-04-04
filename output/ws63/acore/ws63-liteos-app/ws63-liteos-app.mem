@@ -24,7 +24,7 @@
     .btc_bss_tcm      0x00183620                    28                  
     .wifi_bss_tcm     0x00183640                   956                  
   
-  SRAM                0x00A00000     0x85F00   0x2CA90 = 182928
+  SRAM                0x00A00000     0x85F00   0x2CB40 = 183104
     .wifi_pkt_ram     0x00A00000                 49152                  
     .plat_text_sram   0x00A0C000                 10884 load address 0x234C40
     .wifi_text_sram   0x00A0EA88                     0                  
@@ -34,19 +34,19 @@
     .wifi_data_sram   0x00A0F460                     0                  
     .btc_data_sram    0x00A0F460                     0                  
     .bth_data_sram    0x00A0F460                     0                  
-    .btc_data_flash   0x00A0F460                  4928 load address 0x3654A8
-    .bth_data_flash   0x00A107A0                  2456 load address 0x3667E8
-    .data             0x00A11138                   516 load address 0x367180
-    .plat_bss_sram    0x00A11340                  1217                  
-    .plat_bss_flash   0x00A11808                 12708                  
-    .wifi_bss_flash   0x00A149B0                 37504                  
-    .radar_bss_flash  0x00A1DC30                 39292                  
-    .radar_ai_bss_flash  0x00A275B0                  6120                  
-    .btc_bss_flash    0x00A28D98                  3260                  
-    .bth_bss_flash    0x00A29A58                  3468                  
-    .bss              0x00A2A7E8                  3740                  
-    .stacks           0x00A2B690                  5120                  
-    .heap             0x00A2CA90                     0                  
+    .btc_data_flash   0x00A0F460                  4928 load address 0x3648E0
+    .bth_data_flash   0x00A107A0                  2372 load address 0x365C20
+    .data             0x00A110E8                   552 load address 0x366568
+    .plat_bss_sram    0x00A11310                  1217                  
+    .plat_bss_flash   0x00A117D8                 12708                  
+    .wifi_bss_flash   0x00A14980                 37504                  
+    .radar_bss_flash  0x00A1DC00                 39292                  
+    .radar_ai_bss_flash  0x00A27580                  6120                  
+    .btc_bss_flash    0x00A28D68                  3260                  
+    .bth_bss_flash    0x00A29A28                  3604                  
+    .bss              0x00A2A840                  3840                  
+    .stacks           0x00A2B740                  5120                  
+    .heap             0x00A2CB40                     0                  
   
   PRESERVE_SHARE_MEM  0x00A85F00       0x100      0xFC = 252
     .preserve         0x00A85F00                   252                  
@@ -55,7 +55,7 @@
     startup           0x00230300                   424                  
     .sysintcall.init  0x002304A8                    52                  
   
-  PROGRAM             0x00230700    0x23F900  0x136C84 = 1272964
+  PROGRAM             0x00230700    0x23F900  0x136090 = 1269904
     .patch            0x00230700                  2344                  
     .rom_ram_cb_text  0x00231028                  1816                  
     .plat_romdata     0x00231740                   212                  
@@ -67,17 +67,17 @@
     .wifi_data_tcm    0x00233EE8                  3412                  
     .plat_text_sram   0x00234C40                 10884                  
     .patch_on_sram    0x002376C8                  2520                  
-    .plat_text_flash  0x002380A0                177768                  
-    .wifi_text_flash  0x00263708                586254                  
-    .patch_on_flash   0x002F2918                  1908                  
-    .btc_text_flash   0x002F3090                132152                  
-    .bth_text_flash   0x003134C8                237870                  
-    .radar_text_flash  0x0034D5F8                 34036                  
-    .radar_ai_text_flash  0x00355AF0                  9980                  
-    .text             0x003581F0                 53940                  
-    .btc_data_flash   0x003654A8                  4928                  
-    .bth_data_flash   0x003667E8                  2456                  
-    .data             0x00367180                   516                  
+    .plat_text_flash  0x002380A0                178132                  
+    .wifi_text_flash  0x00263878                585994                  
+    .patch_on_flash   0x002F2988                  1908                  
+    .btc_text_flash   0x002F3100                132152                  
+    .bth_text_flash   0x00313538                232890                  
+    .radar_text_flash  0x0034C2F8                 34036                  
+    .radar_ai_text_flash  0x003547F0                  9980                  
+    .text             0x00356EF0                 55788                  
+    .btc_data_flash   0x003648E0                  4928                  
+    .bth_data_flash   0x00365C20                  2372                  
+    .data             0x00366568                   552                  
 
   ====================================================
 
@@ -452,7 +452,7 @@
   --------------------------------  --------  -----
 
 
-  .wifi_text_flash                    282076
+  .wifi_text_flash                    281898
 
     open_source                       204047
       lwip                             89758
@@ -635,7 +635,7 @@
           driver_i.h                               350
           scan                                    1414
 
-    middleware                         47364
+    middleware                         47186
       utils                            18414
         at                                  
           at_wifi_cmd                       
@@ -652,7 +652,7 @@
             src                           50
               at_cmd_register                       50
 
-      services                         28950
+      services                         28772
         wifi_service                        
           wpa                          18448
             liteos_wpa_api              8098
@@ -677,8 +677,8 @@
               hostapd_main_rtos                   1332
               hostapd_ctrl_iface_rtos              112
 
-          service                       9058
-            soc_wifi_service_api                  9058
+          service                       8880
+            soc_wifi_service_api                  8880
 
     kernel                                62
       liteos                                
@@ -851,6 +851,285 @@
   --------------------------------  --------  -----
 
 
+  .bth_text_flash                       1442
+
+    application                             
+      samples                               
+        ws63_client                         
+          src                            602
+            mq_adc                                 330
+            main                                   272
+
+          sle_uart_client                840
+            sle_uart_client                        840
+
+
+  Section                            Total     Size
+
+  --------------------------------  --------  -----
+
+
+  .bss                                  3741
+
+    drivers                             3425
+      drivers                           3401
+        driver                          2770
+          adc                              6
+            adc                                      6
+
+          security_unified              2763
+            init                           5
+              cfbb                          
+                os                          
+                  crypto_drv_init                    5
+
+            drv_cipher                  1322
+              drv_code                  1258
+                drv_symc                           556
+                drv_hash                           665
+                crypto_drv_common                   36
+                drv_trng                             1
+
+              drv_pke_v5                  64
+                drv_pke_rsa                         64
+
+            kapi                        1384
+              source                        
+                kapi_hash_simple                    24
+                kapi_symc                          912
+                kapi_km                            440
+                kapi_pke                             4
+                kapi_trng                            4
+
+            mbedtls_harden_adapt          16
+              aes_harden_impl_long_term             12
+              hash_harden_impl_long_term             4
+
+            drv_km                        36
+              drv_klad                              36
+
+          gpio                             1
+            gpio                                     1
+
+        hal                              631
+          adc                             97
+            v154                          93
+              hal_adc_v154                          85
+              hal_adc_v154_regs_op                   8
+
+            hal_adc                                  4
+
+          security_unified               534
+            hal_cipher                      
+              pke                         28
+                alg                        8
+                  drv_common_pke                     8
+
+                hal_pke                             20
+
+              spacc                      505
+                hal_hash                            85
+                hal_symc                           420
+
+              trng                         1
+                hal_trng                             1
+
+      chips                               24
+        ws63                                
+          porting                           
+            xo_trim                         
+              xo_trim_porting                       24
+
+    middleware                           316
+      chips                               36
+        ws63                                
+          mac_addr                          
+            mac_addr                                36
+
+      utils                              280
+        partition                        272
+          partition                                272
+
+        dfx                                8
+          log_reader                        
+            log_uart                                 8
+
+
+  Section                            Total     Size
+
+  --------------------------------  --------  -----
+
+
+  .text                                43971
+
+    drivers                            41839
+      drivers                          41153
+        hal                            15732
+          adc                           1342
+            v154                        1310
+              hal_adc_v154                        1040
+              hal_adc_v154_regs_op                 154
+              hal_adc_v154_regs_op.h               116
+
+            hal_adc                                 32
+
+          security_unified             14390
+            hal_cipher                 12656
+              pke                       7466
+                hal_pke                           1662
+                alg                     5384
+                  drv_common_pke                  2096
+                  sm2_ec_fp_sign_verify            108
+                  ecc_ec_fp_sign_verify_common       612
+                  ecc_ec_fp_sign                   150
+                  ecc_ec_fp_verify                 284
+                  ecc_ec_fp_sign_common            708
+                  ecc_ec_fp_verify_common          540
+                  rsa                              886
+
+                arch                     420
+                  ecc_data_ram_addr                104
+                  rom_lib                          296
+                  rsa_data_ram_addr                 20
+
+              spacc                     5018
+                hal_hash                          1362
+                hal_symc                          3656
+
+              trng                       172
+                hal_trng                           172
+
+            crypto_osal                   54
+              cfbb                          
+                os                        22
+                  crypto_osal_lib                   22
+
+                crypto_security                     32
+
+            hal_km                      1680
+              hal_keyslot                          430
+              hal_klad                             810
+              hal_rkp                              440
+
+        driver                         25421
+          security_unified             24903
+            init                        2186
+              cfbb                          
+                crypto_curve_param                2002
+                os                       184
+                  crypto_drv_init                  180
+                  crypto_drv_irq                     4
+
+            drv_cipher                 12699
+              drv_pke_v5                4971
+                ecc                      736
+                  drv_pke_ecc_sign                 404
+                  drv_pke_ecc_verify               332
+
+                drv_pke_ecdsa                      150
+                drv_pke_ecc_ecdh                   208
+                drv_pke_ecc_gen_key                294
+                drv_pke_cal                          4
+                drv_pke_ecc_cal                     84
+                drv_pke_rsa                       3495
+
+              drv_code                  7728
+                crypto_drv_common                  314
+                crypto_osal_adapt.h                 14
+                drv_symc                          3012
+                drv_hash                          2538
+                drv_symc_mac_hard                  874
+                drv_pbkdf2_hard                    788
+                drv_trng                           188
+
+            drv_pke_weak_func                        8
+            service_layer                474
+              sl_common                             24
+              security_init                          2
+              cipher                               130
+              pke                                   20
+              security_sha256                       56
+              trng                                  22
+              km                                   220
+
+            drv_km                       544
+              drv_keyslot                          144
+              drv_klad                             400
+
+            kapi                        7438
+              source                        
+                kapi_hash                         1232
+                kapi_symc                         3076
+                kapi_hash_simple                   966
+                kapi_km                           1550
+                kapi_pke                           444
+                kapi_trng                           74
+                kapi_init                           68
+                kapi_pke_ecc_cal                    28
+
+            mbedtls_harden_adapt        1554
+              mbedtls_harden_adapt                  26
+              aes_harden_impl_long_term           1112
+              ecp_harden_impl                      108
+              hash_harden_impl_long_term           308
+
+          adc                            236
+            adc                                    236
+
+          gpio                           166
+            gpio                                   166
+
+          pmp                            116
+            pmp                                    116
+
+      chips                              686
+        ws63                                
+          porting                           
+            adc                          140
+              adc_porting                          140
+
+            xo_trim                      496
+              xo_trim_porting                      496
+
+            version                       16
+              version_porting                       16
+
+            reboot                        34
+              reboot_porting                        34
+
+    middleware                          2132
+      utils                              486
+        dfx                              252
+          dfx_print                       24
+            dfx_print                               24
+
+          log_reader                     228
+            log_uart                               228
+
+        partition                        234
+          partition                                234
+
+      chips                             1646
+        ws63                                
+          mac_addr                       860
+            mac_addr                               860
+
+          factory                        572
+            factory                                572
+
+          partition                       20
+            partition_porting                       20
+
+          nv                             194
+            nv_zdiag                        
+              nv_adapt_zdiag                       194
+
+
+  Section                            Total     Size
+
+  --------------------------------  --------  -----
+
+
   .plat_bss_flash                       1987
 
     open_source                          248
@@ -1015,162 +1294,6 @@
   --------------------------------  --------  -----
 
 
-  .text                                42251
-
-    drivers                            40119
-      drivers                          39573
-        hal                            14390
-          security_unified                  
-            hal_cipher                 12656
-              pke                       7466
-                hal_pke                           1662
-                alg                     5384
-                  drv_common_pke                  2096
-                  sm2_ec_fp_sign_verify            108
-                  ecc_ec_fp_sign_verify_common       612
-                  ecc_ec_fp_sign                   150
-                  ecc_ec_fp_verify                 284
-                  ecc_ec_fp_sign_common            708
-                  ecc_ec_fp_verify_common          540
-                  rsa                              886
-
-                arch                     420
-                  ecc_data_ram_addr                104
-                  rom_lib                          296
-                  rsa_data_ram_addr                 20
-
-              spacc                     5018
-                hal_hash                          1362
-                hal_symc                          3656
-
-              trng                       172
-                hal_trng                           172
-
-            crypto_osal                   54
-              cfbb                          
-                os                        22
-                  crypto_osal_lib                   22
-
-                crypto_security                     32
-
-            hal_km                      1680
-              hal_keyslot                          430
-              hal_klad                             810
-              hal_rkp                              440
-
-        driver                         25183
-          security_unified             24901
-            init                        2186
-              cfbb                          
-                crypto_curve_param                2002
-                os                       184
-                  crypto_drv_init                  180
-                  crypto_drv_irq                     4
-
-            drv_cipher                 12697
-              drv_pke_v5                4969
-                ecc                      736
-                  drv_pke_ecc_sign                 404
-                  drv_pke_ecc_verify               332
-
-                drv_pke_ecdsa                      150
-                drv_pke_ecc_ecdh                   208
-                drv_pke_ecc_gen_key                292
-                drv_pke_cal                          4
-                drv_pke_ecc_cal                     84
-                drv_pke_rsa                       3495
-
-              drv_code                  7728
-                crypto_drv_common                  314
-                crypto_osal_adapt.h                 14
-                drv_symc                          3012
-                drv_hash                          2538
-                drv_symc_mac_hard                  874
-                drv_pbkdf2_hard                    788
-                drv_trng                           188
-
-            drv_pke_weak_func                        8
-            service_layer                474
-              sl_common                             24
-              security_init                          2
-              cipher                               130
-              pke                                   20
-              security_sha256                       56
-              trng                                  22
-              km                                   220
-
-            drv_km                       544
-              drv_keyslot                          144
-              drv_klad                             400
-
-            kapi                        7438
-              source                        
-                kapi_hash                         1232
-                kapi_symc                         3076
-                kapi_hash_simple                   966
-                kapi_km                           1550
-                kapi_pke                           444
-                kapi_trng                           74
-                kapi_init                           68
-                kapi_pke_ecc_cal                    28
-
-            mbedtls_harden_adapt        1554
-              mbedtls_harden_adapt                  26
-              aes_harden_impl_long_term           1112
-              ecp_harden_impl                      108
-              hash_harden_impl_long_term           308
-
-          gpio                           166
-            gpio                                   166
-
-          pmp                            116
-            pmp                                    116
-
-      chips                              546
-        ws63                                
-          porting                           
-            xo_trim                      496
-              xo_trim_porting                      496
-
-            version                       16
-              version_porting                       16
-
-            reboot                        34
-              reboot_porting                        34
-
-    middleware                          2132
-      utils                              486
-        dfx                              252
-          dfx_print                       24
-            dfx_print                               24
-
-          log_reader                     228
-            log_uart                               228
-
-        partition                        234
-          partition                                234
-
-      chips                             1646
-        ws63                                
-          mac_addr                       860
-            mac_addr                               860
-
-          factory                        572
-            factory                                572
-
-          partition                       20
-            partition_porting                       20
-
-          nv                             194
-            nv_zdiag                        
-              nv_adapt_zdiag                       194
-
-
-  Section                            Total     Size
-
-  --------------------------------  --------  -----
-
-
   startup                                336
 
     application                          246
@@ -1179,7 +1302,7 @@
           main                                     242
 
       samples                              4
-        ws63_server                         
+        ws63_client                         
           src                               
             main                                     4
 
@@ -1195,17 +1318,13 @@
   --------------------------------  --------  -----
 
 
-  .bth_text_flash                       3646
+  .bth_data_flash                          8
 
     application                             
       samples                               
-        ws63_server                         
-          src                           1554
-            main                                  1554
-
-          sle_uart_server               2092
-            sle_uart_server_adv                    748
-            sle_uart_server                       1344
+        ws63_client                         
+          src                               
+            main                                     8
 
 
   Section                            Total     Size
@@ -1213,115 +1332,17 @@
   --------------------------------  --------  -----
 
 
-  .bss                                  3638
-
-    middleware                           316
-      chips                               36
-        ws63                                
-          mac_addr                          
-            mac_addr                                36
-
-      utils                              280
-        partition                        272
-          partition                                272
-
-        dfx                                8
-          log_reader                        
-            log_uart                                 8
-
-    drivers                             3322
-      drivers                           3298
-        driver                          2764
-          security_unified              2763
-            init                           5
-              cfbb                          
-                os                          
-                  crypto_drv_init                    5
-
-            drv_cipher                  1322
-              drv_code                  1258
-                drv_symc                           556
-                drv_hash                           665
-                crypto_drv_common                   36
-                drv_trng                             1
-
-              drv_pke_v5                  64
-                drv_pke_rsa                         64
-
-            kapi                        1384
-              source                        
-                kapi_hash_simple                    24
-                kapi_symc                          912
-                kapi_km                            440
-                kapi_pke                             4
-                kapi_trng                            4
-
-            mbedtls_harden_adapt          16
-              aes_harden_impl_long_term             12
-              hash_harden_impl_long_term             4
-
-            drv_km                        36
-              drv_klad                              36
-
-          gpio                             1
-            gpio                                     1
-
-        hal                              534
-          security_unified                  
-            hal_cipher                      
-              pke                         28
-                alg                        8
-                  drv_common_pke                     8
-
-                hal_pke                             20
-
-              spacc                      505
-                hal_hash                            85
-                hal_symc                           420
-
-              trng                         1
-                hal_trng                             1
-
-      chips                               24
-        ws63                                
-          porting                           
-            xo_trim                         
-              xo_trim_porting                       24
-
-
-  Section                            Total     Size
-
-  --------------------------------  --------  -----
-
-
-  .bth_data_flash                         90
+  .bth_bss_flash                         675
 
     application                             
       samples                               
-        ws63_server                         
-          src                             56
-            main                                    56
+        ws63_client                         
+          src                            524
+            main                                   512
+            mq_adc                                  12
 
-          sle_uart_server                 34
-            sle_uart_server                         18
-            sle_uart_server_adv                     16
-
-
-  Section                            Total     Size
-
-  --------------------------------  --------  -----
-
-
-  .bth_bss_flash                         538
-
-    application                             
-      samples                               
-        ws63_server                         
-          src                            517
-            main                                   517
-
-          sle_uart_server                 21
-            sle_uart_server                         21
+          sle_uart_client                151
+            sle_uart_client                        151
 
 
   Section                            Total     Size
@@ -1462,10 +1483,23 @@
   --------------------------------  --------  -----
 
 
-  .data                                  358
+  .data                                  394
 
-    drivers                              357
+    drivers                              393
       drivers                               
+        hal                              220
+          adc                             36
+            v154                            
+              hal_adc_v154                          36
+
+          security_unified               184
+            hal_km                        40
+              hal_rkp                               40
+
+            hal_cipher                   144
+              spacc                         
+                hal_symc                           144
+
         driver                           173
           security_unified                  
             mbedtls_harden_adapt         172
@@ -1476,15 +1510,6 @@
               cfbb                          
                 os                          
                   crypto_drv_init                    1
-
-        hal                              184
-          security_unified                  
-            hal_km                        40
-              hal_rkp                               40
-
-            hal_cipher                   144
-              spacc                         
-                hal_symc                           144
 
     middleware                             1
       utils                                 
@@ -1573,14 +1598,14 @@
        startup  .lst file = 424 (0x1A8)
                  .du file = 336 (0x150)
 
-         .text  .lst file = 53940 (0xD2B4)
-                 .du file = 42251 (0xA50B)
+         .text  .lst file = 55788 (0xD9EC)
+                 .du file = 43971 (0xABC3)
 
-         .data  .lst file = 516 (0x204)
-                 .du file = 358 (0x166)
+         .data  .lst file = 552 (0x228)
+                 .du file = 394 (0x18A)
 
-          .bss  .lst file = 3740 (0xE9C)
-                 .du file = 3638 (0xE36)
+          .bss  .lst file = 3840 (0xF00)
+                 .du file = 3741 (0xE9D)
 
   ====================================================
 

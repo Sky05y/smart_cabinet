@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/hal_dma.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/hal_dma_mem.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dmac_v151.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/hal_dma.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/hal_dma_mem.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dmac_v151.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -356,8 +356,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../../../protocol/bt/host/bt/sdk/../include/common/L0"
   "../../../../protocol/bt/host/bt/sdk/../include/ble"
   "../../../../protocol/bt/host/bt/sdk/../include/ble/L0"
-  "../../../../application/samples/ws63_server/include"
-  "../../../../application/samples/ws63_server/sle_uart_server"
+  "../../../../application/samples/ws63_client/include"
+  "../../../../application/samples/ws63_client/sle_uart_client"
   "../../../../include/middleware/services/bts/ble"
   "../../../../include/middleware/services/bts/br"
   "../../../../include/middleware/services/bts/common"

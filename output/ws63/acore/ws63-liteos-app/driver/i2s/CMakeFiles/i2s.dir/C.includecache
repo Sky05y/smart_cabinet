@@ -336,21 +336,21 @@ linux/types.h
 stdint.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2s/i2s.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2s/i2s.c
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2s/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2s/common_def.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2s/errcode.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2s/errcode.h
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2s/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2s/soc_osal.h
 hal_sio.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2s/hal_sio.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2s/hal_sio.h
 i2s.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2s/i2s.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2s/i2s.h
 dma.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2s/dma.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2s/dma.h
 dma_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2s/dma_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2s/dma_porting.h
 sio_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2s/sio_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2s/sio_porting.h
 

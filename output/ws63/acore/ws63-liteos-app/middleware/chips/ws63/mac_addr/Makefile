@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/mac_addr/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/mac_addr/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/mac_addr/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/mac_addr/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/mac_addr/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/mac_addr/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/mac_addr/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/mac_addr/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/mac_addr/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/mac_addr/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/rule
 .PHONY : middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ mac_addr_ws63: middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/rule
 
 # fast build rule for target.
 mac_addr_ws63/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/build.make middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/build.make middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/build
 .PHONY : mac_addr_ws63/fast
 
 mac_addr.obj: mac_addr.c.obj
@@ -131,7 +131,7 @@ mac_addr.obj: mac_addr.c.obj
 
 # target to build an object file
 mac_addr.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/build.make middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/mac_addr.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/build.make middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/mac_addr.c.obj
 .PHONY : mac_addr.c.obj
 
 mac_addr.i: mac_addr.c.i
@@ -140,7 +140,7 @@ mac_addr.i: mac_addr.c.i
 
 # target to preprocess a source file
 mac_addr.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/build.make middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/mac_addr.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/build.make middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/mac_addr.c.i
 .PHONY : mac_addr.c.i
 
 mac_addr.s: mac_addr.c.s
@@ -149,7 +149,7 @@ mac_addr.s: mac_addr.c.s
 
 # target to generate assembly for a file
 mac_addr.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/build.make middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/mac_addr.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/build.make middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/mac_addr.c.s
 .PHONY : mac_addr.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -102,15 +102,15 @@ los_typedef.h
 product.h
 ../../../../middleware/utils/common_headers/product.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_print/dfx_print.c
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_print/dfx_print.c
 stdarg.h
 -
 dfx_print.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_print/dfx_print.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_print/dfx_print.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_print/dfx_print.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_print/dfx_print.h
 stdint.h
 -
 debug_print.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_print/debug_print.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_print/debug_print.h
 

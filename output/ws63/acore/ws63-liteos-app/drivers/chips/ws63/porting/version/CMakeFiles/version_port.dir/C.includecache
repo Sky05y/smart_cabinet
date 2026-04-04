@@ -254,13 +254,13 @@ linux/types.h
 stdint.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/version/version_porting.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/version/version_porting.c
 version_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/version/version_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/version/version_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/version/version_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/version/version_porting.h
 stdint.h
 -
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/version/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/version/soc_osal.h
 

@@ -20,5 +20,5 @@ drivers/chips/ws63/porting/arch/CMakeFiles/pmp_cfg_ws63.dir/riscv/pmp_cfg.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/types.h
  ../../../../middleware/chips/ws63/partition/include/partition_resource_id.h
  ../../../../middleware/utils/common_headers/native/td_type.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/arch/riscv/pmp_cfg.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/arch/riscv/pmp_cfg.h
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/arch/riscv/pmp_cfg.c
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/arch/riscv/pmp_cfg.h

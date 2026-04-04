@@ -1,5 +1,6 @@
     set(SOURCES_LIST
         ${CMAKE_CURRENT_SOURCE_DIR}/src/main.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/mq_adc.c
         ${CMAKE_CURRENT_SOURCE_DIR}/sle_uart_client/sle_uart_client.c
 
     )

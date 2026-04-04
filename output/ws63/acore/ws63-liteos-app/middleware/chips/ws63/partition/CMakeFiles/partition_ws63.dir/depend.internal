@@ -9,5 +9,5 @@ middleware/chips/ws63/partition/CMakeFiles/partition_ws63.dir/partition_porting.
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stddef.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/chips/ws63/partition/include/partition_resource_id.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/partition/partition_porting.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/partition/partition_porting.h
+ /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/partition/partition_porting.c
+ /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/partition/partition_porting.h

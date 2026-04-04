@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/depend.make
@@ -59,16 +59,16 @@ include middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/flags.mak
 
 middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.obj: middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/flags.make
 middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.obj: ../../../../middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_ADAPT_ZDIAG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_ADAPT_ZDIAG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.c
 
 middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_ADAPT_ZDIAG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.c > CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_ADAPT_ZDIAG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.c > CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.i
 
 middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_ADAPT_ZDIAG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.c -o CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_ADAPT_ZDIAG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.c -o CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.s
 
 # Object files for target nv_zdiag_ws63
 nv_zdiag_ws63_OBJECTS = \
@@ -80,9 +80,9 @@ nv_zdiag_ws63_EXTERNAL_OBJECTS =
 middleware/chips/ws63/nv/nv_zdiag/libnv_zdiag_ws63.a: middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.obj
 middleware/chips/ws63/nv/nv_zdiag/libnv_zdiag_ws63.a: middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/build.make
 middleware/chips/ws63/nv/nv_zdiag/libnv_zdiag_ws63.a: middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libnv_zdiag_ws63.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag && $(CMAKE_COMMAND) -P CMakeFiles/nv_zdiag_ws63.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nv_zdiag_ws63.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libnv_zdiag_ws63.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag && $(CMAKE_COMMAND) -P CMakeFiles/nv_zdiag_ws63.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nv_zdiag_ws63.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/build: middleware/chips/ws63/nv/nv_zdiag/libnv_zdiag_ws63.a
@@ -90,10 +90,10 @@ middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/build: middleware
 .PHONY : middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/build
 
 middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag && $(CMAKE_COMMAND) -P CMakeFiles/nv_zdiag_ws63.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag && $(CMAKE_COMMAND) -P CMakeFiles/nv_zdiag_ws63.dir/cmake_clean.cmake
 .PHONY : middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/clean
 
 middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/depend
 

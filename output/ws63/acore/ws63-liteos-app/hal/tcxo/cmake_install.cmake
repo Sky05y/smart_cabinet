@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/tcxo
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/tcxo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

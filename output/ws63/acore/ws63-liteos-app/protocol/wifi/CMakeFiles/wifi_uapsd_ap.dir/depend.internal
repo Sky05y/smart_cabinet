@@ -458,5 +458,5 @@ protocol/wifi/CMakeFiles/wifi_uapsd_ap.dir/source/host/feature/hmac_uapsd.c.obj
  ../../../../protocol/wifi/source/host/wal/release/liteOS/wal_config.h
  ../../../../protocol/wifi/source/host/wal/release/liteOS/wal_event_msg.h
  ../../../../protocol/wifi/source/host/wal/release/liteOS/wal_main.h
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_uapsd.c
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_uapsd.h
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_uapsd.c
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_uapsd.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/depend.make
@@ -59,42 +59,42 @@ include drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/flag
 
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.obj: drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/flags.make
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.obj: ../../../../drivers/chips/ws63/porting/sfc/porting/sfc_porting.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting/sfc_porting.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting/sfc_porting.c
 
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting/sfc_porting.c > CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting/sfc_porting.c > CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.i
 
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting/sfc_porting.c -o CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting/sfc_porting.c -o CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.s
 
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.obj: drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/flags.make
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.obj: ../../../../drivers/chips/ws63/porting/sfc/porting/sfc_protect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PROTECT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting/sfc_protect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PROTECT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting/sfc_protect.c
 
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PROTECT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting/sfc_protect.c > CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PROTECT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting/sfc_protect.c > CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.i
 
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PROTECT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting/sfc_protect.c -o CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PROTECT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting/sfc_protect.c -o CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.s
 
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj: drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/flags.make
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj: ../../../../drivers/chips/ws63/porting/sfc/porting/sfc_protect_gd25q32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PROTECT_GD25Q32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting/sfc_protect_gd25q32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PROTECT_GD25Q32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting/sfc_protect_gd25q32.c
 
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PROTECT_GD25Q32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting/sfc_protect_gd25q32.c > CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PROTECT_GD25Q32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting/sfc_protect_gd25q32.c > CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.i
 
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PROTECT_GD25Q32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting/sfc_protect_gd25q32.c -o CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SFC_PROTECT_GD25Q32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting/sfc_protect_gd25q32.c -o CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.s
 
 # Object files for target sfc_port_ws63
 sfc_port_ws63_OBJECTS = \
@@ -110,9 +110,9 @@ drivers/chips/ws63/porting/sfc/porting/libsfc_port_ws63.a: drivers/chips/ws63/po
 drivers/chips/ws63/porting/sfc/porting/libsfc_port_ws63.a: drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj
 drivers/chips/ws63/porting/sfc/porting/libsfc_port_ws63.a: drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make
 drivers/chips/ws63/porting/sfc/porting/libsfc_port_ws63.a: drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libsfc_port_ws63.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && $(CMAKE_COMMAND) -P CMakeFiles/sfc_port_ws63.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfc_port_ws63.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libsfc_port_ws63.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && $(CMAKE_COMMAND) -P CMakeFiles/sfc_port_ws63.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfc_port_ws63.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build: drivers/chips/ws63/porting/sfc/porting/libsfc_port_ws63.a
@@ -120,10 +120,10 @@ drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build: drive
 .PHONY : drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build
 
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && $(CMAKE_COMMAND) -P CMakeFiles/sfc_port_ws63.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting && $(CMAKE_COMMAND) -P CMakeFiles/sfc_port_ws63.dir/cmake_clean.cmake
 .PHONY : drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/clean
 
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/depend
 

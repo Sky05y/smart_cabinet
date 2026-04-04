@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/sfc/porting/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/sfc/porting/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/sfc/porting/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/sfc/porting/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/sfc/porting/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/sfc/porting/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/sfc/porting/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/sfc/porting/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/sfc/porting/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/rule
 .PHONY : drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ sfc_port_ws63: drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.d
 
 # fast build rule for target.
 sfc_port_ws63/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build
 .PHONY : sfc_port_ws63/fast
 
 sfc_porting.obj: sfc_porting.c.obj
@@ -131,7 +131,7 @@ sfc_porting.obj: sfc_porting.c.obj
 
 # target to build an object file
 sfc_porting.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.obj
 .PHONY : sfc_porting.c.obj
 
 sfc_porting.i: sfc_porting.c.i
@@ -140,7 +140,7 @@ sfc_porting.i: sfc_porting.c.i
 
 # target to preprocess a source file
 sfc_porting.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.i
 .PHONY : sfc_porting.c.i
 
 sfc_porting.s: sfc_porting.c.s
@@ -149,7 +149,7 @@ sfc_porting.s: sfc_porting.c.s
 
 # target to generate assembly for a file
 sfc_porting.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.s
 .PHONY : sfc_porting.c.s
 
 sfc_protect.obj: sfc_protect.c.obj
@@ -158,7 +158,7 @@ sfc_protect.obj: sfc_protect.c.obj
 
 # target to build an object file
 sfc_protect.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.obj
 .PHONY : sfc_protect.c.obj
 
 sfc_protect.i: sfc_protect.c.i
@@ -167,7 +167,7 @@ sfc_protect.i: sfc_protect.c.i
 
 # target to preprocess a source file
 sfc_protect.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.i
 .PHONY : sfc_protect.c.i
 
 sfc_protect.s: sfc_protect.c.s
@@ -176,7 +176,7 @@ sfc_protect.s: sfc_protect.c.s
 
 # target to generate assembly for a file
 sfc_protect.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.s
 .PHONY : sfc_protect.c.s
 
 sfc_protect_gd25q32.obj: sfc_protect_gd25q32.c.obj
@@ -185,7 +185,7 @@ sfc_protect_gd25q32.obj: sfc_protect_gd25q32.c.obj
 
 # target to build an object file
 sfc_protect_gd25q32.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj
 .PHONY : sfc_protect_gd25q32.c.obj
 
 sfc_protect_gd25q32.i: sfc_protect_gd25q32.c.i
@@ -194,7 +194,7 @@ sfc_protect_gd25q32.i: sfc_protect_gd25q32.c.i
 
 # target to preprocess a source file
 sfc_protect_gd25q32.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.i
 .PHONY : sfc_protect_gd25q32.c.i
 
 sfc_protect_gd25q32.s: sfc_protect_gd25q32.c.s
@@ -203,7 +203,7 @@ sfc_protect_gd25q32.s: sfc_protect_gd25q32.c.s
 
 # target to generate assembly for a file
 sfc_protect_gd25q32.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/build.make drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.s
 .PHONY : sfc_protect_gd25q32.c.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

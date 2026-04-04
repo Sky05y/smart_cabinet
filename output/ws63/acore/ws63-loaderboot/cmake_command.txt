@@ -28,9 +28,9 @@ Unix Makefiles
 -DBUILD_PLATFORM=linux
 -DTARGET_COMMAND=ws63-loaderboot
 -DBUILD_LEVEL=normal
--DCMAKE_TOOLCHAIN_FILE=/home/bearpi/project/bearpi-pico_h3863/build/toolchains/riscv32_musl_105.cmake
+-DCMAKE_TOOLCHAIN_FILE=/home/bearpi/project/smart_cabinet-main/build/toolchains/riscv32_musl_105.cmake
 -DPY_PATH=/usr/bin/python3
-/home/bearpi/project/bearpi-pico_h3863
+/home/bearpi/project/smart_cabinet-main
 -DPRODUCT_TYPE=default
 -DROM_CHECK=False
 -DPKG_TARGET_NAME=ws63-loaderboot

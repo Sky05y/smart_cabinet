@@ -11,6 +11,7 @@
 #include "app_init.h"
 #include "pinctrl.h"
 #include "uart.h"
+#include "cmsis_os2.h"
 // #include "pm_clock.h"
 #include "sle_low_latency.h"
 
@@ -18,6 +19,8 @@
 #include "sle_connection_manager.h"
 #include "sle_ssap_client.h"
 #include "sle_uart_client.h"
+
+#include "mq_adc.h"
 
 #define SLE_UART_TASK_PRIO                  28
 #define SLE_UART_TASK_DURATION_MS           2000
@@ -121,14 +124,29 @@ static void *sle_uart_client_task(const char *arg)
 
 static void sle_uart_entry(void)
 {
-    osal_task *task_handle = NULL;
-    osal_kthread_lock();
-    task_handle = osal_kthread_create((osal_kthread_handler)sle_uart_client_task, 0, "SLEUartDongleTask",
-                                      SLE_UART_TASK_STACK_SIZE);
-    if (task_handle != NULL) {
-        osal_kthread_set_priority(task_handle, SLE_UART_TASK_PRIO);
+    osThreadAttr_t attr;
+
+    /************ 1. 创建 UART 任务 ************/
+    attr.name = "SLEUartTask";
+    attr.attr_bits = 0U;
+    attr.cb_mem = NULL;
+    attr.cb_size = 0U;
+    attr.stack_mem = NULL;
+    attr.stack_size = SLE_UART_TASK_STACK_SIZE;
+    attr.priority = SLE_UART_TASK_PRIO;
+
+    if (osThreadNew((osThreadFunc_t)sle_uart_client_task, NULL, &attr) == NULL) {
+        osal_printk("Create SLE UART task fail!\r\n");
     }
-    osal_kthread_unlock();
+
+    /************ 2. 创建 ADC 任务 ************/
+    attr.name = "MQADCTask";
+    attr.stack_size = MQ_ADC_TASK_STACK_SIZE;
+    attr.priority = MQ_ADC_TASK_PRIO;
+
+    if (osThreadNew((osThreadFunc_t)mq_adc_task, NULL, &attr) == NULL) {
+        osal_printk("Create MQ ADC task fail!\r\n");
+    }
 }
 
 /* Run the sle_uart_entry. */

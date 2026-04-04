@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/vectors.s
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/vectors.s
 

@@ -8,5 +8,5 @@ drivers/chips/ws63/dyn_mem/CMakeFiles/dyn_mem.dir/dyn_mem.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stddef.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/common_headers/chip_io.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/dyn_mem/dyn_mem.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/dyn_mem/dyn_mem.h
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/dyn_mem/dyn_mem.c
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/dyn_mem/dyn_mem.h

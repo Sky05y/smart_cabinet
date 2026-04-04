@@ -1038,37 +1038,37 @@ errcode.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/non_os_reboot.c
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/non_os_reboot.c
 non_os.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/non_os.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/non_os.h
 systick.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/systick.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/systick.h
 hal_reboot.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/hal_reboot.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/hal_reboot.h
 preserve.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/preserve.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/preserve.h
 ipc.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/ipc.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/ipc.h
 ipc.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/ipc.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/ipc.h
 ipc_porting.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/ipc_porting.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/ipc_porting.h
 watchdog.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/watchdog.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/watchdog.h
 non_os_reboot.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/non_os_reboot.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/non_os_reboot.h
 dfx_feature_config.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/dfx_feature_config.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/dfx_feature_config.h
 dfx_adapt_layer.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/dfx_adapt_layer.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/dfx_adapt_layer.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/non_os_reboot.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/non_os_reboot.h
 core.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/core.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/core.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/errcode.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/errcode.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/common_def.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/common_def.h
 ipc_actions.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/reboot/shared/ipc_actions.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/reboot/shared/ipc_actions.h
 

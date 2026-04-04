@@ -157,10 +157,10 @@ utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_common.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_file.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_flash.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_common.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_file.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_flash.h
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -323,9 +323,9 @@ utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_common.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_file.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_file.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_common.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_file.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_file.h
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -481,6 +481,6 @@ utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_common.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_flash.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_flash.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_common.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_flash.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_flash.h

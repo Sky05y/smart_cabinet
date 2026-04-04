@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_gpu_proc
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_gpu_proc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

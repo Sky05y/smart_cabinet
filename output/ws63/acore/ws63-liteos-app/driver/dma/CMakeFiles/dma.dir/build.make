@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include driver/dma/CMakeFiles/dma.dir/depend.make
@@ -59,16 +59,16 @@ include driver/dma/CMakeFiles/dma.dir/flags.make
 
 driver/dma/CMakeFiles/dma.dir/dma.c.obj: driver/dma/CMakeFiles/dma.dir/flags.make
 driver/dma/CMakeFiles/dma.dir/dma.c.obj: ../../../../drivers/drivers/driver/dma/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/dma/CMakeFiles/dma.dir/dma.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/dma && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DMA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma.dir/dma.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/dma/dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/dma/CMakeFiles/dma.dir/dma.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/dma && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DMA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma.dir/dma.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/dma/dma.c
 
 driver/dma/CMakeFiles/dma.dir/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dma.dir/dma.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/dma && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DMA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/dma/dma.c > CMakeFiles/dma.dir/dma.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/dma && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DMA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/dma/dma.c > CMakeFiles/dma.dir/dma.c.i
 
 driver/dma/CMakeFiles/dma.dir/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dma.dir/dma.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/dma && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DMA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/dma/dma.c -o CMakeFiles/dma.dir/dma.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/dma && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DMA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/dma/dma.c -o CMakeFiles/dma.dir/dma.c.s
 
 # Object files for target dma
 dma_OBJECTS = \
@@ -80,9 +80,9 @@ dma_EXTERNAL_OBJECTS =
 driver/dma/libdma.a: driver/dma/CMakeFiles/dma.dir/dma.c.obj
 driver/dma/libdma.a: driver/dma/CMakeFiles/dma.dir/build.make
 driver/dma/libdma.a: driver/dma/CMakeFiles/dma.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libdma.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/dma && $(CMAKE_COMMAND) -P CMakeFiles/dma.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/dma && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dma.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libdma.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/dma && $(CMAKE_COMMAND) -P CMakeFiles/dma.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/dma && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dma.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 driver/dma/CMakeFiles/dma.dir/build: driver/dma/libdma.a
@@ -90,10 +90,10 @@ driver/dma/CMakeFiles/dma.dir/build: driver/dma/libdma.a
 .PHONY : driver/dma/CMakeFiles/dma.dir/build
 
 driver/dma/CMakeFiles/dma.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/dma && $(CMAKE_COMMAND) -P CMakeFiles/dma.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/dma && $(CMAKE_COMMAND) -P CMakeFiles/dma.dir/cmake_clean.cmake
 .PHONY : driver/dma/CMakeFiles/dma.dir/clean
 
 driver/dma/CMakeFiles/dma.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/dma /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/dma /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/dma/CMakeFiles/dma.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/dma /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/dma /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/dma/CMakeFiles/dma.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : driver/dma/CMakeFiles/dma.dir/depend
 

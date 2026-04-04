@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,46 +34,46 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_audio_proc/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_audio_proc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_audio_dump/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_audio_dump/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_audio_probe/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_audio_probe/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_nv/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_nv/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_update/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_update/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_charger/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_charger/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_logfile/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_logfile/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_gpu_proc/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_gpu_proc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_audio_sample_data/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/diag_audio_sample_data/cmake_install.cmake")
 endif()
 

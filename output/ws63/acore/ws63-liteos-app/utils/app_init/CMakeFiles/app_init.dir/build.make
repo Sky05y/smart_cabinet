@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include utils/app_init/CMakeFiles/app_init.dir/depend.make
@@ -59,16 +59,16 @@ include utils/app_init/CMakeFiles/app_init.dir/flags.make
 
 utils/app_init/CMakeFiles/app_init.dir/app_init.c.obj: utils/app_init/CMakeFiles/app_init.dir/flags.make
 utils/app_init/CMakeFiles/app_init.dir/app_init.c.obj: ../../../../middleware/utils/app_init/app_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/app_init/CMakeFiles/app_init.dir/app_init.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/app_init && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_init.dir/app_init.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/app_init/app_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/app_init/CMakeFiles/app_init.dir/app_init.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/app_init && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_init.dir/app_init.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/app_init/app_init.c
 
 utils/app_init/CMakeFiles/app_init.dir/app_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_init.dir/app_init.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/app_init && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/app_init/app_init.c > CMakeFiles/app_init.dir/app_init.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/app_init && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/app_init/app_init.c > CMakeFiles/app_init.dir/app_init.c.i
 
 utils/app_init/CMakeFiles/app_init.dir/app_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_init.dir/app_init.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/app_init && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/app_init/app_init.c -o CMakeFiles/app_init.dir/app_init.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/app_init && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=APP_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/app_init/app_init.c -o CMakeFiles/app_init.dir/app_init.c.s
 
 # Object files for target app_init
 app_init_OBJECTS = \
@@ -80,9 +80,9 @@ app_init_EXTERNAL_OBJECTS =
 utils/app_init/libapp_init.a: utils/app_init/CMakeFiles/app_init.dir/app_init.c.obj
 utils/app_init/libapp_init.a: utils/app_init/CMakeFiles/app_init.dir/build.make
 utils/app_init/libapp_init.a: utils/app_init/CMakeFiles/app_init.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libapp_init.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/app_init && $(CMAKE_COMMAND) -P CMakeFiles/app_init.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/app_init && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app_init.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libapp_init.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/app_init && $(CMAKE_COMMAND) -P CMakeFiles/app_init.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/app_init && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app_init.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/app_init/CMakeFiles/app_init.dir/build: utils/app_init/libapp_init.a
@@ -90,10 +90,10 @@ utils/app_init/CMakeFiles/app_init.dir/build: utils/app_init/libapp_init.a
 .PHONY : utils/app_init/CMakeFiles/app_init.dir/build
 
 utils/app_init/CMakeFiles/app_init.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/app_init && $(CMAKE_COMMAND) -P CMakeFiles/app_init.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/app_init && $(CMAKE_COMMAND) -P CMakeFiles/app_init.dir/cmake_clean.cmake
 .PHONY : utils/app_init/CMakeFiles/app_init.dir/clean
 
 utils/app_init/CMakeFiles/app_init.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/middleware/utils/app_init /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/app_init /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/app_init/CMakeFiles/app_init.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/middleware/utils/app_init /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/app_init /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/app_init/CMakeFiles/app_init.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/app_init/CMakeFiles/app_init.dir/depend
 

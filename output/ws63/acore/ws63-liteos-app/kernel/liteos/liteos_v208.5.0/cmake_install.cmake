@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/kernel/liteos/liteos_v208.5.0
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/kernel/liteos/liteos_v208.5.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,41 +34,41 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/kernel/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/kernel/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/lib/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/drivers/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/drivers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/shell/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/shell/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/fs/cmake_install.cmake")
+  include("/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/fs/cmake_install.cmake")
 endif()
 

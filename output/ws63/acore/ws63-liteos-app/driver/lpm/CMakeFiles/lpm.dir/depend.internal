@@ -122,5 +122,5 @@ driver/lpm/CMakeFiles/lpm.dir/lpm_dev_ops.c.obj
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/lpm/lpm_dev_ops.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/lpm/lpm_dev_ops.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/lpm/lpm_dev_ops.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/lpm/lpm_dev_ops.h

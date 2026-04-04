@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/osal_adapt/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/osal_adapt/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/osal_adapt/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/osal_adapt/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/osal_adapt/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/osal_adapt/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/osal_adapt/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/osal_adapt/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kernel/osal_adapt/CMakeFiles/osal_adapt.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/osal_adapt/CMakeFiles/osal_adapt.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 kernel/osal_adapt/CMakeFiles/osal_adapt.dir/rule
 .PHONY : kernel/osal_adapt/CMakeFiles/osal_adapt.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ osal_adapt: kernel/osal_adapt/CMakeFiles/osal_adapt.dir/rule
 
 # fast build rule for target.
 osal_adapt/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build
 .PHONY : osal_adapt/fast
 
 src/osal_adapt_atomic.obj: src/osal_adapt_atomic.c.obj
@@ -131,7 +131,7 @@ src/osal_adapt_atomic.obj: src/osal_adapt_atomic.c.obj
 
 # target to build an object file
 src/osal_adapt_atomic.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_atomic.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_atomic.c.obj
 .PHONY : src/osal_adapt_atomic.c.obj
 
 src/osal_adapt_atomic.i: src/osal_adapt_atomic.c.i
@@ -140,7 +140,7 @@ src/osal_adapt_atomic.i: src/osal_adapt_atomic.c.i
 
 # target to preprocess a source file
 src/osal_adapt_atomic.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_atomic.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_atomic.c.i
 .PHONY : src/osal_adapt_atomic.c.i
 
 src/osal_adapt_atomic.s: src/osal_adapt_atomic.c.s
@@ -149,7 +149,7 @@ src/osal_adapt_atomic.s: src/osal_adapt_atomic.c.s
 
 # target to generate assembly for a file
 src/osal_adapt_atomic.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_atomic.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_atomic.c.s
 .PHONY : src/osal_adapt_atomic.c.s
 
 src/osal_adapt_debug.obj: src/osal_adapt_debug.c.obj
@@ -158,7 +158,7 @@ src/osal_adapt_debug.obj: src/osal_adapt_debug.c.obj
 
 # target to build an object file
 src/osal_adapt_debug.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_debug.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_debug.c.obj
 .PHONY : src/osal_adapt_debug.c.obj
 
 src/osal_adapt_debug.i: src/osal_adapt_debug.c.i
@@ -167,7 +167,7 @@ src/osal_adapt_debug.i: src/osal_adapt_debug.c.i
 
 # target to preprocess a source file
 src/osal_adapt_debug.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_debug.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_debug.c.i
 .PHONY : src/osal_adapt_debug.c.i
 
 src/osal_adapt_debug.s: src/osal_adapt_debug.c.s
@@ -176,7 +176,7 @@ src/osal_adapt_debug.s: src/osal_adapt_debug.c.s
 
 # target to generate assembly for a file
 src/osal_adapt_debug.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_debug.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_debug.c.s
 .PHONY : src/osal_adapt_debug.c.s
 
 src/osal_adapt_event.obj: src/osal_adapt_event.c.obj
@@ -185,7 +185,7 @@ src/osal_adapt_event.obj: src/osal_adapt_event.c.obj
 
 # target to build an object file
 src/osal_adapt_event.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_event.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_event.c.obj
 .PHONY : src/osal_adapt_event.c.obj
 
 src/osal_adapt_event.i: src/osal_adapt_event.c.i
@@ -194,7 +194,7 @@ src/osal_adapt_event.i: src/osal_adapt_event.c.i
 
 # target to preprocess a source file
 src/osal_adapt_event.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_event.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_event.c.i
 .PHONY : src/osal_adapt_event.c.i
 
 src/osal_adapt_event.s: src/osal_adapt_event.c.s
@@ -203,7 +203,7 @@ src/osal_adapt_event.s: src/osal_adapt_event.c.s
 
 # target to generate assembly for a file
 src/osal_adapt_event.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_event.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_event.c.s
 .PHONY : src/osal_adapt_event.c.s
 
 src/osal_adapt_string.obj: src/osal_adapt_string.c.obj
@@ -212,7 +212,7 @@ src/osal_adapt_string.obj: src/osal_adapt_string.c.obj
 
 # target to build an object file
 src/osal_adapt_string.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_string.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_string.c.obj
 .PHONY : src/osal_adapt_string.c.obj
 
 src/osal_adapt_string.i: src/osal_adapt_string.c.i
@@ -221,7 +221,7 @@ src/osal_adapt_string.i: src/osal_adapt_string.c.i
 
 # target to preprocess a source file
 src/osal_adapt_string.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_string.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_string.c.i
 .PHONY : src/osal_adapt_string.c.i
 
 src/osal_adapt_string.s: src/osal_adapt_string.c.s
@@ -230,7 +230,7 @@ src/osal_adapt_string.s: src/osal_adapt_string.c.s
 
 # target to generate assembly for a file
 src/osal_adapt_string.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_string.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_string.c.s
 .PHONY : src/osal_adapt_string.c.s
 
 src/osal_adapt_task.obj: src/osal_adapt_task.c.obj
@@ -239,7 +239,7 @@ src/osal_adapt_task.obj: src/osal_adapt_task.c.obj
 
 # target to build an object file
 src/osal_adapt_task.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_task.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_task.c.obj
 .PHONY : src/osal_adapt_task.c.obj
 
 src/osal_adapt_task.i: src/osal_adapt_task.c.i
@@ -248,7 +248,7 @@ src/osal_adapt_task.i: src/osal_adapt_task.c.i
 
 # target to preprocess a source file
 src/osal_adapt_task.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_task.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_task.c.i
 .PHONY : src/osal_adapt_task.c.i
 
 src/osal_adapt_task.s: src/osal_adapt_task.c.s
@@ -257,7 +257,7 @@ src/osal_adapt_task.s: src/osal_adapt_task.c.s
 
 # target to generate assembly for a file
 src/osal_adapt_task.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_task.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_task.c.s
 .PHONY : src/osal_adapt_task.c.s
 
 src/osal_adapt_timer.obj: src/osal_adapt_timer.c.obj
@@ -266,7 +266,7 @@ src/osal_adapt_timer.obj: src/osal_adapt_timer.c.obj
 
 # target to build an object file
 src/osal_adapt_timer.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_timer.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_timer.c.obj
 .PHONY : src/osal_adapt_timer.c.obj
 
 src/osal_adapt_timer.i: src/osal_adapt_timer.c.i
@@ -275,7 +275,7 @@ src/osal_adapt_timer.i: src/osal_adapt_timer.c.i
 
 # target to preprocess a source file
 src/osal_adapt_timer.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_timer.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_timer.c.i
 .PHONY : src/osal_adapt_timer.c.i
 
 src/osal_adapt_timer.s: src/osal_adapt_timer.c.s
@@ -284,7 +284,7 @@ src/osal_adapt_timer.s: src/osal_adapt_timer.c.s
 
 # target to generate assembly for a file
 src/osal_adapt_timer.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_timer.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f kernel/osal_adapt/CMakeFiles/osal_adapt.dir/build.make kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_timer.c.s
 .PHONY : src/osal_adapt_timer.c.s
 
 # Help Target
@@ -325,6 +325,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

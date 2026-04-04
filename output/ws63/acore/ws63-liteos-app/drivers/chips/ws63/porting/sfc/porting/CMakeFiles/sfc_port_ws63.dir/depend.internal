@@ -49,7 +49,7 @@ drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.
  ../../../../kernel/osal/include/time/osal_timer.h
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting/sfc_porting.c
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting/sfc_porting.c
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -190,7 +190,7 @@ drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting/sfc_protect.c
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting/sfc_protect.c
 drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -331,4 +331,4 @@ drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/sfc/porting/sfc_protect_gd25q32.c
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/sfc/porting/sfc_protect_gd25q32.c

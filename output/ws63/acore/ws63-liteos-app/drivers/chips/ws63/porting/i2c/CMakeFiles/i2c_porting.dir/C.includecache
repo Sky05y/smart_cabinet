@@ -852,29 +852,29 @@ stdint.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/i2c/i2c_porting.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/i2c/i2c_porting.c
 i2c_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/i2c/i2c_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/i2c/i2c_porting.h
 hal_i2c.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/i2c/hal_i2c.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/i2c/hal_i2c.h
 hal_i2c_v150.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/i2c/hal_i2c_v150.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/i2c/hal_i2c_v150.h
 hal_i2c_v150_comm.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/i2c/hal_i2c_v150_comm.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/i2c/hal_i2c_v150_comm.h
 pinctrl.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/i2c/pinctrl.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/i2c/pinctrl.h
 osal_interrupt.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/i2c/osal_interrupt.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/i2c/osal_interrupt.h
 chip_core_irq.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/i2c/chip_core_irq.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/i2c/chip_core_irq.h
 arch_port.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/i2c/arch_port.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/i2c/arch_port.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/i2c/i2c_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/i2c/i2c_porting.h
 stdint.h
 -
 stdbool.h
 -
 platform_core.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/i2c/platform_core.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/i2c/platform_core.h
 

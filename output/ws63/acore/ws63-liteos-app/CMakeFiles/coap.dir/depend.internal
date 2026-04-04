@@ -197,7 +197,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_address.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_address.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_address.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_async.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -394,7 +394,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_async.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_async.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_async.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_block.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -591,7 +591,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_block.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_block.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_block.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_cache.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -788,7 +788,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_cache.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_cache.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_cache.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_debug.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -985,7 +985,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_debug.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_debug.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_debug.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_dtls.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1182,7 +1182,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_dtls.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_dtls.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_dtls.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_encode.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1379,7 +1379,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_encode.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_encode.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_encode.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_hashkey.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1576,7 +1576,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_hashkey.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_hashkey.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_hashkey.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_io.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1776,7 +1776,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_io.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_io.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_io.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_io_lwip.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1989,7 +1989,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_io_lwip.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/tcpip.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/timeouts.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/udp.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_io_lwip.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_io_lwip.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_layers.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2186,7 +2186,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_layers.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_layers.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_layers.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_net.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2401,7 +2401,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_net.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/tcpip.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/timeouts.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/udp.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_net.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_net.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_netif.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2598,7 +2598,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_netif.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_netif.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_netif.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_notls.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2795,7 +2795,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_notls.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_notls.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_notls.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_option.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2992,7 +2992,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_option.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_option.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_option.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_pdu.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -3189,7 +3189,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_pdu.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_pdu.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_pdu.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_resource.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -3388,7 +3388,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_resource.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_resource.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_resource.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_session.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -3587,7 +3587,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_session.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_session.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_session.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_str.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -3784,7 +3784,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_str.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_str.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_str.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_subscribe.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -3981,7 +3981,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_subscribe.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_subscribe.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_subscribe.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_tcp.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -4178,7 +4178,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_tcp.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_tcp.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_tcp.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_uri.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -4375,7 +4375,7 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_uri.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_uri.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_uri.c
 CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_ws.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -4572,4 +4572,4 @@ CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_ws.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/libcoap/libcoap/src/coap_ws.c
+ /home/bearpi/project/smart_cabinet-main/open_source/libcoap/libcoap/src/coap_ws.c

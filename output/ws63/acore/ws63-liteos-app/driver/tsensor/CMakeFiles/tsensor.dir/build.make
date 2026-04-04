@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include driver/tsensor/CMakeFiles/tsensor.dir/depend.make
@@ -59,16 +59,16 @@ include driver/tsensor/CMakeFiles/tsensor.dir/flags.make
 
 driver/tsensor/CMakeFiles/tsensor.dir/tsensor.c.obj: driver/tsensor/CMakeFiles/tsensor.dir/flags.make
 driver/tsensor/CMakeFiles/tsensor.dir/tsensor.c.obj: ../../../../drivers/drivers/driver/tsensor/tsensor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/tsensor/CMakeFiles/tsensor.dir/tsensor.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/tsensor && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TSENSOR_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tsensor.dir/tsensor.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/tsensor/tsensor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/tsensor/CMakeFiles/tsensor.dir/tsensor.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/tsensor && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TSENSOR_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tsensor.dir/tsensor.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/tsensor/tsensor.c
 
 driver/tsensor/CMakeFiles/tsensor.dir/tsensor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tsensor.dir/tsensor.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/tsensor && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TSENSOR_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/tsensor/tsensor.c > CMakeFiles/tsensor.dir/tsensor.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/tsensor && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TSENSOR_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/tsensor/tsensor.c > CMakeFiles/tsensor.dir/tsensor.c.i
 
 driver/tsensor/CMakeFiles/tsensor.dir/tsensor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tsensor.dir/tsensor.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/tsensor && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TSENSOR_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/tsensor/tsensor.c -o CMakeFiles/tsensor.dir/tsensor.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/tsensor && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TSENSOR_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/tsensor/tsensor.c -o CMakeFiles/tsensor.dir/tsensor.c.s
 
 # Object files for target tsensor
 tsensor_OBJECTS = \
@@ -80,9 +80,9 @@ tsensor_EXTERNAL_OBJECTS =
 driver/tsensor/libtsensor.a: driver/tsensor/CMakeFiles/tsensor.dir/tsensor.c.obj
 driver/tsensor/libtsensor.a: driver/tsensor/CMakeFiles/tsensor.dir/build.make
 driver/tsensor/libtsensor.a: driver/tsensor/CMakeFiles/tsensor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libtsensor.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/tsensor && $(CMAKE_COMMAND) -P CMakeFiles/tsensor.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/tsensor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tsensor.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libtsensor.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/tsensor && $(CMAKE_COMMAND) -P CMakeFiles/tsensor.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/tsensor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tsensor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 driver/tsensor/CMakeFiles/tsensor.dir/build: driver/tsensor/libtsensor.a
@@ -90,10 +90,10 @@ driver/tsensor/CMakeFiles/tsensor.dir/build: driver/tsensor/libtsensor.a
 .PHONY : driver/tsensor/CMakeFiles/tsensor.dir/build
 
 driver/tsensor/CMakeFiles/tsensor.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/tsensor && $(CMAKE_COMMAND) -P CMakeFiles/tsensor.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/tsensor && $(CMAKE_COMMAND) -P CMakeFiles/tsensor.dir/cmake_clean.cmake
 .PHONY : driver/tsensor/CMakeFiles/tsensor.dir/clean
 
 driver/tsensor/CMakeFiles/tsensor.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/tsensor /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/tsensor /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/tsensor/CMakeFiles/tsensor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/tsensor /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/tsensor /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/tsensor/CMakeFiles/tsensor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : driver/tsensor/CMakeFiles/tsensor.dir/depend
 

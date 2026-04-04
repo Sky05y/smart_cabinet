@@ -54,15 +54,15 @@ bits/alltypes.h
 bits/stdint.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/pmp/pmp.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/pmp/pmp.c
 stdint.h
 -
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/pmp/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/pmp/common_def.h
 hal_pmp.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/pmp/hal_pmp.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/pmp/hal_pmp.h
 pmp_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/pmp/pmp_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/pmp/pmp_porting.h
 drv_pmp.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/pmp/drv_pmp.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/pmp/drv_pmp.h
 

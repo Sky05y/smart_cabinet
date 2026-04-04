@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include utils/dfx/CMakeFiles/log_file.dir/depend.make
@@ -59,42 +59,42 @@ include utils/dfx/CMakeFiles/log_file.dir/flags.make
 
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.obj: utils/dfx/CMakeFiles/log_file.dir/flags.make
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.obj: ../../../../middleware/utils/dfx/log_file/log_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/log_file.dir/log_file/log_file.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/log_file.dir/log_file/log_file.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file.c
 
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/log_file.dir/log_file/log_file.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file.c > CMakeFiles/log_file.dir/log_file/log_file.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file.c > CMakeFiles/log_file.dir/log_file/log_file.c.i
 
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/log_file.dir/log_file/log_file.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file.c -o CMakeFiles/log_file.dir/log_file/log_file.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file.c -o CMakeFiles/log_file.dir/log_file/log_file.c.s
 
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj: utils/dfx/CMakeFiles/log_file.dir/flags.make
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj: ../../../../middleware/utils/dfx/log_file/log_file_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_FILE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/log_file.dir/log_file/log_file_file.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_FILE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/log_file.dir/log_file/log_file_file.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_file.c
 
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/log_file.dir/log_file/log_file_file.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_FILE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_file.c > CMakeFiles/log_file.dir/log_file/log_file_file.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_FILE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_file.c > CMakeFiles/log_file.dir/log_file/log_file_file.c.i
 
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/log_file.dir/log_file/log_file_file.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_FILE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_file.c -o CMakeFiles/log_file.dir/log_file/log_file_file.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_FILE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_file.c -o CMakeFiles/log_file.dir/log_file/log_file_file.c.s
 
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj: utils/dfx/CMakeFiles/log_file.dir/flags.make
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj: ../../../../middleware/utils/dfx/log_file/log_file_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_flash.c
 
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/log_file.dir/log_file/log_file_flash.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_flash.c > CMakeFiles/log_file.dir/log_file/log_file_flash.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_flash.c > CMakeFiles/log_file.dir/log_file/log_file_flash.c.i
 
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/log_file.dir/log_file/log_file_flash.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/log_file/log_file_flash.c -o CMakeFiles/log_file.dir/log_file/log_file_flash.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOG_FILE_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/log_file/log_file_flash.c -o CMakeFiles/log_file.dir/log_file/log_file_flash.c.s
 
 # Object files for target log_file
 log_file_OBJECTS = \
@@ -110,9 +110,9 @@ utils/dfx/liblog_file.a: utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_fil
 utils/dfx/liblog_file.a: utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj
 utils/dfx/liblog_file.a: utils/dfx/CMakeFiles/log_file.dir/build.make
 utils/dfx/liblog_file.a: utils/dfx/CMakeFiles/log_file.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library liblog_file.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx && $(CMAKE_COMMAND) -P CMakeFiles/log_file.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/log_file.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library liblog_file.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx && $(CMAKE_COMMAND) -P CMakeFiles/log_file.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/log_file.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/dfx/CMakeFiles/log_file.dir/build: utils/dfx/liblog_file.a
@@ -120,10 +120,10 @@ utils/dfx/CMakeFiles/log_file.dir/build: utils/dfx/liblog_file.a
 .PHONY : utils/dfx/CMakeFiles/log_file.dir/build
 
 utils/dfx/CMakeFiles/log_file.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx && $(CMAKE_COMMAND) -P CMakeFiles/log_file.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx && $(CMAKE_COMMAND) -P CMakeFiles/log_file.dir/cmake_clean.cmake
 .PHONY : utils/dfx/CMakeFiles/log_file.dir/clean
 
 utils/dfx/CMakeFiles/log_file.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/CMakeFiles/log_file.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/CMakeFiles/log_file.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/dfx/CMakeFiles/log_file.dir/depend
 

@@ -62,21 +62,21 @@ stddef.h
 stdbool.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/sio/hal_sio.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/sio/hal_sio.c
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/sio/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/sio/common_def.h
 hal_sio.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/sio/hal_sio.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/sio/hal_sio.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/sio/hal_sio.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/sio/hal_sio.h
 stdint.h
 -
 stdbool.h
 -
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/sio/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/sio/common_def.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/sio/errcode.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/sio/errcode.h
 sio_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/sio/sio_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/sio/sio_porting.h
 

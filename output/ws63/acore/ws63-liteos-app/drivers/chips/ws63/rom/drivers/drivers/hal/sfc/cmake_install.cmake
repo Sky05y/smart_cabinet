@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/rom/drivers/drivers/hal/sfc
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/rom/drivers/drivers/hal/sfc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

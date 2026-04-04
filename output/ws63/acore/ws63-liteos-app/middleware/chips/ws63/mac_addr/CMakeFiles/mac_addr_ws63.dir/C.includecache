@@ -830,27 +830,27 @@ product.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/mac_addr.c
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/mac_addr.c
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/securec.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/securec.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/errcode.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/errcode.h
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/soc_osal.h
 osal_timer.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/osal_timer.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/osal_timer.h
 debug_print.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/debug_print.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/debug_print.h
 trng.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/trng.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/trng.h
 nv.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/nv.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/nv.h
 efuse.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/efuse.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/efuse.h
 efuse_porting.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/efuse_porting.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/efuse_porting.h
 mac_addr.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/mac_addr.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/mac_addr.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/mac_addr.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/mac_addr.h
 

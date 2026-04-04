@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/partition
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/partition
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

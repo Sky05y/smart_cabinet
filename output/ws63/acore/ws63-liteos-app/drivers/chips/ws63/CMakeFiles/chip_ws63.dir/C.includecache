@@ -656,103 +656,103 @@ product.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/arch_encoding.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/arch_encoding.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/flash_patch.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/flash_patch.c
 chip_io.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/chip_io.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/chip_io.h
 arch_barrier.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/arch_barrier.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/arch_barrier.h
 flash_patch.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/flash_patch.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/flash_patch.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/flash_patch.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/flash_patch.h
 stdint.h
 -
 stdbool.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/interrupt.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/interrupt.c
 chip_io.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/chip_io.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/chip_io.h
 arch_encoding.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/arch_encoding.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/arch_encoding.h
 vectors.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/vectors.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/vectors.h
 arch_barrier.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/arch_barrier.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/arch_barrier.h
 interrupt_handler.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/interrupt_handler.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/interrupt_handler.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/interrupt_handler.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/interrupt_handler.c
 interrupt_handler.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/interrupt_handler.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/interrupt_handler.h
 vectors.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/vectors.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/vectors.h
 arch_encoding.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/arch_encoding.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/arch_encoding.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/interrupt_handler.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/interrupt_handler.h
 stdint.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/oam_trace.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/oam_trace.c
 oam_trace.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/oam_trace.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/oam_trace.h
 print_config.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/print_config.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/print_config.h
 arch_encoding.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/arch_encoding.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/arch_encoding.h
 arch_trace.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/arch_trace.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/arch_trace.h
 memory_config.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/memory_config.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/memory_config.h
 share_mem_config.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/share_mem_config.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/share_mem_config.h
 arch/exception.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/arch/exception.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/arch/exception.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/oam_trace.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/oam_trace.h
 stdint.h
 -
 arch/exception.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/arch/exception.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/arch/exception.h
 stdbool.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/stdbool.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/stdbool.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/interrupt/interrupt_adapter.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/interrupt/interrupt_adapter.c
 stdint.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/interrupt/stdint.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/interrupt/stdint.h
 chip_core_irq.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/interrupt/chip_core_irq.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/interrupt/chip_core_irq.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/interrupt/interrupt_os_adapter.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/interrupt/interrupt_os_adapter.c
 stdint.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/interrupt/stdint.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/interrupt/stdint.h
 chip_core_irq.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/interrupt/chip_core_irq.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/interrupt/chip_core_irq.h
 los_hwi.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/interrupt/los_hwi.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/interrupt/los_hwi.h
 FreeRTOS.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/interrupt/FreeRTOS.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/interrupt/FreeRTOS.h
 hwi.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/interrupt/hwi.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/interrupt/hwi.h
 hwi_irq.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/interrupt/hwi_irq.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/interrupt/hwi_irq.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/vectors/vectors.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/vectors/vectors.c
 vectors.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/vectors/vectors.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/vectors/vectors.h
 debug_print.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/vectors/debug_print.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/vectors/debug_print.h
 arch_encoding.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/vectors/arch_encoding.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/vectors/arch_encoding.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/vectors/vectors.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/vectors/vectors.h
 stdint.h
 -
 core.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/vectors/core.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/vectors/core.h
 interrupt_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/vectors/interrupt_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/vectors/interrupt_porting.h
 

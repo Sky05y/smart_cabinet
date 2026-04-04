@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/kernel/liteos/ohos_adapt
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/kernel/liteos/ohos_adapt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

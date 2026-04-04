@@ -15,8 +15,8 @@ hal/gpio/CMakeFiles/hal_gpio_v150.dir/hal_gpio.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/platform_types.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/hal_gpio.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/hal_gpio.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/hal_gpio.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/hal_gpio.h
 hal/gpio/CMakeFiles/hal_gpio_v150.dir/v150/hal_gpio_v150.c.obj
  ../../../../drivers/chips/ws63/include/chip_core_definition.h
  ../../../../drivers/chips/ws63/include/platform_core.h
@@ -115,11 +115,11 @@ hal/gpio/CMakeFiles/hal_gpio_v150.dir/v150/hal_gpio_v150.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_op.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_def.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_op.h
 hal/gpio/CMakeFiles/hal_gpio_v150.dir/v150/hal_gpio_v150_comm.c.obj
  ../../../../drivers/chips/ws63/include/chip_core_definition.h
  ../../../../drivers/chips/ws63/include/platform_core.h
@@ -246,11 +246,11 @@ hal/gpio/CMakeFiles/hal_gpio_v150.dir/v150/hal_gpio_v150_comm.c.obj
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_op.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm_def.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_def.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_op.h
 hal/gpio/CMakeFiles/hal_gpio_v150.dir/v150/hal_gpio_v150_regs_op.c.obj
  ../../../../drivers/chips/ws63/include/chip_core_definition.h
  ../../../../drivers/chips/ws63/include/platform_core.h
@@ -264,6 +264,6 @@ hal/gpio/CMakeFiles/hal_gpio_v150.dir/v150/hal_gpio_v150_regs_op.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/platform_types.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_op.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_op.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_def.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_op.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_op.h

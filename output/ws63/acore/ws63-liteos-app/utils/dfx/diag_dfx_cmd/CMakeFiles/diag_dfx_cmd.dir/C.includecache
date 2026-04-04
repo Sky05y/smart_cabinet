@@ -960,31 +960,31 @@ errcode.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c
 diag_dfx_cmd_init.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.h
 dfx_adapt_layer.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/dfx_adapt_layer.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/dfx_adapt_layer.h
 diag_update.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_update.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_update.h
 zdiag_nv.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/zdiag_nv.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/zdiag_nv.h
 zdiag_charger.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/zdiag_charger.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/zdiag_charger.h
 zdiag_audio_proc.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/zdiag_audio_proc.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/zdiag_audio_proc.h
 zdiag_audio_dump.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/zdiag_audio_dump.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/zdiag_audio_dump.h
 zdiag_audio_probe.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/zdiag_audio_probe.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/zdiag_audio_probe.h
 diag_gpu_proc.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_gpu_proc.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_gpu_proc.h
 diag_audio_sample_data.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_audio_sample_data.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_audio_sample_data.h
 diag_cmd_logflash_test.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_cmd_logflash_test.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_cmd_logflash_test.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/errcode.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/errcode.h
 

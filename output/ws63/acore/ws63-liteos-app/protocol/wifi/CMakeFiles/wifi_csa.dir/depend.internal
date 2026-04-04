@@ -456,8 +456,8 @@ protocol/wifi/CMakeFiles/wifi_csa.dir/source/host/feature/hmac_csa_ap.c.obj
  ../../../../protocol/wifi/source/host/wal/release/liteOS/wal_config.h
  ../../../../protocol/wifi/source/host/wal/release/liteOS/wal_event_msg.h
  ../../../../protocol/wifi/source/host/wal/release/liteOS/wal_main.h
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_csa_ap.c
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_csa_ap.h
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_csa_ap.c
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_csa_ap.h
 protocol/wifi/CMakeFiles/wifi_csa.dir/source/host/feature/hmac_csa_sta.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -915,5 +915,5 @@ protocol/wifi/CMakeFiles/wifi_csa.dir/source/host/feature/hmac_csa_sta.c.obj
  ../../../../protocol/wifi/source/host/inc/oal/oal_types.h
  ../../../../protocol/wifi/source/host/inc/oal/oal_util_hcm.h
  ../../../../protocol/wifi/source/host/inc/wlan_mib_hcm.h
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_csa_sta.c
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_csa_sta.h
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_csa_sta.c
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_csa_sta.h

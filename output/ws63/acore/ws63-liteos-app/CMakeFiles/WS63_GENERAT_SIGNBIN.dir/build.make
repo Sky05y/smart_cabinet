@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Utility rule file for WS63_GENERAT_SIGNBIN.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63
 include CMakeFiles/WS63_GENERAT_SIGNBIN.dir/progress.make
 
 CMakeFiles/WS63_GENERAT_SIGNBIN:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "ws63 image sign"
-	/usr/bin/python3 /home/bearpi/project/bearpi-pico_h3863/build/config/target_config/ws63/sign_config/params_and_bin_sign.py ws63-liteos-app
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "ws63 image sign"
+	/usr/bin/python3 /home/bearpi/project/smart_cabinet-main/build/config/target_config/ws63/sign_config/params_and_bin_sign.py ws63-liteos-app
 
 WS63_GENERAT_SIGNBIN: CMakeFiles/WS63_GENERAT_SIGNBIN
 WS63_GENERAT_SIGNBIN: CMakeFiles/WS63_GENERAT_SIGNBIN.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/WS63_GENERAT_SIGNBIN.dir/clean:
 .PHONY : CMakeFiles/WS63_GENERAT_SIGNBIN.dir/clean
 
 CMakeFiles/WS63_GENERAT_SIGNBIN.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles/WS63_GENERAT_SIGNBIN.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles/WS63_GENERAT_SIGNBIN.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/WS63_GENERAT_SIGNBIN.dir/depend
 

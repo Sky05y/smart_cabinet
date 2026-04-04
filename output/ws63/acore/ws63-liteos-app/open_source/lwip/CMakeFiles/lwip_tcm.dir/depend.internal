@@ -198,7 +198,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_adapter/liteos_207/src/arch/sys_ar
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_adapter/liteos_207/src/arch/sys_arch.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_adapter/liteos_207/src/arch/sys_arch.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_lib.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -429,7 +429,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_lib.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/tcpip.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/timeouts.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/udp.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/api/api_lib.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/api/api_lib.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_msg.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -663,7 +663,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_msg.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/udp.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/etharp.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/ethernet.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/api/api_msg.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/api/api_msg.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/netbuf.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -867,7 +867,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/netbuf.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/prot/ieee.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/api/netbuf.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/api/netbuf.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/sockets.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1120,10 +1120,10 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/sockets.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/etharp.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/ethernet.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/ifaddrs.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/api/api_lib.c
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/api/api_msg.c
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/api/netbuf.c
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/api/sockets.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/api/api_lib.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/api/api_msg.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/api/netbuf.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/api/sockets.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/tcpip.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1340,7 +1340,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/tcpip.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/tcpip.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/timeouts.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/ethernet.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/api/tcpip.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/api/tcpip.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/inet_chksum.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1464,7 +1464,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/inet_chksum.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/ip_addr.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/opt.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/pbuf.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/inet_chksum.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/inet_chksum.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1672,7 +1672,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/prot/ip6.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/ip.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/ip.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip_addr.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1794,7 +1794,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip_addr.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/ip6_zone.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/ip_addr.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/opt.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/ip_addr.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/ip_addr.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/etharp.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2017,7 +2017,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/etharp.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/udp.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/ethernet.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/ipv4/etharp.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/ipv4/etharp.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2251,7 +2251,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/tcp.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/tcpbase.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/udp.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/ipv4/ip4.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/ipv4/ip4.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_addr.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2452,7 +2452,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_addr.c.ob
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/prot/ieee.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/ipv4/ip4_addr.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/ipv4/ip4_addr.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_frag.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2667,7 +2667,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_frag.c.ob
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/prot/ip6.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/ipv4/ip4_frag.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/ipv4/ip4_frag.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/mem.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2865,7 +2865,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/mem.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/priv/memp_std.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/mem.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/mem.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/memp.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -3110,7 +3110,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/memp.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/tcpip.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/timeouts.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/udp.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/memp.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/memp.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/netif.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -3369,7 +3369,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/netif.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/etharp.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/ethernet.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/ifaddrs.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/netif.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/netif.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/pbuf.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -3622,7 +3622,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/pbuf.c.obj
  ../../../../protocol/wifi/rom_code/ws63/source/inc/romable/common_error_code_rom.h
  ../../../../protocol/wifi/rom_code/ws63/source/inc/romable/device_common/oal_types_device_rom.h
  ../../../../protocol/wifi/rom_code/ws63/source/inc/romable/oal_net_pkt_rom.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/pbuf.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/pbuf.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/raw.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -3842,7 +3842,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/raw.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/raw.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/raw.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/raw.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/tcp.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -4071,7 +4071,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/tcp.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/tcpbase.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/tcpip.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/timeouts.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/tcp.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/tcp.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/udp.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -4291,7 +4291,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/udp.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/udp.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/core/udp.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/core/udp.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/driverif.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -4513,7 +4513,7 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/driverif.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/driverif.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/etharp.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/ethernet.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/netif/driverif.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/netif/driverif.c
 open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/ethernet.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -4729,4 +4729,4 @@ open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/ethernet.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/netif/ethernet.h
- /home/bearpi/project/bearpi-pico_h3863/open_source/lwip/lwip_v2.1.3/src/netif/ethernet.c
+ /home/bearpi/project/smart_cabinet-main/open_source/lwip/lwip_v2.1.3/src/netif/ethernet.c

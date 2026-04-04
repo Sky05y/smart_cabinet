@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2c
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

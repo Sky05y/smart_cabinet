@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/vectors.s" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/vectors.s.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/vectors.s" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/vectors.s.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -352,8 +352,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../../../../protocol/bt/host/bt/sdk/../include/common/L0"
   "../../../../protocol/bt/host/bt/sdk/../include/ble"
   "../../../../protocol/bt/host/bt/sdk/../include/ble/L0"
-  "../../../../application/samples/ws63_server/include"
-  "../../../../application/samples/ws63_server/sle_uart_server"
+  "../../../../application/samples/ws63_client/include"
+  "../../../../application/samples/ws63_client/sle_uart_client"
   "../../../../include/middleware/services/bts/ble"
   "../../../../include/middleware/services/bts/br"
   "../../../../include/middleware/services/bts/common"
@@ -453,13 +453,13 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../../../../drivers/chips/ws63/rom/drivers/chips/ws63/porting/version"
   )
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/flash_patch.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/flash_patch.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/interrupt.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/interrupt.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/interrupt_handler.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/interrupt_handler.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/arch/riscv/riscv31/oam_trace.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/oam_trace.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/interrupt/interrupt_adapter.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/interrupt/interrupt_adapter.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/interrupt/interrupt_os_adapter.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/interrupt/interrupt_os_adapter.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/vectors/vectors.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/vectors/vectors.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/flash_patch.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/flash_patch.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/interrupt.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/interrupt.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/interrupt_handler.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/interrupt_handler.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/arch/riscv/riscv31/oam_trace.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/oam_trace.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/interrupt/interrupt_adapter.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/interrupt/interrupt_adapter.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/interrupt/interrupt_os_adapter.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/interrupt/interrupt_os_adapter.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/vectors/vectors.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/CMakeFiles/chip_ws63.dir/vectors/vectors.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -808,8 +808,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../../../protocol/bt/host/bt/sdk/../include/common/L0"
   "../../../../protocol/bt/host/bt/sdk/../include/ble"
   "../../../../protocol/bt/host/bt/sdk/../include/ble/L0"
-  "../../../../application/samples/ws63_server/include"
-  "../../../../application/samples/ws63_server/sle_uart_server"
+  "../../../../application/samples/ws63_client/include"
+  "../../../../application/samples/ws63_client/sle_uart_client"
   "../../../../include/middleware/services/bts/ble"
   "../../../../include/middleware/services/bts/br"
   "../../../../include/middleware/services/bts/common"

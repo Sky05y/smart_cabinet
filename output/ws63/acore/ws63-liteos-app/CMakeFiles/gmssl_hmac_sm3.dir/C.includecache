@@ -58,7 +58,7 @@ string.h
 stdint.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/open_source/GmSSL3.0/src/sm3.c
+/home/bearpi/project/smart_cabinet-main/open_source/GmSSL3.0/src/sm3.c
 string.h
 -
 gmssl/sm3.h
@@ -72,7 +72,7 @@ x86intrin.h
 immintrin.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/open_source/GmSSL3.0/src/sm3_hmac.c
+/home/bearpi/project/smart_cabinet-main/open_source/GmSSL3.0/src/sm3_hmac.c
 string.h
 -
 gmssl/sm3.h

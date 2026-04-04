@@ -34,19 +34,19 @@ bits/stdint.h
 
 ../../../../middleware/chips/ws63/partition/include/partition_resource_id.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/partition/partition_porting.c
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/partition/partition_porting.c
 stdint.h
 -
 stddef.h
 -
 partition.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/partition/partition.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/partition/partition.h
 partition_porting.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/partition/partition_porting.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/partition/partition_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/partition/partition_porting.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/partition/partition_porting.h
 partition_resource_id.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/partition/partition_resource_id.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/partition/partition_resource_id.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/partition/errcode.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/partition/errcode.h
 

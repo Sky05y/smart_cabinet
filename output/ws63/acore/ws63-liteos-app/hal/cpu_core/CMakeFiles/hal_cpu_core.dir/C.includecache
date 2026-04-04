@@ -44,15 +44,15 @@ stddef.h
 stdbool.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/cpu_core/hal_cpu_core.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/cpu_core/hal_cpu_core.c
 hal_cpu_core.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/cpu_core/hal_cpu_core.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/cpu_core/hal_cpu_core.h
 platform_core.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/cpu_core/platform_core.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/cpu_core/platform_core.h
 chip_io.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/cpu_core/chip_io.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/cpu_core/chip_io.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/cpu_core/hal_cpu_core.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/cpu_core/hal_cpu_core.h
 stdbool.h
 -
 

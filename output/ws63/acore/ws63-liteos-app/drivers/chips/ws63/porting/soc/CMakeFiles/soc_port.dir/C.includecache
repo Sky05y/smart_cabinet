@@ -178,21 +178,21 @@ los_typedef.h
 product.h
 ../../../../middleware/utils/common_headers/product.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/soc/soc_porting.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/soc/soc_porting.c
 soc_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/soc/soc_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/soc/soc_porting.h
 chip_io.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/soc/chip_io.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/soc/chip_io.h
 watchdog_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/soc/watchdog_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/soc/watchdog_porting.h
 tcxo_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/soc/tcxo_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/soc/tcxo_porting.h
 uart_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/soc/uart_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/soc/uart_porting.h
 tcxo.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/soc/tcxo.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/soc/tcxo.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/soc/soc_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/soc/soc_porting.h
 stdint.h
 -
 stdbool.h

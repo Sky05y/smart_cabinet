@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Utility rule file for GENERAT_MEM.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63
 include CMakeFiles/GENERAT_MEM.dir/progress.make
 
 CMakeFiles/GENERAT_MEM: ws63-liteos-app.elf
-	/usr/bin/python3 /home/bearpi/project/bearpi-pico_h3863/build/script/utils/elftodu.py /home/bearpi/project/bearpi-pico_h3863 ws63-liteos-app.elf /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-nm > ws63-liteos-app.du
-	/usr/bin/python3 /home/bearpi/project/bearpi-pico_h3863/build/script/utils/mem_stats.py ws63-liteos-app.lst ws63-liteos-app.du /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/linker.lds ws63 > ws63-liteos-app.mem
+	/usr/bin/python3 /home/bearpi/project/smart_cabinet-main/build/script/utils/elftodu.py /home/bearpi/project/smart_cabinet-main ws63-liteos-app.elf /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-nm > ws63-liteos-app.du
+	/usr/bin/python3 /home/bearpi/project/smart_cabinet-main/build/script/utils/mem_stats.py ws63-liteos-app.lst ws63-liteos-app.du /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/linker.lds ws63 > ws63-liteos-app.mem
 
 GENERAT_MEM: CMakeFiles/GENERAT_MEM
 GENERAT_MEM: CMakeFiles/GENERAT_MEM.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/GENERAT_MEM.dir/clean:
 .PHONY : CMakeFiles/GENERAT_MEM.dir/clean
 
 CMakeFiles/GENERAT_MEM.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles/GENERAT_MEM.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles/GENERAT_MEM.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GENERAT_MEM.dir/depend
 

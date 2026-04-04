@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include hal/i2c/CMakeFiles/hal_i2c.dir/depend.make
@@ -59,68 +59,68 @@ include hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 
 hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj: ../../../../drivers/drivers/hal/i2c/hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/hal_i2c.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/hal_i2c.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/hal_i2c.c
 
 hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_i2c.dir/hal_i2c.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/hal_i2c.c > CMakeFiles/hal_i2c.dir/hal_i2c.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/hal_i2c.c > CMakeFiles/hal_i2c.dir/hal_i2c.c.i
 
 hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_i2c.dir/hal_i2c.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/hal_i2c.c -o CMakeFiles/hal_i2c.dir/hal_i2c.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/hal_i2c.c -o CMakeFiles/hal_i2c.dir/hal_i2c.c.s
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.obj: ../../../../drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_MASTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_MASTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_MASTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c > CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_MASTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c > CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.i
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_MASTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_MASTER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.s
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.obj: ../../../../drivers/drivers/hal/i2c/v150/hal_i2c_v150.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150.c
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150.c > CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150.c > CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.i
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150.c -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150.c -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.s
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.obj: ../../../../drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c > CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c > CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.i
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_COMM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.s
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.obj: hal/i2c/CMakeFiles/hal_i2c.dir/flags.make
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.obj: ../../../../drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c > CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c > CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.i
 
 hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_I2C_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c -o CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.s
 
 # Object files for target hal_i2c
 hal_i2c_OBJECTS = \
@@ -140,9 +140,9 @@ hal/i2c/libhal_i2c.a: hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.ob
 hal/i2c/libhal_i2c.a: hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.obj
 hal/i2c/libhal_i2c.a: hal/i2c/CMakeFiles/hal_i2c.dir/build.make
 hal/i2c/libhal_i2c.a: hal/i2c/CMakeFiles/hal_i2c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libhal_i2c.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && $(CMAKE_COMMAND) -P CMakeFiles/hal_i2c.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_i2c.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libhal_i2c.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && $(CMAKE_COMMAND) -P CMakeFiles/hal_i2c.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_i2c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hal/i2c/CMakeFiles/hal_i2c.dir/build: hal/i2c/libhal_i2c.a
@@ -150,10 +150,10 @@ hal/i2c/CMakeFiles/hal_i2c.dir/build: hal/i2c/libhal_i2c.a
 .PHONY : hal/i2c/CMakeFiles/hal_i2c.dir/build
 
 hal/i2c/CMakeFiles/hal_i2c.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c && $(CMAKE_COMMAND) -P CMakeFiles/hal_i2c.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c && $(CMAKE_COMMAND) -P CMakeFiles/hal_i2c.dir/cmake_clean.cmake
 .PHONY : hal/i2c/CMakeFiles/hal_i2c.dir/clean
 
 hal/i2c/CMakeFiles/hal_i2c.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c/CMakeFiles/hal_i2c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c/CMakeFiles/hal_i2c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hal/i2c/CMakeFiles/hal_i2c.dir/depend
 

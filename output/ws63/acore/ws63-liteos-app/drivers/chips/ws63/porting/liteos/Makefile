@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/liteos/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/liteos/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/liteos/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/liteos/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/liteos/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/liteos/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/liteos/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/liteos/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/rule
 .PHONY : drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ liteos_port: drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/rule
 
 # fast build rule for target.
 liteos_port/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build
 .PHONY : liteos_port/fast
 
 riscv31/idle_config.obj: riscv31/idle_config.c.obj
@@ -131,7 +131,7 @@ riscv31/idle_config.obj: riscv31/idle_config.c.obj
 
 # target to build an object file
 riscv31/idle_config.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.obj
 .PHONY : riscv31/idle_config.c.obj
 
 riscv31/idle_config.i: riscv31/idle_config.c.i
@@ -140,7 +140,7 @@ riscv31/idle_config.i: riscv31/idle_config.c.i
 
 # target to preprocess a source file
 riscv31/idle_config.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.i
 .PHONY : riscv31/idle_config.c.i
 
 riscv31/idle_config.s: riscv31/idle_config.c.s
@@ -149,7 +149,7 @@ riscv31/idle_config.s: riscv31/idle_config.c.s
 
 # target to generate assembly for a file
 riscv31/idle_config.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.s
 .PHONY : riscv31/idle_config.c.s
 
 riscv31/tick_timer.obj: riscv31/tick_timer.c.obj
@@ -158,7 +158,7 @@ riscv31/tick_timer.obj: riscv31/tick_timer.c.obj
 
 # target to build an object file
 riscv31/tick_timer.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.obj
 .PHONY : riscv31/tick_timer.c.obj
 
 riscv31/tick_timer.i: riscv31/tick_timer.c.i
@@ -167,7 +167,7 @@ riscv31/tick_timer.i: riscv31/tick_timer.c.i
 
 # target to preprocess a source file
 riscv31/tick_timer.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.i
 .PHONY : riscv31/tick_timer.c.i
 
 riscv31/tick_timer.s: riscv31/tick_timer.c.s
@@ -176,7 +176,7 @@ riscv31/tick_timer.s: riscv31/tick_timer.c.s
 
 # target to generate assembly for a file
 riscv31/tick_timer.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.s
 .PHONY : riscv31/tick_timer.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

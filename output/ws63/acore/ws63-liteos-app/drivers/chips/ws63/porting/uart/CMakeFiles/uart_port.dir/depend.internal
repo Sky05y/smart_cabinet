@@ -186,5 +186,5 @@ drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/uart_porting.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/uart/uart_porting.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/uart/uart_porting.h
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/uart/uart_porting.c
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/uart/uart_porting.h

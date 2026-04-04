@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/depend.make
@@ -59,16 +59,16 @@ include utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/flags.make
 
 utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj: utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/flags.make
 utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj: ../../../../middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DIAG_DFX_CMD_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DIAG_DFX_CMD_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c
 
 utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DIAG_DFX_CMD_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c > CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DIAG_DFX_CMD_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c > CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.i
 
 utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DIAG_DFX_CMD_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c -o CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DIAG_DFX_CMD_INIT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c -o CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.s
 
 # Object files for target diag_dfx_cmd
 diag_dfx_cmd_OBJECTS = \
@@ -80,9 +80,9 @@ diag_dfx_cmd_EXTERNAL_OBJECTS =
 utils/dfx/diag_dfx_cmd/libdiag_dfx_cmd.a: utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj
 utils/dfx/diag_dfx_cmd/libdiag_dfx_cmd.a: utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/build.make
 utils/dfx/diag_dfx_cmd/libdiag_dfx_cmd.a: utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libdiag_dfx_cmd.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd && $(CMAKE_COMMAND) -P CMakeFiles/diag_dfx_cmd.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/diag_dfx_cmd.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libdiag_dfx_cmd.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd && $(CMAKE_COMMAND) -P CMakeFiles/diag_dfx_cmd.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/diag_dfx_cmd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/build: utils/dfx/diag_dfx_cmd/libdiag_dfx_cmd.a
@@ -90,10 +90,10 @@ utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/build: utils/dfx/diag_dfx_cmd
 .PHONY : utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/build
 
 utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd && $(CMAKE_COMMAND) -P CMakeFiles/diag_dfx_cmd.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd && $(CMAKE_COMMAND) -P CMakeFiles/diag_dfx_cmd.dir/cmake_clean.cmake
 .PHONY : utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/clean
 
 utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/depend
 

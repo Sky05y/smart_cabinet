@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/pmp
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/pmp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

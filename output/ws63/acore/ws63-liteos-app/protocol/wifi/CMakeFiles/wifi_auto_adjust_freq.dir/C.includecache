@@ -3624,23 +3624,23 @@ wlan_types_common.h
 wlan_mib_type.h
 ../../../../protocol/wifi/source/host/inc/wlan_mib_type.h
 
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.c
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.c
 hmac_auto_adjust_freq.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.h
 hmac_blockack.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_blockack.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_blockack.h
 hmac_psm_sta.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_psm_sta.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_psm_sta.h
 soc_lowpower.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/soc_lowpower.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/soc_lowpower.h
 pm_extern.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/pm_extern.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/pm_extern.h
 hmac_feature_interface.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_feature_interface.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_feature_interface.h
 hmac_ccpriv.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_ccpriv.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_ccpriv.h
 
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.h
 hmac_device.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_device.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_device.h
 

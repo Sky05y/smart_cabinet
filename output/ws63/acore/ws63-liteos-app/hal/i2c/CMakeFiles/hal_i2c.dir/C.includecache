@@ -778,101 +778,101 @@ stdint.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/hal_i2c.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/hal_i2c.c
 hal_i2c.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/hal_i2c.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/hal_i2c.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/hal_i2c.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/hal_i2c.h
 stdint.h
 -
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/errcode.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/errcode.h
 i2c_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/i2c_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/i2c_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150.c
 hal_i2c.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c.h
 hal_i2c_v150_master.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.h
 hal_i2c_v150.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150.h
 stdint.h
 -
 hal_i2c.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/common_def.h
 hal_i2c.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c.h
 hal_i2c_v150_regs_op.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.h
 hal_i2c_v150_comm.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.h
 stdint.h
 -
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/common_def.h
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/soc_osal.h
 hal_i2c.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c.h
 hal_i2c_v150_regs_op.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c
 stdint.h
 -
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/securec.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/securec.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/common_def.h
 i2c_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/i2c_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/i2c_porting.h
 hal_i2c.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c.h
 hal_i2c_v150_comm.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.h
 hal_i2c_v150_master.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.h
 stdint.h
 -
 hal_i2c.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c.h
 hal_i2c_v150_comm.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_def.h
 stdint.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c
 stdint.h
 -
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/common_def.h
 i2c_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/i2c_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/i2c_porting.h
 hal_i2c_v150_regs_op.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.h
 stdint.h
 -
 stdbool.h
 -
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/soc_osal.h
 hal_i2c_v150_regs_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_def.h
 i2c_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/i2c_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/i2c_porting.h
 

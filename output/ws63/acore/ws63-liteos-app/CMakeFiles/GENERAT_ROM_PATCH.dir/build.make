@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Utility rule file for GENERAT_ROM_PATCH.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63
 include CMakeFiles/GENERAT_ROM_PATCH.dir/progress.make
 
 CMakeFiles/GENERAT_ROM_PATCH:
-	/usr/bin/python3 /home/bearpi/project/bearpi-pico_h3863/build/script/patch/patch_riscv.py ws63-liteos-app.bin ws63-liteos-app_rom.bin ws63-liteos-app.nm /home/bearpi/project/bearpi-pico_h3863/build/config/target_config/ws63/patch_config acore ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+	/usr/bin/python3 /home/bearpi/project/smart_cabinet-main/build/script/patch/patch_riscv.py ws63-liteos-app.bin ws63-liteos-app_rom.bin ws63-liteos-app.nm /home/bearpi/project/smart_cabinet-main/build/config/target_config/ws63/patch_config acore ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 GENERAT_ROM_PATCH: CMakeFiles/GENERAT_ROM_PATCH
 GENERAT_ROM_PATCH: CMakeFiles/GENERAT_ROM_PATCH.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/GENERAT_ROM_PATCH.dir/clean:
 .PHONY : CMakeFiles/GENERAT_ROM_PATCH.dir/clean
 
 CMakeFiles/GENERAT_ROM_PATCH.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles/GENERAT_ROM_PATCH.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles/GENERAT_ROM_PATCH.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GENERAT_ROM_PATCH.dir/depend
 

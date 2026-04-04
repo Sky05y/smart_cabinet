@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_porting/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/nv/nv_porting/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_porting/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/nv/nv_porting/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/nv/nv_porting/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/nv/nv_porting/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/nv/nv_porting/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/nv/nv_porting/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/nv/nv_porting/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/nv/nv_porting/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/rule
 .PHONY : middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ nv_ws63: middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/rule
 
 # fast build rule for target.
 nv_ws63/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/build.make middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/build.make middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/build
 .PHONY : nv_ws63/fast
 
 nv_flash.obj: nv_flash.c.obj
@@ -131,7 +131,7 @@ nv_flash.obj: nv_flash.c.obj
 
 # target to build an object file
 nv_flash.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/build.make middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/nv_flash.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/build.make middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/nv_flash.c.obj
 .PHONY : nv_flash.c.obj
 
 nv_flash.i: nv_flash.c.i
@@ -140,7 +140,7 @@ nv_flash.i: nv_flash.c.i
 
 # target to preprocess a source file
 nv_flash.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/build.make middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/nv_flash.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/build.make middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/nv_flash.c.i
 .PHONY : nv_flash.c.i
 
 nv_flash.s: nv_flash.c.s
@@ -149,7 +149,7 @@ nv_flash.s: nv_flash.c.s
 
 # target to generate assembly for a file
 nv_flash.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/build.make middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/nv_flash.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/build.make middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/nv_flash.c.s
 .PHONY : nv_flash.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

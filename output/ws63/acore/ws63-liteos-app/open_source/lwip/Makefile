@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/open_source/lwip/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/lwip/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/open_source/lwip/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/lwip/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/lwip/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/lwip/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/lwip/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/lwip/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/lwip/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/lwip/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 open_source/lwip/CMakeFiles/lwip_tcm.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/lwip/CMakeFiles/lwip_tcm.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/lwip/CMakeFiles/lwip_tcm.dir/rule
 .PHONY : open_source/lwip/CMakeFiles/lwip_tcm.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ lwip_tcm: open_source/lwip/CMakeFiles/lwip_tcm.dir/rule
 
 # fast build rule for target.
 lwip_tcm/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/build
 .PHONY : lwip_tcm/fast
 
 # Convenience name for target.
 open_source/lwip/CMakeFiles/lwip.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/lwip/CMakeFiles/lwip.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/lwip/CMakeFiles/lwip.dir/rule
 .PHONY : open_source/lwip/CMakeFiles/lwip.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ lwip: open_source/lwip/CMakeFiles/lwip.dir/rule
 
 # fast build rule for target.
 lwip/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/build
 .PHONY : lwip/fast
 
 lwip_adapter/liteos_207/src/arch/sys_arch.obj: lwip_adapter/liteos_207/src/arch/sys_arch.c.obj
@@ -146,7 +146,7 @@ lwip_adapter/liteos_207/src/arch/sys_arch.obj: lwip_adapter/liteos_207/src/arch/
 
 # target to build an object file
 lwip_adapter/liteos_207/src/arch/sys_arch.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_adapter/liteos_207/src/arch/sys_arch.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_adapter/liteos_207/src/arch/sys_arch.c.obj
 .PHONY : lwip_adapter/liteos_207/src/arch/sys_arch.c.obj
 
 lwip_adapter/liteos_207/src/arch/sys_arch.i: lwip_adapter/liteos_207/src/arch/sys_arch.c.i
@@ -155,7 +155,7 @@ lwip_adapter/liteos_207/src/arch/sys_arch.i: lwip_adapter/liteos_207/src/arch/sy
 
 # target to preprocess a source file
 lwip_adapter/liteos_207/src/arch/sys_arch.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_adapter/liteos_207/src/arch/sys_arch.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_adapter/liteos_207/src/arch/sys_arch.c.i
 .PHONY : lwip_adapter/liteos_207/src/arch/sys_arch.c.i
 
 lwip_adapter/liteos_207/src/arch/sys_arch.s: lwip_adapter/liteos_207/src/arch/sys_arch.c.s
@@ -164,7 +164,7 @@ lwip_adapter/liteos_207/src/arch/sys_arch.s: lwip_adapter/liteos_207/src/arch/sy
 
 # target to generate assembly for a file
 lwip_adapter/liteos_207/src/arch/sys_arch.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_adapter/liteos_207/src/arch/sys_arch.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_adapter/liteos_207/src/arch/sys_arch.c.s
 .PHONY : lwip_adapter/liteos_207/src/arch/sys_arch.c.s
 
 lwip_v2.1.3/src/api/api_lib.obj: lwip_v2.1.3/src/api/api_lib.c.obj
@@ -173,7 +173,7 @@ lwip_v2.1.3/src/api/api_lib.obj: lwip_v2.1.3/src/api/api_lib.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/api_lib.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_lib.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_lib.c.obj
 .PHONY : lwip_v2.1.3/src/api/api_lib.c.obj
 
 lwip_v2.1.3/src/api/api_lib.i: lwip_v2.1.3/src/api/api_lib.c.i
@@ -182,7 +182,7 @@ lwip_v2.1.3/src/api/api_lib.i: lwip_v2.1.3/src/api/api_lib.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/api_lib.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_lib.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_lib.c.i
 .PHONY : lwip_v2.1.3/src/api/api_lib.c.i
 
 lwip_v2.1.3/src/api/api_lib.s: lwip_v2.1.3/src/api/api_lib.c.s
@@ -191,7 +191,7 @@ lwip_v2.1.3/src/api/api_lib.s: lwip_v2.1.3/src/api/api_lib.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/api_lib.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_lib.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_lib.c.s
 .PHONY : lwip_v2.1.3/src/api/api_lib.c.s
 
 lwip_v2.1.3/src/api/api_msg.obj: lwip_v2.1.3/src/api/api_msg.c.obj
@@ -200,7 +200,7 @@ lwip_v2.1.3/src/api/api_msg.obj: lwip_v2.1.3/src/api/api_msg.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/api_msg.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_msg.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_msg.c.obj
 .PHONY : lwip_v2.1.3/src/api/api_msg.c.obj
 
 lwip_v2.1.3/src/api/api_msg.i: lwip_v2.1.3/src/api/api_msg.c.i
@@ -209,7 +209,7 @@ lwip_v2.1.3/src/api/api_msg.i: lwip_v2.1.3/src/api/api_msg.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/api_msg.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_msg.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_msg.c.i
 .PHONY : lwip_v2.1.3/src/api/api_msg.c.i
 
 lwip_v2.1.3/src/api/api_msg.s: lwip_v2.1.3/src/api/api_msg.c.s
@@ -218,7 +218,7 @@ lwip_v2.1.3/src/api/api_msg.s: lwip_v2.1.3/src/api/api_msg.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/api_msg.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_msg.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_msg.c.s
 .PHONY : lwip_v2.1.3/src/api/api_msg.c.s
 
 lwip_v2.1.3/src/api/err.obj: lwip_v2.1.3/src/api/err.c.obj
@@ -227,7 +227,7 @@ lwip_v2.1.3/src/api/err.obj: lwip_v2.1.3/src/api/err.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/err.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/err.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/err.c.obj
 .PHONY : lwip_v2.1.3/src/api/err.c.obj
 
 lwip_v2.1.3/src/api/err.i: lwip_v2.1.3/src/api/err.c.i
@@ -236,7 +236,7 @@ lwip_v2.1.3/src/api/err.i: lwip_v2.1.3/src/api/err.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/err.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/err.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/err.c.i
 .PHONY : lwip_v2.1.3/src/api/err.c.i
 
 lwip_v2.1.3/src/api/err.s: lwip_v2.1.3/src/api/err.c.s
@@ -245,7 +245,7 @@ lwip_v2.1.3/src/api/err.s: lwip_v2.1.3/src/api/err.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/err.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/err.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/err.c.s
 .PHONY : lwip_v2.1.3/src/api/err.c.s
 
 lwip_v2.1.3/src/api/ethtool.obj: lwip_v2.1.3/src/api/ethtool.c.obj
@@ -254,7 +254,7 @@ lwip_v2.1.3/src/api/ethtool.obj: lwip_v2.1.3/src/api/ethtool.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/ethtool.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/ethtool.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/ethtool.c.obj
 .PHONY : lwip_v2.1.3/src/api/ethtool.c.obj
 
 lwip_v2.1.3/src/api/ethtool.i: lwip_v2.1.3/src/api/ethtool.c.i
@@ -263,7 +263,7 @@ lwip_v2.1.3/src/api/ethtool.i: lwip_v2.1.3/src/api/ethtool.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/ethtool.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/ethtool.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/ethtool.c.i
 .PHONY : lwip_v2.1.3/src/api/ethtool.c.i
 
 lwip_v2.1.3/src/api/ethtool.s: lwip_v2.1.3/src/api/ethtool.c.s
@@ -272,7 +272,7 @@ lwip_v2.1.3/src/api/ethtool.s: lwip_v2.1.3/src/api/ethtool.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/ethtool.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/ethtool.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/ethtool.c.s
 .PHONY : lwip_v2.1.3/src/api/ethtool.c.s
 
 lwip_v2.1.3/src/api/if_api.obj: lwip_v2.1.3/src/api/if_api.c.obj
@@ -281,7 +281,7 @@ lwip_v2.1.3/src/api/if_api.obj: lwip_v2.1.3/src/api/if_api.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/if_api.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/if_api.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/if_api.c.obj
 .PHONY : lwip_v2.1.3/src/api/if_api.c.obj
 
 lwip_v2.1.3/src/api/if_api.i: lwip_v2.1.3/src/api/if_api.c.i
@@ -290,7 +290,7 @@ lwip_v2.1.3/src/api/if_api.i: lwip_v2.1.3/src/api/if_api.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/if_api.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/if_api.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/if_api.c.i
 .PHONY : lwip_v2.1.3/src/api/if_api.c.i
 
 lwip_v2.1.3/src/api/if_api.s: lwip_v2.1.3/src/api/if_api.c.s
@@ -299,7 +299,7 @@ lwip_v2.1.3/src/api/if_api.s: lwip_v2.1.3/src/api/if_api.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/if_api.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/if_api.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/if_api.c.s
 .PHONY : lwip_v2.1.3/src/api/if_api.c.s
 
 lwip_v2.1.3/src/api/l3event.obj: lwip_v2.1.3/src/api/l3event.c.obj
@@ -308,7 +308,7 @@ lwip_v2.1.3/src/api/l3event.obj: lwip_v2.1.3/src/api/l3event.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/l3event.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/l3event.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/l3event.c.obj
 .PHONY : lwip_v2.1.3/src/api/l3event.c.obj
 
 lwip_v2.1.3/src/api/l3event.i: lwip_v2.1.3/src/api/l3event.c.i
@@ -317,7 +317,7 @@ lwip_v2.1.3/src/api/l3event.i: lwip_v2.1.3/src/api/l3event.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/l3event.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/l3event.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/l3event.c.i
 .PHONY : lwip_v2.1.3/src/api/l3event.c.i
 
 lwip_v2.1.3/src/api/l3event.s: lwip_v2.1.3/src/api/l3event.c.s
@@ -326,7 +326,7 @@ lwip_v2.1.3/src/api/l3event.s: lwip_v2.1.3/src/api/l3event.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/l3event.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/l3event.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/l3event.c.s
 .PHONY : lwip_v2.1.3/src/api/l3event.c.s
 
 lwip_v2.1.3/src/api/nat64_api.obj: lwip_v2.1.3/src/api/nat64_api.c.obj
@@ -335,7 +335,7 @@ lwip_v2.1.3/src/api/nat64_api.obj: lwip_v2.1.3/src/api/nat64_api.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/nat64_api.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nat64_api.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nat64_api.c.obj
 .PHONY : lwip_v2.1.3/src/api/nat64_api.c.obj
 
 lwip_v2.1.3/src/api/nat64_api.i: lwip_v2.1.3/src/api/nat64_api.c.i
@@ -344,7 +344,7 @@ lwip_v2.1.3/src/api/nat64_api.i: lwip_v2.1.3/src/api/nat64_api.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/nat64_api.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nat64_api.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nat64_api.c.i
 .PHONY : lwip_v2.1.3/src/api/nat64_api.c.i
 
 lwip_v2.1.3/src/api/nat64_api.s: lwip_v2.1.3/src/api/nat64_api.c.s
@@ -353,7 +353,7 @@ lwip_v2.1.3/src/api/nat64_api.s: lwip_v2.1.3/src/api/nat64_api.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/nat64_api.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nat64_api.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nat64_api.c.s
 .PHONY : lwip_v2.1.3/src/api/nat64_api.c.s
 
 lwip_v2.1.3/src/api/netbuf.obj: lwip_v2.1.3/src/api/netbuf.c.obj
@@ -362,7 +362,7 @@ lwip_v2.1.3/src/api/netbuf.obj: lwip_v2.1.3/src/api/netbuf.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/netbuf.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/netbuf.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/netbuf.c.obj
 .PHONY : lwip_v2.1.3/src/api/netbuf.c.obj
 
 lwip_v2.1.3/src/api/netbuf.i: lwip_v2.1.3/src/api/netbuf.c.i
@@ -371,7 +371,7 @@ lwip_v2.1.3/src/api/netbuf.i: lwip_v2.1.3/src/api/netbuf.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/netbuf.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/netbuf.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/netbuf.c.i
 .PHONY : lwip_v2.1.3/src/api/netbuf.c.i
 
 lwip_v2.1.3/src/api/netbuf.s: lwip_v2.1.3/src/api/netbuf.c.s
@@ -380,7 +380,7 @@ lwip_v2.1.3/src/api/netbuf.s: lwip_v2.1.3/src/api/netbuf.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/netbuf.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/netbuf.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/netbuf.c.s
 .PHONY : lwip_v2.1.3/src/api/netbuf.c.s
 
 lwip_v2.1.3/src/api/netdb.obj: lwip_v2.1.3/src/api/netdb.c.obj
@@ -389,7 +389,7 @@ lwip_v2.1.3/src/api/netdb.obj: lwip_v2.1.3/src/api/netdb.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/netdb.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netdb.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netdb.c.obj
 .PHONY : lwip_v2.1.3/src/api/netdb.c.obj
 
 lwip_v2.1.3/src/api/netdb.i: lwip_v2.1.3/src/api/netdb.c.i
@@ -398,7 +398,7 @@ lwip_v2.1.3/src/api/netdb.i: lwip_v2.1.3/src/api/netdb.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/netdb.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netdb.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netdb.c.i
 .PHONY : lwip_v2.1.3/src/api/netdb.c.i
 
 lwip_v2.1.3/src/api/netdb.s: lwip_v2.1.3/src/api/netdb.c.s
@@ -407,7 +407,7 @@ lwip_v2.1.3/src/api/netdb.s: lwip_v2.1.3/src/api/netdb.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/netdb.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netdb.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netdb.c.s
 .PHONY : lwip_v2.1.3/src/api/netdb.c.s
 
 lwip_v2.1.3/src/api/netifapi.obj: lwip_v2.1.3/src/api/netifapi.c.obj
@@ -416,7 +416,7 @@ lwip_v2.1.3/src/api/netifapi.obj: lwip_v2.1.3/src/api/netifapi.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/netifapi.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netifapi.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netifapi.c.obj
 .PHONY : lwip_v2.1.3/src/api/netifapi.c.obj
 
 lwip_v2.1.3/src/api/netifapi.i: lwip_v2.1.3/src/api/netifapi.c.i
@@ -425,7 +425,7 @@ lwip_v2.1.3/src/api/netifapi.i: lwip_v2.1.3/src/api/netifapi.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/netifapi.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netifapi.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netifapi.c.i
 .PHONY : lwip_v2.1.3/src/api/netifapi.c.i
 
 lwip_v2.1.3/src/api/netifapi.s: lwip_v2.1.3/src/api/netifapi.c.s
@@ -434,7 +434,7 @@ lwip_v2.1.3/src/api/netifapi.s: lwip_v2.1.3/src/api/netifapi.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/netifapi.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netifapi.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netifapi.c.s
 .PHONY : lwip_v2.1.3/src/api/netifapi.c.s
 
 lwip_v2.1.3/src/api/nettool/ifconfig.obj: lwip_v2.1.3/src/api/nettool/ifconfig.c.obj
@@ -443,7 +443,7 @@ lwip_v2.1.3/src/api/nettool/ifconfig.obj: lwip_v2.1.3/src/api/nettool/ifconfig.c
 
 # target to build an object file
 lwip_v2.1.3/src/api/nettool/ifconfig.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ifconfig.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ifconfig.c.obj
 .PHONY : lwip_v2.1.3/src/api/nettool/ifconfig.c.obj
 
 lwip_v2.1.3/src/api/nettool/ifconfig.i: lwip_v2.1.3/src/api/nettool/ifconfig.c.i
@@ -452,7 +452,7 @@ lwip_v2.1.3/src/api/nettool/ifconfig.i: lwip_v2.1.3/src/api/nettool/ifconfig.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/nettool/ifconfig.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ifconfig.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ifconfig.c.i
 .PHONY : lwip_v2.1.3/src/api/nettool/ifconfig.c.i
 
 lwip_v2.1.3/src/api/nettool/ifconfig.s: lwip_v2.1.3/src/api/nettool/ifconfig.c.s
@@ -461,7 +461,7 @@ lwip_v2.1.3/src/api/nettool/ifconfig.s: lwip_v2.1.3/src/api/nettool/ifconfig.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/nettool/ifconfig.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ifconfig.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ifconfig.c.s
 .PHONY : lwip_v2.1.3/src/api/nettool/ifconfig.c.s
 
 lwip_v2.1.3/src/api/nettool/misc.obj: lwip_v2.1.3/src/api/nettool/misc.c.obj
@@ -470,7 +470,7 @@ lwip_v2.1.3/src/api/nettool/misc.obj: lwip_v2.1.3/src/api/nettool/misc.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/nettool/misc.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/misc.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/misc.c.obj
 .PHONY : lwip_v2.1.3/src/api/nettool/misc.c.obj
 
 lwip_v2.1.3/src/api/nettool/misc.i: lwip_v2.1.3/src/api/nettool/misc.c.i
@@ -479,7 +479,7 @@ lwip_v2.1.3/src/api/nettool/misc.i: lwip_v2.1.3/src/api/nettool/misc.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/nettool/misc.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/misc.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/misc.c.i
 .PHONY : lwip_v2.1.3/src/api/nettool/misc.c.i
 
 lwip_v2.1.3/src/api/nettool/misc.s: lwip_v2.1.3/src/api/nettool/misc.c.s
@@ -488,7 +488,7 @@ lwip_v2.1.3/src/api/nettool/misc.s: lwip_v2.1.3/src/api/nettool/misc.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/nettool/misc.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/misc.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/misc.c.s
 .PHONY : lwip_v2.1.3/src/api/nettool/misc.c.s
 
 lwip_v2.1.3/src/api/nettool/netstat.obj: lwip_v2.1.3/src/api/nettool/netstat.c.obj
@@ -497,7 +497,7 @@ lwip_v2.1.3/src/api/nettool/netstat.obj: lwip_v2.1.3/src/api/nettool/netstat.c.o
 
 # target to build an object file
 lwip_v2.1.3/src/api/nettool/netstat.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/netstat.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/netstat.c.obj
 .PHONY : lwip_v2.1.3/src/api/nettool/netstat.c.obj
 
 lwip_v2.1.3/src/api/nettool/netstat.i: lwip_v2.1.3/src/api/nettool/netstat.c.i
@@ -506,7 +506,7 @@ lwip_v2.1.3/src/api/nettool/netstat.i: lwip_v2.1.3/src/api/nettool/netstat.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/nettool/netstat.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/netstat.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/netstat.c.i
 .PHONY : lwip_v2.1.3/src/api/nettool/netstat.c.i
 
 lwip_v2.1.3/src/api/nettool/netstat.s: lwip_v2.1.3/src/api/nettool/netstat.c.s
@@ -515,7 +515,7 @@ lwip_v2.1.3/src/api/nettool/netstat.s: lwip_v2.1.3/src/api/nettool/netstat.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/nettool/netstat.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/netstat.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/netstat.c.s
 .PHONY : lwip_v2.1.3/src/api/nettool/netstat.c.s
 
 lwip_v2.1.3/src/api/nettool/ping.obj: lwip_v2.1.3/src/api/nettool/ping.c.obj
@@ -524,7 +524,7 @@ lwip_v2.1.3/src/api/nettool/ping.obj: lwip_v2.1.3/src/api/nettool/ping.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/nettool/ping.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ping.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ping.c.obj
 .PHONY : lwip_v2.1.3/src/api/nettool/ping.c.obj
 
 lwip_v2.1.3/src/api/nettool/ping.i: lwip_v2.1.3/src/api/nettool/ping.c.i
@@ -533,7 +533,7 @@ lwip_v2.1.3/src/api/nettool/ping.i: lwip_v2.1.3/src/api/nettool/ping.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/nettool/ping.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ping.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ping.c.i
 .PHONY : lwip_v2.1.3/src/api/nettool/ping.c.i
 
 lwip_v2.1.3/src/api/nettool/ping.s: lwip_v2.1.3/src/api/nettool/ping.c.s
@@ -542,7 +542,7 @@ lwip_v2.1.3/src/api/nettool/ping.s: lwip_v2.1.3/src/api/nettool/ping.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/nettool/ping.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ping.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ping.c.s
 .PHONY : lwip_v2.1.3/src/api/nettool/ping.c.s
 
 lwip_v2.1.3/src/api/nettool/utility.obj: lwip_v2.1.3/src/api/nettool/utility.c.obj
@@ -551,7 +551,7 @@ lwip_v2.1.3/src/api/nettool/utility.obj: lwip_v2.1.3/src/api/nettool/utility.c.o
 
 # target to build an object file
 lwip_v2.1.3/src/api/nettool/utility.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/utility.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/utility.c.obj
 .PHONY : lwip_v2.1.3/src/api/nettool/utility.c.obj
 
 lwip_v2.1.3/src/api/nettool/utility.i: lwip_v2.1.3/src/api/nettool/utility.c.i
@@ -560,7 +560,7 @@ lwip_v2.1.3/src/api/nettool/utility.i: lwip_v2.1.3/src/api/nettool/utility.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/nettool/utility.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/utility.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/utility.c.i
 .PHONY : lwip_v2.1.3/src/api/nettool/utility.c.i
 
 lwip_v2.1.3/src/api/nettool/utility.s: lwip_v2.1.3/src/api/nettool/utility.c.s
@@ -569,7 +569,7 @@ lwip_v2.1.3/src/api/nettool/utility.s: lwip_v2.1.3/src/api/nettool/utility.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/nettool/utility.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/utility.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/utility.c.s
 .PHONY : lwip_v2.1.3/src/api/nettool/utility.c.s
 
 lwip_v2.1.3/src/api/sockets.obj: lwip_v2.1.3/src/api/sockets.c.obj
@@ -578,7 +578,7 @@ lwip_v2.1.3/src/api/sockets.obj: lwip_v2.1.3/src/api/sockets.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/sockets.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/sockets.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/sockets.c.obj
 .PHONY : lwip_v2.1.3/src/api/sockets.c.obj
 
 lwip_v2.1.3/src/api/sockets.i: lwip_v2.1.3/src/api/sockets.c.i
@@ -587,7 +587,7 @@ lwip_v2.1.3/src/api/sockets.i: lwip_v2.1.3/src/api/sockets.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/sockets.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/sockets.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/sockets.c.i
 .PHONY : lwip_v2.1.3/src/api/sockets.c.i
 
 lwip_v2.1.3/src/api/sockets.s: lwip_v2.1.3/src/api/sockets.c.s
@@ -596,7 +596,7 @@ lwip_v2.1.3/src/api/sockets.s: lwip_v2.1.3/src/api/sockets.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/sockets.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/sockets.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/sockets.c.s
 .PHONY : lwip_v2.1.3/src/api/sockets.c.s
 
 lwip_v2.1.3/src/api/tcpip.obj: lwip_v2.1.3/src/api/tcpip.c.obj
@@ -605,7 +605,7 @@ lwip_v2.1.3/src/api/tcpip.obj: lwip_v2.1.3/src/api/tcpip.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/api/tcpip.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/tcpip.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/tcpip.c.obj
 .PHONY : lwip_v2.1.3/src/api/tcpip.c.obj
 
 lwip_v2.1.3/src/api/tcpip.i: lwip_v2.1.3/src/api/tcpip.c.i
@@ -614,7 +614,7 @@ lwip_v2.1.3/src/api/tcpip.i: lwip_v2.1.3/src/api/tcpip.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/api/tcpip.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/tcpip.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/tcpip.c.i
 .PHONY : lwip_v2.1.3/src/api/tcpip.c.i
 
 lwip_v2.1.3/src/api/tcpip.s: lwip_v2.1.3/src/api/tcpip.c.s
@@ -623,7 +623,7 @@ lwip_v2.1.3/src/api/tcpip.s: lwip_v2.1.3/src/api/tcpip.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/api/tcpip.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/tcpip.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/tcpip.c.s
 .PHONY : lwip_v2.1.3/src/api/tcpip.c.s
 
 lwip_v2.1.3/src/core/altcp.obj: lwip_v2.1.3/src/core/altcp.c.obj
@@ -632,7 +632,7 @@ lwip_v2.1.3/src/core/altcp.obj: lwip_v2.1.3/src/core/altcp.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/altcp.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp.c.obj
 .PHONY : lwip_v2.1.3/src/core/altcp.c.obj
 
 lwip_v2.1.3/src/core/altcp.i: lwip_v2.1.3/src/core/altcp.c.i
@@ -641,7 +641,7 @@ lwip_v2.1.3/src/core/altcp.i: lwip_v2.1.3/src/core/altcp.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/altcp.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp.c.i
 .PHONY : lwip_v2.1.3/src/core/altcp.c.i
 
 lwip_v2.1.3/src/core/altcp.s: lwip_v2.1.3/src/core/altcp.c.s
@@ -650,7 +650,7 @@ lwip_v2.1.3/src/core/altcp.s: lwip_v2.1.3/src/core/altcp.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/altcp.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp.c.s
 .PHONY : lwip_v2.1.3/src/core/altcp.c.s
 
 lwip_v2.1.3/src/core/altcp_alloc.obj: lwip_v2.1.3/src/core/altcp_alloc.c.obj
@@ -659,7 +659,7 @@ lwip_v2.1.3/src/core/altcp_alloc.obj: lwip_v2.1.3/src/core/altcp_alloc.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/altcp_alloc.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_alloc.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_alloc.c.obj
 .PHONY : lwip_v2.1.3/src/core/altcp_alloc.c.obj
 
 lwip_v2.1.3/src/core/altcp_alloc.i: lwip_v2.1.3/src/core/altcp_alloc.c.i
@@ -668,7 +668,7 @@ lwip_v2.1.3/src/core/altcp_alloc.i: lwip_v2.1.3/src/core/altcp_alloc.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/altcp_alloc.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_alloc.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_alloc.c.i
 .PHONY : lwip_v2.1.3/src/core/altcp_alloc.c.i
 
 lwip_v2.1.3/src/core/altcp_alloc.s: lwip_v2.1.3/src/core/altcp_alloc.c.s
@@ -677,7 +677,7 @@ lwip_v2.1.3/src/core/altcp_alloc.s: lwip_v2.1.3/src/core/altcp_alloc.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/altcp_alloc.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_alloc.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_alloc.c.s
 .PHONY : lwip_v2.1.3/src/core/altcp_alloc.c.s
 
 lwip_v2.1.3/src/core/altcp_tcp.obj: lwip_v2.1.3/src/core/altcp_tcp.c.obj
@@ -686,7 +686,7 @@ lwip_v2.1.3/src/core/altcp_tcp.obj: lwip_v2.1.3/src/core/altcp_tcp.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/altcp_tcp.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_tcp.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_tcp.c.obj
 .PHONY : lwip_v2.1.3/src/core/altcp_tcp.c.obj
 
 lwip_v2.1.3/src/core/altcp_tcp.i: lwip_v2.1.3/src/core/altcp_tcp.c.i
@@ -695,7 +695,7 @@ lwip_v2.1.3/src/core/altcp_tcp.i: lwip_v2.1.3/src/core/altcp_tcp.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/altcp_tcp.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_tcp.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_tcp.c.i
 .PHONY : lwip_v2.1.3/src/core/altcp_tcp.c.i
 
 lwip_v2.1.3/src/core/altcp_tcp.s: lwip_v2.1.3/src/core/altcp_tcp.c.s
@@ -704,7 +704,7 @@ lwip_v2.1.3/src/core/altcp_tcp.s: lwip_v2.1.3/src/core/altcp_tcp.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/altcp_tcp.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_tcp.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_tcp.c.s
 .PHONY : lwip_v2.1.3/src/core/altcp_tcp.c.s
 
 lwip_v2.1.3/src/core/debug.obj: lwip_v2.1.3/src/core/debug.c.obj
@@ -713,7 +713,7 @@ lwip_v2.1.3/src/core/debug.obj: lwip_v2.1.3/src/core/debug.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/debug.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/debug.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/debug.c.obj
 .PHONY : lwip_v2.1.3/src/core/debug.c.obj
 
 lwip_v2.1.3/src/core/debug.i: lwip_v2.1.3/src/core/debug.c.i
@@ -722,7 +722,7 @@ lwip_v2.1.3/src/core/debug.i: lwip_v2.1.3/src/core/debug.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/debug.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/debug.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/debug.c.i
 .PHONY : lwip_v2.1.3/src/core/debug.c.i
 
 lwip_v2.1.3/src/core/debug.s: lwip_v2.1.3/src/core/debug.c.s
@@ -731,7 +731,7 @@ lwip_v2.1.3/src/core/debug.s: lwip_v2.1.3/src/core/debug.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/debug.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/debug.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/debug.c.s
 .PHONY : lwip_v2.1.3/src/core/debug.c.s
 
 lwip_v2.1.3/src/core/def.obj: lwip_v2.1.3/src/core/def.c.obj
@@ -740,7 +740,7 @@ lwip_v2.1.3/src/core/def.obj: lwip_v2.1.3/src/core/def.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/def.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/def.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/def.c.obj
 .PHONY : lwip_v2.1.3/src/core/def.c.obj
 
 lwip_v2.1.3/src/core/def.i: lwip_v2.1.3/src/core/def.c.i
@@ -749,7 +749,7 @@ lwip_v2.1.3/src/core/def.i: lwip_v2.1.3/src/core/def.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/def.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/def.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/def.c.i
 .PHONY : lwip_v2.1.3/src/core/def.c.i
 
 lwip_v2.1.3/src/core/def.s: lwip_v2.1.3/src/core/def.c.s
@@ -758,7 +758,7 @@ lwip_v2.1.3/src/core/def.s: lwip_v2.1.3/src/core/def.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/def.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/def.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/def.c.s
 .PHONY : lwip_v2.1.3/src/core/def.c.s
 
 lwip_v2.1.3/src/core/dns.obj: lwip_v2.1.3/src/core/dns.c.obj
@@ -767,7 +767,7 @@ lwip_v2.1.3/src/core/dns.obj: lwip_v2.1.3/src/core/dns.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/dns.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/dns.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/dns.c.obj
 .PHONY : lwip_v2.1.3/src/core/dns.c.obj
 
 lwip_v2.1.3/src/core/dns.i: lwip_v2.1.3/src/core/dns.c.i
@@ -776,7 +776,7 @@ lwip_v2.1.3/src/core/dns.i: lwip_v2.1.3/src/core/dns.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/dns.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/dns.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/dns.c.i
 .PHONY : lwip_v2.1.3/src/core/dns.c.i
 
 lwip_v2.1.3/src/core/dns.s: lwip_v2.1.3/src/core/dns.c.s
@@ -785,7 +785,7 @@ lwip_v2.1.3/src/core/dns.s: lwip_v2.1.3/src/core/dns.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/dns.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/dns.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/dns.c.s
 .PHONY : lwip_v2.1.3/src/core/dns.c.s
 
 lwip_v2.1.3/src/core/filter.obj: lwip_v2.1.3/src/core/filter.c.obj
@@ -794,7 +794,7 @@ lwip_v2.1.3/src/core/filter.obj: lwip_v2.1.3/src/core/filter.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/filter.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/filter.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/filter.c.obj
 .PHONY : lwip_v2.1.3/src/core/filter.c.obj
 
 lwip_v2.1.3/src/core/filter.i: lwip_v2.1.3/src/core/filter.c.i
@@ -803,7 +803,7 @@ lwip_v2.1.3/src/core/filter.i: lwip_v2.1.3/src/core/filter.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/filter.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/filter.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/filter.c.i
 .PHONY : lwip_v2.1.3/src/core/filter.c.i
 
 lwip_v2.1.3/src/core/filter.s: lwip_v2.1.3/src/core/filter.c.s
@@ -812,7 +812,7 @@ lwip_v2.1.3/src/core/filter.s: lwip_v2.1.3/src/core/filter.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/filter.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/filter.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/filter.c.s
 .PHONY : lwip_v2.1.3/src/core/filter.c.s
 
 lwip_v2.1.3/src/core/inet_chksum.obj: lwip_v2.1.3/src/core/inet_chksum.c.obj
@@ -821,7 +821,7 @@ lwip_v2.1.3/src/core/inet_chksum.obj: lwip_v2.1.3/src/core/inet_chksum.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/inet_chksum.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/inet_chksum.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/inet_chksum.c.obj
 .PHONY : lwip_v2.1.3/src/core/inet_chksum.c.obj
 
 lwip_v2.1.3/src/core/inet_chksum.i: lwip_v2.1.3/src/core/inet_chksum.c.i
@@ -830,7 +830,7 @@ lwip_v2.1.3/src/core/inet_chksum.i: lwip_v2.1.3/src/core/inet_chksum.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/inet_chksum.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/inet_chksum.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/inet_chksum.c.i
 .PHONY : lwip_v2.1.3/src/core/inet_chksum.c.i
 
 lwip_v2.1.3/src/core/inet_chksum.s: lwip_v2.1.3/src/core/inet_chksum.c.s
@@ -839,7 +839,7 @@ lwip_v2.1.3/src/core/inet_chksum.s: lwip_v2.1.3/src/core/inet_chksum.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/inet_chksum.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/inet_chksum.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/inet_chksum.c.s
 .PHONY : lwip_v2.1.3/src/core/inet_chksum.c.s
 
 lwip_v2.1.3/src/core/init.obj: lwip_v2.1.3/src/core/init.c.obj
@@ -848,7 +848,7 @@ lwip_v2.1.3/src/core/init.obj: lwip_v2.1.3/src/core/init.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/init.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/init.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/init.c.obj
 .PHONY : lwip_v2.1.3/src/core/init.c.obj
 
 lwip_v2.1.3/src/core/init.i: lwip_v2.1.3/src/core/init.c.i
@@ -857,7 +857,7 @@ lwip_v2.1.3/src/core/init.i: lwip_v2.1.3/src/core/init.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/init.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/init.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/init.c.i
 .PHONY : lwip_v2.1.3/src/core/init.c.i
 
 lwip_v2.1.3/src/core/init.s: lwip_v2.1.3/src/core/init.c.s
@@ -866,7 +866,7 @@ lwip_v2.1.3/src/core/init.s: lwip_v2.1.3/src/core/init.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/init.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/init.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/init.c.s
 .PHONY : lwip_v2.1.3/src/core/init.c.s
 
 lwip_v2.1.3/src/core/ip.obj: lwip_v2.1.3/src/core/ip.c.obj
@@ -875,7 +875,7 @@ lwip_v2.1.3/src/core/ip.obj: lwip_v2.1.3/src/core/ip.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ip.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip.c.obj
 .PHONY : lwip_v2.1.3/src/core/ip.c.obj
 
 lwip_v2.1.3/src/core/ip.i: lwip_v2.1.3/src/core/ip.c.i
@@ -884,7 +884,7 @@ lwip_v2.1.3/src/core/ip.i: lwip_v2.1.3/src/core/ip.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ip.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip.c.i
 .PHONY : lwip_v2.1.3/src/core/ip.c.i
 
 lwip_v2.1.3/src/core/ip.s: lwip_v2.1.3/src/core/ip.c.s
@@ -893,7 +893,7 @@ lwip_v2.1.3/src/core/ip.s: lwip_v2.1.3/src/core/ip.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ip.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip.c.s
 .PHONY : lwip_v2.1.3/src/core/ip.c.s
 
 lwip_v2.1.3/src/core/ip6in4.obj: lwip_v2.1.3/src/core/ip6in4.c.obj
@@ -902,7 +902,7 @@ lwip_v2.1.3/src/core/ip6in4.obj: lwip_v2.1.3/src/core/ip6in4.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ip6in4.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ip6in4.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ip6in4.c.obj
 .PHONY : lwip_v2.1.3/src/core/ip6in4.c.obj
 
 lwip_v2.1.3/src/core/ip6in4.i: lwip_v2.1.3/src/core/ip6in4.c.i
@@ -911,7 +911,7 @@ lwip_v2.1.3/src/core/ip6in4.i: lwip_v2.1.3/src/core/ip6in4.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ip6in4.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ip6in4.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ip6in4.c.i
 .PHONY : lwip_v2.1.3/src/core/ip6in4.c.i
 
 lwip_v2.1.3/src/core/ip6in4.s: lwip_v2.1.3/src/core/ip6in4.c.s
@@ -920,7 +920,7 @@ lwip_v2.1.3/src/core/ip6in4.s: lwip_v2.1.3/src/core/ip6in4.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ip6in4.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ip6in4.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ip6in4.c.s
 .PHONY : lwip_v2.1.3/src/core/ip6in4.c.s
 
 lwip_v2.1.3/src/core/ip_addr.obj: lwip_v2.1.3/src/core/ip_addr.c.obj
@@ -929,7 +929,7 @@ lwip_v2.1.3/src/core/ip_addr.obj: lwip_v2.1.3/src/core/ip_addr.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ip_addr.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip_addr.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip_addr.c.obj
 .PHONY : lwip_v2.1.3/src/core/ip_addr.c.obj
 
 lwip_v2.1.3/src/core/ip_addr.i: lwip_v2.1.3/src/core/ip_addr.c.i
@@ -938,7 +938,7 @@ lwip_v2.1.3/src/core/ip_addr.i: lwip_v2.1.3/src/core/ip_addr.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ip_addr.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip_addr.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip_addr.c.i
 .PHONY : lwip_v2.1.3/src/core/ip_addr.c.i
 
 lwip_v2.1.3/src/core/ip_addr.s: lwip_v2.1.3/src/core/ip_addr.c.s
@@ -947,7 +947,7 @@ lwip_v2.1.3/src/core/ip_addr.s: lwip_v2.1.3/src/core/ip_addr.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ip_addr.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip_addr.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip_addr.c.s
 .PHONY : lwip_v2.1.3/src/core/ip_addr.c.s
 
 lwip_v2.1.3/src/core/ipv4/autoip.obj: lwip_v2.1.3/src/core/ipv4/autoip.c.obj
@@ -956,7 +956,7 @@ lwip_v2.1.3/src/core/ipv4/autoip.obj: lwip_v2.1.3/src/core/ipv4/autoip.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv4/autoip.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/autoip.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/autoip.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv4/autoip.c.obj
 
 lwip_v2.1.3/src/core/ipv4/autoip.i: lwip_v2.1.3/src/core/ipv4/autoip.c.i
@@ -965,7 +965,7 @@ lwip_v2.1.3/src/core/ipv4/autoip.i: lwip_v2.1.3/src/core/ipv4/autoip.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv4/autoip.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/autoip.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/autoip.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv4/autoip.c.i
 
 lwip_v2.1.3/src/core/ipv4/autoip.s: lwip_v2.1.3/src/core/ipv4/autoip.c.s
@@ -974,7 +974,7 @@ lwip_v2.1.3/src/core/ipv4/autoip.s: lwip_v2.1.3/src/core/ipv4/autoip.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv4/autoip.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/autoip.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/autoip.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv4/autoip.c.s
 
 lwip_v2.1.3/src/core/ipv4/dhcp.obj: lwip_v2.1.3/src/core/ipv4/dhcp.c.obj
@@ -983,7 +983,7 @@ lwip_v2.1.3/src/core/ipv4/dhcp.obj: lwip_v2.1.3/src/core/ipv4/dhcp.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv4/dhcp.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcp.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcp.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv4/dhcp.c.obj
 
 lwip_v2.1.3/src/core/ipv4/dhcp.i: lwip_v2.1.3/src/core/ipv4/dhcp.c.i
@@ -992,7 +992,7 @@ lwip_v2.1.3/src/core/ipv4/dhcp.i: lwip_v2.1.3/src/core/ipv4/dhcp.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv4/dhcp.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcp.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcp.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv4/dhcp.c.i
 
 lwip_v2.1.3/src/core/ipv4/dhcp.s: lwip_v2.1.3/src/core/ipv4/dhcp.c.s
@@ -1001,7 +1001,7 @@ lwip_v2.1.3/src/core/ipv4/dhcp.s: lwip_v2.1.3/src/core/ipv4/dhcp.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv4/dhcp.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcp.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcp.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv4/dhcp.c.s
 
 lwip_v2.1.3/src/core/ipv4/dhcps.obj: lwip_v2.1.3/src/core/ipv4/dhcps.c.obj
@@ -1010,7 +1010,7 @@ lwip_v2.1.3/src/core/ipv4/dhcps.obj: lwip_v2.1.3/src/core/ipv4/dhcps.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv4/dhcps.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcps.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcps.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv4/dhcps.c.obj
 
 lwip_v2.1.3/src/core/ipv4/dhcps.i: lwip_v2.1.3/src/core/ipv4/dhcps.c.i
@@ -1019,7 +1019,7 @@ lwip_v2.1.3/src/core/ipv4/dhcps.i: lwip_v2.1.3/src/core/ipv4/dhcps.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv4/dhcps.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcps.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcps.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv4/dhcps.c.i
 
 lwip_v2.1.3/src/core/ipv4/dhcps.s: lwip_v2.1.3/src/core/ipv4/dhcps.c.s
@@ -1028,7 +1028,7 @@ lwip_v2.1.3/src/core/ipv4/dhcps.s: lwip_v2.1.3/src/core/ipv4/dhcps.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv4/dhcps.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcps.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcps.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv4/dhcps.c.s
 
 lwip_v2.1.3/src/core/ipv4/etharp.obj: lwip_v2.1.3/src/core/ipv4/etharp.c.obj
@@ -1037,7 +1037,7 @@ lwip_v2.1.3/src/core/ipv4/etharp.obj: lwip_v2.1.3/src/core/ipv4/etharp.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv4/etharp.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/etharp.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/etharp.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv4/etharp.c.obj
 
 lwip_v2.1.3/src/core/ipv4/etharp.i: lwip_v2.1.3/src/core/ipv4/etharp.c.i
@@ -1046,7 +1046,7 @@ lwip_v2.1.3/src/core/ipv4/etharp.i: lwip_v2.1.3/src/core/ipv4/etharp.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv4/etharp.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/etharp.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/etharp.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv4/etharp.c.i
 
 lwip_v2.1.3/src/core/ipv4/etharp.s: lwip_v2.1.3/src/core/ipv4/etharp.c.s
@@ -1055,7 +1055,7 @@ lwip_v2.1.3/src/core/ipv4/etharp.s: lwip_v2.1.3/src/core/ipv4/etharp.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv4/etharp.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/etharp.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/etharp.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv4/etharp.c.s
 
 lwip_v2.1.3/src/core/ipv4/icmp.obj: lwip_v2.1.3/src/core/ipv4/icmp.c.obj
@@ -1064,7 +1064,7 @@ lwip_v2.1.3/src/core/ipv4/icmp.obj: lwip_v2.1.3/src/core/ipv4/icmp.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv4/icmp.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/icmp.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/icmp.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv4/icmp.c.obj
 
 lwip_v2.1.3/src/core/ipv4/icmp.i: lwip_v2.1.3/src/core/ipv4/icmp.c.i
@@ -1073,7 +1073,7 @@ lwip_v2.1.3/src/core/ipv4/icmp.i: lwip_v2.1.3/src/core/ipv4/icmp.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv4/icmp.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/icmp.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/icmp.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv4/icmp.c.i
 
 lwip_v2.1.3/src/core/ipv4/icmp.s: lwip_v2.1.3/src/core/ipv4/icmp.c.s
@@ -1082,7 +1082,7 @@ lwip_v2.1.3/src/core/ipv4/icmp.s: lwip_v2.1.3/src/core/ipv4/icmp.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv4/icmp.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/icmp.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/icmp.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv4/icmp.c.s
 
 lwip_v2.1.3/src/core/ipv4/igmp.obj: lwip_v2.1.3/src/core/ipv4/igmp.c.obj
@@ -1091,7 +1091,7 @@ lwip_v2.1.3/src/core/ipv4/igmp.obj: lwip_v2.1.3/src/core/ipv4/igmp.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv4/igmp.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/igmp.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/igmp.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv4/igmp.c.obj
 
 lwip_v2.1.3/src/core/ipv4/igmp.i: lwip_v2.1.3/src/core/ipv4/igmp.c.i
@@ -1100,7 +1100,7 @@ lwip_v2.1.3/src/core/ipv4/igmp.i: lwip_v2.1.3/src/core/ipv4/igmp.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv4/igmp.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/igmp.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/igmp.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv4/igmp.c.i
 
 lwip_v2.1.3/src/core/ipv4/igmp.s: lwip_v2.1.3/src/core/ipv4/igmp.c.s
@@ -1109,7 +1109,7 @@ lwip_v2.1.3/src/core/ipv4/igmp.s: lwip_v2.1.3/src/core/ipv4/igmp.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv4/igmp.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/igmp.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/igmp.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv4/igmp.c.s
 
 lwip_v2.1.3/src/core/ipv4/ip4.obj: lwip_v2.1.3/src/core/ipv4/ip4.c.obj
@@ -1118,7 +1118,7 @@ lwip_v2.1.3/src/core/ipv4/ip4.obj: lwip_v2.1.3/src/core/ipv4/ip4.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv4/ip4.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv4/ip4.c.obj
 
 lwip_v2.1.3/src/core/ipv4/ip4.i: lwip_v2.1.3/src/core/ipv4/ip4.c.i
@@ -1127,7 +1127,7 @@ lwip_v2.1.3/src/core/ipv4/ip4.i: lwip_v2.1.3/src/core/ipv4/ip4.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv4/ip4.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv4/ip4.c.i
 
 lwip_v2.1.3/src/core/ipv4/ip4.s: lwip_v2.1.3/src/core/ipv4/ip4.c.s
@@ -1136,7 +1136,7 @@ lwip_v2.1.3/src/core/ipv4/ip4.s: lwip_v2.1.3/src/core/ipv4/ip4.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv4/ip4.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv4/ip4.c.s
 
 lwip_v2.1.3/src/core/ipv4/ip4_addr.obj: lwip_v2.1.3/src/core/ipv4/ip4_addr.c.obj
@@ -1145,7 +1145,7 @@ lwip_v2.1.3/src/core/ipv4/ip4_addr.obj: lwip_v2.1.3/src/core/ipv4/ip4_addr.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv4/ip4_addr.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_addr.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_addr.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv4/ip4_addr.c.obj
 
 lwip_v2.1.3/src/core/ipv4/ip4_addr.i: lwip_v2.1.3/src/core/ipv4/ip4_addr.c.i
@@ -1154,7 +1154,7 @@ lwip_v2.1.3/src/core/ipv4/ip4_addr.i: lwip_v2.1.3/src/core/ipv4/ip4_addr.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv4/ip4_addr.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_addr.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_addr.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv4/ip4_addr.c.i
 
 lwip_v2.1.3/src/core/ipv4/ip4_addr.s: lwip_v2.1.3/src/core/ipv4/ip4_addr.c.s
@@ -1163,7 +1163,7 @@ lwip_v2.1.3/src/core/ipv4/ip4_addr.s: lwip_v2.1.3/src/core/ipv4/ip4_addr.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv4/ip4_addr.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_addr.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_addr.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv4/ip4_addr.c.s
 
 lwip_v2.1.3/src/core/ipv4/ip4_frag.obj: lwip_v2.1.3/src/core/ipv4/ip4_frag.c.obj
@@ -1172,7 +1172,7 @@ lwip_v2.1.3/src/core/ipv4/ip4_frag.obj: lwip_v2.1.3/src/core/ipv4/ip4_frag.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv4/ip4_frag.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_frag.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_frag.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv4/ip4_frag.c.obj
 
 lwip_v2.1.3/src/core/ipv4/ip4_frag.i: lwip_v2.1.3/src/core/ipv4/ip4_frag.c.i
@@ -1181,7 +1181,7 @@ lwip_v2.1.3/src/core/ipv4/ip4_frag.i: lwip_v2.1.3/src/core/ipv4/ip4_frag.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv4/ip4_frag.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_frag.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_frag.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv4/ip4_frag.c.i
 
 lwip_v2.1.3/src/core/ipv4/ip4_frag.s: lwip_v2.1.3/src/core/ipv4/ip4_frag.c.s
@@ -1190,7 +1190,7 @@ lwip_v2.1.3/src/core/ipv4/ip4_frag.s: lwip_v2.1.3/src/core/ipv4/ip4_frag.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv4/ip4_frag.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_frag.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_frag.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv4/ip4_frag.c.s
 
 lwip_v2.1.3/src/core/ipv6/dhcp6.obj: lwip_v2.1.3/src/core/ipv6/dhcp6.c.obj
@@ -1199,7 +1199,7 @@ lwip_v2.1.3/src/core/ipv6/dhcp6.obj: lwip_v2.1.3/src/core/ipv6/dhcp6.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv6/dhcp6.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/dhcp6.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/dhcp6.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv6/dhcp6.c.obj
 
 lwip_v2.1.3/src/core/ipv6/dhcp6.i: lwip_v2.1.3/src/core/ipv6/dhcp6.c.i
@@ -1208,7 +1208,7 @@ lwip_v2.1.3/src/core/ipv6/dhcp6.i: lwip_v2.1.3/src/core/ipv6/dhcp6.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv6/dhcp6.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/dhcp6.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/dhcp6.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv6/dhcp6.c.i
 
 lwip_v2.1.3/src/core/ipv6/dhcp6.s: lwip_v2.1.3/src/core/ipv6/dhcp6.c.s
@@ -1217,7 +1217,7 @@ lwip_v2.1.3/src/core/ipv6/dhcp6.s: lwip_v2.1.3/src/core/ipv6/dhcp6.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv6/dhcp6.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/dhcp6.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/dhcp6.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv6/dhcp6.c.s
 
 lwip_v2.1.3/src/core/ipv6/ethip6.obj: lwip_v2.1.3/src/core/ipv6/ethip6.c.obj
@@ -1226,7 +1226,7 @@ lwip_v2.1.3/src/core/ipv6/ethip6.obj: lwip_v2.1.3/src/core/ipv6/ethip6.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv6/ethip6.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ethip6.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ethip6.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv6/ethip6.c.obj
 
 lwip_v2.1.3/src/core/ipv6/ethip6.i: lwip_v2.1.3/src/core/ipv6/ethip6.c.i
@@ -1235,7 +1235,7 @@ lwip_v2.1.3/src/core/ipv6/ethip6.i: lwip_v2.1.3/src/core/ipv6/ethip6.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv6/ethip6.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ethip6.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ethip6.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv6/ethip6.c.i
 
 lwip_v2.1.3/src/core/ipv6/ethip6.s: lwip_v2.1.3/src/core/ipv6/ethip6.c.s
@@ -1244,7 +1244,7 @@ lwip_v2.1.3/src/core/ipv6/ethip6.s: lwip_v2.1.3/src/core/ipv6/ethip6.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv6/ethip6.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ethip6.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ethip6.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv6/ethip6.c.s
 
 lwip_v2.1.3/src/core/ipv6/icmp6.obj: lwip_v2.1.3/src/core/ipv6/icmp6.c.obj
@@ -1253,7 +1253,7 @@ lwip_v2.1.3/src/core/ipv6/icmp6.obj: lwip_v2.1.3/src/core/ipv6/icmp6.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv6/icmp6.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/icmp6.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/icmp6.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv6/icmp6.c.obj
 
 lwip_v2.1.3/src/core/ipv6/icmp6.i: lwip_v2.1.3/src/core/ipv6/icmp6.c.i
@@ -1262,7 +1262,7 @@ lwip_v2.1.3/src/core/ipv6/icmp6.i: lwip_v2.1.3/src/core/ipv6/icmp6.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv6/icmp6.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/icmp6.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/icmp6.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv6/icmp6.c.i
 
 lwip_v2.1.3/src/core/ipv6/icmp6.s: lwip_v2.1.3/src/core/ipv6/icmp6.c.s
@@ -1271,7 +1271,7 @@ lwip_v2.1.3/src/core/ipv6/icmp6.s: lwip_v2.1.3/src/core/ipv6/icmp6.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv6/icmp6.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/icmp6.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/icmp6.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv6/icmp6.c.s
 
 lwip_v2.1.3/src/core/ipv6/inet6.obj: lwip_v2.1.3/src/core/ipv6/inet6.c.obj
@@ -1280,7 +1280,7 @@ lwip_v2.1.3/src/core/ipv6/inet6.obj: lwip_v2.1.3/src/core/ipv6/inet6.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv6/inet6.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/inet6.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/inet6.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv6/inet6.c.obj
 
 lwip_v2.1.3/src/core/ipv6/inet6.i: lwip_v2.1.3/src/core/ipv6/inet6.c.i
@@ -1289,7 +1289,7 @@ lwip_v2.1.3/src/core/ipv6/inet6.i: lwip_v2.1.3/src/core/ipv6/inet6.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv6/inet6.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/inet6.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/inet6.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv6/inet6.c.i
 
 lwip_v2.1.3/src/core/ipv6/inet6.s: lwip_v2.1.3/src/core/ipv6/inet6.c.s
@@ -1298,7 +1298,7 @@ lwip_v2.1.3/src/core/ipv6/inet6.s: lwip_v2.1.3/src/core/ipv6/inet6.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv6/inet6.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/inet6.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/inet6.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv6/inet6.c.s
 
 lwip_v2.1.3/src/core/ipv6/ip6.obj: lwip_v2.1.3/src/core/ipv6/ip6.c.obj
@@ -1307,7 +1307,7 @@ lwip_v2.1.3/src/core/ipv6/ip6.obj: lwip_v2.1.3/src/core/ipv6/ip6.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv6/ip6.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv6/ip6.c.obj
 
 lwip_v2.1.3/src/core/ipv6/ip6.i: lwip_v2.1.3/src/core/ipv6/ip6.c.i
@@ -1316,7 +1316,7 @@ lwip_v2.1.3/src/core/ipv6/ip6.i: lwip_v2.1.3/src/core/ipv6/ip6.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv6/ip6.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv6/ip6.c.i
 
 lwip_v2.1.3/src/core/ipv6/ip6.s: lwip_v2.1.3/src/core/ipv6/ip6.c.s
@@ -1325,7 +1325,7 @@ lwip_v2.1.3/src/core/ipv6/ip6.s: lwip_v2.1.3/src/core/ipv6/ip6.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv6/ip6.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv6/ip6.c.s
 
 lwip_v2.1.3/src/core/ipv6/ip6_addr.obj: lwip_v2.1.3/src/core/ipv6/ip6_addr.c.obj
@@ -1334,7 +1334,7 @@ lwip_v2.1.3/src/core/ipv6/ip6_addr.obj: lwip_v2.1.3/src/core/ipv6/ip6_addr.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv6/ip6_addr.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_addr.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_addr.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv6/ip6_addr.c.obj
 
 lwip_v2.1.3/src/core/ipv6/ip6_addr.i: lwip_v2.1.3/src/core/ipv6/ip6_addr.c.i
@@ -1343,7 +1343,7 @@ lwip_v2.1.3/src/core/ipv6/ip6_addr.i: lwip_v2.1.3/src/core/ipv6/ip6_addr.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv6/ip6_addr.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_addr.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_addr.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv6/ip6_addr.c.i
 
 lwip_v2.1.3/src/core/ipv6/ip6_addr.s: lwip_v2.1.3/src/core/ipv6/ip6_addr.c.s
@@ -1352,7 +1352,7 @@ lwip_v2.1.3/src/core/ipv6/ip6_addr.s: lwip_v2.1.3/src/core/ipv6/ip6_addr.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv6/ip6_addr.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_addr.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_addr.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv6/ip6_addr.c.s
 
 lwip_v2.1.3/src/core/ipv6/ip6_frag.obj: lwip_v2.1.3/src/core/ipv6/ip6_frag.c.obj
@@ -1361,7 +1361,7 @@ lwip_v2.1.3/src/core/ipv6/ip6_frag.obj: lwip_v2.1.3/src/core/ipv6/ip6_frag.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv6/ip6_frag.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_frag.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_frag.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv6/ip6_frag.c.obj
 
 lwip_v2.1.3/src/core/ipv6/ip6_frag.i: lwip_v2.1.3/src/core/ipv6/ip6_frag.c.i
@@ -1370,7 +1370,7 @@ lwip_v2.1.3/src/core/ipv6/ip6_frag.i: lwip_v2.1.3/src/core/ipv6/ip6_frag.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv6/ip6_frag.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_frag.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_frag.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv6/ip6_frag.c.i
 
 lwip_v2.1.3/src/core/ipv6/ip6_frag.s: lwip_v2.1.3/src/core/ipv6/ip6_frag.c.s
@@ -1379,7 +1379,7 @@ lwip_v2.1.3/src/core/ipv6/ip6_frag.s: lwip_v2.1.3/src/core/ipv6/ip6_frag.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv6/ip6_frag.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_frag.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_frag.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv6/ip6_frag.c.s
 
 lwip_v2.1.3/src/core/ipv6/mld6.obj: lwip_v2.1.3/src/core/ipv6/mld6.c.obj
@@ -1388,7 +1388,7 @@ lwip_v2.1.3/src/core/ipv6/mld6.obj: lwip_v2.1.3/src/core/ipv6/mld6.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv6/mld6.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/mld6.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/mld6.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv6/mld6.c.obj
 
 lwip_v2.1.3/src/core/ipv6/mld6.i: lwip_v2.1.3/src/core/ipv6/mld6.c.i
@@ -1397,7 +1397,7 @@ lwip_v2.1.3/src/core/ipv6/mld6.i: lwip_v2.1.3/src/core/ipv6/mld6.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv6/mld6.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/mld6.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/mld6.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv6/mld6.c.i
 
 lwip_v2.1.3/src/core/ipv6/mld6.s: lwip_v2.1.3/src/core/ipv6/mld6.c.s
@@ -1406,7 +1406,7 @@ lwip_v2.1.3/src/core/ipv6/mld6.s: lwip_v2.1.3/src/core/ipv6/mld6.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv6/mld6.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/mld6.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/mld6.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv6/mld6.c.s
 
 lwip_v2.1.3/src/core/ipv6/nd6.obj: lwip_v2.1.3/src/core/ipv6/nd6.c.obj
@@ -1415,7 +1415,7 @@ lwip_v2.1.3/src/core/ipv6/nd6.obj: lwip_v2.1.3/src/core/ipv6/nd6.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/ipv6/nd6.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/nd6.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/nd6.c.obj
 .PHONY : lwip_v2.1.3/src/core/ipv6/nd6.c.obj
 
 lwip_v2.1.3/src/core/ipv6/nd6.i: lwip_v2.1.3/src/core/ipv6/nd6.c.i
@@ -1424,7 +1424,7 @@ lwip_v2.1.3/src/core/ipv6/nd6.i: lwip_v2.1.3/src/core/ipv6/nd6.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/ipv6/nd6.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/nd6.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/nd6.c.i
 .PHONY : lwip_v2.1.3/src/core/ipv6/nd6.c.i
 
 lwip_v2.1.3/src/core/ipv6/nd6.s: lwip_v2.1.3/src/core/ipv6/nd6.c.s
@@ -1433,7 +1433,7 @@ lwip_v2.1.3/src/core/ipv6/nd6.s: lwip_v2.1.3/src/core/ipv6/nd6.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/ipv6/nd6.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/nd6.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/nd6.c.s
 .PHONY : lwip_v2.1.3/src/core/ipv6/nd6.c.s
 
 lwip_v2.1.3/src/core/lowpower.obj: lwip_v2.1.3/src/core/lowpower.c.obj
@@ -1442,7 +1442,7 @@ lwip_v2.1.3/src/core/lowpower.obj: lwip_v2.1.3/src/core/lowpower.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/lowpower.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/lowpower.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/lowpower.c.obj
 .PHONY : lwip_v2.1.3/src/core/lowpower.c.obj
 
 lwip_v2.1.3/src/core/lowpower.i: lwip_v2.1.3/src/core/lowpower.c.i
@@ -1451,7 +1451,7 @@ lwip_v2.1.3/src/core/lowpower.i: lwip_v2.1.3/src/core/lowpower.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/lowpower.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/lowpower.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/lowpower.c.i
 .PHONY : lwip_v2.1.3/src/core/lowpower.c.i
 
 lwip_v2.1.3/src/core/lowpower.s: lwip_v2.1.3/src/core/lowpower.c.s
@@ -1460,7 +1460,7 @@ lwip_v2.1.3/src/core/lowpower.s: lwip_v2.1.3/src/core/lowpower.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/lowpower.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/lowpower.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/lowpower.c.s
 .PHONY : lwip_v2.1.3/src/core/lowpower.c.s
 
 lwip_v2.1.3/src/core/mdns.obj: lwip_v2.1.3/src/core/mdns.c.obj
@@ -1469,7 +1469,7 @@ lwip_v2.1.3/src/core/mdns.obj: lwip_v2.1.3/src/core/mdns.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/mdns.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/mdns.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/mdns.c.obj
 .PHONY : lwip_v2.1.3/src/core/mdns.c.obj
 
 lwip_v2.1.3/src/core/mdns.i: lwip_v2.1.3/src/core/mdns.c.i
@@ -1478,7 +1478,7 @@ lwip_v2.1.3/src/core/mdns.i: lwip_v2.1.3/src/core/mdns.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/mdns.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/mdns.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/mdns.c.i
 .PHONY : lwip_v2.1.3/src/core/mdns.c.i
 
 lwip_v2.1.3/src/core/mdns.s: lwip_v2.1.3/src/core/mdns.c.s
@@ -1487,7 +1487,7 @@ lwip_v2.1.3/src/core/mdns.s: lwip_v2.1.3/src/core/mdns.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/mdns.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/mdns.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/mdns.c.s
 .PHONY : lwip_v2.1.3/src/core/mdns.c.s
 
 lwip_v2.1.3/src/core/mem.obj: lwip_v2.1.3/src/core/mem.c.obj
@@ -1496,7 +1496,7 @@ lwip_v2.1.3/src/core/mem.obj: lwip_v2.1.3/src/core/mem.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/mem.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/mem.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/mem.c.obj
 .PHONY : lwip_v2.1.3/src/core/mem.c.obj
 
 lwip_v2.1.3/src/core/mem.i: lwip_v2.1.3/src/core/mem.c.i
@@ -1505,7 +1505,7 @@ lwip_v2.1.3/src/core/mem.i: lwip_v2.1.3/src/core/mem.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/mem.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/mem.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/mem.c.i
 .PHONY : lwip_v2.1.3/src/core/mem.c.i
 
 lwip_v2.1.3/src/core/mem.s: lwip_v2.1.3/src/core/mem.c.s
@@ -1514,7 +1514,7 @@ lwip_v2.1.3/src/core/mem.s: lwip_v2.1.3/src/core/mem.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/mem.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/mem.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/mem.c.s
 .PHONY : lwip_v2.1.3/src/core/mem.c.s
 
 lwip_v2.1.3/src/core/memp.obj: lwip_v2.1.3/src/core/memp.c.obj
@@ -1523,7 +1523,7 @@ lwip_v2.1.3/src/core/memp.obj: lwip_v2.1.3/src/core/memp.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/memp.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/memp.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/memp.c.obj
 .PHONY : lwip_v2.1.3/src/core/memp.c.obj
 
 lwip_v2.1.3/src/core/memp.i: lwip_v2.1.3/src/core/memp.c.i
@@ -1532,7 +1532,7 @@ lwip_v2.1.3/src/core/memp.i: lwip_v2.1.3/src/core/memp.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/memp.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/memp.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/memp.c.i
 .PHONY : lwip_v2.1.3/src/core/memp.c.i
 
 lwip_v2.1.3/src/core/memp.s: lwip_v2.1.3/src/core/memp.c.s
@@ -1541,7 +1541,7 @@ lwip_v2.1.3/src/core/memp.s: lwip_v2.1.3/src/core/memp.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/memp.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/memp.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/memp.c.s
 .PHONY : lwip_v2.1.3/src/core/memp.c.s
 
 lwip_v2.1.3/src/core/nat64/nat64.obj: lwip_v2.1.3/src/core/nat64/nat64.c.obj
@@ -1550,7 +1550,7 @@ lwip_v2.1.3/src/core/nat64/nat64.obj: lwip_v2.1.3/src/core/nat64/nat64.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/nat64/nat64.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64.c.obj
 .PHONY : lwip_v2.1.3/src/core/nat64/nat64.c.obj
 
 lwip_v2.1.3/src/core/nat64/nat64.i: lwip_v2.1.3/src/core/nat64/nat64.c.i
@@ -1559,7 +1559,7 @@ lwip_v2.1.3/src/core/nat64/nat64.i: lwip_v2.1.3/src/core/nat64/nat64.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/nat64/nat64.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64.c.i
 .PHONY : lwip_v2.1.3/src/core/nat64/nat64.c.i
 
 lwip_v2.1.3/src/core/nat64/nat64.s: lwip_v2.1.3/src/core/nat64/nat64.c.s
@@ -1568,7 +1568,7 @@ lwip_v2.1.3/src/core/nat64/nat64.s: lwip_v2.1.3/src/core/nat64/nat64.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/nat64/nat64.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64.c.s
 .PHONY : lwip_v2.1.3/src/core/nat64/nat64.c.s
 
 lwip_v2.1.3/src/core/nat64/nat64_addr.obj: lwip_v2.1.3/src/core/nat64/nat64_addr.c.obj
@@ -1577,7 +1577,7 @@ lwip_v2.1.3/src/core/nat64/nat64_addr.obj: lwip_v2.1.3/src/core/nat64/nat64_addr
 
 # target to build an object file
 lwip_v2.1.3/src/core/nat64/nat64_addr.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_addr.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_addr.c.obj
 .PHONY : lwip_v2.1.3/src/core/nat64/nat64_addr.c.obj
 
 lwip_v2.1.3/src/core/nat64/nat64_addr.i: lwip_v2.1.3/src/core/nat64/nat64_addr.c.i
@@ -1586,7 +1586,7 @@ lwip_v2.1.3/src/core/nat64/nat64_addr.i: lwip_v2.1.3/src/core/nat64/nat64_addr.c
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/nat64/nat64_addr.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_addr.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_addr.c.i
 .PHONY : lwip_v2.1.3/src/core/nat64/nat64_addr.c.i
 
 lwip_v2.1.3/src/core/nat64/nat64_addr.s: lwip_v2.1.3/src/core/nat64/nat64_addr.c.s
@@ -1595,7 +1595,7 @@ lwip_v2.1.3/src/core/nat64/nat64_addr.s: lwip_v2.1.3/src/core/nat64/nat64_addr.c
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/nat64/nat64_addr.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_addr.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_addr.c.s
 .PHONY : lwip_v2.1.3/src/core/nat64/nat64_addr.c.s
 
 lwip_v2.1.3/src/core/nat64/nat64_dns64.obj: lwip_v2.1.3/src/core/nat64/nat64_dns64.c.obj
@@ -1604,7 +1604,7 @@ lwip_v2.1.3/src/core/nat64/nat64_dns64.obj: lwip_v2.1.3/src/core/nat64/nat64_dns
 
 # target to build an object file
 lwip_v2.1.3/src/core/nat64/nat64_dns64.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_dns64.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_dns64.c.obj
 .PHONY : lwip_v2.1.3/src/core/nat64/nat64_dns64.c.obj
 
 lwip_v2.1.3/src/core/nat64/nat64_dns64.i: lwip_v2.1.3/src/core/nat64/nat64_dns64.c.i
@@ -1613,7 +1613,7 @@ lwip_v2.1.3/src/core/nat64/nat64_dns64.i: lwip_v2.1.3/src/core/nat64/nat64_dns64
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/nat64/nat64_dns64.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_dns64.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_dns64.c.i
 .PHONY : lwip_v2.1.3/src/core/nat64/nat64_dns64.c.i
 
 lwip_v2.1.3/src/core/nat64/nat64_dns64.s: lwip_v2.1.3/src/core/nat64/nat64_dns64.c.s
@@ -1622,7 +1622,7 @@ lwip_v2.1.3/src/core/nat64/nat64_dns64.s: lwip_v2.1.3/src/core/nat64/nat64_dns64
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/nat64/nat64_dns64.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_dns64.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_dns64.c.s
 .PHONY : lwip_v2.1.3/src/core/nat64/nat64_dns64.c.s
 
 lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.obj: lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.obj
@@ -1631,7 +1631,7 @@ lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.obj: lwip_v2.1.3/src/core/nat64/nat64_
 
 # target to build an object file
 lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.obj
 .PHONY : lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.obj
 
 lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.i: lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.i
@@ -1640,7 +1640,7 @@ lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.i: lwip_v2.1.3/src/core/nat64/nat64_v4
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.i
 .PHONY : lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.i
 
 lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.s: lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.s
@@ -1649,7 +1649,7 @@ lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.s: lwip_v2.1.3/src/core/nat64/nat64_v4
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.s
 .PHONY : lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.s
 
 lwip_v2.1.3/src/core/netif.obj: lwip_v2.1.3/src/core/netif.c.obj
@@ -1658,7 +1658,7 @@ lwip_v2.1.3/src/core/netif.obj: lwip_v2.1.3/src/core/netif.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/netif.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/netif.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/netif.c.obj
 .PHONY : lwip_v2.1.3/src/core/netif.c.obj
 
 lwip_v2.1.3/src/core/netif.i: lwip_v2.1.3/src/core/netif.c.i
@@ -1667,7 +1667,7 @@ lwip_v2.1.3/src/core/netif.i: lwip_v2.1.3/src/core/netif.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/netif.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/netif.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/netif.c.i
 .PHONY : lwip_v2.1.3/src/core/netif.c.i
 
 lwip_v2.1.3/src/core/netif.s: lwip_v2.1.3/src/core/netif.c.s
@@ -1676,7 +1676,7 @@ lwip_v2.1.3/src/core/netif.s: lwip_v2.1.3/src/core/netif.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/netif.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/netif.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/netif.c.s
 .PHONY : lwip_v2.1.3/src/core/netif.c.s
 
 lwip_v2.1.3/src/core/pbuf.obj: lwip_v2.1.3/src/core/pbuf.c.obj
@@ -1685,7 +1685,7 @@ lwip_v2.1.3/src/core/pbuf.obj: lwip_v2.1.3/src/core/pbuf.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/pbuf.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/pbuf.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/pbuf.c.obj
 .PHONY : lwip_v2.1.3/src/core/pbuf.c.obj
 
 lwip_v2.1.3/src/core/pbuf.i: lwip_v2.1.3/src/core/pbuf.c.i
@@ -1694,7 +1694,7 @@ lwip_v2.1.3/src/core/pbuf.i: lwip_v2.1.3/src/core/pbuf.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/pbuf.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/pbuf.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/pbuf.c.i
 .PHONY : lwip_v2.1.3/src/core/pbuf.c.i
 
 lwip_v2.1.3/src/core/pbuf.s: lwip_v2.1.3/src/core/pbuf.c.s
@@ -1703,7 +1703,7 @@ lwip_v2.1.3/src/core/pbuf.s: lwip_v2.1.3/src/core/pbuf.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/pbuf.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/pbuf.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/pbuf.c.s
 .PHONY : lwip_v2.1.3/src/core/pbuf.c.s
 
 lwip_v2.1.3/src/core/raw.obj: lwip_v2.1.3/src/core/raw.c.obj
@@ -1712,7 +1712,7 @@ lwip_v2.1.3/src/core/raw.obj: lwip_v2.1.3/src/core/raw.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/raw.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/raw.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/raw.c.obj
 .PHONY : lwip_v2.1.3/src/core/raw.c.obj
 
 lwip_v2.1.3/src/core/raw.i: lwip_v2.1.3/src/core/raw.c.i
@@ -1721,7 +1721,7 @@ lwip_v2.1.3/src/core/raw.i: lwip_v2.1.3/src/core/raw.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/raw.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/raw.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/raw.c.i
 .PHONY : lwip_v2.1.3/src/core/raw.c.i
 
 lwip_v2.1.3/src/core/raw.s: lwip_v2.1.3/src/core/raw.c.s
@@ -1730,7 +1730,7 @@ lwip_v2.1.3/src/core/raw.s: lwip_v2.1.3/src/core/raw.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/raw.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/raw.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/raw.c.s
 .PHONY : lwip_v2.1.3/src/core/raw.c.s
 
 lwip_v2.1.3/src/core/sntp.obj: lwip_v2.1.3/src/core/sntp.c.obj
@@ -1739,7 +1739,7 @@ lwip_v2.1.3/src/core/sntp.obj: lwip_v2.1.3/src/core/sntp.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/sntp.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sntp.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sntp.c.obj
 .PHONY : lwip_v2.1.3/src/core/sntp.c.obj
 
 lwip_v2.1.3/src/core/sntp.i: lwip_v2.1.3/src/core/sntp.c.i
@@ -1748,7 +1748,7 @@ lwip_v2.1.3/src/core/sntp.i: lwip_v2.1.3/src/core/sntp.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/sntp.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sntp.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sntp.c.i
 .PHONY : lwip_v2.1.3/src/core/sntp.c.i
 
 lwip_v2.1.3/src/core/sntp.s: lwip_v2.1.3/src/core/sntp.c.s
@@ -1757,7 +1757,7 @@ lwip_v2.1.3/src/core/sntp.s: lwip_v2.1.3/src/core/sntp.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/sntp.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sntp.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sntp.c.s
 .PHONY : lwip_v2.1.3/src/core/sntp.c.s
 
 lwip_v2.1.3/src/core/stats.obj: lwip_v2.1.3/src/core/stats.c.obj
@@ -1766,7 +1766,7 @@ lwip_v2.1.3/src/core/stats.obj: lwip_v2.1.3/src/core/stats.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/stats.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/stats.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/stats.c.obj
 .PHONY : lwip_v2.1.3/src/core/stats.c.obj
 
 lwip_v2.1.3/src/core/stats.i: lwip_v2.1.3/src/core/stats.c.i
@@ -1775,7 +1775,7 @@ lwip_v2.1.3/src/core/stats.i: lwip_v2.1.3/src/core/stats.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/stats.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/stats.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/stats.c.i
 .PHONY : lwip_v2.1.3/src/core/stats.c.i
 
 lwip_v2.1.3/src/core/stats.s: lwip_v2.1.3/src/core/stats.c.s
@@ -1784,7 +1784,7 @@ lwip_v2.1.3/src/core/stats.s: lwip_v2.1.3/src/core/stats.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/stats.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/stats.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/stats.c.s
 .PHONY : lwip_v2.1.3/src/core/stats.c.s
 
 lwip_v2.1.3/src/core/sys.obj: lwip_v2.1.3/src/core/sys.c.obj
@@ -1793,7 +1793,7 @@ lwip_v2.1.3/src/core/sys.obj: lwip_v2.1.3/src/core/sys.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/sys.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sys.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sys.c.obj
 .PHONY : lwip_v2.1.3/src/core/sys.c.obj
 
 lwip_v2.1.3/src/core/sys.i: lwip_v2.1.3/src/core/sys.c.i
@@ -1802,7 +1802,7 @@ lwip_v2.1.3/src/core/sys.i: lwip_v2.1.3/src/core/sys.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/sys.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sys.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sys.c.i
 .PHONY : lwip_v2.1.3/src/core/sys.c.i
 
 lwip_v2.1.3/src/core/sys.s: lwip_v2.1.3/src/core/sys.c.s
@@ -1811,7 +1811,7 @@ lwip_v2.1.3/src/core/sys.s: lwip_v2.1.3/src/core/sys.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/sys.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sys.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sys.c.s
 .PHONY : lwip_v2.1.3/src/core/sys.c.s
 
 lwip_v2.1.3/src/core/tcp.obj: lwip_v2.1.3/src/core/tcp.c.obj
@@ -1820,7 +1820,7 @@ lwip_v2.1.3/src/core/tcp.obj: lwip_v2.1.3/src/core/tcp.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/tcp.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/tcp.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/tcp.c.obj
 .PHONY : lwip_v2.1.3/src/core/tcp.c.obj
 
 lwip_v2.1.3/src/core/tcp.i: lwip_v2.1.3/src/core/tcp.c.i
@@ -1829,7 +1829,7 @@ lwip_v2.1.3/src/core/tcp.i: lwip_v2.1.3/src/core/tcp.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/tcp.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/tcp.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/tcp.c.i
 .PHONY : lwip_v2.1.3/src/core/tcp.c.i
 
 lwip_v2.1.3/src/core/tcp.s: lwip_v2.1.3/src/core/tcp.c.s
@@ -1838,7 +1838,7 @@ lwip_v2.1.3/src/core/tcp.s: lwip_v2.1.3/src/core/tcp.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/tcp.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/tcp.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/tcp.c.s
 .PHONY : lwip_v2.1.3/src/core/tcp.c.s
 
 lwip_v2.1.3/src/core/tcp_in.obj: lwip_v2.1.3/src/core/tcp_in.c.obj
@@ -1847,7 +1847,7 @@ lwip_v2.1.3/src/core/tcp_in.obj: lwip_v2.1.3/src/core/tcp_in.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/tcp_in.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_in.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_in.c.obj
 .PHONY : lwip_v2.1.3/src/core/tcp_in.c.obj
 
 lwip_v2.1.3/src/core/tcp_in.i: lwip_v2.1.3/src/core/tcp_in.c.i
@@ -1856,7 +1856,7 @@ lwip_v2.1.3/src/core/tcp_in.i: lwip_v2.1.3/src/core/tcp_in.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/tcp_in.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_in.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_in.c.i
 .PHONY : lwip_v2.1.3/src/core/tcp_in.c.i
 
 lwip_v2.1.3/src/core/tcp_in.s: lwip_v2.1.3/src/core/tcp_in.c.s
@@ -1865,7 +1865,7 @@ lwip_v2.1.3/src/core/tcp_in.s: lwip_v2.1.3/src/core/tcp_in.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/tcp_in.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_in.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_in.c.s
 .PHONY : lwip_v2.1.3/src/core/tcp_in.c.s
 
 lwip_v2.1.3/src/core/tcp_out.obj: lwip_v2.1.3/src/core/tcp_out.c.obj
@@ -1874,7 +1874,7 @@ lwip_v2.1.3/src/core/tcp_out.obj: lwip_v2.1.3/src/core/tcp_out.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/tcp_out.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_out.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_out.c.obj
 .PHONY : lwip_v2.1.3/src/core/tcp_out.c.obj
 
 lwip_v2.1.3/src/core/tcp_out.i: lwip_v2.1.3/src/core/tcp_out.c.i
@@ -1883,7 +1883,7 @@ lwip_v2.1.3/src/core/tcp_out.i: lwip_v2.1.3/src/core/tcp_out.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/tcp_out.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_out.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_out.c.i
 .PHONY : lwip_v2.1.3/src/core/tcp_out.c.i
 
 lwip_v2.1.3/src/core/tcp_out.s: lwip_v2.1.3/src/core/tcp_out.c.s
@@ -1892,7 +1892,7 @@ lwip_v2.1.3/src/core/tcp_out.s: lwip_v2.1.3/src/core/tcp_out.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/tcp_out.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_out.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_out.c.s
 .PHONY : lwip_v2.1.3/src/core/tcp_out.c.s
 
 lwip_v2.1.3/src/core/tcp_sack.obj: lwip_v2.1.3/src/core/tcp_sack.c.obj
@@ -1901,7 +1901,7 @@ lwip_v2.1.3/src/core/tcp_sack.obj: lwip_v2.1.3/src/core/tcp_sack.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/tcp_sack.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_sack.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_sack.c.obj
 .PHONY : lwip_v2.1.3/src/core/tcp_sack.c.obj
 
 lwip_v2.1.3/src/core/tcp_sack.i: lwip_v2.1.3/src/core/tcp_sack.c.i
@@ -1910,7 +1910,7 @@ lwip_v2.1.3/src/core/tcp_sack.i: lwip_v2.1.3/src/core/tcp_sack.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/tcp_sack.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_sack.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_sack.c.i
 .PHONY : lwip_v2.1.3/src/core/tcp_sack.c.i
 
 lwip_v2.1.3/src/core/tcp_sack.s: lwip_v2.1.3/src/core/tcp_sack.c.s
@@ -1919,7 +1919,7 @@ lwip_v2.1.3/src/core/tcp_sack.s: lwip_v2.1.3/src/core/tcp_sack.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/tcp_sack.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_sack.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_sack.c.s
 .PHONY : lwip_v2.1.3/src/core/tcp_sack.c.s
 
 lwip_v2.1.3/src/core/tftpc.obj: lwip_v2.1.3/src/core/tftpc.c.obj
@@ -1928,7 +1928,7 @@ lwip_v2.1.3/src/core/tftpc.obj: lwip_v2.1.3/src/core/tftpc.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/tftpc.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tftpc.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tftpc.c.obj
 .PHONY : lwip_v2.1.3/src/core/tftpc.c.obj
 
 lwip_v2.1.3/src/core/tftpc.i: lwip_v2.1.3/src/core/tftpc.c.i
@@ -1937,7 +1937,7 @@ lwip_v2.1.3/src/core/tftpc.i: lwip_v2.1.3/src/core/tftpc.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/tftpc.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tftpc.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tftpc.c.i
 .PHONY : lwip_v2.1.3/src/core/tftpc.c.i
 
 lwip_v2.1.3/src/core/tftpc.s: lwip_v2.1.3/src/core/tftpc.c.s
@@ -1946,7 +1946,7 @@ lwip_v2.1.3/src/core/tftpc.s: lwip_v2.1.3/src/core/tftpc.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/tftpc.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tftpc.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tftpc.c.s
 .PHONY : lwip_v2.1.3/src/core/tftpc.c.s
 
 lwip_v2.1.3/src/core/timeouts.obj: lwip_v2.1.3/src/core/timeouts.c.obj
@@ -1955,7 +1955,7 @@ lwip_v2.1.3/src/core/timeouts.obj: lwip_v2.1.3/src/core/timeouts.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/timeouts.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/timeouts.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/timeouts.c.obj
 .PHONY : lwip_v2.1.3/src/core/timeouts.c.obj
 
 lwip_v2.1.3/src/core/timeouts.i: lwip_v2.1.3/src/core/timeouts.c.i
@@ -1964,7 +1964,7 @@ lwip_v2.1.3/src/core/timeouts.i: lwip_v2.1.3/src/core/timeouts.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/timeouts.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/timeouts.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/timeouts.c.i
 .PHONY : lwip_v2.1.3/src/core/timeouts.c.i
 
 lwip_v2.1.3/src/core/timeouts.s: lwip_v2.1.3/src/core/timeouts.c.s
@@ -1973,7 +1973,7 @@ lwip_v2.1.3/src/core/timeouts.s: lwip_v2.1.3/src/core/timeouts.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/timeouts.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/timeouts.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/timeouts.c.s
 .PHONY : lwip_v2.1.3/src/core/timeouts.c.s
 
 lwip_v2.1.3/src/core/udp.obj: lwip_v2.1.3/src/core/udp.c.obj
@@ -1982,7 +1982,7 @@ lwip_v2.1.3/src/core/udp.obj: lwip_v2.1.3/src/core/udp.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/core/udp.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/udp.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/udp.c.obj
 .PHONY : lwip_v2.1.3/src/core/udp.c.obj
 
 lwip_v2.1.3/src/core/udp.i: lwip_v2.1.3/src/core/udp.c.i
@@ -1991,7 +1991,7 @@ lwip_v2.1.3/src/core/udp.i: lwip_v2.1.3/src/core/udp.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/core/udp.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/udp.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/udp.c.i
 .PHONY : lwip_v2.1.3/src/core/udp.c.i
 
 lwip_v2.1.3/src/core/udp.s: lwip_v2.1.3/src/core/udp.c.s
@@ -2000,7 +2000,7 @@ lwip_v2.1.3/src/core/udp.s: lwip_v2.1.3/src/core/udp.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/core/udp.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/udp.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/udp.c.s
 .PHONY : lwip_v2.1.3/src/core/udp.c.s
 
 lwip_v2.1.3/src/netif/driverif.obj: lwip_v2.1.3/src/netif/driverif.c.obj
@@ -2009,7 +2009,7 @@ lwip_v2.1.3/src/netif/driverif.obj: lwip_v2.1.3/src/netif/driverif.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/netif/driverif.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/driverif.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/driverif.c.obj
 .PHONY : lwip_v2.1.3/src/netif/driverif.c.obj
 
 lwip_v2.1.3/src/netif/driverif.i: lwip_v2.1.3/src/netif/driverif.c.i
@@ -2018,7 +2018,7 @@ lwip_v2.1.3/src/netif/driverif.i: lwip_v2.1.3/src/netif/driverif.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/netif/driverif.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/driverif.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/driverif.c.i
 .PHONY : lwip_v2.1.3/src/netif/driverif.c.i
 
 lwip_v2.1.3/src/netif/driverif.s: lwip_v2.1.3/src/netif/driverif.c.s
@@ -2027,7 +2027,7 @@ lwip_v2.1.3/src/netif/driverif.s: lwip_v2.1.3/src/netif/driverif.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/netif/driverif.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/driverif.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/driverif.c.s
 .PHONY : lwip_v2.1.3/src/netif/driverif.c.s
 
 lwip_v2.1.3/src/netif/ethernet.obj: lwip_v2.1.3/src/netif/ethernet.c.obj
@@ -2036,7 +2036,7 @@ lwip_v2.1.3/src/netif/ethernet.obj: lwip_v2.1.3/src/netif/ethernet.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/netif/ethernet.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/ethernet.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/ethernet.c.obj
 .PHONY : lwip_v2.1.3/src/netif/ethernet.c.obj
 
 lwip_v2.1.3/src/netif/ethernet.i: lwip_v2.1.3/src/netif/ethernet.c.i
@@ -2045,7 +2045,7 @@ lwip_v2.1.3/src/netif/ethernet.i: lwip_v2.1.3/src/netif/ethernet.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/netif/ethernet.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/ethernet.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/ethernet.c.i
 .PHONY : lwip_v2.1.3/src/netif/ethernet.c.i
 
 lwip_v2.1.3/src/netif/ethernet.s: lwip_v2.1.3/src/netif/ethernet.c.s
@@ -2054,7 +2054,7 @@ lwip_v2.1.3/src/netif/ethernet.s: lwip_v2.1.3/src/netif/ethernet.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/netif/ethernet.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/ethernet.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip_tcm.dir/build.make open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/ethernet.c.s
 .PHONY : lwip_v2.1.3/src/netif/ethernet.c.s
 
 lwip_v2.1.3/src/netif/ifaddrs.obj: lwip_v2.1.3/src/netif/ifaddrs.c.obj
@@ -2063,7 +2063,7 @@ lwip_v2.1.3/src/netif/ifaddrs.obj: lwip_v2.1.3/src/netif/ifaddrs.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/netif/ifaddrs.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/ifaddrs.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/ifaddrs.c.obj
 .PHONY : lwip_v2.1.3/src/netif/ifaddrs.c.obj
 
 lwip_v2.1.3/src/netif/ifaddrs.i: lwip_v2.1.3/src/netif/ifaddrs.c.i
@@ -2072,7 +2072,7 @@ lwip_v2.1.3/src/netif/ifaddrs.i: lwip_v2.1.3/src/netif/ifaddrs.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/netif/ifaddrs.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/ifaddrs.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/ifaddrs.c.i
 .PHONY : lwip_v2.1.3/src/netif/ifaddrs.c.i
 
 lwip_v2.1.3/src/netif/ifaddrs.s: lwip_v2.1.3/src/netif/ifaddrs.c.s
@@ -2081,7 +2081,7 @@ lwip_v2.1.3/src/netif/ifaddrs.s: lwip_v2.1.3/src/netif/ifaddrs.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/netif/ifaddrs.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/ifaddrs.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/ifaddrs.c.s
 .PHONY : lwip_v2.1.3/src/netif/ifaddrs.c.s
 
 lwip_v2.1.3/src/netif/lowpan6.obj: lwip_v2.1.3/src/netif/lowpan6.c.obj
@@ -2090,7 +2090,7 @@ lwip_v2.1.3/src/netif/lowpan6.obj: lwip_v2.1.3/src/netif/lowpan6.c.obj
 
 # target to build an object file
 lwip_v2.1.3/src/netif/lowpan6.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6.c.obj
 .PHONY : lwip_v2.1.3/src/netif/lowpan6.c.obj
 
 lwip_v2.1.3/src/netif/lowpan6.i: lwip_v2.1.3/src/netif/lowpan6.c.i
@@ -2099,7 +2099,7 @@ lwip_v2.1.3/src/netif/lowpan6.i: lwip_v2.1.3/src/netif/lowpan6.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/netif/lowpan6.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6.c.i
 .PHONY : lwip_v2.1.3/src/netif/lowpan6.c.i
 
 lwip_v2.1.3/src/netif/lowpan6.s: lwip_v2.1.3/src/netif/lowpan6.c.s
@@ -2108,7 +2108,7 @@ lwip_v2.1.3/src/netif/lowpan6.s: lwip_v2.1.3/src/netif/lowpan6.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/netif/lowpan6.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6.c.s
 .PHONY : lwip_v2.1.3/src/netif/lowpan6.c.s
 
 lwip_v2.1.3/src/netif/lowpan6_common.obj: lwip_v2.1.3/src/netif/lowpan6_common.c.obj
@@ -2117,7 +2117,7 @@ lwip_v2.1.3/src/netif/lowpan6_common.obj: lwip_v2.1.3/src/netif/lowpan6_common.c
 
 # target to build an object file
 lwip_v2.1.3/src/netif/lowpan6_common.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6_common.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6_common.c.obj
 .PHONY : lwip_v2.1.3/src/netif/lowpan6_common.c.obj
 
 lwip_v2.1.3/src/netif/lowpan6_common.i: lwip_v2.1.3/src/netif/lowpan6_common.c.i
@@ -2126,7 +2126,7 @@ lwip_v2.1.3/src/netif/lowpan6_common.i: lwip_v2.1.3/src/netif/lowpan6_common.c.i
 
 # target to preprocess a source file
 lwip_v2.1.3/src/netif/lowpan6_common.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6_common.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6_common.c.i
 .PHONY : lwip_v2.1.3/src/netif/lowpan6_common.c.i
 
 lwip_v2.1.3/src/netif/lowpan6_common.s: lwip_v2.1.3/src/netif/lowpan6_common.c.s
@@ -2135,7 +2135,7 @@ lwip_v2.1.3/src/netif/lowpan6_common.s: lwip_v2.1.3/src/netif/lowpan6_common.c.s
 
 # target to generate assembly for a file
 lwip_v2.1.3/src/netif/lowpan6_common.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6_common.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/lwip/CMakeFiles/lwip.dir/build.make open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6_common.c.s
 .PHONY : lwip_v2.1.3/src/netif/lowpan6_common.c.s
 
 # Help Target
@@ -2381,6 +2381,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/efuse
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/efuse
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

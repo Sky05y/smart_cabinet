@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/include/middleware/services/slp
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/include/middleware/services/slp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

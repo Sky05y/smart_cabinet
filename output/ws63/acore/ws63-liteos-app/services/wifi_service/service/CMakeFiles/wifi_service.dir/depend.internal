@@ -380,6 +380,6 @@ services/wifi_service/service/CMakeFiles/wifi_service.dir/soc_wifi_service_api.c
  ../../../../protocol/wifi/rom_code/ws63/source/inc/romable/wlan_util_common_rom.h
  ../../../../protocol/wifi/source/host/inc/liteOS/soc_wifi_api.h
  ../../../../protocol/wifi/source/host/inc/liteOS/soc_wifi_p2p_api.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/services/wifi_service/service/service_event.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/services/wifi_service/service/service_wifi_api.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/services/wifi_service/service/soc_wifi_service_api.c
+ /home/bearpi/project/smart_cabinet-main/middleware/services/wifi_service/service/service_event.h
+ /home/bearpi/project/smart_cabinet-main/middleware/services/wifi_service/service/service_wifi_api.h
+ /home/bearpi/project/smart_cabinet-main/middleware/services/wifi_service/service/soc_wifi_service_api.c

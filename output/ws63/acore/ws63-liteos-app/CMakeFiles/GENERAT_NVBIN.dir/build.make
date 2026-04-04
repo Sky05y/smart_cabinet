@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Utility rule file for GENERAT_NVBIN.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63
 include CMakeFiles/GENERAT_NVBIN.dir/progress.make
 
 CMakeFiles/GENERAT_NVBIN:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "update nv bin"
-	cd /home/bearpi/project/bearpi-pico_h3863 && /usr/bin/python3 /home/bearpi/project/bearpi-pico_h3863/build/config/target_config/ws63/build_nvbin.py ws63-liteos-app
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "update nv bin"
+	cd /home/bearpi/project/smart_cabinet-main && /usr/bin/python3 /home/bearpi/project/smart_cabinet-main/build/config/target_config/ws63/build_nvbin.py ws63-liteos-app
 
 GENERAT_NVBIN: CMakeFiles/GENERAT_NVBIN
 GENERAT_NVBIN: CMakeFiles/GENERAT_NVBIN.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/GENERAT_NVBIN.dir/clean:
 .PHONY : CMakeFiles/GENERAT_NVBIN.dir/clean
 
 CMakeFiles/GENERAT_NVBIN.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles/GENERAT_NVBIN.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles/GENERAT_NVBIN.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GENERAT_NVBIN.dir/depend
 

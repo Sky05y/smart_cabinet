@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -354,8 +354,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../../../protocol/bt/host/bt/sdk/../include/common/L0"
   "../../../../protocol/bt/host/bt/sdk/../include/ble"
   "../../../../protocol/bt/host/bt/sdk/../include/ble/L0"
-  "../../../../application/samples/ws63_server/include"
-  "../../../../application/samples/ws63_server/sle_uart_server"
+  "../../../../application/samples/ws63_client/include"
+  "../../../../application/samples/ws63_client/sle_uart_client"
   "../../../../include/middleware/services/bts/ble"
   "../../../../include/middleware/services/bts/br"
   "../../../../include/middleware/services/bts/common"

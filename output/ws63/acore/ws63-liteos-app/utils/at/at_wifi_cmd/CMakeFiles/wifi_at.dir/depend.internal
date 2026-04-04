@@ -126,11 +126,11 @@ utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_ccpriv.c.obj
  ../../../../middleware/utils/common_headers/native/td_base.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_ccpriv.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_ccpriv.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_ccpriv_register.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_utils.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_wifi_ccpriv_table.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_ccpriv.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_ccpriv.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_ccpriv_register.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_utils.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_wifi_ccpriv_table.h
 utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_mfg.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -255,8 +255,8 @@ utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_mfg.c.obj
  ../../../../middleware/utils/common_headers/native/td_base.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_mfg.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_wifi_mfg_cmd_talbe.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_mfg.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_wifi_mfg_cmd_talbe.h
 utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_register.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -561,13 +561,13 @@ utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_register.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/tcpip.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/timeouts.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/udp.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_ccpriv.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_register.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_register.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_sendtest.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_utils.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_wifi.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_wifi_cmd_register_table.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_ccpriv.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_register.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_register.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_sendtest.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_utils.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_wifi.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_wifi_cmd_register_table.h
 utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_sendtest.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -830,9 +830,9 @@ utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_sendtest.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sockets.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/stats.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/sys.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_sendtest.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_sendtest.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_wifi.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_sendtest.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_sendtest.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_wifi.h
 utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_utils.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -957,8 +957,8 @@ utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_utils.c.obj
  ../../../../middleware/utils/common_headers/native/td_base.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_utils.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_utils.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_utils.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_utils.h
 utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_wifi.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -1243,12 +1243,12 @@ utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_wifi.c.obj
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/tcpip.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/timeouts.h
  ../../../../open_source/lwip/lwip_v2.1.3/src/include/lwip/udp.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_ccpriv.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_register.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_utils.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_wifi.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_wifi.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/at/at_wifi_cmd_table.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_ccpriv.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_register.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_utils.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_wifi.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_wifi.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/at/at_wifi_cmd_table.h
 utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/src/at_cmd_register.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -1378,5 +1378,5 @@ utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/src/at_cmd_register.c.obj
  ../../../../middleware/utils/common_headers/native/td_base.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/src/at_cmd_register.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/at/at_wifi_cmd/src/at_cmd_register.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/src/at_cmd_register.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/at/at_wifi_cmd/src/at_cmd_register.h

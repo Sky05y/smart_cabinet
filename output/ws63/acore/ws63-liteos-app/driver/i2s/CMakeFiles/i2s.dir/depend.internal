@@ -55,4 +55,4 @@ driver/i2s/CMakeFiles/i2s.dir/i2s.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/native/td_type.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2s/i2s.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2s/i2s.c

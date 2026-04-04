@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/depend.make
@@ -59,29 +59,29 @@ include drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/flags.make
 
 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.obj: drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/flags.make
 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.obj: ../../../../drivers/chips/ws63/porting/liteos/riscv31/idle_config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=IDLE_CONFIG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liteos_port.dir/riscv31/idle_config.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/liteos/riscv31/idle_config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=IDLE_CONFIG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liteos_port.dir/riscv31/idle_config.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/liteos/riscv31/idle_config.c
 
 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liteos_port.dir/riscv31/idle_config.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=IDLE_CONFIG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/liteos/riscv31/idle_config.c > CMakeFiles/liteos_port.dir/riscv31/idle_config.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=IDLE_CONFIG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/liteos/riscv31/idle_config.c > CMakeFiles/liteos_port.dir/riscv31/idle_config.c.i
 
 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liteos_port.dir/riscv31/idle_config.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=IDLE_CONFIG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/liteos/riscv31/idle_config.c -o CMakeFiles/liteos_port.dir/riscv31/idle_config.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=IDLE_CONFIG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/liteos/riscv31/idle_config.c -o CMakeFiles/liteos_port.dir/riscv31/idle_config.c.s
 
 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.obj: drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/flags.make
 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.obj: ../../../../drivers/chips/ws63/porting/liteos/riscv31/tick_timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TICK_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/liteos/riscv31/tick_timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TICK_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/liteos/riscv31/tick_timer.c
 
 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TICK_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/liteos/riscv31/tick_timer.c > CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TICK_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/liteos/riscv31/tick_timer.c > CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.i
 
 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TICK_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/liteos/riscv31/tick_timer.c -o CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TICK_TIMER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/liteos/riscv31/tick_timer.c -o CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.s
 
 # Object files for target liteos_port
 liteos_port_OBJECTS = \
@@ -95,9 +95,9 @@ drivers/chips/ws63/porting/liteos/libliteos_port.a: drivers/chips/ws63/porting/l
 drivers/chips/ws63/porting/liteos/libliteos_port.a: drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.obj
 drivers/chips/ws63/porting/liteos/libliteos_port.a: drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build.make
 drivers/chips/ws63/porting/liteos/libliteos_port.a: drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libliteos_port.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && $(CMAKE_COMMAND) -P CMakeFiles/liteos_port.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/liteos_port.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libliteos_port.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && $(CMAKE_COMMAND) -P CMakeFiles/liteos_port.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/liteos_port.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build: drivers/chips/ws63/porting/liteos/libliteos_port.a
@@ -105,10 +105,10 @@ drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build: drivers/chip
 .PHONY : drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/build
 
 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && $(CMAKE_COMMAND) -P CMakeFiles/liteos_port.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos && $(CMAKE_COMMAND) -P CMakeFiles/liteos_port.dir/cmake_clean.cmake
 .PHONY : drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/clean
 
 drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/liteos /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/liteos /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/depend
 

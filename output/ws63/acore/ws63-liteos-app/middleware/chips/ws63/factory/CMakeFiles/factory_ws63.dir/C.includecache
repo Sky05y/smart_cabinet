@@ -578,33 +578,33 @@ register_config.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/factory.c
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/factory.c
 factory.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/factory.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/factory.h
 stddef.h
 -
 stdint.h
 -
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/securec.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/securec.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/common_def.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/common_def.h
 memory_config_common.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/memory_config_common.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/memory_config_common.h
 sfc.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/sfc.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/sfc.h
 osal_addr.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/osal_addr.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/osal_addr.h
 secure_verify_boot.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/secure_verify_boot.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/secure_verify_boot.h
 nv.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/nv.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/nv.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/factory.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/factory.h
 stdbool.h
 -
 partition.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/partition.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/partition.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/errcode.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/errcode.h
 

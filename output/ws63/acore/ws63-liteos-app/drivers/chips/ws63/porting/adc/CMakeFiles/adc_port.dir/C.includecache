@@ -884,35 +884,35 @@ product.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/adc_porting.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/adc_porting.c
 chip_core_irq.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/chip_core_irq.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/chip_core_irq.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/common_def.h
 lpm_dev_ops.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/lpm_dev_ops.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/lpm_dev_ops.h
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/soc_osal.h
 pinctrl_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/pinctrl_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/pinctrl_porting.h
 pinctrl.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/pinctrl.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/pinctrl.h
 debug_print.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/debug_print.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/debug_print.h
 hal_adc_v154.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/hal_adc_v154.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/hal_adc_v154.h
 efuse_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/efuse_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/efuse_porting.h
 adc_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/adc_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/adc_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/adc_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/adc_porting.h
 stdint.h
 -
 stdbool.h
 -
 adc.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/adc.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/adc.h
 osal_interrupt.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/adc/osal_interrupt.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/adc/osal_interrupt.h
 

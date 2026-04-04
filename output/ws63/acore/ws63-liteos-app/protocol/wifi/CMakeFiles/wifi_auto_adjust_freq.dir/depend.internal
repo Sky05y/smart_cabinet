@@ -449,5 +449,5 @@ protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto
  ../../../../protocol/wifi/source/host/inc/oal/oal_types.h
  ../../../../protocol/wifi/source/host/inc/oal/oal_util_hcm.h
  ../../../../protocol/wifi/source/host/inc/wlan_mib_hcm.h
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.c
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.h
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.c
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_auto_adjust_freq.h

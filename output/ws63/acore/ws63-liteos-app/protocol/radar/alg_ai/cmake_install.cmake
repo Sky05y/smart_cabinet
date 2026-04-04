@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/protocol/radar/alg_ai
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/protocol/radar/alg_ai
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

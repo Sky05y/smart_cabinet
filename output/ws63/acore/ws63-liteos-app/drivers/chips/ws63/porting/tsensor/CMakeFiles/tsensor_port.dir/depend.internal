@@ -50,5 +50,5 @@ drivers/chips/ws63/porting/tsensor/CMakeFiles/tsensor_port.dir/tsensor_porting.c
  ../../../../kernel/osal/include/time/osal_timer.h
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/tsensor/tsensor_porting.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/tsensor/tsensor_porting.h
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/tsensor/tsensor_porting.c
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/tsensor/tsensor_porting.h

@@ -54,5 +54,5 @@ drivers/chips/ws63/porting/pwm/CMakeFiles/pwm_port.dir/pwm_porting.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/native/td_type.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/pwm/pwm_porting.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/pwm/pwm_porting.h
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/pwm/pwm_porting.c
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/pwm/pwm_porting.h

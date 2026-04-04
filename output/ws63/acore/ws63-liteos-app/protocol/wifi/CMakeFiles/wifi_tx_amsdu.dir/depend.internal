@@ -454,5 +454,5 @@ protocol/wifi/CMakeFiles/wifi_tx_amsdu.dir/source/host/feature/hmac_tx_amsdu.c.o
  ../../../../protocol/wifi/source/host/wal/release/liteOS/wal_config.h
  ../../../../protocol/wifi/source/host/wal/release/liteOS/wal_event_msg.h
  ../../../../protocol/wifi/source/host/wal/release/liteOS/wal_main.h
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_tx_amsdu.c
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_tx_amsdu.h
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_tx_amsdu.c
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_tx_amsdu.h

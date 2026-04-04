@@ -135,5 +135,5 @@ middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/mac_addr.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/mac_addr.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr/mac_addr.h
+ /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/mac_addr.c
+ /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr/mac_addr.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/systick
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/systick
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -93,7 +93,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_cpup.c.obj
  ../../../../middleware/utils/dfx/dfx_os/dfx_include/dfx_os_st.h
  ../../../../middleware/utils/dfx/dfx_os/include/dfx_cpup.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_os/liteos_v1/dfx_cpup.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_os/liteos_v1/dfx_cpup.c
 utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_mem.c.obj
  ../../../../include/errcode.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
@@ -184,7 +184,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_mem.c.obj
  ../../../../middleware/utils/dfx/dfx_os/dfx_include/dfx_os_st.h
  ../../../../middleware/utils/dfx/dfx_os/include/dfx_mem.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_os/liteos_v1/dfx_mem.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_os/liteos_v1/dfx_mem.c
 utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_res.c.obj
  ../../../../include/errcode.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
@@ -194,7 +194,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_res.c.obj
  ../../../../kernel/non_os/non_os/osal_inner.h
  ../../../../middleware/utils/dfx/dfx_os/dfx_include/dfx_os_st.h
  ../../../../middleware/utils/dfx/dfx_os/include/dfx_res.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_os/liteos_v1/dfx_res.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_os/liteos_v1/dfx_res.c
 utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_task.c.obj
  ../../../../include/errcode.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
@@ -285,7 +285,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_task.c.obj
  ../../../../middleware/utils/dfx/dfx_os/dfx_include/dfx_os_st.h
  ../../../../middleware/utils/dfx/dfx_os/include/dfx_task.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_os/liteos_v1/dfx_task.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_os/liteos_v1/dfx_task.c
 utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_trace.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -381,7 +381,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_trace.c.obj
  ../../../../middleware/utils/dfx/dfx_os/include/dfx_trace.h
  ../../../../middleware/utils/dfx/zdiag/diag_system_cmd/include/diag_cmd_trace_info.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_os/liteos_v1/dfx_trace.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_os/liteos_v1/dfx_trace.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_bt_sample_data.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -543,7 +543,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_bt_sample_data.c.ob
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_bt_sample_data.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_bt_sample_data.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_beat_heart.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -704,7 +704,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_beat_heart.c.ob
  ../../../../middleware/utils/dfx/zdiag/include/diag_ind_src.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_beat_heart.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_beat_heart.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_connect.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -865,7 +865,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_connect.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_ind_src.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_connect.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_connect.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_filter.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -1028,7 +1028,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_filter.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_filter.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_filter.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_filter.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_cpup.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -1189,7 +1189,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_cpup.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_get_cpup.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_get_cpup.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_init_info.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -1345,7 +1345,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_init_info.c
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_get_init_info.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_get_init_info.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_mem_info.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -1503,7 +1503,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_mem_info.c.
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_get_mem_info.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_get_mem_info.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_res_info.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -1661,7 +1661,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_res_info.c.
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_get_res_info.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_get_res_info.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_task_info.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -1819,7 +1819,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_task_info.c
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_get_task_info.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_get_task_info.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_log_level.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -1976,7 +1976,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_log_level.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_log_level.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_log_level.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_mem_read_write.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -2071,7 +2071,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_mem_read_write.
  ../../../../middleware/utils/dfx/zdiag/diag_system_cmd/dfx_include/diag_cmd_mem_read_write_st.h
  ../../../../middleware/utils/dfx/zdiag/diag_system_cmd/include/diag_cmd_mem_read_write.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_mem_read_write.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_mem_read_write.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_offline_log.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -2231,7 +2231,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_offline_log.c.o
  ../../../../middleware/utils/dfx/zdiag/include/diag_msg.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_offline_log.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_offline_log.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_password.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -2405,7 +2405,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_password.c.obj
  ../../../../middleware/utils/nv/nv_storage_lib/nv_key.h
  ../../../../middleware/utils/nv/nv_storage_lib/nv_notify.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_password.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_password.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_stat.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -2567,7 +2567,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_stat.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_stat.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_stat.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_stat.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_trace_info.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -2664,7 +2664,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_trace_info.c.ob
  ../../../../middleware/utils/dfx/zdiag/diag_system_cmd/include/diag_cmd_trace_info.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_trace_info.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_cmd_trace_info.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_mocked_shell.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -2830,7 +2830,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_mocked_shell.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_ind_src.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/diag_mocked_shell.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/diag_mocked_shell.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/last_dump.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -2992,7 +2992,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/last_dump.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_system_cmd/last_dump.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_system_cmd/last_dump.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/romable/diag_oam_log.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -3004,7 +3004,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/romable/diag_oam_log.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/chips/ws63/dfx/include/dfx_resource_id.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/romable/diag_oam_log.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/romable/diag_oam_log.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/romable/diag_rom_api.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -3015,7 +3015,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/romable/diag_rom_api.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/chips/ws63/dfx/include/dfx_resource_id.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_rom_api.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/romable/diag_rom_api.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/romable/diag_rom_api.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_channel.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -3174,10 +3174,10 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_channel.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_channel_item.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_pkt.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_channel.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_mem.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_channel_item.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_pkt.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_channel.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_mem.h
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_cmd_dst.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -3336,9 +3336,9 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_cmd_dst.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_pkt.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_cmd_dst.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_cmd_dst.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_pkt.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_cmd_dst.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_cmd_dst.h
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_cmd_src.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -3498,12 +3498,12 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_cmd_src.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_pkt.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_cmd_src.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_cmd_src.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_debug.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_mem.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_pkt_router.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_pkt.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_cmd_src.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_cmd_src.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_debug.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_mem.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_pkt_router.h
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_debug.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -3664,9 +3664,9 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_debug.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_pkt.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_debug.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_debug.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_pkt.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_debug.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_debug.h
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_dfx.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -3707,7 +3707,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_dfx.c.obj
  ../../../../middleware/utils/dfx/zdiag/dfx_include/zdiag_dfx_st.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_dfx.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_dfx.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_dfx.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_filter.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -3867,7 +3867,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_filter.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_filter.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_filter.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_filter.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_ind_dst.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -4026,9 +4026,9 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_ind_dst.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_pkt.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_ind_dst.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_ind_dst.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_pkt.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_ind_dst.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_ind_dst.h
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_ind_src.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -4195,11 +4195,11 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_ind_src.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_msg.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_pkt.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_debug.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_ind_src.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_mem.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_pkt_router.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_pkt.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_debug.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_ind_src.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_mem.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_pkt_router.h
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_mem.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -4360,10 +4360,10 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_mem.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_dfx.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_pkt.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_debug.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_mem.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_mem.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_pkt.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_debug.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_mem.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_mem.h
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_msg.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -4523,9 +4523,9 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_msg.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_msg.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_pkt.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_msg.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_pkt_router.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_pkt.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_msg.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_pkt_router.h
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_pkt.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -4686,8 +4686,8 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_pkt.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_filter.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_pkt.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_pkt.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_pkt.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_pkt.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_pkt_router.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -4849,14 +4849,14 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_pkt_router.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_msg.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_pkt.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_cmd_dst.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_debug.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_ind_dst.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_mem.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_pkt_router.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_pkt_router.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_tx.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_pkt.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_cmd_dst.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_debug.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_ind_dst.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_mem.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_pkt_router.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_pkt_router.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_tx.h
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_rx_api.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -5017,12 +5017,12 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_rx_api.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_dfx.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_channel_item.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_pkt.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_mem.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_pkt_router.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_rx_api.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_rx_api.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_channel_item.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_pkt.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_mem.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_pkt_router.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_rx_api.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_rx_api.h
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_stat.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -5182,7 +5182,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_stat.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_stat.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_stat.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_stat.c
 utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_tx.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -5343,10 +5343,10 @@ utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_tx.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_dfx.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_channel_item.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/diag_pkt.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_debug.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_mem.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_pkt_router.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_tx.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/zdiag/zdiag_tx.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_channel_item.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/diag_pkt.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_debug.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_mem.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_pkt_router.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_tx.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/zdiag/zdiag_tx.h

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/tsensor/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/tsensor/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/tsensor/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/tsensor/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/tsensor/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/tsensor/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/tsensor/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/tsensor/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/tsensor/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/tsensor/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hal/tsensor/CMakeFiles/hal_tsensor.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/tsensor/CMakeFiles/hal_tsensor.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/tsensor/CMakeFiles/hal_tsensor.dir/rule
 .PHONY : hal/tsensor/CMakeFiles/hal_tsensor.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hal_tsensor: hal/tsensor/CMakeFiles/hal_tsensor.dir/rule
 
 # fast build rule for target.
 hal_tsensor/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/build
 .PHONY : hal_tsensor/fast
 
 hal_tsensor.obj: hal_tsensor.c.obj
@@ -131,7 +131,7 @@ hal_tsensor.obj: hal_tsensor.c.obj
 
 # target to build an object file
 hal_tsensor.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/hal_tsensor.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/hal_tsensor.c.obj
 .PHONY : hal_tsensor.c.obj
 
 hal_tsensor.i: hal_tsensor.c.i
@@ -140,7 +140,7 @@ hal_tsensor.i: hal_tsensor.c.i
 
 # target to preprocess a source file
 hal_tsensor.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/hal_tsensor.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/hal_tsensor.c.i
 .PHONY : hal_tsensor.c.i
 
 hal_tsensor.s: hal_tsensor.c.s
@@ -149,7 +149,7 @@ hal_tsensor.s: hal_tsensor.c.s
 
 # target to generate assembly for a file
 hal_tsensor.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/hal_tsensor.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/hal_tsensor.c.s
 .PHONY : hal_tsensor.c.s
 
 v151/hal_tsensor_v151.obj: v151/hal_tsensor_v151.c.obj
@@ -158,7 +158,7 @@ v151/hal_tsensor_v151.obj: v151/hal_tsensor_v151.c.obj
 
 # target to build an object file
 v151/hal_tsensor_v151.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151.c.obj
 .PHONY : v151/hal_tsensor_v151.c.obj
 
 v151/hal_tsensor_v151.i: v151/hal_tsensor_v151.c.i
@@ -167,7 +167,7 @@ v151/hal_tsensor_v151.i: v151/hal_tsensor_v151.c.i
 
 # target to preprocess a source file
 v151/hal_tsensor_v151.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151.c.i
 .PHONY : v151/hal_tsensor_v151.c.i
 
 v151/hal_tsensor_v151.s: v151/hal_tsensor_v151.c.s
@@ -176,7 +176,7 @@ v151/hal_tsensor_v151.s: v151/hal_tsensor_v151.c.s
 
 # target to generate assembly for a file
 v151/hal_tsensor_v151.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151.c.s
 .PHONY : v151/hal_tsensor_v151.c.s
 
 v151/hal_tsensor_v151_regs_op.obj: v151/hal_tsensor_v151_regs_op.c.obj
@@ -185,7 +185,7 @@ v151/hal_tsensor_v151_regs_op.obj: v151/hal_tsensor_v151_regs_op.c.obj
 
 # target to build an object file
 v151/hal_tsensor_v151_regs_op.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151_regs_op.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151_regs_op.c.obj
 .PHONY : v151/hal_tsensor_v151_regs_op.c.obj
 
 v151/hal_tsensor_v151_regs_op.i: v151/hal_tsensor_v151_regs_op.c.i
@@ -194,7 +194,7 @@ v151/hal_tsensor_v151_regs_op.i: v151/hal_tsensor_v151_regs_op.c.i
 
 # target to preprocess a source file
 v151/hal_tsensor_v151_regs_op.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151_regs_op.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151_regs_op.c.i
 .PHONY : v151/hal_tsensor_v151_regs_op.c.i
 
 v151/hal_tsensor_v151_regs_op.s: v151/hal_tsensor_v151_regs_op.c.s
@@ -203,7 +203,7 @@ v151/hal_tsensor_v151_regs_op.s: v151/hal_tsensor_v151_regs_op.c.s
 
 # target to generate assembly for a file
 v151/hal_tsensor_v151_regs_op.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151_regs_op.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151_regs_op.c.s
 .PHONY : v151/hal_tsensor_v151_regs_op.c.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

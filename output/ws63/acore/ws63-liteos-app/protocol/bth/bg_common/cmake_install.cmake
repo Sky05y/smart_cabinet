@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/protocol/bt/host/bg_common
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/protocol/bt/host/bg_common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

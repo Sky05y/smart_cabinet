@@ -810,15 +810,15 @@ chip_definitions.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/gpio/gpio.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/gpio/gpio.c
 stdbool.h
 -
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/gpio/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/gpio/soc_osal.h
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/gpio/securec.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/gpio/securec.h
 gpio_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/gpio/gpio_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/gpio/gpio_porting.h
 gpio.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/gpio/gpio.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/gpio/gpio.h
 

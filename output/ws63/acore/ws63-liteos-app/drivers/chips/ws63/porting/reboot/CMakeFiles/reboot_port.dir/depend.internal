@@ -108,5 +108,5 @@ drivers/chips/ws63/porting/reboot/CMakeFiles/reboot_port.dir/reboot_porting.c.ob
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/reboot/reboot_porting.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/reboot/reboot_porting.h
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/reboot/reboot_porting.c
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/reboot/reboot_porting.h

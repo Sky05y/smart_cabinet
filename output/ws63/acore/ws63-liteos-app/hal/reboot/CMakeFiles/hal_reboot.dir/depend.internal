@@ -74,5 +74,5 @@ hal/reboot/CMakeFiles/hal_reboot.dir/hal_reboot.c.obj
  ../../../../middleware/utils/dfx/dfx_reboot/reboot/shared/non_os_reboot.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../middleware/utils/dfx/preserve/public/preserve.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/hal_reboot.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/reboot/hal_reboot.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/hal_reboot.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/reboot/hal_reboot.h

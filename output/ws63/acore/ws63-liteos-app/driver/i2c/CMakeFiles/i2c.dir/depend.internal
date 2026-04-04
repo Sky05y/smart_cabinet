@@ -131,4 +131,4 @@ driver/i2c/CMakeFiles/i2c.dir/i2c.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2c/i2c.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2c/i2c.c

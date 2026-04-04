@@ -11,8 +11,8 @@ hal/adc/CMakeFiles/hal_adc.dir/hal_adc.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/osal/include/interrupt/osal_interrupt.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/adc/hal_adc.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/adc/hal_adc.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/adc/hal_adc.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/adc/hal_adc.h
 hal/adc/CMakeFiles/hal_adc.dir/v154/hal_adc_v154.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -126,10 +126,10 @@ hal/adc/CMakeFiles/hal_adc.dir/v154/hal_adc_v154.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/adc/v154/hal_adc_v154.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/adc/v154/hal_adc_v154.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/adc/v154/hal_adc_v154_regs_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/adc/v154/hal_adc_v154_regs_op.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/adc/v154/hal_adc_v154.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/adc/v154/hal_adc_v154.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/adc/v154/hal_adc_v154_regs_def.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/adc/v154/hal_adc_v154_regs_op.h
 hal/adc/CMakeFiles/hal_adc.dir/v154/hal_adc_v154_regs_op.c.obj
  ../../../../drivers/chips/ws63/porting/adc/adc_porting.h
  ../../../../include/common_def.h
@@ -140,6 +140,6 @@ hal/adc/CMakeFiles/hal_adc.dir/v154/hal_adc_v154_regs_op.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/osal/include/interrupt/osal_interrupt.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/adc/v154/hal_adc_v154_regs_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/adc/v154/hal_adc_v154_regs_op.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/adc/v154/hal_adc_v154_regs_op.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/adc/v154/hal_adc_v154_regs_def.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/adc/v154/hal_adc_v154_regs_op.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/adc/v154/hal_adc_v154_regs_op.h

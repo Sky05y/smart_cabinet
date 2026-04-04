@@ -22,7 +22,7 @@ utils/update/common/CMakeFiles/update_common.dir/upg_alloc.c.obj
  ../../../../middleware/utils/update/inner_include/upg_alloc.h
  ../../../../middleware/utils/update/inner_include/upg_common.h
  ../../../../middleware/utils/update/inner_include/upg_definitions.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/common/upg_alloc.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/update/common/upg_alloc.c
 utils/update/common/CMakeFiles/update_common.dir/upg_common.c.obj
  ../../../../drivers/boards/ws63/evb/linker/ws63_liteos_app_linker/memory_config.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/memory_config_common.h
@@ -146,7 +146,7 @@ utils/update/common/CMakeFiles/update_common.dir/upg_common.c.obj
  ../../../../middleware/utils/update/inner_include/upg_definitions.h
  ../../../../middleware/utils/update/inner_include/upg_otp_reg.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/common/upg_common.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/update/common/upg_common.c
 utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.obj
  ../../../../drivers/boards/ws63/evb/linker/ws63_liteos_app_linker/memory_config.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/memory_config_common.h
@@ -303,4 +303,4 @@ utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.obj
  ../../../../middleware/utils/update/inner_include/upg_otp_reg.h
  ../../../../middleware/utils/update/inner_include/upg_verify.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/common/upg_verify.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/update/common/upg_verify.c

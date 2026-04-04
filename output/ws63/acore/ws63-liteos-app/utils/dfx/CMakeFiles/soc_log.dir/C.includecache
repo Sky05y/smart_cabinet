@@ -984,19 +984,19 @@ errcode.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/soc_log/soc_log.c
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/soc_log/soc_log.c
 soc_log.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/soc_log/soc_log.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/soc_log/soc_log.h
 soc_log_strategy.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/soc_log/soc_log_strategy.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/soc_log/soc_log_strategy.h
 dfx_adapt_layer.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/soc_log/dfx_adapt_layer.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/soc_log/dfx_adapt_layer.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/soc_log/soc_log_uart_instance.c
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/soc_log/soc_log_uart_instance.c
 soc_log_uart_instance.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/soc_log/soc_log_uart_instance.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/soc_log/soc_log_uart_instance.h
 soc_log_impl_str.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/soc_log/soc_log_impl_str.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/soc_log/soc_log_impl_str.h
 dfx_adapt_layer.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/soc_log/dfx_adapt_layer.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/soc_log/dfx_adapt_layer.h
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_porting
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_porting
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

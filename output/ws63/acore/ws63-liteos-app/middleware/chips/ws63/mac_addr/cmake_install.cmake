@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/mac_addr
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/mac_addr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_app/soc_nv_storage.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_app/soc_nv_storage_handle.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_lib/nv_async_store.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_lib/nv_debug.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_lib/nv_key.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_lib/nv_notify.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_lib/nv_nvregion.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_lib/nv_page.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_lib/nv_reset.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_lib/nv_rpc.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_lib/nv_store.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_lib/nv_update.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/nv/nv_storage_lib/nv_upg.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_app/soc_nv_storage.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_app/soc_nv_storage_handle.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_lib/nv_async_store.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_lib/nv_debug.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_lib/nv_key.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_lib/nv_notify.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_lib/nv_nvregion.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_lib/nv_page.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_lib/nv_reset.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_lib/nv_rpc.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_lib/nv_store.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_lib/nv_update.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/nv/nv_storage_lib/nv_upg.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -367,8 +367,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../../../protocol/bt/host/bt/sdk/../include/common/L0"
   "../../../../protocol/bt/host/bt/sdk/../include/ble"
   "../../../../protocol/bt/host/bt/sdk/../include/ble/L0"
-  "../../../../application/samples/ws63_server/include"
-  "../../../../application/samples/ws63_server/sle_uart_server"
+  "../../../../application/samples/ws63_client/include"
+  "../../../../application/samples/ws63_client/sle_uart_client"
   "../../../../include/middleware/services/bts/ble"
   "../../../../include/middleware/services/bts/br"
   "../../../../include/middleware/services/bts/common"

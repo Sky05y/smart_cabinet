@@ -748,7 +748,7 @@ errcode.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/upg_storage.c
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/upg_storage.c
 stddef.h
 -
 stdio.h
@@ -758,33 +758,33 @@ stdint.h
 stdbool.h
 -
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/securec.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/securec.h
 upg_config.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/upg_config.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/upg_config.h
 fcntl.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/fcntl.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/fcntl.h
 sys/stat.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/sys/stat.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/sys/stat.h
 sys/vfs.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/sys/vfs.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/sys/vfs.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/errcode.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/errcode.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/common_def.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/common_def.h
 partition.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/partition.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/partition.h
 upg_definitions.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/upg_definitions.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/upg_definitions.h
 upg_common.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/upg_common.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/upg_common.h
 upg_common_porting.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/upg_common_porting.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/upg_common_porting.h
 upg_alloc.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/upg_alloc.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/upg_alloc.h
 upg_verify.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/upg_verify.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/upg_verify.h
 upg_porting.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/upg_porting.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/upg_porting.h
 upg_debug.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/upg_debug.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/upg_debug.h
 

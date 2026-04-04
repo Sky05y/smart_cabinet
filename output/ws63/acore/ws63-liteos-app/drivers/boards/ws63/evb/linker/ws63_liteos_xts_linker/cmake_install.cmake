@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/drivers/boards/ws63/evb/linker/ws63_liteos_xts_linker
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/drivers/boards/ws63/evb/linker/ws63_liteos_xts_linker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

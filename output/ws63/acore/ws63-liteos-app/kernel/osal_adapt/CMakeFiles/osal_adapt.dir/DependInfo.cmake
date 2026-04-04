@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_atomic.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_atomic.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_debug.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_debug.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_event.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_event.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_string.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_string.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_task.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_task.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_timer.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_timer.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_atomic.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_atomic.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_debug.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_debug.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_event.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_event.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_string.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_string.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_task.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_task.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_timer.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_timer.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -358,8 +358,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../../../protocol/bt/host/bt/sdk/../include/common/L0"
   "../../../../protocol/bt/host/bt/sdk/../include/ble"
   "../../../../protocol/bt/host/bt/sdk/../include/ble/L0"
-  "../../../../application/samples/ws63_server/include"
-  "../../../../application/samples/ws63_server/sle_uart_server"
+  "../../../../application/samples/ws63_client/include"
+  "../../../../application/samples/ws63_client/sle_uart_client"
   "../../../../include/middleware/services/bts/ble"
   "../../../../include/middleware/services/bts/br"
   "../../../../include/middleware/services/bts/common"

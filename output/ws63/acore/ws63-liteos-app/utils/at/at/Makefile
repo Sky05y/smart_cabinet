@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/at/at/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/at/at/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/at/at/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/at/at/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/at/at/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/at/at/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/at/at/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/at/at/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/at/at/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/at/at/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/at/at/CMakeFiles/at.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/at/at/CMakeFiles/at.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/at/at/CMakeFiles/at.dir/rule
 .PHONY : utils/at/at/CMakeFiles/at.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ at: utils/at/at/CMakeFiles/at.dir/rule
 
 # fast build rule for target.
 at/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/build
 .PHONY : at/fast
 
 src/at_base.obj: src/at_base.c.obj
@@ -131,7 +131,7 @@ src/at_base.obj: src/at_base.c.obj
 
 # target to build an object file
 src/at_base.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_base.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_base.c.obj
 .PHONY : src/at_base.c.obj
 
 src/at_base.i: src/at_base.c.i
@@ -140,7 +140,7 @@ src/at_base.i: src/at_base.c.i
 
 # target to preprocess a source file
 src/at_base.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_base.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_base.c.i
 .PHONY : src/at_base.c.i
 
 src/at_base.s: src/at_base.c.s
@@ -149,7 +149,7 @@ src/at_base.s: src/at_base.c.s
 
 # target to generate assembly for a file
 src/at_base.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_base.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_base.c.s
 .PHONY : src/at_base.c.s
 
 src/at_channel.obj: src/at_channel.c.obj
@@ -158,7 +158,7 @@ src/at_channel.obj: src/at_channel.c.obj
 
 # target to build an object file
 src/at_channel.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_channel.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_channel.c.obj
 .PHONY : src/at_channel.c.obj
 
 src/at_channel.i: src/at_channel.c.i
@@ -167,7 +167,7 @@ src/at_channel.i: src/at_channel.c.i
 
 # target to preprocess a source file
 src/at_channel.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_channel.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_channel.c.i
 .PHONY : src/at_channel.c.i
 
 src/at_channel.s: src/at_channel.c.s
@@ -176,7 +176,7 @@ src/at_channel.s: src/at_channel.c.s
 
 # target to generate assembly for a file
 src/at_channel.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_channel.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_channel.c.s
 .PHONY : src/at_channel.c.s
 
 src/at_cmd.obj: src/at_cmd.c.obj
@@ -185,7 +185,7 @@ src/at_cmd.obj: src/at_cmd.c.obj
 
 # target to build an object file
 src/at_cmd.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_cmd.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_cmd.c.obj
 .PHONY : src/at_cmd.c.obj
 
 src/at_cmd.i: src/at_cmd.c.i
@@ -194,7 +194,7 @@ src/at_cmd.i: src/at_cmd.c.i
 
 # target to preprocess a source file
 src/at_cmd.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_cmd.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_cmd.c.i
 .PHONY : src/at_cmd.c.i
 
 src/at_cmd.s: src/at_cmd.c.s
@@ -203,7 +203,7 @@ src/at_cmd.s: src/at_cmd.c.s
 
 # target to generate assembly for a file
 src/at_cmd.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_cmd.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_cmd.c.s
 .PHONY : src/at_cmd.c.s
 
 src/at_msg.obj: src/at_msg.c.obj
@@ -212,7 +212,7 @@ src/at_msg.obj: src/at_msg.c.obj
 
 # target to build an object file
 src/at_msg.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_msg.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_msg.c.obj
 .PHONY : src/at_msg.c.obj
 
 src/at_msg.i: src/at_msg.c.i
@@ -221,7 +221,7 @@ src/at_msg.i: src/at_msg.c.i
 
 # target to preprocess a source file
 src/at_msg.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_msg.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_msg.c.i
 .PHONY : src/at_msg.c.i
 
 src/at_msg.s: src/at_msg.c.s
@@ -230,7 +230,7 @@ src/at_msg.s: src/at_msg.c.s
 
 # target to generate assembly for a file
 src/at_msg.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_msg.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_msg.c.s
 .PHONY : src/at_msg.c.s
 
 src/at_notify.obj: src/at_notify.c.obj
@@ -239,7 +239,7 @@ src/at_notify.obj: src/at_notify.c.obj
 
 # target to build an object file
 src/at_notify.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_notify.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_notify.c.obj
 .PHONY : src/at_notify.c.obj
 
 src/at_notify.i: src/at_notify.c.i
@@ -248,7 +248,7 @@ src/at_notify.i: src/at_notify.c.i
 
 # target to preprocess a source file
 src/at_notify.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_notify.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_notify.c.i
 .PHONY : src/at_notify.c.i
 
 src/at_notify.s: src/at_notify.c.s
@@ -257,7 +257,7 @@ src/at_notify.s: src/at_notify.c.s
 
 # target to generate assembly for a file
 src/at_notify.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_notify.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_notify.c.s
 .PHONY : src/at_notify.c.s
 
 src/at_parse.obj: src/at_parse.c.obj
@@ -266,7 +266,7 @@ src/at_parse.obj: src/at_parse.c.obj
 
 # target to build an object file
 src/at_parse.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_parse.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_parse.c.obj
 .PHONY : src/at_parse.c.obj
 
 src/at_parse.i: src/at_parse.c.i
@@ -275,7 +275,7 @@ src/at_parse.i: src/at_parse.c.i
 
 # target to preprocess a source file
 src/at_parse.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_parse.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_parse.c.i
 .PHONY : src/at_parse.c.i
 
 src/at_parse.s: src/at_parse.c.s
@@ -284,7 +284,7 @@ src/at_parse.s: src/at_parse.c.s
 
 # target to generate assembly for a file
 src/at_parse.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_parse.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_parse.c.s
 .PHONY : src/at_parse.c.s
 
 src/at_process.obj: src/at_process.c.obj
@@ -293,7 +293,7 @@ src/at_process.obj: src/at_process.c.obj
 
 # target to build an object file
 src/at_process.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_process.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_process.c.obj
 .PHONY : src/at_process.c.obj
 
 src/at_process.i: src/at_process.c.i
@@ -302,7 +302,7 @@ src/at_process.i: src/at_process.c.i
 
 # target to preprocess a source file
 src/at_process.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_process.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_process.c.i
 .PHONY : src/at_process.c.i
 
 src/at_process.s: src/at_process.c.s
@@ -311,7 +311,7 @@ src/at_process.s: src/at_process.c.s
 
 # target to generate assembly for a file
 src/at_process.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_process.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_process.c.s
 .PHONY : src/at_process.c.s
 
 src/at_report.obj: src/at_report.c.obj
@@ -320,7 +320,7 @@ src/at_report.obj: src/at_report.c.obj
 
 # target to build an object file
 src/at_report.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_report.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_report.c.obj
 .PHONY : src/at_report.c.obj
 
 src/at_report.i: src/at_report.c.i
@@ -329,7 +329,7 @@ src/at_report.i: src/at_report.c.i
 
 # target to preprocess a source file
 src/at_report.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_report.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_report.c.i
 .PHONY : src/at_report.c.i
 
 src/at_report.s: src/at_report.c.s
@@ -338,7 +338,7 @@ src/at_report.s: src/at_report.c.s
 
 # target to generate assembly for a file
 src/at_report.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_report.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_report.c.s
 .PHONY : src/at_report.c.s
 
 src/at_zdiag.obj: src/at_zdiag.c.obj
@@ -347,7 +347,7 @@ src/at_zdiag.obj: src/at_zdiag.c.obj
 
 # target to build an object file
 src/at_zdiag.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_zdiag.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_zdiag.c.obj
 .PHONY : src/at_zdiag.c.obj
 
 src/at_zdiag.i: src/at_zdiag.c.i
@@ -356,7 +356,7 @@ src/at_zdiag.i: src/at_zdiag.c.i
 
 # target to preprocess a source file
 src/at_zdiag.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_zdiag.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_zdiag.c.i
 .PHONY : src/at_zdiag.c.i
 
 src/at_zdiag.s: src/at_zdiag.c.s
@@ -365,7 +365,7 @@ src/at_zdiag.s: src/at_zdiag.c.s
 
 # target to generate assembly for a file
 src/at_zdiag.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_zdiag.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/at/at/CMakeFiles/at.dir/build.make utils/at/at/CMakeFiles/at.dir/src/at_zdiag.c.s
 .PHONY : src/at_zdiag.c.s
 
 # Help Target
@@ -415,6 +415,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

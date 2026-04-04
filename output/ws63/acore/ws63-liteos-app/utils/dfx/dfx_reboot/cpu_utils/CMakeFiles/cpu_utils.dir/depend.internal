@@ -62,4 +62,4 @@ utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/private/cpu_utils.c.obj
  ../../../../middleware/utils/dfx/preserve/public/preserve.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_reboot/cpu_utils/private/cpu_utils.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_reboot/cpu_utils/private/cpu_utils.c

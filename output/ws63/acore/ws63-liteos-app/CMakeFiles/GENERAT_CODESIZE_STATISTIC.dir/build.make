@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Utility rule file for GENERAT_CODESIZE_STATISTIC.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63
 include CMakeFiles/GENERAT_CODESIZE_STATISTIC.dir/progress.make
 
 CMakeFiles/GENERAT_CODESIZE_STATISTIC: ws63-liteos-app.elf
-	/usr/bin/python3 /home/bearpi/project/bearpi-pico_h3863/build/script/codesize_statistic.py ws63-liteos-app
+	/usr/bin/python3 /home/bearpi/project/smart_cabinet-main/build/script/codesize_statistic.py ws63-liteos-app
 
 GENERAT_CODESIZE_STATISTIC: CMakeFiles/GENERAT_CODESIZE_STATISTIC
 GENERAT_CODESIZE_STATISTIC: CMakeFiles/GENERAT_CODESIZE_STATISTIC.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/GENERAT_CODESIZE_STATISTIC.dir/clean:
 .PHONY : CMakeFiles/GENERAT_CODESIZE_STATISTIC.dir/clean
 
 CMakeFiles/GENERAT_CODESIZE_STATISTIC.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles/GENERAT_CODESIZE_STATISTIC.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles/GENERAT_CODESIZE_STATISTIC.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GENERAT_CODESIZE_STATISTIC.dir/depend
 

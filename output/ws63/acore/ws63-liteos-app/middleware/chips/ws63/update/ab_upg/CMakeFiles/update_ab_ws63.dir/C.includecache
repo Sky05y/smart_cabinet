@@ -210,27 +210,27 @@ upg.h
 errcode.h
 ../../../../middleware/utils/update/inner_include/errcode.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/ab_upg/upg_ab.c
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/ab_upg/upg_ab.c
 stddef.h
 -
 stdint.h
 -
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/ab_upg/errcode.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/ab_upg/errcode.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/ab_upg/common_def.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/ab_upg/common_def.h
 sfc.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/ab_upg/sfc.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/ab_upg/sfc.h
 partition.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/ab_upg/partition.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/ab_upg/partition.h
 upg.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/ab_upg/upg.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/ab_upg/upg.h
 upg_debug.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/ab_upg/upg_debug.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/ab_upg/upg_debug.h
 upg_verify.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/ab_upg/upg_verify.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/ab_upg/upg_verify.h
 upg_porting.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/ab_upg/upg_porting.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/ab_upg/upg_porting.h
 upg_ab.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/ab_upg/upg_ab.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/ab_upg/upg_ab.h
 

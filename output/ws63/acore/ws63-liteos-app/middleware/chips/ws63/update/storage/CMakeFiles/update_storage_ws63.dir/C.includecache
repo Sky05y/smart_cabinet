@@ -190,17 +190,17 @@ partition_resource_id.h
 upg.h
 ../../../../middleware/utils/update/inner_include/upg.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/storage/upg_backup.c
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/storage/upg_backup.c
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/storage/errcode.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/storage/errcode.h
 partition.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/storage/partition.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/storage/partition.h
 upg_definitions.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/storage/upg_definitions.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/storage/upg_definitions.h
 upg_porting.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/storage/upg_porting.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/storage/upg_porting.h
 upg_debug.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/storage/upg_debug.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/storage/upg_debug.h
 upg_common_porting.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/storage/upg_common_porting.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/storage/upg_common_porting.h
 

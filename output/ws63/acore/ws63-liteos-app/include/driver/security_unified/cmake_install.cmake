@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/include/driver/security_unified
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/include/driver/security_unified
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

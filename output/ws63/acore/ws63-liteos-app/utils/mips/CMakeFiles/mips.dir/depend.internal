@@ -10,4 +10,4 @@ utils/mips/CMakeFiles/mips.dir/private/mips.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/mips/public/mips.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips/private/mips.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/mips/private/mips.c

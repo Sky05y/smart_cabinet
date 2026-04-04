@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/rom_code/ws63/source/alg/iot_alg
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/protocol/wifi/rom_code/ws63/source/alg/iot_alg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

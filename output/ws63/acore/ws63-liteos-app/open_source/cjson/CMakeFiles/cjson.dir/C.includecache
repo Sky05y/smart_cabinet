@@ -586,7 +586,7 @@ register_config.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/cJSON.c
+/home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/cJSON.c
 app/cli/string.h
 -
 common/type.h
@@ -598,7 +598,7 @@ common/mem/memctrl.h
 stdint.h
 -
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/securec.h
+/home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/securec.h
 string.h
 -
 stdio.h
@@ -616,7 +616,7 @@ float.h
 locale.h
 -
 cJSON.h
-/home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/cJSON.h
+/home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/cJSON.h
 Library/BaseLib.h
 -
 Library/DebugLib.h
@@ -628,13 +628,13 @@ Library/HwSafePrint.h
 Library/PrintLib.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/cJSON.h
+/home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/cJSON.h
 stddef.h
 -
 common/type.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/cJSON_Utils.c
+/home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/cJSON_Utils.c
 ctype.h
 -
 string.h
@@ -652,9 +652,9 @@ float.h
 math.h
 -
 cJSON_Utils.h
-/home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/cJSON_Utils.h
+/home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/cJSON_Utils.h
 
-/home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/cJSON_Utils.h
+/home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/cJSON_Utils.h
 cJSON.h
-/home/bearpi/project/bearpi-pico_h3863/open_source/cjson/cjson/cJSON.h
+/home/bearpi/project/smart_cabinet-main/open_source/cjson/cjson/cJSON.h
 

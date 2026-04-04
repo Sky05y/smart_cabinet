@@ -95,5 +95,5 @@ drivers/chips/ws63/porting/efuse/CMakeFiles/efuse_port.dir/efuse_porting.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/soc/clock.h
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/efuse/efuse_porting.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/efuse/efuse_porting.h
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/efuse/efuse_porting.c
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/efuse/efuse_porting.h

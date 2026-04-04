@@ -774,21 +774,21 @@ stdint.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/efuse/efuse.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/efuse/efuse.c
 efuse.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/efuse/efuse.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/efuse/efuse.h
 stdio.h
 -
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/efuse/securec.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/efuse/securec.h
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/efuse/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/efuse/soc_osal.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/efuse/errcode.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/efuse/errcode.h
 tcxo.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/efuse/tcxo.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/efuse/tcxo.h
 hal_efuse.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/efuse/hal_efuse.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/efuse/hal_efuse.h
 efuse_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/efuse/efuse_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/efuse/efuse_porting.h
 

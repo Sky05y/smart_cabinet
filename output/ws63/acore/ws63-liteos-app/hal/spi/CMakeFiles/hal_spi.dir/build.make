@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include hal/spi/CMakeFiles/hal_spi.dir/depend.make
@@ -59,42 +59,42 @@ include hal/spi/CMakeFiles/hal_spi.dir/flags.make
 
 hal/spi/CMakeFiles/hal_spi.dir/hal_spi.c.obj: hal/spi/CMakeFiles/hal_spi.dir/flags.make
 hal/spi/CMakeFiles/hal_spi.dir/hal_spi.c.obj: ../../../../drivers/drivers/hal/spi/hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/spi/CMakeFiles/hal_spi.dir/hal_spi.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_spi.dir/hal_spi.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/spi/CMakeFiles/hal_spi.dir/hal_spi.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_spi.dir/hal_spi.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/hal_spi.c
 
 hal/spi/CMakeFiles/hal_spi.dir/hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_spi.dir/hal_spi.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/hal_spi.c > CMakeFiles/hal_spi.dir/hal_spi.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/hal_spi.c > CMakeFiles/hal_spi.dir/hal_spi.c.i
 
 hal/spi/CMakeFiles/hal_spi.dir/hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_spi.dir/hal_spi.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/hal_spi.c -o CMakeFiles/hal_spi.dir/hal_spi.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/hal_spi.c -o CMakeFiles/hal_spi.dir/hal_spi.c.s
 
 hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.obj: hal/spi/CMakeFiles/hal_spi.dir/flags.make
 hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.obj: ../../../../drivers/drivers/hal/spi/v151/hal_spi_v151.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151.c
 
 hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151.c > CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151.c > CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.i
 
 hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151.c -o CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_V151_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151.c -o CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.s
 
 hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.obj: hal/spi/CMakeFiles/hal_spi.dir/flags.make
 hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.obj: ../../../../drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.obj   -c /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.c
 
 hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.c > CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.c > CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.i
 
 hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.c -o CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SPI_V151_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.c -o CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.s
 
 # Object files for target hal_spi
 hal_spi_OBJECTS = \
@@ -110,9 +110,9 @@ hal/spi/libhal_spi.a: hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.obj
 hal/spi/libhal_spi.a: hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.obj
 hal/spi/libhal_spi.a: hal/spi/CMakeFiles/hal_spi.dir/build.make
 hal/spi/libhal_spi.a: hal/spi/CMakeFiles/hal_spi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libhal_spi.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi && $(CMAKE_COMMAND) -P CMakeFiles/hal_spi.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_spi.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libhal_spi.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi && $(CMAKE_COMMAND) -P CMakeFiles/hal_spi.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_spi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hal/spi/CMakeFiles/hal_spi.dir/build: hal/spi/libhal_spi.a
@@ -120,10 +120,10 @@ hal/spi/CMakeFiles/hal_spi.dir/build: hal/spi/libhal_spi.a
 .PHONY : hal/spi/CMakeFiles/hal_spi.dir/build
 
 hal/spi/CMakeFiles/hal_spi.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi && $(CMAKE_COMMAND) -P CMakeFiles/hal_spi.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi && $(CMAKE_COMMAND) -P CMakeFiles/hal_spi.dir/cmake_clean.cmake
 .PHONY : hal/spi/CMakeFiles/hal_spi.dir/clean
 
 hal/spi/CMakeFiles/hal_spi.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/spi/CMakeFiles/hal_spi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/spi/CMakeFiles/hal_spi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hal/spi/CMakeFiles/hal_spi.dir/depend
 

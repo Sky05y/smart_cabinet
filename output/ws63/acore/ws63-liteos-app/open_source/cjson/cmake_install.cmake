@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/open_source/cjson
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/open_source/cjson
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

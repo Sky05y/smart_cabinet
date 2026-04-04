@@ -156,7 +156,7 @@ utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/soc_log/soc_log.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/soc_log/soc_log.c
 utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -314,4 +314,4 @@ utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/soc_log/soc_log_uart_instance.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/soc_log/soc_log_uart_instance.c

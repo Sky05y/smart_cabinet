@@ -438,5 +438,5 @@ protocol/wifi/CMakeFiles/wifi_frag.dir/source/host/feature/hmac_frag.c.obj
  ../../../../protocol/wifi/source/host/inc/oal/oal_util_hcm.h
  ../../../../protocol/wifi/source/host/inc/oam_struct.h
  ../../../../protocol/wifi/source/host/inc/wlan_mib_hcm.h
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_frag.c
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_frag.h
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_frag.c
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_frag.h

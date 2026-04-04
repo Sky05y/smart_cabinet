@@ -822,21 +822,21 @@ stdint.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2c/i2c.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2c/i2c.c
 stdbool.h
 -
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2c/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2c/soc_osal.h
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2c/securec.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2c/securec.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2c/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2c/common_def.h
 tcxo.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2c/tcxo.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2c/tcxo.h
 i2c.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2c/i2c.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2c/i2c.h
 dma.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2c/dma.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2c/dma.h
 hal_dma.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/i2c/hal_dma.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/i2c/hal_dma.h
 

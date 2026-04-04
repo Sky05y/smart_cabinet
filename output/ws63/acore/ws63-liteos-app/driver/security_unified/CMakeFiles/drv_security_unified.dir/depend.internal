@@ -134,9 +134,9 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_hash.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_include/drv_common.h
@@ -272,10 +272,10 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_hash.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_inner.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_hash.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_inner.h
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_pbkdf2_hard.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_include/drv_common.h
@@ -414,10 +414,10 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_inner.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_pbkdf2_hard.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_inner.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_pbkdf2_hard.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_include/drv_common.h
@@ -553,10 +553,10 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_inner.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_symc.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_inner.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_symc.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc_mac_hard.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_include/drv_common.h
@@ -692,10 +692,10 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_inner.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_symc_mac_hard.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_inner.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_symc_mac_hard.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_trng.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_include/drv_common.h
@@ -831,10 +831,10 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_inner.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_trng.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_inner.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_code/drv_trng.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_cal.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_include/drv_pke_cal.h
@@ -969,7 +969,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/drv_pke_cal.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/drv_pke_cal.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
@@ -1109,7 +1109,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
@@ -1248,7 +1248,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
@@ -1389,7 +1389,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -1530,7 +1530,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/drv_pke_ecdsa.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/drv_pke_ecdsa.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_rsa.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -1695,7 +1695,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v
  ../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/rsa.h
  ../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/threading.h
  ../../../../open_source/mbedtls/mbedtls_v3.1.0/include/psa/crypto_config.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/drv_pke_rsa.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/drv_pke_rsa.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -1835,7 +1835,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -1975,7 +1975,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_fapc/drv_fapc.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -2112,7 +2112,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_fapc/drv_fapc.c.
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_fapc/drv_fapc.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_fapc/drv_fapc.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_keyslot.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -2250,7 +2250,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_keyslot.c
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_km/drv_keyslot.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_km/drv_keyslot.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_klad.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -2389,7 +2389,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_klad.c.ob
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_km/drv_klad.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_km/drv_klad.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_pke_weak_func.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_include/drv_pke_inner.h
@@ -2526,7 +2526,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_pke_weak_func.c.
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/drv_pke_weak_func.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/drv_pke_weak_func.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/crypto_curve_param.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_include/drv_pke.h
@@ -2658,8 +2658,8 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/crypto_cur
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/init/cfbb/crypto_curve_param.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/init/cfbb/crypto_curve_param.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/init/cfbb/crypto_curve_param.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/init/cfbb/crypto_curve_param.h
 driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_init.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -2800,9 +2800,9 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/init/cfbb/os/crypto_drv_init.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/init/cfbb/os/crypto_drv_init.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/init/cfbb/os/crypto_drv_irq.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/init/cfbb/os/crypto_drv_init.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/init/cfbb/os/crypto_drv_init.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/init/cfbb/os/crypto_drv_irq.h
 driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_irq.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -2944,8 +2944,8 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/init/cfbb/os/crypto_drv_irq.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/init/cfbb/os/crypto_drv_irq.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/init/cfbb/os/crypto_drv_irq.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/init/cfbb/os/crypto_drv_irq.h
 driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -3086,7 +3086,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_has
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/kapi/source/kapi_hash.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/kapi/source/kapi_hash.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash_simple.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -3225,7 +3225,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_has
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/kapi/source/kapi_hash_simple.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/kapi/source/kapi_hash_simple.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_init.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -3361,7 +3361,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_ini
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/kapi/source/kapi_init.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/kapi/source/kapi_init.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_km.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -3504,7 +3504,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_km.
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/kapi/source/kapi_km.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/kapi/source/kapi_km.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -3641,7 +3641,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/kapi/source/kapi_pke.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/kapi/source/kapi_pke.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke_ecc_cal.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
@@ -3777,7 +3777,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/kapi/source/kapi_pke_ecc_cal.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/kapi/source/kapi_pke_ecc_cal.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_symc.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -3918,7 +3918,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_sym
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/kapi/source/kapi_symc.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/kapi/source/kapi_symc.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_trng.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -4056,7 +4056,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_trn
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/kapi/source/kapi_trng.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/kapi/source/kapi_trng.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/aes_harden_impl_long_term.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -4200,8 +4200,8 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/aes_harden_impl.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/aes_harden_impl_long_term.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/aes_harden_impl.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/aes_harden_impl_long_term.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/ecp_harden_impl.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -4340,8 +4340,8 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/ecp_harden_impl.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/ecp_harden_impl.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/ecp_harden_impl.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/ecp_harden_impl.h
 driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/hash_harden_impl_long_term.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -4481,8 +4481,8 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/hash_harden_impl.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/hash_harden_impl_long_term.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/hash_harden_impl.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/hash_harden_impl_long_term.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/mbedtls_harden_adapt.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -4628,10 +4628,10 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/aes_harden_impl.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/ecp_harden_impl.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/hash_harden_impl.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/mbedtls_harden_adapt.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/aes_harden_impl.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/ecp_harden_impl.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/hash_harden_impl.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/mbedtls_harden_adapt/mbedtls_harden_adapt.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/cipher.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -4770,8 +4770,8 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/cipher
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/service_layer/cipher.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/service_layer/sl_common.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/service_layer/cipher.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/service_layer/sl_common.h
 driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/km.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
@@ -4903,8 +4903,8 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/km.c.o
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/service_layer/km.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/service_layer/sl_common.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/service_layer/km.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/service_layer/sl_common.h
 driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/pke.c.obj
  ../../../../drivers/drivers/driver/security_unified/kapi/include/kapi_pke.h
  ../../../../drivers/drivers/driver/security_unified/kapi/include/kapi_pke_cal.h
@@ -4927,8 +4927,8 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/pke.c.
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/select.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/types.h
  ../../../../middleware/utils/common_headers/native/td_type.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/service_layer/pke.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/service_layer/sl_common.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/service_layer/pke.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/service_layer/sl_common.h
 driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_init.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_drv_common.h
@@ -5068,7 +5068,7 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/securi
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/service_layer/security_init.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/service_layer/security_init.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_sha256.c.obj
  ../../../../drivers/chips/ws63/porting/security_unified/security_unified_porting.h
  ../../../../drivers/drivers/driver/security_unified/drv_cipher/drv_code/crypto_osal_adapt.h
@@ -5199,15 +5199,15 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/securi
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/service_layer/security_sha256.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/service_layer/security_sha256.c
 driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/sl_common.c.obj
  ../../../../drivers/drivers/hal/security_unified/hal_cipher/include/common_include/crypto_errno.h
  ../../../../include/errcode.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/service_layer/sl_common.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/service_layer/sl_common.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/service_layer/sl_common.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/service_layer/sl_common.h
 driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/trng.c.obj
  ../../../../drivers/drivers/driver/security_unified/kapi/include/kapi_trng.h
  ../../../../drivers/drivers/hal/security_unified/hal_cipher/include/common_include/crypto_common_def.h
@@ -5226,5 +5226,5 @@ driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/trng.c
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/select.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/types.h
  ../../../../middleware/utils/common_headers/native/td_type.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/service_layer/sl_common.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/security_unified/service_layer/trng.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/service_layer/sl_common.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/security_unified/service_layer/trng.c

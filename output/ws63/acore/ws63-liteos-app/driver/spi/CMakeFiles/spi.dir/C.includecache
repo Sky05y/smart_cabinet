@@ -822,21 +822,21 @@ stdint.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/spi/spi.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/spi/spi.c
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/spi/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/spi/soc_osal.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/spi/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/spi/common_def.h
 spi_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/spi/spi_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/spi/spi_porting.h
 spi.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/spi/spi.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/spi/spi.h
 dma_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/spi/dma_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/spi/dma_porting.h
 dma.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/spi/dma.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/spi/dma.h
 hal_dma.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/spi/hal_dma.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/spi/hal_dma.h
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/spi/securec.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/spi/securec.h
 

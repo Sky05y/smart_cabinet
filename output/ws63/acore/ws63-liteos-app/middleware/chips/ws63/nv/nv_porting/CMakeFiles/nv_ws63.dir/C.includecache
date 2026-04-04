@@ -790,13 +790,13 @@ errcode.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_porting/nv_flash.c
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_porting/nv_flash.c
 nv_porting.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_porting/nv_porting.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_porting/nv_porting.h
 sfc.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_porting/sfc.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_porting/sfc.h
 osal_inner.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_porting/osal_inner.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_porting/osal_inner.h
 tcxo.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_porting/tcxo.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_porting/tcxo.h
 

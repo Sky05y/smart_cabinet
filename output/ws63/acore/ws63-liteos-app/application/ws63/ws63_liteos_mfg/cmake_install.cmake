@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/application/ws63/ws63_liteos_mfg
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/application/ws63/ws63_liteos_mfg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

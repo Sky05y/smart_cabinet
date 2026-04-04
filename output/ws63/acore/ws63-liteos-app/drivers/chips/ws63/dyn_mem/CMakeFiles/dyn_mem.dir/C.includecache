@@ -30,13 +30,13 @@ stddef.h
 stdbool.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/dyn_mem/dyn_mem.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/dyn_mem/dyn_mem.c
 stdint.h
 -
 chip_io.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/dyn_mem/chip_io.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/dyn_mem/chip_io.h
 dyn_mem.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/dyn_mem/dyn_mem.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/dyn_mem/dyn_mem.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/dyn_mem/dyn_mem.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/dyn_mem/dyn_mem.h
 

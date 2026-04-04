@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/middleware/utils/app_init
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/middleware/utils/app_init
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

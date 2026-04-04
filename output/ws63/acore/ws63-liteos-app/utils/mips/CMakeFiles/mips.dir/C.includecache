@@ -36,11 +36,11 @@ stdint.h
 stdbool.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips/private/mips.c
+/home/bearpi/project/smart_cabinet-main/middleware/utils/mips/private/mips.c
 mips.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips/private/mips.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/mips/private/mips.h
 tcxo.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips/private/tcxo.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/mips/private/tcxo.h
 hal_mips.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips/private/hal_mips.h
+/home/bearpi/project/smart_cabinet-main/middleware/utils/mips/private/hal_mips.h
 

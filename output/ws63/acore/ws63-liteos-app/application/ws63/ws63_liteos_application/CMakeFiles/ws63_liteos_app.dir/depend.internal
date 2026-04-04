@@ -11,7 +11,7 @@ application/ws63/ws63_liteos_application/CMakeFiles/ws63_liteos_app.dir/reset_ve
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stddef.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/project/bearpi-pico_h3863/application/ws63/ws63_liteos_application/reset_vector.S
+ /home/bearpi/project/smart_cabinet-main/application/ws63/ws63_liteos_application/reset_vector.S
 application/ws63/ws63_liteos_application/CMakeFiles/ws63_liteos_app.dir/clock_init.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -49,8 +49,8 @@ application/ws63/ws63_liteos_application/CMakeFiles/ws63_liteos_app.dir/clock_in
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
- /home/bearpi/project/bearpi-pico_h3863/application/ws63/ws63_liteos_application/clock_init.c
- /home/bearpi/project/bearpi-pico_h3863/application/ws63/ws63_liteos_application/clock_init.h
+ /home/bearpi/project/smart_cabinet-main/application/ws63/ws63_liteos_application/clock_init.c
+ /home/bearpi/project/smart_cabinet-main/application/ws63/ws63_liteos_application/clock_init.h
 application/ws63/ws63_liteos_application/CMakeFiles/ws63_liteos_app.dir/main.c.obj
  ../../../../drivers/boards/ws63/evb/linker/ws63_liteos_app_linker/memory_config.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/memory_config_common.h
@@ -284,6 +284,6 @@ application/ws63/ws63_liteos_application/CMakeFiles/ws63_liteos_app.dir/main.c.o
  ../../../../middleware/utils/dfx/zdiag/include/diag_rom_api.h
  ../../../../middleware/utils/nv/nv_storage_lib/nv_upg.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/application/ws63/ws63_liteos_application/clock_init.h
- /home/bearpi/project/bearpi-pico_h3863/application/ws63/ws63_liteos_application/main.c
- /home/bearpi/project/bearpi-pico_h3863/application/ws63/ws63_liteos_application/main.h
+ /home/bearpi/project/smart_cabinet-main/application/ws63/ws63_liteos_application/clock_init.h
+ /home/bearpi/project/smart_cabinet-main/application/ws63/ws63_liteos_application/main.c
+ /home/bearpi/project/smart_cabinet-main/application/ws63/ws63_liteos_application/main.h

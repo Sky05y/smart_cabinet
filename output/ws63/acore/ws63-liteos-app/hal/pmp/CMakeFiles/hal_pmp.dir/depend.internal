@@ -10,8 +10,8 @@ hal/pmp/CMakeFiles/hal_pmp.dir/hal_pmp.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/pmp/hal_pmp.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/pmp/hal_pmp.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/pmp/hal_pmp.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/pmp/hal_pmp.h
 hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.obj
  ../../../../drivers/chips/ws63/arch/riscv/riscv31/arch_encoding.h
  ../../../../drivers/chips/ws63/arch/riscv/riscv_common/arch_barrier.h
@@ -21,10 +21,10 @@ hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_op.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_def.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_op.h
 hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.obj
  ../../../../drivers/chips/ws63/arch/riscv/riscv31/arch_encoding.h
  ../../../../drivers/chips/ws63/arch/riscv/riscv_common/arch_barrier.h
@@ -34,6 +34,6 @@ hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_op.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_op.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_def.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_op.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_op.h

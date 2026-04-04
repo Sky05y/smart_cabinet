@@ -346,27 +346,27 @@ los_typedef.h
 product.h
 ../../../../middleware/utils/common_headers/product.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/xo_trim_porting.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/xo_trim_porting.c
 xo_trim_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/xo_trim_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/xo_trim_porting.h
 efuse.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/efuse.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/efuse.h
 efuse_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/efuse_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/efuse_porting.h
 clock_init.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/clock_init.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/clock_init.h
 chip_io.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/chip_io.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/chip_io.h
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/soc_osal.h
 nv.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/nv.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/nv.h
 tsensor.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/tsensor.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/tsensor.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/xo_trim_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/xo_trim_porting.h
 stdint.h
 -
 std_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/std_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/std_def.h
 

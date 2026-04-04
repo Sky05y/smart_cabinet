@@ -12,5 +12,5 @@ hal/cpu_core/CMakeFiles/hal_cpu_core.dir/hal_cpu_core.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/chip_io.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/cpu_core/hal_cpu_core.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/cpu_core/hal_cpu_core.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/cpu_core/hal_cpu_core.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/cpu_core/hal_cpu_core.h

@@ -638,79 +638,79 @@ product.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/hal_dma.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/hal_dma.c
 hal_dma.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/hal_dma.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/hal_dma.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/hal_dma.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/hal_dma.h
 stdint.h
 -
 stdbool.h
 -
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/common_def.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/errcode.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/errcode.h
 dma_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/dma_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/dma_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/hal_dma_mem.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/hal_dma_mem.c
 hal_dma_mem.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/hal_dma_mem.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/hal_dma_mem.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/common_def.h
 memory/osal_addr.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/memory/osal_addr.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/memory/osal_addr.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/hal_dma_mem.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/hal_dma_mem.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/errcode.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/errcode.h
 dma_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/dma_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/dma_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dmac_v151.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dmac_v151.c
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/securec.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/securec.h
 dma_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/dma_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/dma_porting.h
 hal_dmac_v151_regs_op.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.h
 hal_dmac_v151.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dmac_v151.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dmac_v151.h
 osal_adapt.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/osal_adapt.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/osal_adapt.h
 hal_dma_mem.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dma_mem.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dma_mem.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dmac_v151.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dmac_v151.h
 hal_dma.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dma.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dma.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_def.h
 stdint.h
 -
 dma_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/dma_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/dma_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c
 hal_dmac_v151_regs_op.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.h
 debug_print.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/debug_print.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/debug_print.h
 debug_print.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/debug_print.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/debug_print.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.h
 stdint.h
 -
 stdbool.h
 -
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/common_def.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/errcode.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/errcode.h
 hal_dmac_v151_regs_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_def.h
 dma_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/dma/v151/dma_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/dma/v151/dma_porting.h
 

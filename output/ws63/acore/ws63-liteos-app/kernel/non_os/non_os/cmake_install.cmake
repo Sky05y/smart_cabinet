@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

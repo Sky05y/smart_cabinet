@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/crc/uapi_crc16.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/crc/uapi_crc32.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_hash.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_public.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_rawlist.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/sec_random/sec_random.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/sha256/sha256.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/crc/uapi_crc16.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/crc/uapi_crc32.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_hash.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_public.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_rawlist.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/sec_random/sec_random.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/sha256/sha256.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -359,8 +359,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../../../protocol/bt/host/bt/sdk/../include/common/L0"
   "../../../../protocol/bt/host/bt/sdk/../include/ble"
   "../../../../protocol/bt/host/bt/sdk/../include/ble/L0"
-  "../../../../application/samples/ws63_server/include"
-  "../../../../application/samples/ws63_server/sle_uart_server"
+  "../../../../application/samples/ws63_client/include"
+  "../../../../application/samples/ws63_client/sle_uart_client"
   "../../../../include/middleware/services/bts/ble"
   "../../../../include/middleware/services/bts/br"
   "../../../../include/middleware/services/bts/common"

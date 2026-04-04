@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include utils/algorithm/CMakeFiles/algorithm.dir/depend.make
@@ -59,94 +59,94 @@ include utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj: ../../../../middleware/utils/algorithm/crc/uapi_crc16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC16_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/crc/uapi_crc16.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC16_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/crc/uapi_crc16.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/crc/uapi_crc16.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC16_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/crc/uapi_crc16.c > CMakeFiles/algorithm.dir/crc/uapi_crc16.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC16_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/crc/uapi_crc16.c > CMakeFiles/algorithm.dir/crc/uapi_crc16.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/crc/uapi_crc16.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC16_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/crc/uapi_crc16.c -o CMakeFiles/algorithm.dir/crc/uapi_crc16.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC16_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/crc/uapi_crc16.c -o CMakeFiles/algorithm.dir/crc/uapi_crc16.c.s
 
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj: ../../../../middleware/utils/algorithm/crc/uapi_crc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/crc/uapi_crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/crc/uapi_crc32.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/crc/uapi_crc32.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/crc/uapi_crc32.c > CMakeFiles/algorithm.dir/crc/uapi_crc32.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/crc/uapi_crc32.c > CMakeFiles/algorithm.dir/crc/uapi_crc32.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/crc/uapi_crc32.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/crc/uapi_crc32.c -o CMakeFiles/algorithm.dir/crc/uapi_crc32.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UAPI_CRC32_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/crc/uapi_crc32.c -o CMakeFiles/algorithm.dir/crc/uapi_crc32.c.s
 
 utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj: ../../../../middleware/utils/algorithm/sha256/sha256.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SHA256_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/sha256/sha256.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/sha256/sha256.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SHA256_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/sha256/sha256.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/sha256/sha256.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/sha256/sha256.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SHA256_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/sha256/sha256.c > CMakeFiles/algorithm.dir/sha256/sha256.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SHA256_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/sha256/sha256.c > CMakeFiles/algorithm.dir/sha256/sha256.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/sha256/sha256.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SHA256_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/sha256/sha256.c -o CMakeFiles/algorithm.dir/sha256/sha256.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SHA256_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/sha256/sha256.c -o CMakeFiles/algorithm.dir/sha256/sha256.c.s
 
 utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj: ../../../../middleware/utils/algorithm/sec_random/sec_random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SEC_RANDOM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/sec_random/sec_random.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SEC_RANDOM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/sec_random/sec_random.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/sec_random/sec_random.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SEC_RANDOM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/sec_random/sec_random.c > CMakeFiles/algorithm.dir/sec_random/sec_random.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SEC_RANDOM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/sec_random/sec_random.c > CMakeFiles/algorithm.dir/sec_random/sec_random.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/sec_random/sec_random.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SEC_RANDOM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/sec_random/sec_random.c -o CMakeFiles/algorithm.dir/sec_random/sec_random.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SEC_RANDOM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/sec_random/sec_random.c -o CMakeFiles/algorithm.dir/sec_random/sec_random.c.s
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj: ../../../../middleware/utils/algorithm/cstl/cstl_hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_HASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_HASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_hash.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/cstl/cstl_hash.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_HASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_hash.c > CMakeFiles/algorithm.dir/cstl/cstl_hash.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_HASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_hash.c > CMakeFiles/algorithm.dir/cstl/cstl_hash.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/cstl/cstl_hash.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_HASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_hash.c -o CMakeFiles/algorithm.dir/cstl/cstl_hash.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_HASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_hash.c -o CMakeFiles/algorithm.dir/cstl/cstl_hash.c.s
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj: ../../../../middleware/utils/algorithm/cstl/cstl_rawlist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_RAWLIST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_rawlist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_RAWLIST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_rawlist.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_RAWLIST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_rawlist.c > CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_RAWLIST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_rawlist.c > CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_RAWLIST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_rawlist.c -o CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_RAWLIST_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_rawlist.c -o CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.s
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj: utils/algorithm/CMakeFiles/algorithm.dir/flags.make
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj: ../../../../middleware/utils/algorithm/cstl/cstl_public.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_PUBLIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_public.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_PUBLIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_public.c
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/cstl/cstl_public.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_PUBLIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_public.c > CMakeFiles/algorithm.dir/cstl/cstl_public.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_PUBLIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_public.c > CMakeFiles/algorithm.dir/cstl/cstl_public.c.i
 
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/cstl/cstl_public.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_PUBLIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_public.c -o CMakeFiles/algorithm.dir/cstl/cstl_public.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CSTL_PUBLIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_public.c -o CMakeFiles/algorithm.dir/cstl/cstl_public.c.s
 
 # Object files for target algorithm
 algorithm_OBJECTS = \
@@ -170,9 +170,9 @@ utils/algorithm/libalgorithm.a: utils/algorithm/CMakeFiles/algorithm.dir/cstl/cs
 utils/algorithm/libalgorithm.a: utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj
 utils/algorithm/libalgorithm.a: utils/algorithm/CMakeFiles/algorithm.dir/build.make
 utils/algorithm/libalgorithm.a: utils/algorithm/CMakeFiles/algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libalgorithm.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && $(CMAKE_COMMAND) -P CMakeFiles/algorithm.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algorithm.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libalgorithm.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && $(CMAKE_COMMAND) -P CMakeFiles/algorithm.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/algorithm/CMakeFiles/algorithm.dir/build: utils/algorithm/libalgorithm.a
@@ -180,10 +180,10 @@ utils/algorithm/CMakeFiles/algorithm.dir/build: utils/algorithm/libalgorithm.a
 .PHONY : utils/algorithm/CMakeFiles/algorithm.dir/build
 
 utils/algorithm/CMakeFiles/algorithm.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm && $(CMAKE_COMMAND) -P CMakeFiles/algorithm.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm && $(CMAKE_COMMAND) -P CMakeFiles/algorithm.dir/cmake_clean.cmake
 .PHONY : utils/algorithm/CMakeFiles/algorithm.dir/clean
 
 utils/algorithm/CMakeFiles/algorithm.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/algorithm/CMakeFiles/algorithm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/algorithm/CMakeFiles/algorithm.dir/depend
 

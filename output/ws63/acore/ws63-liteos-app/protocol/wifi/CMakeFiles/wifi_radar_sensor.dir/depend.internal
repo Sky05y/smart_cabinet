@@ -489,5 +489,5 @@ protocol/wifi/CMakeFiles/wifi_radar_sensor.dir/source/host/feature/hmac_radar_se
  ../../../../protocol/wifi/source/host/inc/oal/oal_types.h
  ../../../../protocol/wifi/source/host/inc/oal/oal_util_hcm.h
  ../../../../protocol/wifi/source/host/inc/wlan_mib_hcm.h
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_radar_sensor.c
- /home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_radar_sensor.h
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_radar_sensor.c
+ /home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_radar_sensor.h

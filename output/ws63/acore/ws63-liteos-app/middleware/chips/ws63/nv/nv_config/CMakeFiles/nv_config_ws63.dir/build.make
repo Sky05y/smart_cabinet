@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Utility rule file for nv_config_ws63.
 
@@ -57,9 +57,9 @@ middleware/chips/ws63/nv/nv_config/CMakeFiles/nv_config_ws63: middleware/chips/w
 
 
 middleware/chips/ws63/nv/nv_config/NV_SRC:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating NV_SRC"
-	cd /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_config && /usr/bin/python3 /home/bearpi/project/bearpi-pico_h3863/build/script/nv/generate_utils.py NV include /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/acore.c
-	cd /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_config && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc -o /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/acore.etypes -I/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_config/include -I/home/bearpi/project/bearpi-pico_h3863/middleware/utils/common_headers/native -DCONFIG_NV_SUPPORT_SINGLE_CORE_SYSTEM -E /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/acore.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating NV_SRC"
+	cd /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_config && /usr/bin/python3 /home/bearpi/project/smart_cabinet-main/build/script/nv/generate_utils.py NV include /home/bearpi/project/smart_cabinet-main/output/ws63/acore/acore.c
+	cd /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_config && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc -o /home/bearpi/project/smart_cabinet-main/output/ws63/acore/acore.etypes -I/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_config/include -I/home/bearpi/project/smart_cabinet-main/middleware/utils/common_headers/native -DCONFIG_NV_SUPPORT_SINGLE_CORE_SYSTEM -E /home/bearpi/project/smart_cabinet-main/output/ws63/acore/acore.c
 
 nv_config_ws63: middleware/chips/ws63/nv/nv_config/CMakeFiles/nv_config_ws63
 nv_config_ws63: middleware/chips/ws63/nv/nv_config/NV_SRC
@@ -73,10 +73,10 @@ middleware/chips/ws63/nv/nv_config/CMakeFiles/nv_config_ws63.dir/build: nv_confi
 .PHONY : middleware/chips/ws63/nv/nv_config/CMakeFiles/nv_config_ws63.dir/build
 
 middleware/chips/ws63/nv/nv_config/CMakeFiles/nv_config_ws63.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_config && $(CMAKE_COMMAND) -P CMakeFiles/nv_config_ws63.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_config && $(CMAKE_COMMAND) -P CMakeFiles/nv_config_ws63.dir/cmake_clean.cmake
 .PHONY : middleware/chips/ws63/nv/nv_config/CMakeFiles/nv_config_ws63.dir/clean
 
 middleware/chips/ws63/nv/nv_config/CMakeFiles/nv_config_ws63.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_config /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_config /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_config/CMakeFiles/nv_config_ws63.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_config /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_config /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/middleware/chips/ws63/nv/nv_config/CMakeFiles/nv_config_ws63.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : middleware/chips/ws63/nv/nv_config/CMakeFiles/nv_config_ws63.dir/depend
 

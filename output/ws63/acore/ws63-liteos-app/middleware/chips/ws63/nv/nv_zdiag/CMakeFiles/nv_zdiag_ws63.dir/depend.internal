@@ -158,5 +158,5 @@ middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.h
+ /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.c
+ /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.h

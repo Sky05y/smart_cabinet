@@ -988,17 +988,17 @@ errcode.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.c
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.c
 nv.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag/nv.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag/nv.h
 uapi_crc.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag/uapi_crc.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag/uapi_crc.h
 dfx_adapt_layer.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag/dfx_adapt_layer.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag/dfx_adapt_layer.h
 nv_adapt_zdiag.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.h
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag/nv_adapt_zdiag.h
 diag.h
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_zdiag/diag.h
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/nv/nv_zdiag/diag.h
 

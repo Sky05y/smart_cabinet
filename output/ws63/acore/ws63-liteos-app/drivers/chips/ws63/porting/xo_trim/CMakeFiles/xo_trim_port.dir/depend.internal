@@ -58,5 +58,5 @@ drivers/chips/ws63/porting/xo_trim/CMakeFiles/xo_trim_port.dir/xo_trim_porting.c
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/std_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/xo_trim_porting.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/xo_trim/xo_trim_porting.h
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/xo_trim_porting.c
+ /home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/xo_trim/xo_trim_porting.h

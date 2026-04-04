@@ -124,4 +124,4 @@ utils/update/storage/CMakeFiles/update_storage.dir/upg_storage.c.obj
  ../../../../middleware/utils/update/inner_include/upg_definitions.h
  ../../../../middleware/utils/update/inner_include/upg_verify.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/update/storage/upg_storage.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/update/storage/upg_storage.c

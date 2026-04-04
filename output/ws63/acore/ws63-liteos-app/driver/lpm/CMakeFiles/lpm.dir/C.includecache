@@ -762,17 +762,17 @@ product.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/lpm/lpm_dev_ops.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/lpm/lpm_dev_ops.c
 lpm_dev_ops.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/lpm/lpm_dev_ops.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/lpm/lpm_dev_ops.h
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/lpm/securec.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/lpm/securec.h
 irmalloc.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/lpm/irmalloc.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/lpm/irmalloc.h
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/lpm/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/lpm/soc_osal.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/lpm/lpm_dev_ops.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/lpm/lpm_dev_ops.h
 stdbool.h
 -
 

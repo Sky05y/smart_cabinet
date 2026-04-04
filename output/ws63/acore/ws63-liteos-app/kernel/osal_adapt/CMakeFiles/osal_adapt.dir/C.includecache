@@ -752,31 +752,31 @@ stdint.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_atomic.c
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_atomic.c
 osal_adapt.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt.h
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt.h
 
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_debug.c
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_debug.c
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/securec.h
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/securec.h
 osal_inner.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_inner.h
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_inner.h
 osal_adapt_debug.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_debug.h
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_debug.h
 
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_event.c
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_event.c
 osal_adapt.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt.h
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt.h
 
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_string.c
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_string.c
 osal_adapt.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt.h
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt.h
 
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_task.c
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_task.c
 osal_adapt.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt.h
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt.h
 
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_timer.c
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_timer.c
 osal_adapt.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt.h
+/home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt.h
 

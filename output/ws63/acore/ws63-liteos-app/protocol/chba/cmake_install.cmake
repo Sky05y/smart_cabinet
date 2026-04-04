@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/protocol/bt/controller/chba
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/protocol/bt/controller/chba
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

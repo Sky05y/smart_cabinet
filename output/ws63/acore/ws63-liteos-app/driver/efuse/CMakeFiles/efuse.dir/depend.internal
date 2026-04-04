@@ -124,4 +124,4 @@ driver/efuse/CMakeFiles/efuse.dir/efuse.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/efuse/efuse.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/efuse/efuse.c

@@ -876,69 +876,69 @@ stdint.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/hal_uart.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/hal_uart.c
 stdint.h
 -
 stdio.h
 -
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/common_def.h
 uart_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/uart_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/uart_porting.h
 hal_uart.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/hal_uart.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/hal_uart.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/hal_uart.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/hal_uart.h
 stdint.h
 -
 stdbool.h
 -
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/common_def.h
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/errcode.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/errcode.h
 uart_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/uart_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/uart_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151.c
 chip_io.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/chip_io.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/chip_io.h
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/soc_osal.h
 platform_types.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/platform_types.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/platform_types.h
 hal_uart.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart.h
 hal_uart_v151_regs_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_def.h
 hal_uart_v151_regs_op.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.h
 tcxo.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/tcxo.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/tcxo.h
 log_printf.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/log_printf.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/log_printf.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_def.h
 stdint.h
 -
 uart_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/uart_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/uart_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.c
 hal_uart_v151_regs_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_def.h
 hal_uart.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart.h
 panic.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/panic.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/panic.h
 los_hwi.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/los_hwi.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/los_hwi.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.h
 platform_core.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/platform_core.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/platform_core.h
 hal_uart_v151_regs_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_def.h
 hal_uart.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart.h
 

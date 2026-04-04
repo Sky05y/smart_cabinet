@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 # Include any dependencies generated for this target.
 include utils/mips/CMakeFiles/mips.dir/depend.make
@@ -59,16 +59,16 @@ include utils/mips/CMakeFiles/mips.dir/flags.make
 
 utils/mips/CMakeFiles/mips.dir/private/mips.c.obj: utils/mips/CMakeFiles/mips.dir/flags.make
 utils/mips/CMakeFiles/mips.dir/private/mips.c.obj: ../../../../middleware/utils/mips/private/mips.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/mips/CMakeFiles/mips.dir/private/mips.c.obj"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/mips && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MIPS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mips.dir/private/mips.c.obj   -c /home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips/private/mips.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/mips/CMakeFiles/mips.dir/private/mips.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/mips && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MIPS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mips.dir/private/mips.c.obj   -c /home/bearpi/project/smart_cabinet-main/middleware/utils/mips/private/mips.c
 
 utils/mips/CMakeFiles/mips.dir/private/mips.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mips.dir/private/mips.c.i"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/mips && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MIPS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips/private/mips.c > CMakeFiles/mips.dir/private/mips.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/mips && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MIPS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/middleware/utils/mips/private/mips.c > CMakeFiles/mips.dir/private/mips.c.i
 
 utils/mips/CMakeFiles/mips.dir/private/mips.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mips.dir/private/mips.c.s"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/mips && /home/bearpi/project/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MIPS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips/private/mips.c -o CMakeFiles/mips.dir/private/mips.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/mips && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MIPS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/middleware/utils/mips/private/mips.c -o CMakeFiles/mips.dir/private/mips.c.s
 
 # Object files for target mips
 mips_OBJECTS = \
@@ -80,9 +80,9 @@ mips_EXTERNAL_OBJECTS =
 utils/mips/libmips.a: utils/mips/CMakeFiles/mips.dir/private/mips.c.obj
 utils/mips/libmips.a: utils/mips/CMakeFiles/mips.dir/build.make
 utils/mips/libmips.a: utils/mips/CMakeFiles/mips.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libmips.a"
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/mips && $(CMAKE_COMMAND) -P CMakeFiles/mips.dir/cmake_clean_target.cmake
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/mips && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mips.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libmips.a"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/mips && $(CMAKE_COMMAND) -P CMakeFiles/mips.dir/cmake_clean_target.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/mips && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mips.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/mips/CMakeFiles/mips.dir/build: utils/mips/libmips.a
@@ -90,10 +90,10 @@ utils/mips/CMakeFiles/mips.dir/build: utils/mips/libmips.a
 .PHONY : utils/mips/CMakeFiles/mips.dir/build
 
 utils/mips/CMakeFiles/mips.dir/clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/mips && $(CMAKE_COMMAND) -P CMakeFiles/mips.dir/cmake_clean.cmake
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/mips && $(CMAKE_COMMAND) -P CMakeFiles/mips.dir/cmake_clean.cmake
 .PHONY : utils/mips/CMakeFiles/mips.dir/clean
 
 utils/mips/CMakeFiles/mips.dir/depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/bearpi-pico_h3863 /home/bearpi/project/bearpi-pico_h3863/middleware/utils/mips /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/mips /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/mips/CMakeFiles/mips.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/project/smart_cabinet-main /home/bearpi/project/smart_cabinet-main/middleware/utils/mips /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/mips /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/mips/CMakeFiles/mips.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/mips/CMakeFiles/mips.dir/depend
 

@@ -3696,25 +3696,25 @@ wal_ext_if.h
 wal_event_msg.h
 ../../../../protocol/wifi/source/host/wal/release/liteOS/wal_event_msg.h
 
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_tx_amsdu.c
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_tx_amsdu.c
 hmac_tx_amsdu.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_tx_amsdu.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_tx_amsdu.h
 oam_struct.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/oam_struct.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/oam_struct.h
 hmac_tx_data.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_tx_data.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_tx_data.h
 hmac_feature_dft.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_feature_dft.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_feature_dft.h
 hmac_tx_encap.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_tx_encap.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_tx_encap.h
 hmac_ccpriv.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_ccpriv.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_ccpriv.h
 
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_tx_amsdu.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_tx_amsdu.h
 hmac_tx_data.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_tx_data.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_tx_data.h
 soc_customize_wifi.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/soc_customize_wifi.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/soc_customize_wifi.h
 hmac_feature_interface.h
-/home/bearpi/project/bearpi-pico_h3863/protocol/wifi/source/host/feature/hmac_feature_interface.h
+/home/bearpi/project/smart_cabinet-main/protocol/wifi/source/host/feature/hmac_feature_interface.h
 

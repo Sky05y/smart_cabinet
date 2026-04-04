@@ -59,9 +59,9 @@ kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.obj
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
- /home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/non_os.h
- /home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/non_os_nmi.c
- /home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/non_os_nmi.h
+ /home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/non_os.h
+ /home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/non_os_nmi.c
+ /home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/non_os_nmi.h
 kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj
  ../../../../drivers/boards/ws63/evb/linker/ws63_liteos_app_linker/memory_config.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/memory_config_common.h
@@ -96,5 +96,5 @@ kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
- /home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/non_os.h
- /home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/non_os_utils.c
+ /home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/non_os.h
+ /home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/non_os_utils.c

@@ -22,5 +22,5 @@ utils/dfx/CMakeFiles/dfx_printer.dir/dfx_print/dfx_print.c.obj
  ../../../../middleware/utils/common_headers/debug_print.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_print/dfx_print.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/dfx_print/dfx_print.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_print/dfx_print.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/dfx_print/dfx_print.h

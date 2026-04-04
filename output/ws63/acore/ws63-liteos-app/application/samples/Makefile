@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 application/samples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 application/samples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 application/samples/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 application/samples/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 application/samples/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 application/samples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 application/samples/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 application/samples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 application/samples/CMakeFiles/samples.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 application/samples/CMakeFiles/samples.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 application/samples/CMakeFiles/samples.dir/rule
 .PHONY : application/samples/CMakeFiles/samples.dir/rule
 
 # Convenience name for target.
@@ -122,89 +122,89 @@ samples: application/samples/CMakeFiles/samples.dir/rule
 
 # fast build rule for target.
 samples/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/build
 .PHONY : samples/fast
 
-ws63_server/sle_uart_server/sle_uart_server.obj: ws63_server/sle_uart_server/sle_uart_server.c.obj
+ws63_client/sle_uart_client/sle_uart_client.obj: ws63_client/sle_uart_client/sle_uart_client.c.obj
 
-.PHONY : ws63_server/sle_uart_server/sle_uart_server.obj
-
-# target to build an object file
-ws63_server/sle_uart_server/sle_uart_server.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server.c.obj
-.PHONY : ws63_server/sle_uart_server/sle_uart_server.c.obj
-
-ws63_server/sle_uart_server/sle_uart_server.i: ws63_server/sle_uart_server/sle_uart_server.c.i
-
-.PHONY : ws63_server/sle_uart_server/sle_uart_server.i
-
-# target to preprocess a source file
-ws63_server/sle_uart_server/sle_uart_server.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server.c.i
-.PHONY : ws63_server/sle_uart_server/sle_uart_server.c.i
-
-ws63_server/sle_uart_server/sle_uart_server.s: ws63_server/sle_uart_server/sle_uart_server.c.s
-
-.PHONY : ws63_server/sle_uart_server/sle_uart_server.s
-
-# target to generate assembly for a file
-ws63_server/sle_uart_server/sle_uart_server.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server.c.s
-.PHONY : ws63_server/sle_uart_server/sle_uart_server.c.s
-
-ws63_server/sle_uart_server/sle_uart_server_adv.obj: ws63_server/sle_uart_server/sle_uart_server_adv.c.obj
-
-.PHONY : ws63_server/sle_uart_server/sle_uart_server_adv.obj
+.PHONY : ws63_client/sle_uart_client/sle_uart_client.obj
 
 # target to build an object file
-ws63_server/sle_uart_server/sle_uart_server_adv.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server_adv.c.obj
-.PHONY : ws63_server/sle_uart_server/sle_uart_server_adv.c.obj
+ws63_client/sle_uart_client/sle_uart_client.c.obj:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj
+.PHONY : ws63_client/sle_uart_client/sle_uart_client.c.obj
 
-ws63_server/sle_uart_server/sle_uart_server_adv.i: ws63_server/sle_uart_server/sle_uart_server_adv.c.i
+ws63_client/sle_uart_client/sle_uart_client.i: ws63_client/sle_uart_client/sle_uart_client.c.i
 
-.PHONY : ws63_server/sle_uart_server/sle_uart_server_adv.i
+.PHONY : ws63_client/sle_uart_client/sle_uart_client.i
 
 # target to preprocess a source file
-ws63_server/sle_uart_server/sle_uart_server_adv.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server_adv.c.i
-.PHONY : ws63_server/sle_uart_server/sle_uart_server_adv.c.i
+ws63_client/sle_uart_client/sle_uart_client.c.i:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.i
+.PHONY : ws63_client/sle_uart_client/sle_uart_client.c.i
 
-ws63_server/sle_uart_server/sle_uart_server_adv.s: ws63_server/sle_uart_server/sle_uart_server_adv.c.s
+ws63_client/sle_uart_client/sle_uart_client.s: ws63_client/sle_uart_client/sle_uart_client.c.s
 
-.PHONY : ws63_server/sle_uart_server/sle_uart_server_adv.s
+.PHONY : ws63_client/sle_uart_client/sle_uart_client.s
 
 # target to generate assembly for a file
-ws63_server/sle_uart_server/sle_uart_server_adv.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server_adv.c.s
-.PHONY : ws63_server/sle_uart_server/sle_uart_server_adv.c.s
+ws63_client/sle_uart_client/sle_uart_client.c.s:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.s
+.PHONY : ws63_client/sle_uart_client/sle_uart_client.c.s
 
-ws63_server/src/main.obj: ws63_server/src/main.c.obj
+ws63_client/src/main.obj: ws63_client/src/main.c.obj
 
-.PHONY : ws63_server/src/main.obj
+.PHONY : ws63_client/src/main.obj
 
 # target to build an object file
-ws63_server/src/main.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/src/main.c.obj
-.PHONY : ws63_server/src/main.c.obj
+ws63_client/src/main.c.obj:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/main.c.obj
+.PHONY : ws63_client/src/main.c.obj
 
-ws63_server/src/main.i: ws63_server/src/main.c.i
+ws63_client/src/main.i: ws63_client/src/main.c.i
 
-.PHONY : ws63_server/src/main.i
+.PHONY : ws63_client/src/main.i
 
 # target to preprocess a source file
-ws63_server/src/main.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/src/main.c.i
-.PHONY : ws63_server/src/main.c.i
+ws63_client/src/main.c.i:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/main.c.i
+.PHONY : ws63_client/src/main.c.i
 
-ws63_server/src/main.s: ws63_server/src/main.c.s
+ws63_client/src/main.s: ws63_client/src/main.c.s
 
-.PHONY : ws63_server/src/main.s
+.PHONY : ws63_client/src/main.s
 
 # target to generate assembly for a file
-ws63_server/src/main.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_server/src/main.c.s
-.PHONY : ws63_server/src/main.c.s
+ws63_client/src/main.c.s:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/main.c.s
+.PHONY : ws63_client/src/main.c.s
+
+ws63_client/src/mq_adc.obj: ws63_client/src/mq_adc.c.obj
+
+.PHONY : ws63_client/src/mq_adc.obj
+
+# target to build an object file
+ws63_client/src/mq_adc.c.obj:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj
+.PHONY : ws63_client/src/mq_adc.c.obj
+
+ws63_client/src/mq_adc.i: ws63_client/src/mq_adc.c.i
+
+.PHONY : ws63_client/src/mq_adc.i
+
+# target to preprocess a source file
+ws63_client/src/mq_adc.c.i:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.i
+.PHONY : ws63_client/src/mq_adc.c.i
+
+ws63_client/src/mq_adc.s: ws63_client/src/mq_adc.c.s
+
+.PHONY : ws63_client/src/mq_adc.s
+
+# target to generate assembly for a file
+ws63_client/src/mq_adc.c.s:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.s
+.PHONY : ws63_client/src/mq_adc.c.s
 
 # Help Target
 help:
@@ -215,15 +215,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... samples"
-	@echo "... ws63_server/sle_uart_server/sle_uart_server.obj"
-	@echo "... ws63_server/sle_uart_server/sle_uart_server.i"
-	@echo "... ws63_server/sle_uart_server/sle_uart_server.s"
-	@echo "... ws63_server/sle_uart_server/sle_uart_server_adv.obj"
-	@echo "... ws63_server/sle_uart_server/sle_uart_server_adv.i"
-	@echo "... ws63_server/sle_uart_server/sle_uart_server_adv.s"
-	@echo "... ws63_server/src/main.obj"
-	@echo "... ws63_server/src/main.i"
-	@echo "... ws63_server/src/main.s"
+	@echo "... ws63_client/sle_uart_client/sle_uart_client.obj"
+	@echo "... ws63_client/sle_uart_client/sle_uart_client.i"
+	@echo "... ws63_client/sle_uart_client/sle_uart_client.s"
+	@echo "... ws63_client/src/main.obj"
+	@echo "... ws63_client/src/main.i"
+	@echo "... ws63_client/src/main.s"
+	@echo "... ws63_client/src/mq_adc.obj"
+	@echo "... ws63_client/src/mq_adc.i"
+	@echo "... ws63_client/src/mq_adc.s"
 .PHONY : help
 
 
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

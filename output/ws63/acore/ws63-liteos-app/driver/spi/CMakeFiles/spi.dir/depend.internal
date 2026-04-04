@@ -131,4 +131,4 @@ driver/spi/CMakeFiles/spi.dir/spi.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/spi/spi.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/spi/spi.c

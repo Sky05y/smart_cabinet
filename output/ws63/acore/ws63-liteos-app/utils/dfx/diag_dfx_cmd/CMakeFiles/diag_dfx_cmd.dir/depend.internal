@@ -154,5 +154,5 @@ utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.h

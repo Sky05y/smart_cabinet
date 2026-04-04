@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/open_source/mqtt/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/mqtt/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/open_source/mqtt/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/mqtt/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/mqtt/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/mqtt/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/mqtt/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/mqtt/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/mqtt/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/mqtt/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 open_source/mqtt/CMakeFiles/mqtt.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/mqtt/CMakeFiles/mqtt.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 open_source/mqtt/CMakeFiles/mqtt.dir/rule
 .PHONY : open_source/mqtt/CMakeFiles/mqtt.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ mqtt: open_source/mqtt/CMakeFiles/mqtt.dir/rule
 
 # fast build rule for target.
 mqtt/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/build
 .PHONY : mqtt/fast
 
 paho.mqtt.c/src/Base64.obj: paho.mqtt.c/src/Base64.c.obj
@@ -131,7 +131,7 @@ paho.mqtt.c/src/Base64.obj: paho.mqtt.c/src/Base64.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/Base64.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Base64.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Base64.c.obj
 .PHONY : paho.mqtt.c/src/Base64.c.obj
 
 paho.mqtt.c/src/Base64.i: paho.mqtt.c/src/Base64.c.i
@@ -140,7 +140,7 @@ paho.mqtt.c/src/Base64.i: paho.mqtt.c/src/Base64.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/Base64.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Base64.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Base64.c.i
 .PHONY : paho.mqtt.c/src/Base64.c.i
 
 paho.mqtt.c/src/Base64.s: paho.mqtt.c/src/Base64.c.s
@@ -149,7 +149,7 @@ paho.mqtt.c/src/Base64.s: paho.mqtt.c/src/Base64.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/Base64.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Base64.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Base64.c.s
 .PHONY : paho.mqtt.c/src/Base64.c.s
 
 paho.mqtt.c/src/Clients.obj: paho.mqtt.c/src/Clients.c.obj
@@ -158,7 +158,7 @@ paho.mqtt.c/src/Clients.obj: paho.mqtt.c/src/Clients.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/Clients.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Clients.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Clients.c.obj
 .PHONY : paho.mqtt.c/src/Clients.c.obj
 
 paho.mqtt.c/src/Clients.i: paho.mqtt.c/src/Clients.c.i
@@ -167,7 +167,7 @@ paho.mqtt.c/src/Clients.i: paho.mqtt.c/src/Clients.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/Clients.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Clients.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Clients.c.i
 .PHONY : paho.mqtt.c/src/Clients.c.i
 
 paho.mqtt.c/src/Clients.s: paho.mqtt.c/src/Clients.c.s
@@ -176,7 +176,7 @@ paho.mqtt.c/src/Clients.s: paho.mqtt.c/src/Clients.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/Clients.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Clients.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Clients.c.s
 .PHONY : paho.mqtt.c/src/Clients.c.s
 
 paho.mqtt.c/src/Heap.obj: paho.mqtt.c/src/Heap.c.obj
@@ -185,7 +185,7 @@ paho.mqtt.c/src/Heap.obj: paho.mqtt.c/src/Heap.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/Heap.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Heap.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Heap.c.obj
 .PHONY : paho.mqtt.c/src/Heap.c.obj
 
 paho.mqtt.c/src/Heap.i: paho.mqtt.c/src/Heap.c.i
@@ -194,7 +194,7 @@ paho.mqtt.c/src/Heap.i: paho.mqtt.c/src/Heap.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/Heap.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Heap.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Heap.c.i
 .PHONY : paho.mqtt.c/src/Heap.c.i
 
 paho.mqtt.c/src/Heap.s: paho.mqtt.c/src/Heap.c.s
@@ -203,7 +203,7 @@ paho.mqtt.c/src/Heap.s: paho.mqtt.c/src/Heap.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/Heap.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Heap.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Heap.c.s
 .PHONY : paho.mqtt.c/src/Heap.c.s
 
 paho.mqtt.c/src/LinkedList.obj: paho.mqtt.c/src/LinkedList.c.obj
@@ -212,7 +212,7 @@ paho.mqtt.c/src/LinkedList.obj: paho.mqtt.c/src/LinkedList.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/LinkedList.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/LinkedList.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/LinkedList.c.obj
 .PHONY : paho.mqtt.c/src/LinkedList.c.obj
 
 paho.mqtt.c/src/LinkedList.i: paho.mqtt.c/src/LinkedList.c.i
@@ -221,7 +221,7 @@ paho.mqtt.c/src/LinkedList.i: paho.mqtt.c/src/LinkedList.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/LinkedList.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/LinkedList.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/LinkedList.c.i
 .PHONY : paho.mqtt.c/src/LinkedList.c.i
 
 paho.mqtt.c/src/LinkedList.s: paho.mqtt.c/src/LinkedList.c.s
@@ -230,7 +230,7 @@ paho.mqtt.c/src/LinkedList.s: paho.mqtt.c/src/LinkedList.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/LinkedList.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/LinkedList.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/LinkedList.c.s
 .PHONY : paho.mqtt.c/src/LinkedList.c.s
 
 paho.mqtt.c/src/Log.obj: paho.mqtt.c/src/Log.c.obj
@@ -239,7 +239,7 @@ paho.mqtt.c/src/Log.obj: paho.mqtt.c/src/Log.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/Log.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Log.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Log.c.obj
 .PHONY : paho.mqtt.c/src/Log.c.obj
 
 paho.mqtt.c/src/Log.i: paho.mqtt.c/src/Log.c.i
@@ -248,7 +248,7 @@ paho.mqtt.c/src/Log.i: paho.mqtt.c/src/Log.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/Log.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Log.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Log.c.i
 .PHONY : paho.mqtt.c/src/Log.c.i
 
 paho.mqtt.c/src/Log.s: paho.mqtt.c/src/Log.c.s
@@ -257,7 +257,7 @@ paho.mqtt.c/src/Log.s: paho.mqtt.c/src/Log.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/Log.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Log.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Log.c.s
 .PHONY : paho.mqtt.c/src/Log.c.s
 
 paho.mqtt.c/src/MQTTClient.obj: paho.mqtt.c/src/MQTTClient.c.obj
@@ -266,7 +266,7 @@ paho.mqtt.c/src/MQTTClient.obj: paho.mqtt.c/src/MQTTClient.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/MQTTClient.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTClient.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTClient.c.obj
 .PHONY : paho.mqtt.c/src/MQTTClient.c.obj
 
 paho.mqtt.c/src/MQTTClient.i: paho.mqtt.c/src/MQTTClient.c.i
@@ -275,7 +275,7 @@ paho.mqtt.c/src/MQTTClient.i: paho.mqtt.c/src/MQTTClient.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/MQTTClient.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTClient.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTClient.c.i
 .PHONY : paho.mqtt.c/src/MQTTClient.c.i
 
 paho.mqtt.c/src/MQTTClient.s: paho.mqtt.c/src/MQTTClient.c.s
@@ -284,7 +284,7 @@ paho.mqtt.c/src/MQTTClient.s: paho.mqtt.c/src/MQTTClient.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/MQTTClient.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTClient.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTClient.c.s
 .PHONY : paho.mqtt.c/src/MQTTClient.c.s
 
 paho.mqtt.c/src/MQTTPacket.obj: paho.mqtt.c/src/MQTTPacket.c.obj
@@ -293,7 +293,7 @@ paho.mqtt.c/src/MQTTPacket.obj: paho.mqtt.c/src/MQTTPacket.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/MQTTPacket.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacket.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacket.c.obj
 .PHONY : paho.mqtt.c/src/MQTTPacket.c.obj
 
 paho.mqtt.c/src/MQTTPacket.i: paho.mqtt.c/src/MQTTPacket.c.i
@@ -302,7 +302,7 @@ paho.mqtt.c/src/MQTTPacket.i: paho.mqtt.c/src/MQTTPacket.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/MQTTPacket.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacket.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacket.c.i
 .PHONY : paho.mqtt.c/src/MQTTPacket.c.i
 
 paho.mqtt.c/src/MQTTPacket.s: paho.mqtt.c/src/MQTTPacket.c.s
@@ -311,7 +311,7 @@ paho.mqtt.c/src/MQTTPacket.s: paho.mqtt.c/src/MQTTPacket.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/MQTTPacket.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacket.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacket.c.s
 .PHONY : paho.mqtt.c/src/MQTTPacket.c.s
 
 paho.mqtt.c/src/MQTTPacketOut.obj: paho.mqtt.c/src/MQTTPacketOut.c.obj
@@ -320,7 +320,7 @@ paho.mqtt.c/src/MQTTPacketOut.obj: paho.mqtt.c/src/MQTTPacketOut.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/MQTTPacketOut.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacketOut.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacketOut.c.obj
 .PHONY : paho.mqtt.c/src/MQTTPacketOut.c.obj
 
 paho.mqtt.c/src/MQTTPacketOut.i: paho.mqtt.c/src/MQTTPacketOut.c.i
@@ -329,7 +329,7 @@ paho.mqtt.c/src/MQTTPacketOut.i: paho.mqtt.c/src/MQTTPacketOut.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/MQTTPacketOut.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacketOut.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacketOut.c.i
 .PHONY : paho.mqtt.c/src/MQTTPacketOut.c.i
 
 paho.mqtt.c/src/MQTTPacketOut.s: paho.mqtt.c/src/MQTTPacketOut.c.s
@@ -338,7 +338,7 @@ paho.mqtt.c/src/MQTTPacketOut.s: paho.mqtt.c/src/MQTTPacketOut.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/MQTTPacketOut.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacketOut.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacketOut.c.s
 .PHONY : paho.mqtt.c/src/MQTTPacketOut.c.s
 
 paho.mqtt.c/src/MQTTPersistence.obj: paho.mqtt.c/src/MQTTPersistence.c.obj
@@ -347,7 +347,7 @@ paho.mqtt.c/src/MQTTPersistence.obj: paho.mqtt.c/src/MQTTPersistence.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/MQTTPersistence.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistence.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistence.c.obj
 .PHONY : paho.mqtt.c/src/MQTTPersistence.c.obj
 
 paho.mqtt.c/src/MQTTPersistence.i: paho.mqtt.c/src/MQTTPersistence.c.i
@@ -356,7 +356,7 @@ paho.mqtt.c/src/MQTTPersistence.i: paho.mqtt.c/src/MQTTPersistence.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/MQTTPersistence.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistence.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistence.c.i
 .PHONY : paho.mqtt.c/src/MQTTPersistence.c.i
 
 paho.mqtt.c/src/MQTTPersistence.s: paho.mqtt.c/src/MQTTPersistence.c.s
@@ -365,7 +365,7 @@ paho.mqtt.c/src/MQTTPersistence.s: paho.mqtt.c/src/MQTTPersistence.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/MQTTPersistence.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistence.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistence.c.s
 .PHONY : paho.mqtt.c/src/MQTTPersistence.c.s
 
 paho.mqtt.c/src/MQTTPersistenceDefault.obj: paho.mqtt.c/src/MQTTPersistenceDefault.c.obj
@@ -374,7 +374,7 @@ paho.mqtt.c/src/MQTTPersistenceDefault.obj: paho.mqtt.c/src/MQTTPersistenceDefau
 
 # target to build an object file
 paho.mqtt.c/src/MQTTPersistenceDefault.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistenceDefault.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistenceDefault.c.obj
 .PHONY : paho.mqtt.c/src/MQTTPersistenceDefault.c.obj
 
 paho.mqtt.c/src/MQTTPersistenceDefault.i: paho.mqtt.c/src/MQTTPersistenceDefault.c.i
@@ -383,7 +383,7 @@ paho.mqtt.c/src/MQTTPersistenceDefault.i: paho.mqtt.c/src/MQTTPersistenceDefault
 
 # target to preprocess a source file
 paho.mqtt.c/src/MQTTPersistenceDefault.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistenceDefault.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistenceDefault.c.i
 .PHONY : paho.mqtt.c/src/MQTTPersistenceDefault.c.i
 
 paho.mqtt.c/src/MQTTPersistenceDefault.s: paho.mqtt.c/src/MQTTPersistenceDefault.c.s
@@ -392,7 +392,7 @@ paho.mqtt.c/src/MQTTPersistenceDefault.s: paho.mqtt.c/src/MQTTPersistenceDefault
 
 # target to generate assembly for a file
 paho.mqtt.c/src/MQTTPersistenceDefault.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistenceDefault.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistenceDefault.c.s
 .PHONY : paho.mqtt.c/src/MQTTPersistenceDefault.c.s
 
 paho.mqtt.c/src/MQTTProperties.obj: paho.mqtt.c/src/MQTTProperties.c.obj
@@ -401,7 +401,7 @@ paho.mqtt.c/src/MQTTProperties.obj: paho.mqtt.c/src/MQTTProperties.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/MQTTProperties.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProperties.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProperties.c.obj
 .PHONY : paho.mqtt.c/src/MQTTProperties.c.obj
 
 paho.mqtt.c/src/MQTTProperties.i: paho.mqtt.c/src/MQTTProperties.c.i
@@ -410,7 +410,7 @@ paho.mqtt.c/src/MQTTProperties.i: paho.mqtt.c/src/MQTTProperties.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/MQTTProperties.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProperties.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProperties.c.i
 .PHONY : paho.mqtt.c/src/MQTTProperties.c.i
 
 paho.mqtt.c/src/MQTTProperties.s: paho.mqtt.c/src/MQTTProperties.c.s
@@ -419,7 +419,7 @@ paho.mqtt.c/src/MQTTProperties.s: paho.mqtt.c/src/MQTTProperties.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/MQTTProperties.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProperties.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProperties.c.s
 .PHONY : paho.mqtt.c/src/MQTTProperties.c.s
 
 paho.mqtt.c/src/MQTTProtocolClient.obj: paho.mqtt.c/src/MQTTProtocolClient.c.obj
@@ -428,7 +428,7 @@ paho.mqtt.c/src/MQTTProtocolClient.obj: paho.mqtt.c/src/MQTTProtocolClient.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/MQTTProtocolClient.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolClient.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolClient.c.obj
 .PHONY : paho.mqtt.c/src/MQTTProtocolClient.c.obj
 
 paho.mqtt.c/src/MQTTProtocolClient.i: paho.mqtt.c/src/MQTTProtocolClient.c.i
@@ -437,7 +437,7 @@ paho.mqtt.c/src/MQTTProtocolClient.i: paho.mqtt.c/src/MQTTProtocolClient.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/MQTTProtocolClient.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolClient.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolClient.c.i
 .PHONY : paho.mqtt.c/src/MQTTProtocolClient.c.i
 
 paho.mqtt.c/src/MQTTProtocolClient.s: paho.mqtt.c/src/MQTTProtocolClient.c.s
@@ -446,7 +446,7 @@ paho.mqtt.c/src/MQTTProtocolClient.s: paho.mqtt.c/src/MQTTProtocolClient.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/MQTTProtocolClient.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolClient.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolClient.c.s
 .PHONY : paho.mqtt.c/src/MQTTProtocolClient.c.s
 
 paho.mqtt.c/src/MQTTProtocolOut.obj: paho.mqtt.c/src/MQTTProtocolOut.c.obj
@@ -455,7 +455,7 @@ paho.mqtt.c/src/MQTTProtocolOut.obj: paho.mqtt.c/src/MQTTProtocolOut.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/MQTTProtocolOut.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolOut.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolOut.c.obj
 .PHONY : paho.mqtt.c/src/MQTTProtocolOut.c.obj
 
 paho.mqtt.c/src/MQTTProtocolOut.i: paho.mqtt.c/src/MQTTProtocolOut.c.i
@@ -464,7 +464,7 @@ paho.mqtt.c/src/MQTTProtocolOut.i: paho.mqtt.c/src/MQTTProtocolOut.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/MQTTProtocolOut.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolOut.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolOut.c.i
 .PHONY : paho.mqtt.c/src/MQTTProtocolOut.c.i
 
 paho.mqtt.c/src/MQTTProtocolOut.s: paho.mqtt.c/src/MQTTProtocolOut.c.s
@@ -473,7 +473,7 @@ paho.mqtt.c/src/MQTTProtocolOut.s: paho.mqtt.c/src/MQTTProtocolOut.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/MQTTProtocolOut.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolOut.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolOut.c.s
 .PHONY : paho.mqtt.c/src/MQTTProtocolOut.c.s
 
 paho.mqtt.c/src/MQTTReasonCodes.obj: paho.mqtt.c/src/MQTTReasonCodes.c.obj
@@ -482,7 +482,7 @@ paho.mqtt.c/src/MQTTReasonCodes.obj: paho.mqtt.c/src/MQTTReasonCodes.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/MQTTReasonCodes.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTReasonCodes.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTReasonCodes.c.obj
 .PHONY : paho.mqtt.c/src/MQTTReasonCodes.c.obj
 
 paho.mqtt.c/src/MQTTReasonCodes.i: paho.mqtt.c/src/MQTTReasonCodes.c.i
@@ -491,7 +491,7 @@ paho.mqtt.c/src/MQTTReasonCodes.i: paho.mqtt.c/src/MQTTReasonCodes.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/MQTTReasonCodes.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTReasonCodes.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTReasonCodes.c.i
 .PHONY : paho.mqtt.c/src/MQTTReasonCodes.c.i
 
 paho.mqtt.c/src/MQTTReasonCodes.s: paho.mqtt.c/src/MQTTReasonCodes.c.s
@@ -500,7 +500,7 @@ paho.mqtt.c/src/MQTTReasonCodes.s: paho.mqtt.c/src/MQTTReasonCodes.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/MQTTReasonCodes.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTReasonCodes.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTReasonCodes.c.s
 .PHONY : paho.mqtt.c/src/MQTTReasonCodes.c.s
 
 paho.mqtt.c/src/MQTTTime.obj: paho.mqtt.c/src/MQTTTime.c.obj
@@ -509,7 +509,7 @@ paho.mqtt.c/src/MQTTTime.obj: paho.mqtt.c/src/MQTTTime.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/MQTTTime.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTTime.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTTime.c.obj
 .PHONY : paho.mqtt.c/src/MQTTTime.c.obj
 
 paho.mqtt.c/src/MQTTTime.i: paho.mqtt.c/src/MQTTTime.c.i
@@ -518,7 +518,7 @@ paho.mqtt.c/src/MQTTTime.i: paho.mqtt.c/src/MQTTTime.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/MQTTTime.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTTime.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTTime.c.i
 .PHONY : paho.mqtt.c/src/MQTTTime.c.i
 
 paho.mqtt.c/src/MQTTTime.s: paho.mqtt.c/src/MQTTTime.c.s
@@ -527,7 +527,7 @@ paho.mqtt.c/src/MQTTTime.s: paho.mqtt.c/src/MQTTTime.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/MQTTTime.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTTime.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTTime.c.s
 .PHONY : paho.mqtt.c/src/MQTTTime.c.s
 
 paho.mqtt.c/src/Messages.obj: paho.mqtt.c/src/Messages.c.obj
@@ -536,7 +536,7 @@ paho.mqtt.c/src/Messages.obj: paho.mqtt.c/src/Messages.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/Messages.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Messages.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Messages.c.obj
 .PHONY : paho.mqtt.c/src/Messages.c.obj
 
 paho.mqtt.c/src/Messages.i: paho.mqtt.c/src/Messages.c.i
@@ -545,7 +545,7 @@ paho.mqtt.c/src/Messages.i: paho.mqtt.c/src/Messages.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/Messages.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Messages.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Messages.c.i
 .PHONY : paho.mqtt.c/src/Messages.c.i
 
 paho.mqtt.c/src/Messages.s: paho.mqtt.c/src/Messages.c.s
@@ -554,7 +554,7 @@ paho.mqtt.c/src/Messages.s: paho.mqtt.c/src/Messages.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/Messages.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Messages.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Messages.c.s
 .PHONY : paho.mqtt.c/src/Messages.c.s
 
 paho.mqtt.c/src/OsWrapper.obj: paho.mqtt.c/src/OsWrapper.c.obj
@@ -563,7 +563,7 @@ paho.mqtt.c/src/OsWrapper.obj: paho.mqtt.c/src/OsWrapper.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/OsWrapper.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/OsWrapper.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/OsWrapper.c.obj
 .PHONY : paho.mqtt.c/src/OsWrapper.c.obj
 
 paho.mqtt.c/src/OsWrapper.i: paho.mqtt.c/src/OsWrapper.c.i
@@ -572,7 +572,7 @@ paho.mqtt.c/src/OsWrapper.i: paho.mqtt.c/src/OsWrapper.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/OsWrapper.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/OsWrapper.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/OsWrapper.c.i
 .PHONY : paho.mqtt.c/src/OsWrapper.c.i
 
 paho.mqtt.c/src/OsWrapper.s: paho.mqtt.c/src/OsWrapper.c.s
@@ -581,7 +581,7 @@ paho.mqtt.c/src/OsWrapper.s: paho.mqtt.c/src/OsWrapper.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/OsWrapper.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/OsWrapper.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/OsWrapper.c.s
 .PHONY : paho.mqtt.c/src/OsWrapper.c.s
 
 paho.mqtt.c/src/Proxy.obj: paho.mqtt.c/src/Proxy.c.obj
@@ -590,7 +590,7 @@ paho.mqtt.c/src/Proxy.obj: paho.mqtt.c/src/Proxy.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/Proxy.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Proxy.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Proxy.c.obj
 .PHONY : paho.mqtt.c/src/Proxy.c.obj
 
 paho.mqtt.c/src/Proxy.i: paho.mqtt.c/src/Proxy.c.i
@@ -599,7 +599,7 @@ paho.mqtt.c/src/Proxy.i: paho.mqtt.c/src/Proxy.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/Proxy.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Proxy.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Proxy.c.i
 .PHONY : paho.mqtt.c/src/Proxy.c.i
 
 paho.mqtt.c/src/Proxy.s: paho.mqtt.c/src/Proxy.c.s
@@ -608,7 +608,7 @@ paho.mqtt.c/src/Proxy.s: paho.mqtt.c/src/Proxy.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/Proxy.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Proxy.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Proxy.c.s
 .PHONY : paho.mqtt.c/src/Proxy.c.s
 
 paho.mqtt.c/src/SHA1.obj: paho.mqtt.c/src/SHA1.c.obj
@@ -617,7 +617,7 @@ paho.mqtt.c/src/SHA1.obj: paho.mqtt.c/src/SHA1.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/SHA1.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SHA1.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SHA1.c.obj
 .PHONY : paho.mqtt.c/src/SHA1.c.obj
 
 paho.mqtt.c/src/SHA1.i: paho.mqtt.c/src/SHA1.c.i
@@ -626,7 +626,7 @@ paho.mqtt.c/src/SHA1.i: paho.mqtt.c/src/SHA1.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/SHA1.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SHA1.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SHA1.c.i
 .PHONY : paho.mqtt.c/src/SHA1.c.i
 
 paho.mqtt.c/src/SHA1.s: paho.mqtt.c/src/SHA1.c.s
@@ -635,7 +635,7 @@ paho.mqtt.c/src/SHA1.s: paho.mqtt.c/src/SHA1.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/SHA1.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SHA1.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SHA1.c.s
 .PHONY : paho.mqtt.c/src/SHA1.c.s
 
 paho.mqtt.c/src/SSLSocket.obj: paho.mqtt.c/src/SSLSocket.c.obj
@@ -644,7 +644,7 @@ paho.mqtt.c/src/SSLSocket.obj: paho.mqtt.c/src/SSLSocket.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/SSLSocket.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket.c.obj
 .PHONY : paho.mqtt.c/src/SSLSocket.c.obj
 
 paho.mqtt.c/src/SSLSocket.i: paho.mqtt.c/src/SSLSocket.c.i
@@ -653,7 +653,7 @@ paho.mqtt.c/src/SSLSocket.i: paho.mqtt.c/src/SSLSocket.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/SSLSocket.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket.c.i
 .PHONY : paho.mqtt.c/src/SSLSocket.c.i
 
 paho.mqtt.c/src/SSLSocket.s: paho.mqtt.c/src/SSLSocket.c.s
@@ -662,7 +662,7 @@ paho.mqtt.c/src/SSLSocket.s: paho.mqtt.c/src/SSLSocket.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/SSLSocket.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket.c.s
 .PHONY : paho.mqtt.c/src/SSLSocket.c.s
 
 paho.mqtt.c/src/SSLSocket_mbedtls.obj: paho.mqtt.c/src/SSLSocket_mbedtls.c.obj
@@ -671,7 +671,7 @@ paho.mqtt.c/src/SSLSocket_mbedtls.obj: paho.mqtt.c/src/SSLSocket_mbedtls.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/SSLSocket_mbedtls.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket_mbedtls.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket_mbedtls.c.obj
 .PHONY : paho.mqtt.c/src/SSLSocket_mbedtls.c.obj
 
 paho.mqtt.c/src/SSLSocket_mbedtls.i: paho.mqtt.c/src/SSLSocket_mbedtls.c.i
@@ -680,7 +680,7 @@ paho.mqtt.c/src/SSLSocket_mbedtls.i: paho.mqtt.c/src/SSLSocket_mbedtls.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/SSLSocket_mbedtls.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket_mbedtls.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket_mbedtls.c.i
 .PHONY : paho.mqtt.c/src/SSLSocket_mbedtls.c.i
 
 paho.mqtt.c/src/SSLSocket_mbedtls.s: paho.mqtt.c/src/SSLSocket_mbedtls.c.s
@@ -689,7 +689,7 @@ paho.mqtt.c/src/SSLSocket_mbedtls.s: paho.mqtt.c/src/SSLSocket_mbedtls.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/SSLSocket_mbedtls.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket_mbedtls.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket_mbedtls.c.s
 .PHONY : paho.mqtt.c/src/SSLSocket_mbedtls.c.s
 
 paho.mqtt.c/src/Socket.obj: paho.mqtt.c/src/Socket.c.obj
@@ -698,7 +698,7 @@ paho.mqtt.c/src/Socket.obj: paho.mqtt.c/src/Socket.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/Socket.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Socket.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Socket.c.obj
 .PHONY : paho.mqtt.c/src/Socket.c.obj
 
 paho.mqtt.c/src/Socket.i: paho.mqtt.c/src/Socket.c.i
@@ -707,7 +707,7 @@ paho.mqtt.c/src/Socket.i: paho.mqtt.c/src/Socket.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/Socket.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Socket.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Socket.c.i
 .PHONY : paho.mqtt.c/src/Socket.c.i
 
 paho.mqtt.c/src/Socket.s: paho.mqtt.c/src/Socket.c.s
@@ -716,7 +716,7 @@ paho.mqtt.c/src/Socket.s: paho.mqtt.c/src/Socket.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/Socket.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Socket.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Socket.c.s
 .PHONY : paho.mqtt.c/src/Socket.c.s
 
 paho.mqtt.c/src/SocketBuffer.obj: paho.mqtt.c/src/SocketBuffer.c.obj
@@ -725,7 +725,7 @@ paho.mqtt.c/src/SocketBuffer.obj: paho.mqtt.c/src/SocketBuffer.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/SocketBuffer.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SocketBuffer.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SocketBuffer.c.obj
 .PHONY : paho.mqtt.c/src/SocketBuffer.c.obj
 
 paho.mqtt.c/src/SocketBuffer.i: paho.mqtt.c/src/SocketBuffer.c.i
@@ -734,7 +734,7 @@ paho.mqtt.c/src/SocketBuffer.i: paho.mqtt.c/src/SocketBuffer.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/SocketBuffer.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SocketBuffer.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SocketBuffer.c.i
 .PHONY : paho.mqtt.c/src/SocketBuffer.c.i
 
 paho.mqtt.c/src/SocketBuffer.s: paho.mqtt.c/src/SocketBuffer.c.s
@@ -743,7 +743,7 @@ paho.mqtt.c/src/SocketBuffer.s: paho.mqtt.c/src/SocketBuffer.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/SocketBuffer.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SocketBuffer.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SocketBuffer.c.s
 .PHONY : paho.mqtt.c/src/SocketBuffer.c.s
 
 paho.mqtt.c/src/StackTrace.obj: paho.mqtt.c/src/StackTrace.c.obj
@@ -752,7 +752,7 @@ paho.mqtt.c/src/StackTrace.obj: paho.mqtt.c/src/StackTrace.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/StackTrace.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/StackTrace.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/StackTrace.c.obj
 .PHONY : paho.mqtt.c/src/StackTrace.c.obj
 
 paho.mqtt.c/src/StackTrace.i: paho.mqtt.c/src/StackTrace.c.i
@@ -761,7 +761,7 @@ paho.mqtt.c/src/StackTrace.i: paho.mqtt.c/src/StackTrace.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/StackTrace.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/StackTrace.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/StackTrace.c.i
 .PHONY : paho.mqtt.c/src/StackTrace.c.i
 
 paho.mqtt.c/src/StackTrace.s: paho.mqtt.c/src/StackTrace.c.s
@@ -770,7 +770,7 @@ paho.mqtt.c/src/StackTrace.s: paho.mqtt.c/src/StackTrace.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/StackTrace.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/StackTrace.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/StackTrace.c.s
 .PHONY : paho.mqtt.c/src/StackTrace.c.s
 
 paho.mqtt.c/src/Thread.obj: paho.mqtt.c/src/Thread.c.obj
@@ -779,7 +779,7 @@ paho.mqtt.c/src/Thread.obj: paho.mqtt.c/src/Thread.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/Thread.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Thread.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Thread.c.obj
 .PHONY : paho.mqtt.c/src/Thread.c.obj
 
 paho.mqtt.c/src/Thread.i: paho.mqtt.c/src/Thread.c.i
@@ -788,7 +788,7 @@ paho.mqtt.c/src/Thread.i: paho.mqtt.c/src/Thread.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/Thread.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Thread.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Thread.c.i
 .PHONY : paho.mqtt.c/src/Thread.c.i
 
 paho.mqtt.c/src/Thread.s: paho.mqtt.c/src/Thread.c.s
@@ -797,7 +797,7 @@ paho.mqtt.c/src/Thread.s: paho.mqtt.c/src/Thread.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/Thread.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Thread.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Thread.c.s
 .PHONY : paho.mqtt.c/src/Thread.c.s
 
 paho.mqtt.c/src/Tree.obj: paho.mqtt.c/src/Tree.c.obj
@@ -806,7 +806,7 @@ paho.mqtt.c/src/Tree.obj: paho.mqtt.c/src/Tree.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/Tree.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Tree.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Tree.c.obj
 .PHONY : paho.mqtt.c/src/Tree.c.obj
 
 paho.mqtt.c/src/Tree.i: paho.mqtt.c/src/Tree.c.i
@@ -815,7 +815,7 @@ paho.mqtt.c/src/Tree.i: paho.mqtt.c/src/Tree.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/Tree.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Tree.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Tree.c.i
 .PHONY : paho.mqtt.c/src/Tree.c.i
 
 paho.mqtt.c/src/Tree.s: paho.mqtt.c/src/Tree.c.s
@@ -824,7 +824,7 @@ paho.mqtt.c/src/Tree.s: paho.mqtt.c/src/Tree.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/Tree.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Tree.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Tree.c.s
 .PHONY : paho.mqtt.c/src/Tree.c.s
 
 paho.mqtt.c/src/WebSocket.obj: paho.mqtt.c/src/WebSocket.c.obj
@@ -833,7 +833,7 @@ paho.mqtt.c/src/WebSocket.obj: paho.mqtt.c/src/WebSocket.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/WebSocket.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/WebSocket.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/WebSocket.c.obj
 .PHONY : paho.mqtt.c/src/WebSocket.c.obj
 
 paho.mqtt.c/src/WebSocket.i: paho.mqtt.c/src/WebSocket.c.i
@@ -842,7 +842,7 @@ paho.mqtt.c/src/WebSocket.i: paho.mqtt.c/src/WebSocket.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/WebSocket.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/WebSocket.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/WebSocket.c.i
 .PHONY : paho.mqtt.c/src/WebSocket.c.i
 
 paho.mqtt.c/src/WebSocket.s: paho.mqtt.c/src/WebSocket.c.s
@@ -851,7 +851,7 @@ paho.mqtt.c/src/WebSocket.s: paho.mqtt.c/src/WebSocket.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/WebSocket.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/WebSocket.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/WebSocket.c.s
 .PHONY : paho.mqtt.c/src/WebSocket.c.s
 
 paho.mqtt.c/src/utf-8.obj: paho.mqtt.c/src/utf-8.c.obj
@@ -860,7 +860,7 @@ paho.mqtt.c/src/utf-8.obj: paho.mqtt.c/src/utf-8.c.obj
 
 # target to build an object file
 paho.mqtt.c/src/utf-8.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/utf-8.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/utf-8.c.obj
 .PHONY : paho.mqtt.c/src/utf-8.c.obj
 
 paho.mqtt.c/src/utf-8.i: paho.mqtt.c/src/utf-8.c.i
@@ -869,7 +869,7 @@ paho.mqtt.c/src/utf-8.i: paho.mqtt.c/src/utf-8.c.i
 
 # target to preprocess a source file
 paho.mqtt.c/src/utf-8.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/utf-8.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/utf-8.c.i
 .PHONY : paho.mqtt.c/src/utf-8.c.i
 
 paho.mqtt.c/src/utf-8.s: paho.mqtt.c/src/utf-8.c.s
@@ -878,7 +878,7 @@ paho.mqtt.c/src/utf-8.s: paho.mqtt.c/src/utf-8.c.s
 
 # target to generate assembly for a file
 paho.mqtt.c/src/utf-8.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/utf-8.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f open_source/mqtt/CMakeFiles/mqtt.dir/build.make open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/utf-8.c.s
 .PHONY : paho.mqtt.c/src/utf-8.c.s
 
 # Help Target
@@ -985,6 +985,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/dma/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/dma/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/dma/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/dma/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/dma/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/dma/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/dma/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/dma/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/dma/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/dma/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hal/dma/CMakeFiles/hal_dma_v151.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/dma/CMakeFiles/hal_dma_v151.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/dma/CMakeFiles/hal_dma_v151.dir/rule
 .PHONY : hal/dma/CMakeFiles/hal_dma_v151.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hal_dma_v151: hal/dma/CMakeFiles/hal_dma_v151.dir/rule
 
 # fast build rule for target.
 hal_dma_v151/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/build
 .PHONY : hal_dma_v151/fast
 
 hal_dma.obj: hal_dma.c.obj
@@ -131,7 +131,7 @@ hal_dma.obj: hal_dma.c.obj
 
 # target to build an object file
 hal_dma.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj
 .PHONY : hal_dma.c.obj
 
 hal_dma.i: hal_dma.c.i
@@ -140,7 +140,7 @@ hal_dma.i: hal_dma.c.i
 
 # target to preprocess a source file
 hal_dma.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.i
 .PHONY : hal_dma.c.i
 
 hal_dma.s: hal_dma.c.s
@@ -149,7 +149,7 @@ hal_dma.s: hal_dma.c.s
 
 # target to generate assembly for a file
 hal_dma.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.s
 .PHONY : hal_dma.c.s
 
 hal_dma_mem.obj: hal_dma_mem.c.obj
@@ -158,7 +158,7 @@ hal_dma_mem.obj: hal_dma_mem.c.obj
 
 # target to build an object file
 hal_dma_mem.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj
 .PHONY : hal_dma_mem.c.obj
 
 hal_dma_mem.i: hal_dma_mem.c.i
@@ -167,7 +167,7 @@ hal_dma_mem.i: hal_dma_mem.c.i
 
 # target to preprocess a source file
 hal_dma_mem.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.i
 .PHONY : hal_dma_mem.c.i
 
 hal_dma_mem.s: hal_dma_mem.c.s
@@ -176,7 +176,7 @@ hal_dma_mem.s: hal_dma_mem.c.s
 
 # target to generate assembly for a file
 hal_dma_mem.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.s
 .PHONY : hal_dma_mem.c.s
 
 v151/hal_dmac_v151.obj: v151/hal_dmac_v151.c.obj
@@ -185,7 +185,7 @@ v151/hal_dmac_v151.obj: v151/hal_dmac_v151.c.obj
 
 # target to build an object file
 v151/hal_dmac_v151.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj
 .PHONY : v151/hal_dmac_v151.c.obj
 
 v151/hal_dmac_v151.i: v151/hal_dmac_v151.c.i
@@ -194,7 +194,7 @@ v151/hal_dmac_v151.i: v151/hal_dmac_v151.c.i
 
 # target to preprocess a source file
 v151/hal_dmac_v151.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.i
 .PHONY : v151/hal_dmac_v151.c.i
 
 v151/hal_dmac_v151.s: v151/hal_dmac_v151.c.s
@@ -203,7 +203,7 @@ v151/hal_dmac_v151.s: v151/hal_dmac_v151.c.s
 
 # target to generate assembly for a file
 v151/hal_dmac_v151.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.s
 .PHONY : v151/hal_dmac_v151.c.s
 
 v151/hal_dmac_v151_regs_op.obj: v151/hal_dmac_v151_regs_op.c.obj
@@ -212,7 +212,7 @@ v151/hal_dmac_v151_regs_op.obj: v151/hal_dmac_v151_regs_op.c.obj
 
 # target to build an object file
 v151/hal_dmac_v151_regs_op.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj
 .PHONY : v151/hal_dmac_v151_regs_op.c.obj
 
 v151/hal_dmac_v151_regs_op.i: v151/hal_dmac_v151_regs_op.c.i
@@ -221,7 +221,7 @@ v151/hal_dmac_v151_regs_op.i: v151/hal_dmac_v151_regs_op.c.i
 
 # target to preprocess a source file
 v151/hal_dmac_v151_regs_op.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.i
 .PHONY : v151/hal_dmac_v151_regs_op.c.i
 
 v151/hal_dmac_v151_regs_op.s: v151/hal_dmac_v151_regs_op.c.s
@@ -230,7 +230,7 @@ v151/hal_dmac_v151_regs_op.s: v151/hal_dmac_v151_regs_op.c.s
 
 # target to generate assembly for a file
 v151/hal_dmac_v151_regs_op.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/dma/CMakeFiles/hal_dma_v151.dir/build.make hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.s
 .PHONY : v151/hal_dmac_v151_regs_op.c.s
 
 # Help Target
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

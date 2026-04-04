@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/driver/security_unified/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 driver/security_unified/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/driver/security_unified/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 driver/security_unified/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 driver/security_unified/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 driver/security_unified/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 driver/security_unified/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 driver/security_unified/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 driver/security_unified/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 driver/security_unified/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 driver/security_unified/CMakeFiles/drv_security_unified.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 driver/security_unified/CMakeFiles/drv_security_unified.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 driver/security_unified/CMakeFiles/drv_security_unified.dir/rule
 .PHONY : driver/security_unified/CMakeFiles/drv_security_unified.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ drv_security_unified: driver/security_unified/CMakeFiles/drv_security_unified.di
 
 # fast build rule for target.
 drv_security_unified/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/build
 .PHONY : drv_security_unified/fast
 
 drv_cipher/drv_code/crypto_drv_common.obj: drv_cipher/drv_code/crypto_drv_common.c.obj
@@ -131,7 +131,7 @@ drv_cipher/drv_code/crypto_drv_common.obj: drv_cipher/drv_code/crypto_drv_common
 
 # target to build an object file
 drv_cipher/drv_code/crypto_drv_common.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/crypto_drv_common.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/crypto_drv_common.c.obj
 .PHONY : drv_cipher/drv_code/crypto_drv_common.c.obj
 
 drv_cipher/drv_code/crypto_drv_common.i: drv_cipher/drv_code/crypto_drv_common.c.i
@@ -140,7 +140,7 @@ drv_cipher/drv_code/crypto_drv_common.i: drv_cipher/drv_code/crypto_drv_common.c
 
 # target to preprocess a source file
 drv_cipher/drv_code/crypto_drv_common.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/crypto_drv_common.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/crypto_drv_common.c.i
 .PHONY : drv_cipher/drv_code/crypto_drv_common.c.i
 
 drv_cipher/drv_code/crypto_drv_common.s: drv_cipher/drv_code/crypto_drv_common.c.s
@@ -149,7 +149,7 @@ drv_cipher/drv_code/crypto_drv_common.s: drv_cipher/drv_code/crypto_drv_common.c
 
 # target to generate assembly for a file
 drv_cipher/drv_code/crypto_drv_common.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/crypto_drv_common.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/crypto_drv_common.c.s
 .PHONY : drv_cipher/drv_code/crypto_drv_common.c.s
 
 drv_cipher/drv_code/drv_hash.obj: drv_cipher/drv_code/drv_hash.c.obj
@@ -158,7 +158,7 @@ drv_cipher/drv_code/drv_hash.obj: drv_cipher/drv_code/drv_hash.c.obj
 
 # target to build an object file
 drv_cipher/drv_code/drv_hash.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_hash.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_hash.c.obj
 .PHONY : drv_cipher/drv_code/drv_hash.c.obj
 
 drv_cipher/drv_code/drv_hash.i: drv_cipher/drv_code/drv_hash.c.i
@@ -167,7 +167,7 @@ drv_cipher/drv_code/drv_hash.i: drv_cipher/drv_code/drv_hash.c.i
 
 # target to preprocess a source file
 drv_cipher/drv_code/drv_hash.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_hash.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_hash.c.i
 .PHONY : drv_cipher/drv_code/drv_hash.c.i
 
 drv_cipher/drv_code/drv_hash.s: drv_cipher/drv_code/drv_hash.c.s
@@ -176,7 +176,7 @@ drv_cipher/drv_code/drv_hash.s: drv_cipher/drv_code/drv_hash.c.s
 
 # target to generate assembly for a file
 drv_cipher/drv_code/drv_hash.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_hash.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_hash.c.s
 .PHONY : drv_cipher/drv_code/drv_hash.c.s
 
 drv_cipher/drv_code/drv_pbkdf2_hard.obj: drv_cipher/drv_code/drv_pbkdf2_hard.c.obj
@@ -185,7 +185,7 @@ drv_cipher/drv_code/drv_pbkdf2_hard.obj: drv_cipher/drv_code/drv_pbkdf2_hard.c.o
 
 # target to build an object file
 drv_cipher/drv_code/drv_pbkdf2_hard.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_pbkdf2_hard.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_pbkdf2_hard.c.obj
 .PHONY : drv_cipher/drv_code/drv_pbkdf2_hard.c.obj
 
 drv_cipher/drv_code/drv_pbkdf2_hard.i: drv_cipher/drv_code/drv_pbkdf2_hard.c.i
@@ -194,7 +194,7 @@ drv_cipher/drv_code/drv_pbkdf2_hard.i: drv_cipher/drv_code/drv_pbkdf2_hard.c.i
 
 # target to preprocess a source file
 drv_cipher/drv_code/drv_pbkdf2_hard.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_pbkdf2_hard.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_pbkdf2_hard.c.i
 .PHONY : drv_cipher/drv_code/drv_pbkdf2_hard.c.i
 
 drv_cipher/drv_code/drv_pbkdf2_hard.s: drv_cipher/drv_code/drv_pbkdf2_hard.c.s
@@ -203,7 +203,7 @@ drv_cipher/drv_code/drv_pbkdf2_hard.s: drv_cipher/drv_code/drv_pbkdf2_hard.c.s
 
 # target to generate assembly for a file
 drv_cipher/drv_code/drv_pbkdf2_hard.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_pbkdf2_hard.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_pbkdf2_hard.c.s
 .PHONY : drv_cipher/drv_code/drv_pbkdf2_hard.c.s
 
 drv_cipher/drv_code/drv_symc.obj: drv_cipher/drv_code/drv_symc.c.obj
@@ -212,7 +212,7 @@ drv_cipher/drv_code/drv_symc.obj: drv_cipher/drv_code/drv_symc.c.obj
 
 # target to build an object file
 drv_cipher/drv_code/drv_symc.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc.c.obj
 .PHONY : drv_cipher/drv_code/drv_symc.c.obj
 
 drv_cipher/drv_code/drv_symc.i: drv_cipher/drv_code/drv_symc.c.i
@@ -221,7 +221,7 @@ drv_cipher/drv_code/drv_symc.i: drv_cipher/drv_code/drv_symc.c.i
 
 # target to preprocess a source file
 drv_cipher/drv_code/drv_symc.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc.c.i
 .PHONY : drv_cipher/drv_code/drv_symc.c.i
 
 drv_cipher/drv_code/drv_symc.s: drv_cipher/drv_code/drv_symc.c.s
@@ -230,7 +230,7 @@ drv_cipher/drv_code/drv_symc.s: drv_cipher/drv_code/drv_symc.c.s
 
 # target to generate assembly for a file
 drv_cipher/drv_code/drv_symc.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc.c.s
 .PHONY : drv_cipher/drv_code/drv_symc.c.s
 
 drv_cipher/drv_code/drv_symc_mac_hard.obj: drv_cipher/drv_code/drv_symc_mac_hard.c.obj
@@ -239,7 +239,7 @@ drv_cipher/drv_code/drv_symc_mac_hard.obj: drv_cipher/drv_code/drv_symc_mac_hard
 
 # target to build an object file
 drv_cipher/drv_code/drv_symc_mac_hard.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc_mac_hard.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc_mac_hard.c.obj
 .PHONY : drv_cipher/drv_code/drv_symc_mac_hard.c.obj
 
 drv_cipher/drv_code/drv_symc_mac_hard.i: drv_cipher/drv_code/drv_symc_mac_hard.c.i
@@ -248,7 +248,7 @@ drv_cipher/drv_code/drv_symc_mac_hard.i: drv_cipher/drv_code/drv_symc_mac_hard.c
 
 # target to preprocess a source file
 drv_cipher/drv_code/drv_symc_mac_hard.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc_mac_hard.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc_mac_hard.c.i
 .PHONY : drv_cipher/drv_code/drv_symc_mac_hard.c.i
 
 drv_cipher/drv_code/drv_symc_mac_hard.s: drv_cipher/drv_code/drv_symc_mac_hard.c.s
@@ -257,7 +257,7 @@ drv_cipher/drv_code/drv_symc_mac_hard.s: drv_cipher/drv_code/drv_symc_mac_hard.c
 
 # target to generate assembly for a file
 drv_cipher/drv_code/drv_symc_mac_hard.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc_mac_hard.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc_mac_hard.c.s
 .PHONY : drv_cipher/drv_code/drv_symc_mac_hard.c.s
 
 drv_cipher/drv_code/drv_trng.obj: drv_cipher/drv_code/drv_trng.c.obj
@@ -266,7 +266,7 @@ drv_cipher/drv_code/drv_trng.obj: drv_cipher/drv_code/drv_trng.c.obj
 
 # target to build an object file
 drv_cipher/drv_code/drv_trng.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_trng.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_trng.c.obj
 .PHONY : drv_cipher/drv_code/drv_trng.c.obj
 
 drv_cipher/drv_code/drv_trng.i: drv_cipher/drv_code/drv_trng.c.i
@@ -275,7 +275,7 @@ drv_cipher/drv_code/drv_trng.i: drv_cipher/drv_code/drv_trng.c.i
 
 # target to preprocess a source file
 drv_cipher/drv_code/drv_trng.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_trng.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_trng.c.i
 .PHONY : drv_cipher/drv_code/drv_trng.c.i
 
 drv_cipher/drv_code/drv_trng.s: drv_cipher/drv_code/drv_trng.c.s
@@ -284,7 +284,7 @@ drv_cipher/drv_code/drv_trng.s: drv_cipher/drv_code/drv_trng.c.s
 
 # target to generate assembly for a file
 drv_cipher/drv_code/drv_trng.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_trng.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_trng.c.s
 .PHONY : drv_cipher/drv_code/drv_trng.c.s
 
 drv_cipher/drv_pke_v5/drv_pke_cal.obj: drv_cipher/drv_pke_v5/drv_pke_cal.c.obj
@@ -293,7 +293,7 @@ drv_cipher/drv_pke_v5/drv_pke_cal.obj: drv_cipher/drv_pke_v5/drv_pke_cal.c.obj
 
 # target to build an object file
 drv_cipher/drv_pke_v5/drv_pke_cal.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_cal.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_cal.c.obj
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_cal.c.obj
 
 drv_cipher/drv_pke_v5/drv_pke_cal.i: drv_cipher/drv_pke_v5/drv_pke_cal.c.i
@@ -302,7 +302,7 @@ drv_cipher/drv_pke_v5/drv_pke_cal.i: drv_cipher/drv_pke_v5/drv_pke_cal.c.i
 
 # target to preprocess a source file
 drv_cipher/drv_pke_v5/drv_pke_cal.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_cal.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_cal.c.i
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_cal.c.i
 
 drv_cipher/drv_pke_v5/drv_pke_cal.s: drv_cipher/drv_pke_v5/drv_pke_cal.c.s
@@ -311,7 +311,7 @@ drv_cipher/drv_pke_v5/drv_pke_cal.s: drv_cipher/drv_pke_v5/drv_pke_cal.c.s
 
 # target to generate assembly for a file
 drv_cipher/drv_pke_v5/drv_pke_cal.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_cal.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_cal.c.s
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_cal.c.s
 
 drv_cipher/drv_pke_v5/drv_pke_ecc_cal.obj: drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.obj
@@ -320,7 +320,7 @@ drv_cipher/drv_pke_v5/drv_pke_ecc_cal.obj: drv_cipher/drv_pke_v5/drv_pke_ecc_cal
 
 # target to build an object file
 drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.obj
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.obj
 
 drv_cipher/drv_pke_v5/drv_pke_ecc_cal.i: drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.i
@@ -329,7 +329,7 @@ drv_cipher/drv_pke_v5/drv_pke_ecc_cal.i: drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c
 
 # target to preprocess a source file
 drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.i
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.i
 
 drv_cipher/drv_pke_v5/drv_pke_ecc_cal.s: drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.s
@@ -338,7 +338,7 @@ drv_cipher/drv_pke_v5/drv_pke_ecc_cal.s: drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c
 
 # target to generate assembly for a file
 drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.s
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.s
 
 drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.obj: drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.obj
@@ -347,7 +347,7 @@ drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.obj: drv_cipher/drv_pke_v5/drv_pke_ecc_ec
 
 # target to build an object file
 drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.obj
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.obj
 
 drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.i: drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.i
@@ -356,7 +356,7 @@ drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.i: drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh
 
 # target to preprocess a source file
 drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.i
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.i
 
 drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.s: drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.s
@@ -365,7 +365,7 @@ drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.s: drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh
 
 # target to generate assembly for a file
 drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.s
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.s
 
 drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.obj: drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.obj
@@ -374,7 +374,7 @@ drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.obj: drv_cipher/drv_pke_v5/drv_pke_ecc
 
 # target to build an object file
 drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.obj
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.obj
 
 drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.i: drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.i
@@ -383,7 +383,7 @@ drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.i: drv_cipher/drv_pke_v5/drv_pke_ecc_g
 
 # target to preprocess a source file
 drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.i
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.i
 
 drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.s: drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.s
@@ -392,7 +392,7 @@ drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.s: drv_cipher/drv_pke_v5/drv_pke_ecc_g
 
 # target to generate assembly for a file
 drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.s
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.s
 
 drv_cipher/drv_pke_v5/drv_pke_ecdsa.obj: drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.obj
@@ -401,7 +401,7 @@ drv_cipher/drv_pke_v5/drv_pke_ecdsa.obj: drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.o
 
 # target to build an object file
 drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.obj
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.obj
 
 drv_cipher/drv_pke_v5/drv_pke_ecdsa.i: drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.i
@@ -410,7 +410,7 @@ drv_cipher/drv_pke_v5/drv_pke_ecdsa.i: drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.i
 
 # target to preprocess a source file
 drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.i
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.i
 
 drv_cipher/drv_pke_v5/drv_pke_ecdsa.s: drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.s
@@ -419,7 +419,7 @@ drv_cipher/drv_pke_v5/drv_pke_ecdsa.s: drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.s
 
 # target to generate assembly for a file
 drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.s
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.s
 
 drv_cipher/drv_pke_v5/drv_pke_rsa.obj: drv_cipher/drv_pke_v5/drv_pke_rsa.c.obj
@@ -428,7 +428,7 @@ drv_cipher/drv_pke_v5/drv_pke_rsa.obj: drv_cipher/drv_pke_v5/drv_pke_rsa.c.obj
 
 # target to build an object file
 drv_cipher/drv_pke_v5/drv_pke_rsa.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_rsa.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_rsa.c.obj
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_rsa.c.obj
 
 drv_cipher/drv_pke_v5/drv_pke_rsa.i: drv_cipher/drv_pke_v5/drv_pke_rsa.c.i
@@ -437,7 +437,7 @@ drv_cipher/drv_pke_v5/drv_pke_rsa.i: drv_cipher/drv_pke_v5/drv_pke_rsa.c.i
 
 # target to preprocess a source file
 drv_cipher/drv_pke_v5/drv_pke_rsa.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_rsa.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_rsa.c.i
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_rsa.c.i
 
 drv_cipher/drv_pke_v5/drv_pke_rsa.s: drv_cipher/drv_pke_v5/drv_pke_rsa.c.s
@@ -446,7 +446,7 @@ drv_cipher/drv_pke_v5/drv_pke_rsa.s: drv_cipher/drv_pke_v5/drv_pke_rsa.c.s
 
 # target to generate assembly for a file
 drv_cipher/drv_pke_v5/drv_pke_rsa.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_rsa.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_rsa.c.s
 .PHONY : drv_cipher/drv_pke_v5/drv_pke_rsa.c.s
 
 drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.obj: drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.obj
@@ -455,7 +455,7 @@ drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.obj: drv_cipher/drv_pke_v5/ecc/drv_pk
 
 # target to build an object file
 drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.obj
 .PHONY : drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.obj
 
 drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.i: drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.i
@@ -464,7 +464,7 @@ drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.i: drv_cipher/drv_pke_v5/ecc/drv_pke_
 
 # target to preprocess a source file
 drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.i
 .PHONY : drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.i
 
 drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.s: drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.s
@@ -473,7 +473,7 @@ drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.s: drv_cipher/drv_pke_v5/ecc/drv_pke_
 
 # target to generate assembly for a file
 drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.s
 .PHONY : drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.s
 
 drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.obj: drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.obj
@@ -482,7 +482,7 @@ drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.obj: drv_cipher/drv_pke_v5/ecc/drv_
 
 # target to build an object file
 drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.obj
 .PHONY : drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.obj
 
 drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.i: drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.i
@@ -491,7 +491,7 @@ drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.i: drv_cipher/drv_pke_v5/ecc/drv_pk
 
 # target to preprocess a source file
 drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.i
 .PHONY : drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.i
 
 drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.s: drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.s
@@ -500,7 +500,7 @@ drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.s: drv_cipher/drv_pke_v5/ecc/drv_pk
 
 # target to generate assembly for a file
 drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.s
 .PHONY : drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.s
 
 drv_fapc/drv_fapc.obj: drv_fapc/drv_fapc.c.obj
@@ -509,7 +509,7 @@ drv_fapc/drv_fapc.obj: drv_fapc/drv_fapc.c.obj
 
 # target to build an object file
 drv_fapc/drv_fapc.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_fapc/drv_fapc.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_fapc/drv_fapc.c.obj
 .PHONY : drv_fapc/drv_fapc.c.obj
 
 drv_fapc/drv_fapc.i: drv_fapc/drv_fapc.c.i
@@ -518,7 +518,7 @@ drv_fapc/drv_fapc.i: drv_fapc/drv_fapc.c.i
 
 # target to preprocess a source file
 drv_fapc/drv_fapc.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_fapc/drv_fapc.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_fapc/drv_fapc.c.i
 .PHONY : drv_fapc/drv_fapc.c.i
 
 drv_fapc/drv_fapc.s: drv_fapc/drv_fapc.c.s
@@ -527,7 +527,7 @@ drv_fapc/drv_fapc.s: drv_fapc/drv_fapc.c.s
 
 # target to generate assembly for a file
 drv_fapc/drv_fapc.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_fapc/drv_fapc.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_fapc/drv_fapc.c.s
 .PHONY : drv_fapc/drv_fapc.c.s
 
 drv_km/drv_keyslot.obj: drv_km/drv_keyslot.c.obj
@@ -536,7 +536,7 @@ drv_km/drv_keyslot.obj: drv_km/drv_keyslot.c.obj
 
 # target to build an object file
 drv_km/drv_keyslot.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_keyslot.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_keyslot.c.obj
 .PHONY : drv_km/drv_keyslot.c.obj
 
 drv_km/drv_keyslot.i: drv_km/drv_keyslot.c.i
@@ -545,7 +545,7 @@ drv_km/drv_keyslot.i: drv_km/drv_keyslot.c.i
 
 # target to preprocess a source file
 drv_km/drv_keyslot.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_keyslot.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_keyslot.c.i
 .PHONY : drv_km/drv_keyslot.c.i
 
 drv_km/drv_keyslot.s: drv_km/drv_keyslot.c.s
@@ -554,7 +554,7 @@ drv_km/drv_keyslot.s: drv_km/drv_keyslot.c.s
 
 # target to generate assembly for a file
 drv_km/drv_keyslot.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_keyslot.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_keyslot.c.s
 .PHONY : drv_km/drv_keyslot.c.s
 
 drv_km/drv_klad.obj: drv_km/drv_klad.c.obj
@@ -563,7 +563,7 @@ drv_km/drv_klad.obj: drv_km/drv_klad.c.obj
 
 # target to build an object file
 drv_km/drv_klad.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_klad.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_klad.c.obj
 .PHONY : drv_km/drv_klad.c.obj
 
 drv_km/drv_klad.i: drv_km/drv_klad.c.i
@@ -572,7 +572,7 @@ drv_km/drv_klad.i: drv_km/drv_klad.c.i
 
 # target to preprocess a source file
 drv_km/drv_klad.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_klad.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_klad.c.i
 .PHONY : drv_km/drv_klad.c.i
 
 drv_km/drv_klad.s: drv_km/drv_klad.c.s
@@ -581,7 +581,7 @@ drv_km/drv_klad.s: drv_km/drv_klad.c.s
 
 # target to generate assembly for a file
 drv_km/drv_klad.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_klad.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_klad.c.s
 .PHONY : drv_km/drv_klad.c.s
 
 drv_pke_weak_func.obj: drv_pke_weak_func.c.obj
@@ -590,7 +590,7 @@ drv_pke_weak_func.obj: drv_pke_weak_func.c.obj
 
 # target to build an object file
 drv_pke_weak_func.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_pke_weak_func.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_pke_weak_func.c.obj
 .PHONY : drv_pke_weak_func.c.obj
 
 drv_pke_weak_func.i: drv_pke_weak_func.c.i
@@ -599,7 +599,7 @@ drv_pke_weak_func.i: drv_pke_weak_func.c.i
 
 # target to preprocess a source file
 drv_pke_weak_func.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_pke_weak_func.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_pke_weak_func.c.i
 .PHONY : drv_pke_weak_func.c.i
 
 drv_pke_weak_func.s: drv_pke_weak_func.c.s
@@ -608,7 +608,7 @@ drv_pke_weak_func.s: drv_pke_weak_func.c.s
 
 # target to generate assembly for a file
 drv_pke_weak_func.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_pke_weak_func.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_pke_weak_func.c.s
 .PHONY : drv_pke_weak_func.c.s
 
 init/cfbb/crypto_curve_param.obj: init/cfbb/crypto_curve_param.c.obj
@@ -617,7 +617,7 @@ init/cfbb/crypto_curve_param.obj: init/cfbb/crypto_curve_param.c.obj
 
 # target to build an object file
 init/cfbb/crypto_curve_param.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/crypto_curve_param.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/crypto_curve_param.c.obj
 .PHONY : init/cfbb/crypto_curve_param.c.obj
 
 init/cfbb/crypto_curve_param.i: init/cfbb/crypto_curve_param.c.i
@@ -626,7 +626,7 @@ init/cfbb/crypto_curve_param.i: init/cfbb/crypto_curve_param.c.i
 
 # target to preprocess a source file
 init/cfbb/crypto_curve_param.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/crypto_curve_param.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/crypto_curve_param.c.i
 .PHONY : init/cfbb/crypto_curve_param.c.i
 
 init/cfbb/crypto_curve_param.s: init/cfbb/crypto_curve_param.c.s
@@ -635,7 +635,7 @@ init/cfbb/crypto_curve_param.s: init/cfbb/crypto_curve_param.c.s
 
 # target to generate assembly for a file
 init/cfbb/crypto_curve_param.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/crypto_curve_param.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/crypto_curve_param.c.s
 .PHONY : init/cfbb/crypto_curve_param.c.s
 
 init/cfbb/os/crypto_drv_init.obj: init/cfbb/os/crypto_drv_init.c.obj
@@ -644,7 +644,7 @@ init/cfbb/os/crypto_drv_init.obj: init/cfbb/os/crypto_drv_init.c.obj
 
 # target to build an object file
 init/cfbb/os/crypto_drv_init.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_init.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_init.c.obj
 .PHONY : init/cfbb/os/crypto_drv_init.c.obj
 
 init/cfbb/os/crypto_drv_init.i: init/cfbb/os/crypto_drv_init.c.i
@@ -653,7 +653,7 @@ init/cfbb/os/crypto_drv_init.i: init/cfbb/os/crypto_drv_init.c.i
 
 # target to preprocess a source file
 init/cfbb/os/crypto_drv_init.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_init.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_init.c.i
 .PHONY : init/cfbb/os/crypto_drv_init.c.i
 
 init/cfbb/os/crypto_drv_init.s: init/cfbb/os/crypto_drv_init.c.s
@@ -662,7 +662,7 @@ init/cfbb/os/crypto_drv_init.s: init/cfbb/os/crypto_drv_init.c.s
 
 # target to generate assembly for a file
 init/cfbb/os/crypto_drv_init.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_init.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_init.c.s
 .PHONY : init/cfbb/os/crypto_drv_init.c.s
 
 init/cfbb/os/crypto_drv_irq.obj: init/cfbb/os/crypto_drv_irq.c.obj
@@ -671,7 +671,7 @@ init/cfbb/os/crypto_drv_irq.obj: init/cfbb/os/crypto_drv_irq.c.obj
 
 # target to build an object file
 init/cfbb/os/crypto_drv_irq.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_irq.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_irq.c.obj
 .PHONY : init/cfbb/os/crypto_drv_irq.c.obj
 
 init/cfbb/os/crypto_drv_irq.i: init/cfbb/os/crypto_drv_irq.c.i
@@ -680,7 +680,7 @@ init/cfbb/os/crypto_drv_irq.i: init/cfbb/os/crypto_drv_irq.c.i
 
 # target to preprocess a source file
 init/cfbb/os/crypto_drv_irq.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_irq.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_irq.c.i
 .PHONY : init/cfbb/os/crypto_drv_irq.c.i
 
 init/cfbb/os/crypto_drv_irq.s: init/cfbb/os/crypto_drv_irq.c.s
@@ -689,7 +689,7 @@ init/cfbb/os/crypto_drv_irq.s: init/cfbb/os/crypto_drv_irq.c.s
 
 # target to generate assembly for a file
 init/cfbb/os/crypto_drv_irq.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_irq.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_irq.c.s
 .PHONY : init/cfbb/os/crypto_drv_irq.c.s
 
 kapi/source/kapi_hash.obj: kapi/source/kapi_hash.c.obj
@@ -698,7 +698,7 @@ kapi/source/kapi_hash.obj: kapi/source/kapi_hash.c.obj
 
 # target to build an object file
 kapi/source/kapi_hash.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash.c.obj
 .PHONY : kapi/source/kapi_hash.c.obj
 
 kapi/source/kapi_hash.i: kapi/source/kapi_hash.c.i
@@ -707,7 +707,7 @@ kapi/source/kapi_hash.i: kapi/source/kapi_hash.c.i
 
 # target to preprocess a source file
 kapi/source/kapi_hash.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash.c.i
 .PHONY : kapi/source/kapi_hash.c.i
 
 kapi/source/kapi_hash.s: kapi/source/kapi_hash.c.s
@@ -716,7 +716,7 @@ kapi/source/kapi_hash.s: kapi/source/kapi_hash.c.s
 
 # target to generate assembly for a file
 kapi/source/kapi_hash.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash.c.s
 .PHONY : kapi/source/kapi_hash.c.s
 
 kapi/source/kapi_hash_simple.obj: kapi/source/kapi_hash_simple.c.obj
@@ -725,7 +725,7 @@ kapi/source/kapi_hash_simple.obj: kapi/source/kapi_hash_simple.c.obj
 
 # target to build an object file
 kapi/source/kapi_hash_simple.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash_simple.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash_simple.c.obj
 .PHONY : kapi/source/kapi_hash_simple.c.obj
 
 kapi/source/kapi_hash_simple.i: kapi/source/kapi_hash_simple.c.i
@@ -734,7 +734,7 @@ kapi/source/kapi_hash_simple.i: kapi/source/kapi_hash_simple.c.i
 
 # target to preprocess a source file
 kapi/source/kapi_hash_simple.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash_simple.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash_simple.c.i
 .PHONY : kapi/source/kapi_hash_simple.c.i
 
 kapi/source/kapi_hash_simple.s: kapi/source/kapi_hash_simple.c.s
@@ -743,7 +743,7 @@ kapi/source/kapi_hash_simple.s: kapi/source/kapi_hash_simple.c.s
 
 # target to generate assembly for a file
 kapi/source/kapi_hash_simple.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash_simple.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash_simple.c.s
 .PHONY : kapi/source/kapi_hash_simple.c.s
 
 kapi/source/kapi_init.obj: kapi/source/kapi_init.c.obj
@@ -752,7 +752,7 @@ kapi/source/kapi_init.obj: kapi/source/kapi_init.c.obj
 
 # target to build an object file
 kapi/source/kapi_init.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_init.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_init.c.obj
 .PHONY : kapi/source/kapi_init.c.obj
 
 kapi/source/kapi_init.i: kapi/source/kapi_init.c.i
@@ -761,7 +761,7 @@ kapi/source/kapi_init.i: kapi/source/kapi_init.c.i
 
 # target to preprocess a source file
 kapi/source/kapi_init.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_init.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_init.c.i
 .PHONY : kapi/source/kapi_init.c.i
 
 kapi/source/kapi_init.s: kapi/source/kapi_init.c.s
@@ -770,7 +770,7 @@ kapi/source/kapi_init.s: kapi/source/kapi_init.c.s
 
 # target to generate assembly for a file
 kapi/source/kapi_init.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_init.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_init.c.s
 .PHONY : kapi/source/kapi_init.c.s
 
 kapi/source/kapi_km.obj: kapi/source/kapi_km.c.obj
@@ -779,7 +779,7 @@ kapi/source/kapi_km.obj: kapi/source/kapi_km.c.obj
 
 # target to build an object file
 kapi/source/kapi_km.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_km.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_km.c.obj
 .PHONY : kapi/source/kapi_km.c.obj
 
 kapi/source/kapi_km.i: kapi/source/kapi_km.c.i
@@ -788,7 +788,7 @@ kapi/source/kapi_km.i: kapi/source/kapi_km.c.i
 
 # target to preprocess a source file
 kapi/source/kapi_km.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_km.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_km.c.i
 .PHONY : kapi/source/kapi_km.c.i
 
 kapi/source/kapi_km.s: kapi/source/kapi_km.c.s
@@ -797,7 +797,7 @@ kapi/source/kapi_km.s: kapi/source/kapi_km.c.s
 
 # target to generate assembly for a file
 kapi/source/kapi_km.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_km.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_km.c.s
 .PHONY : kapi/source/kapi_km.c.s
 
 kapi/source/kapi_pke.obj: kapi/source/kapi_pke.c.obj
@@ -806,7 +806,7 @@ kapi/source/kapi_pke.obj: kapi/source/kapi_pke.c.obj
 
 # target to build an object file
 kapi/source/kapi_pke.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke.c.obj
 .PHONY : kapi/source/kapi_pke.c.obj
 
 kapi/source/kapi_pke.i: kapi/source/kapi_pke.c.i
@@ -815,7 +815,7 @@ kapi/source/kapi_pke.i: kapi/source/kapi_pke.c.i
 
 # target to preprocess a source file
 kapi/source/kapi_pke.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke.c.i
 .PHONY : kapi/source/kapi_pke.c.i
 
 kapi/source/kapi_pke.s: kapi/source/kapi_pke.c.s
@@ -824,7 +824,7 @@ kapi/source/kapi_pke.s: kapi/source/kapi_pke.c.s
 
 # target to generate assembly for a file
 kapi/source/kapi_pke.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke.c.s
 .PHONY : kapi/source/kapi_pke.c.s
 
 kapi/source/kapi_pke_ecc_cal.obj: kapi/source/kapi_pke_ecc_cal.c.obj
@@ -833,7 +833,7 @@ kapi/source/kapi_pke_ecc_cal.obj: kapi/source/kapi_pke_ecc_cal.c.obj
 
 # target to build an object file
 kapi/source/kapi_pke_ecc_cal.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke_ecc_cal.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke_ecc_cal.c.obj
 .PHONY : kapi/source/kapi_pke_ecc_cal.c.obj
 
 kapi/source/kapi_pke_ecc_cal.i: kapi/source/kapi_pke_ecc_cal.c.i
@@ -842,7 +842,7 @@ kapi/source/kapi_pke_ecc_cal.i: kapi/source/kapi_pke_ecc_cal.c.i
 
 # target to preprocess a source file
 kapi/source/kapi_pke_ecc_cal.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke_ecc_cal.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke_ecc_cal.c.i
 .PHONY : kapi/source/kapi_pke_ecc_cal.c.i
 
 kapi/source/kapi_pke_ecc_cal.s: kapi/source/kapi_pke_ecc_cal.c.s
@@ -851,7 +851,7 @@ kapi/source/kapi_pke_ecc_cal.s: kapi/source/kapi_pke_ecc_cal.c.s
 
 # target to generate assembly for a file
 kapi/source/kapi_pke_ecc_cal.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke_ecc_cal.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke_ecc_cal.c.s
 .PHONY : kapi/source/kapi_pke_ecc_cal.c.s
 
 kapi/source/kapi_symc.obj: kapi/source/kapi_symc.c.obj
@@ -860,7 +860,7 @@ kapi/source/kapi_symc.obj: kapi/source/kapi_symc.c.obj
 
 # target to build an object file
 kapi/source/kapi_symc.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_symc.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_symc.c.obj
 .PHONY : kapi/source/kapi_symc.c.obj
 
 kapi/source/kapi_symc.i: kapi/source/kapi_symc.c.i
@@ -869,7 +869,7 @@ kapi/source/kapi_symc.i: kapi/source/kapi_symc.c.i
 
 # target to preprocess a source file
 kapi/source/kapi_symc.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_symc.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_symc.c.i
 .PHONY : kapi/source/kapi_symc.c.i
 
 kapi/source/kapi_symc.s: kapi/source/kapi_symc.c.s
@@ -878,7 +878,7 @@ kapi/source/kapi_symc.s: kapi/source/kapi_symc.c.s
 
 # target to generate assembly for a file
 kapi/source/kapi_symc.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_symc.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_symc.c.s
 .PHONY : kapi/source/kapi_symc.c.s
 
 kapi/source/kapi_trng.obj: kapi/source/kapi_trng.c.obj
@@ -887,7 +887,7 @@ kapi/source/kapi_trng.obj: kapi/source/kapi_trng.c.obj
 
 # target to build an object file
 kapi/source/kapi_trng.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_trng.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_trng.c.obj
 .PHONY : kapi/source/kapi_trng.c.obj
 
 kapi/source/kapi_trng.i: kapi/source/kapi_trng.c.i
@@ -896,7 +896,7 @@ kapi/source/kapi_trng.i: kapi/source/kapi_trng.c.i
 
 # target to preprocess a source file
 kapi/source/kapi_trng.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_trng.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_trng.c.i
 .PHONY : kapi/source/kapi_trng.c.i
 
 kapi/source/kapi_trng.s: kapi/source/kapi_trng.c.s
@@ -905,7 +905,7 @@ kapi/source/kapi_trng.s: kapi/source/kapi_trng.c.s
 
 # target to generate assembly for a file
 kapi/source/kapi_trng.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_trng.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_trng.c.s
 .PHONY : kapi/source/kapi_trng.c.s
 
 mbedtls_harden_adapt/aes_harden_impl_long_term.obj: mbedtls_harden_adapt/aes_harden_impl_long_term.c.obj
@@ -914,7 +914,7 @@ mbedtls_harden_adapt/aes_harden_impl_long_term.obj: mbedtls_harden_adapt/aes_har
 
 # target to build an object file
 mbedtls_harden_adapt/aes_harden_impl_long_term.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/aes_harden_impl_long_term.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/aes_harden_impl_long_term.c.obj
 .PHONY : mbedtls_harden_adapt/aes_harden_impl_long_term.c.obj
 
 mbedtls_harden_adapt/aes_harden_impl_long_term.i: mbedtls_harden_adapt/aes_harden_impl_long_term.c.i
@@ -923,7 +923,7 @@ mbedtls_harden_adapt/aes_harden_impl_long_term.i: mbedtls_harden_adapt/aes_harde
 
 # target to preprocess a source file
 mbedtls_harden_adapt/aes_harden_impl_long_term.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/aes_harden_impl_long_term.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/aes_harden_impl_long_term.c.i
 .PHONY : mbedtls_harden_adapt/aes_harden_impl_long_term.c.i
 
 mbedtls_harden_adapt/aes_harden_impl_long_term.s: mbedtls_harden_adapt/aes_harden_impl_long_term.c.s
@@ -932,7 +932,7 @@ mbedtls_harden_adapt/aes_harden_impl_long_term.s: mbedtls_harden_adapt/aes_harde
 
 # target to generate assembly for a file
 mbedtls_harden_adapt/aes_harden_impl_long_term.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/aes_harden_impl_long_term.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/aes_harden_impl_long_term.c.s
 .PHONY : mbedtls_harden_adapt/aes_harden_impl_long_term.c.s
 
 mbedtls_harden_adapt/ecp_harden_impl.obj: mbedtls_harden_adapt/ecp_harden_impl.c.obj
@@ -941,7 +941,7 @@ mbedtls_harden_adapt/ecp_harden_impl.obj: mbedtls_harden_adapt/ecp_harden_impl.c
 
 # target to build an object file
 mbedtls_harden_adapt/ecp_harden_impl.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/ecp_harden_impl.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/ecp_harden_impl.c.obj
 .PHONY : mbedtls_harden_adapt/ecp_harden_impl.c.obj
 
 mbedtls_harden_adapt/ecp_harden_impl.i: mbedtls_harden_adapt/ecp_harden_impl.c.i
@@ -950,7 +950,7 @@ mbedtls_harden_adapt/ecp_harden_impl.i: mbedtls_harden_adapt/ecp_harden_impl.c.i
 
 # target to preprocess a source file
 mbedtls_harden_adapt/ecp_harden_impl.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/ecp_harden_impl.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/ecp_harden_impl.c.i
 .PHONY : mbedtls_harden_adapt/ecp_harden_impl.c.i
 
 mbedtls_harden_adapt/ecp_harden_impl.s: mbedtls_harden_adapt/ecp_harden_impl.c.s
@@ -959,7 +959,7 @@ mbedtls_harden_adapt/ecp_harden_impl.s: mbedtls_harden_adapt/ecp_harden_impl.c.s
 
 # target to generate assembly for a file
 mbedtls_harden_adapt/ecp_harden_impl.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/ecp_harden_impl.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/ecp_harden_impl.c.s
 .PHONY : mbedtls_harden_adapt/ecp_harden_impl.c.s
 
 mbedtls_harden_adapt/hash_harden_impl_long_term.obj: mbedtls_harden_adapt/hash_harden_impl_long_term.c.obj
@@ -968,7 +968,7 @@ mbedtls_harden_adapt/hash_harden_impl_long_term.obj: mbedtls_harden_adapt/hash_h
 
 # target to build an object file
 mbedtls_harden_adapt/hash_harden_impl_long_term.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/hash_harden_impl_long_term.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/hash_harden_impl_long_term.c.obj
 .PHONY : mbedtls_harden_adapt/hash_harden_impl_long_term.c.obj
 
 mbedtls_harden_adapt/hash_harden_impl_long_term.i: mbedtls_harden_adapt/hash_harden_impl_long_term.c.i
@@ -977,7 +977,7 @@ mbedtls_harden_adapt/hash_harden_impl_long_term.i: mbedtls_harden_adapt/hash_har
 
 # target to preprocess a source file
 mbedtls_harden_adapt/hash_harden_impl_long_term.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/hash_harden_impl_long_term.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/hash_harden_impl_long_term.c.i
 .PHONY : mbedtls_harden_adapt/hash_harden_impl_long_term.c.i
 
 mbedtls_harden_adapt/hash_harden_impl_long_term.s: mbedtls_harden_adapt/hash_harden_impl_long_term.c.s
@@ -986,7 +986,7 @@ mbedtls_harden_adapt/hash_harden_impl_long_term.s: mbedtls_harden_adapt/hash_har
 
 # target to generate assembly for a file
 mbedtls_harden_adapt/hash_harden_impl_long_term.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/hash_harden_impl_long_term.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/hash_harden_impl_long_term.c.s
 .PHONY : mbedtls_harden_adapt/hash_harden_impl_long_term.c.s
 
 mbedtls_harden_adapt/mbedtls_harden_adapt.obj: mbedtls_harden_adapt/mbedtls_harden_adapt.c.obj
@@ -995,7 +995,7 @@ mbedtls_harden_adapt/mbedtls_harden_adapt.obj: mbedtls_harden_adapt/mbedtls_hard
 
 # target to build an object file
 mbedtls_harden_adapt/mbedtls_harden_adapt.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/mbedtls_harden_adapt.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/mbedtls_harden_adapt.c.obj
 .PHONY : mbedtls_harden_adapt/mbedtls_harden_adapt.c.obj
 
 mbedtls_harden_adapt/mbedtls_harden_adapt.i: mbedtls_harden_adapt/mbedtls_harden_adapt.c.i
@@ -1004,7 +1004,7 @@ mbedtls_harden_adapt/mbedtls_harden_adapt.i: mbedtls_harden_adapt/mbedtls_harden
 
 # target to preprocess a source file
 mbedtls_harden_adapt/mbedtls_harden_adapt.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/mbedtls_harden_adapt.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/mbedtls_harden_adapt.c.i
 .PHONY : mbedtls_harden_adapt/mbedtls_harden_adapt.c.i
 
 mbedtls_harden_adapt/mbedtls_harden_adapt.s: mbedtls_harden_adapt/mbedtls_harden_adapt.c.s
@@ -1013,7 +1013,7 @@ mbedtls_harden_adapt/mbedtls_harden_adapt.s: mbedtls_harden_adapt/mbedtls_harden
 
 # target to generate assembly for a file
 mbedtls_harden_adapt/mbedtls_harden_adapt.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/mbedtls_harden_adapt.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/mbedtls_harden_adapt.c.s
 .PHONY : mbedtls_harden_adapt/mbedtls_harden_adapt.c.s
 
 service_layer/cipher.obj: service_layer/cipher.c.obj
@@ -1022,7 +1022,7 @@ service_layer/cipher.obj: service_layer/cipher.c.obj
 
 # target to build an object file
 service_layer/cipher.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/cipher.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/cipher.c.obj
 .PHONY : service_layer/cipher.c.obj
 
 service_layer/cipher.i: service_layer/cipher.c.i
@@ -1031,7 +1031,7 @@ service_layer/cipher.i: service_layer/cipher.c.i
 
 # target to preprocess a source file
 service_layer/cipher.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/cipher.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/cipher.c.i
 .PHONY : service_layer/cipher.c.i
 
 service_layer/cipher.s: service_layer/cipher.c.s
@@ -1040,7 +1040,7 @@ service_layer/cipher.s: service_layer/cipher.c.s
 
 # target to generate assembly for a file
 service_layer/cipher.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/cipher.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/cipher.c.s
 .PHONY : service_layer/cipher.c.s
 
 service_layer/km.obj: service_layer/km.c.obj
@@ -1049,7 +1049,7 @@ service_layer/km.obj: service_layer/km.c.obj
 
 # target to build an object file
 service_layer/km.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/km.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/km.c.obj
 .PHONY : service_layer/km.c.obj
 
 service_layer/km.i: service_layer/km.c.i
@@ -1058,7 +1058,7 @@ service_layer/km.i: service_layer/km.c.i
 
 # target to preprocess a source file
 service_layer/km.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/km.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/km.c.i
 .PHONY : service_layer/km.c.i
 
 service_layer/km.s: service_layer/km.c.s
@@ -1067,7 +1067,7 @@ service_layer/km.s: service_layer/km.c.s
 
 # target to generate assembly for a file
 service_layer/km.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/km.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/km.c.s
 .PHONY : service_layer/km.c.s
 
 service_layer/pke.obj: service_layer/pke.c.obj
@@ -1076,7 +1076,7 @@ service_layer/pke.obj: service_layer/pke.c.obj
 
 # target to build an object file
 service_layer/pke.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/pke.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/pke.c.obj
 .PHONY : service_layer/pke.c.obj
 
 service_layer/pke.i: service_layer/pke.c.i
@@ -1085,7 +1085,7 @@ service_layer/pke.i: service_layer/pke.c.i
 
 # target to preprocess a source file
 service_layer/pke.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/pke.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/pke.c.i
 .PHONY : service_layer/pke.c.i
 
 service_layer/pke.s: service_layer/pke.c.s
@@ -1094,7 +1094,7 @@ service_layer/pke.s: service_layer/pke.c.s
 
 # target to generate assembly for a file
 service_layer/pke.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/pke.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/pke.c.s
 .PHONY : service_layer/pke.c.s
 
 service_layer/security_init.obj: service_layer/security_init.c.obj
@@ -1103,7 +1103,7 @@ service_layer/security_init.obj: service_layer/security_init.c.obj
 
 # target to build an object file
 service_layer/security_init.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_init.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_init.c.obj
 .PHONY : service_layer/security_init.c.obj
 
 service_layer/security_init.i: service_layer/security_init.c.i
@@ -1112,7 +1112,7 @@ service_layer/security_init.i: service_layer/security_init.c.i
 
 # target to preprocess a source file
 service_layer/security_init.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_init.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_init.c.i
 .PHONY : service_layer/security_init.c.i
 
 service_layer/security_init.s: service_layer/security_init.c.s
@@ -1121,7 +1121,7 @@ service_layer/security_init.s: service_layer/security_init.c.s
 
 # target to generate assembly for a file
 service_layer/security_init.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_init.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_init.c.s
 .PHONY : service_layer/security_init.c.s
 
 service_layer/security_sha256.obj: service_layer/security_sha256.c.obj
@@ -1130,7 +1130,7 @@ service_layer/security_sha256.obj: service_layer/security_sha256.c.obj
 
 # target to build an object file
 service_layer/security_sha256.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_sha256.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_sha256.c.obj
 .PHONY : service_layer/security_sha256.c.obj
 
 service_layer/security_sha256.i: service_layer/security_sha256.c.i
@@ -1139,7 +1139,7 @@ service_layer/security_sha256.i: service_layer/security_sha256.c.i
 
 # target to preprocess a source file
 service_layer/security_sha256.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_sha256.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_sha256.c.i
 .PHONY : service_layer/security_sha256.c.i
 
 service_layer/security_sha256.s: service_layer/security_sha256.c.s
@@ -1148,7 +1148,7 @@ service_layer/security_sha256.s: service_layer/security_sha256.c.s
 
 # target to generate assembly for a file
 service_layer/security_sha256.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_sha256.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_sha256.c.s
 .PHONY : service_layer/security_sha256.c.s
 
 service_layer/sl_common.obj: service_layer/sl_common.c.obj
@@ -1157,7 +1157,7 @@ service_layer/sl_common.obj: service_layer/sl_common.c.obj
 
 # target to build an object file
 service_layer/sl_common.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/sl_common.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/sl_common.c.obj
 .PHONY : service_layer/sl_common.c.obj
 
 service_layer/sl_common.i: service_layer/sl_common.c.i
@@ -1166,7 +1166,7 @@ service_layer/sl_common.i: service_layer/sl_common.c.i
 
 # target to preprocess a source file
 service_layer/sl_common.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/sl_common.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/sl_common.c.i
 .PHONY : service_layer/sl_common.c.i
 
 service_layer/sl_common.s: service_layer/sl_common.c.s
@@ -1175,7 +1175,7 @@ service_layer/sl_common.s: service_layer/sl_common.c.s
 
 # target to generate assembly for a file
 service_layer/sl_common.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/sl_common.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/sl_common.c.s
 .PHONY : service_layer/sl_common.c.s
 
 service_layer/trng.obj: service_layer/trng.c.obj
@@ -1184,7 +1184,7 @@ service_layer/trng.obj: service_layer/trng.c.obj
 
 # target to build an object file
 service_layer/trng.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/trng.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/trng.c.obj
 .PHONY : service_layer/trng.c.obj
 
 service_layer/trng.i: service_layer/trng.c.i
@@ -1193,7 +1193,7 @@ service_layer/trng.i: service_layer/trng.c.i
 
 # target to preprocess a source file
 service_layer/trng.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/trng.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/trng.c.i
 .PHONY : service_layer/trng.c.i
 
 service_layer/trng.s: service_layer/trng.c.s
@@ -1202,7 +1202,7 @@ service_layer/trng.s: service_layer/trng.c.s
 
 # target to generate assembly for a file
 service_layer/trng.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/trng.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f driver/security_unified/CMakeFiles/drv_security_unified.dir/build.make driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/trng.c.s
 .PHONY : service_layer/trng.c.s
 
 # Help Target
@@ -1345,6 +1345,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

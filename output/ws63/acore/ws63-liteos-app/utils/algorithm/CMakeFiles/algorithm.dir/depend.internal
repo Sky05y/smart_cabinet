@@ -7,14 +7,14 @@ utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/crc/uapi_crc16.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/crc/uapi_crc16.c
 utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj
  ../../../../include/common_def.h
  ../../../../include/middleware/utils/uapi_crc.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/crc/uapi_crc32.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/crc/uapi_crc32.c
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -102,11 +102,11 @@ utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/soc/clock.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_hash.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_hash.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_public.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_public_inner.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_rawlist.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_hash.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_hash.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_public.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_public_inner.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_rawlist.h
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
@@ -117,8 +117,8 @@ utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdio.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/select.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/types.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_public.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_public_inner.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_public.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_public_inner.h
 utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/alloca.h
@@ -133,10 +133,10 @@ utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdlib.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/select.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/types.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_public.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_public_inner.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_rawlist.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/cstl/cstl_rawlist.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_public.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_public_inner.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_rawlist.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/cstl/cstl_rawlist.h
 utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -232,8 +232,8 @@ utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/sec_random/sec_random.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/sec_random/sec_random.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/sec_random/sec_random.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/sec_random/sec_random.h
 utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -325,4 +325,4 @@ utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj
  ../../../../middleware/utils/algorithm/sha256/sha256.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/algorithm/sha256/sha256.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/algorithm/sha256/sha256.c

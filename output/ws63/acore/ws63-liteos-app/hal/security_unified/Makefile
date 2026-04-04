@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/security_unified/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/security_unified/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/security_unified/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/security_unified/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/security_unified/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/security_unified/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/security_unified/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/security_unified/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/security_unified/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/security_unified/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hal/security_unified/CMakeFiles/hal_security_unified.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/security_unified/CMakeFiles/hal_security_unified.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/security_unified/CMakeFiles/hal_security_unified.dir/rule
 .PHONY : hal/security_unified/CMakeFiles/hal_security_unified.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hal_security_unified: hal/security_unified/CMakeFiles/hal_security_unified.dir/r
 
 # fast build rule for target.
 hal_security_unified/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/build
 .PHONY : hal_security_unified/fast
 
 crypto_osal/cfbb/crypto_security.obj: crypto_osal/cfbb/crypto_security.c.obj
@@ -131,7 +131,7 @@ crypto_osal/cfbb/crypto_security.obj: crypto_osal/cfbb/crypto_security.c.obj
 
 # target to build an object file
 crypto_osal/cfbb/crypto_security.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/crypto_security.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/crypto_security.c.obj
 .PHONY : crypto_osal/cfbb/crypto_security.c.obj
 
 crypto_osal/cfbb/crypto_security.i: crypto_osal/cfbb/crypto_security.c.i
@@ -140,7 +140,7 @@ crypto_osal/cfbb/crypto_security.i: crypto_osal/cfbb/crypto_security.c.i
 
 # target to preprocess a source file
 crypto_osal/cfbb/crypto_security.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/crypto_security.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/crypto_security.c.i
 .PHONY : crypto_osal/cfbb/crypto_security.c.i
 
 crypto_osal/cfbb/crypto_security.s: crypto_osal/cfbb/crypto_security.c.s
@@ -149,7 +149,7 @@ crypto_osal/cfbb/crypto_security.s: crypto_osal/cfbb/crypto_security.c.s
 
 # target to generate assembly for a file
 crypto_osal/cfbb/crypto_security.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/crypto_security.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/crypto_security.c.s
 .PHONY : crypto_osal/cfbb/crypto_security.c.s
 
 crypto_osal/cfbb/os/crypto_osal_lib.obj: crypto_osal/cfbb/os/crypto_osal_lib.c.obj
@@ -158,7 +158,7 @@ crypto_osal/cfbb/os/crypto_osal_lib.obj: crypto_osal/cfbb/os/crypto_osal_lib.c.o
 
 # target to build an object file
 crypto_osal/cfbb/os/crypto_osal_lib.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/os/crypto_osal_lib.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/os/crypto_osal_lib.c.obj
 .PHONY : crypto_osal/cfbb/os/crypto_osal_lib.c.obj
 
 crypto_osal/cfbb/os/crypto_osal_lib.i: crypto_osal/cfbb/os/crypto_osal_lib.c.i
@@ -167,7 +167,7 @@ crypto_osal/cfbb/os/crypto_osal_lib.i: crypto_osal/cfbb/os/crypto_osal_lib.c.i
 
 # target to preprocess a source file
 crypto_osal/cfbb/os/crypto_osal_lib.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/os/crypto_osal_lib.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/os/crypto_osal_lib.c.i
 .PHONY : crypto_osal/cfbb/os/crypto_osal_lib.c.i
 
 crypto_osal/cfbb/os/crypto_osal_lib.s: crypto_osal/cfbb/os/crypto_osal_lib.c.s
@@ -176,7 +176,7 @@ crypto_osal/cfbb/os/crypto_osal_lib.s: crypto_osal/cfbb/os/crypto_osal_lib.c.s
 
 # target to generate assembly for a file
 crypto_osal/cfbb/os/crypto_osal_lib.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/os/crypto_osal_lib.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/os/crypto_osal_lib.c.s
 .PHONY : crypto_osal/cfbb/os/crypto_osal_lib.c.s
 
 hal_cipher/pke/alg/drv_common_pke.obj: hal_cipher/pke/alg/drv_common_pke.c.obj
@@ -185,7 +185,7 @@ hal_cipher/pke/alg/drv_common_pke.obj: hal_cipher/pke/alg/drv_common_pke.c.obj
 
 # target to build an object file
 hal_cipher/pke/alg/drv_common_pke.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/drv_common_pke.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/drv_common_pke.c.obj
 .PHONY : hal_cipher/pke/alg/drv_common_pke.c.obj
 
 hal_cipher/pke/alg/drv_common_pke.i: hal_cipher/pke/alg/drv_common_pke.c.i
@@ -194,7 +194,7 @@ hal_cipher/pke/alg/drv_common_pke.i: hal_cipher/pke/alg/drv_common_pke.c.i
 
 # target to preprocess a source file
 hal_cipher/pke/alg/drv_common_pke.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/drv_common_pke.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/drv_common_pke.c.i
 .PHONY : hal_cipher/pke/alg/drv_common_pke.c.i
 
 hal_cipher/pke/alg/drv_common_pke.s: hal_cipher/pke/alg/drv_common_pke.c.s
@@ -203,7 +203,7 @@ hal_cipher/pke/alg/drv_common_pke.s: hal_cipher/pke/alg/drv_common_pke.c.s
 
 # target to generate assembly for a file
 hal_cipher/pke/alg/drv_common_pke.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/drv_common_pke.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/drv_common_pke.c.s
 .PHONY : hal_cipher/pke/alg/drv_common_pke.c.s
 
 hal_cipher/pke/alg/ecc_ec_fp_sign.obj: hal_cipher/pke/alg/ecc_ec_fp_sign.c.obj
@@ -212,7 +212,7 @@ hal_cipher/pke/alg/ecc_ec_fp_sign.obj: hal_cipher/pke/alg/ecc_ec_fp_sign.c.obj
 
 # target to build an object file
 hal_cipher/pke/alg/ecc_ec_fp_sign.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign.c.obj
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_sign.c.obj
 
 hal_cipher/pke/alg/ecc_ec_fp_sign.i: hal_cipher/pke/alg/ecc_ec_fp_sign.c.i
@@ -221,7 +221,7 @@ hal_cipher/pke/alg/ecc_ec_fp_sign.i: hal_cipher/pke/alg/ecc_ec_fp_sign.c.i
 
 # target to preprocess a source file
 hal_cipher/pke/alg/ecc_ec_fp_sign.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign.c.i
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_sign.c.i
 
 hal_cipher/pke/alg/ecc_ec_fp_sign.s: hal_cipher/pke/alg/ecc_ec_fp_sign.c.s
@@ -230,7 +230,7 @@ hal_cipher/pke/alg/ecc_ec_fp_sign.s: hal_cipher/pke/alg/ecc_ec_fp_sign.c.s
 
 # target to generate assembly for a file
 hal_cipher/pke/alg/ecc_ec_fp_sign.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign.c.s
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_sign.c.s
 
 hal_cipher/pke/alg/ecc_ec_fp_sign_common.obj: hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.obj
@@ -239,7 +239,7 @@ hal_cipher/pke/alg/ecc_ec_fp_sign_common.obj: hal_cipher/pke/alg/ecc_ec_fp_sign_
 
 # target to build an object file
 hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.obj
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.obj
 
 hal_cipher/pke/alg/ecc_ec_fp_sign_common.i: hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.i
@@ -248,7 +248,7 @@ hal_cipher/pke/alg/ecc_ec_fp_sign_common.i: hal_cipher/pke/alg/ecc_ec_fp_sign_co
 
 # target to preprocess a source file
 hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.i
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.i
 
 hal_cipher/pke/alg/ecc_ec_fp_sign_common.s: hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.s
@@ -257,7 +257,7 @@ hal_cipher/pke/alg/ecc_ec_fp_sign_common.s: hal_cipher/pke/alg/ecc_ec_fp_sign_co
 
 # target to generate assembly for a file
 hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.s
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.s
 
 hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.obj: hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.obj
@@ -266,7 +266,7 @@ hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.obj: hal_cipher/pke/alg/ecc_ec_f
 
 # target to build an object file
 hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.obj
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.obj
 
 hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.i: hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.i
@@ -275,7 +275,7 @@ hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.i: hal_cipher/pke/alg/ecc_ec_fp_
 
 # target to preprocess a source file
 hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.i
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.i
 
 hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.s: hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.s
@@ -284,7 +284,7 @@ hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.s: hal_cipher/pke/alg/ecc_ec_fp_
 
 # target to generate assembly for a file
 hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.s
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.s
 
 hal_cipher/pke/alg/ecc_ec_fp_verify.obj: hal_cipher/pke/alg/ecc_ec_fp_verify.c.obj
@@ -293,7 +293,7 @@ hal_cipher/pke/alg/ecc_ec_fp_verify.obj: hal_cipher/pke/alg/ecc_ec_fp_verify.c.o
 
 # target to build an object file
 hal_cipher/pke/alg/ecc_ec_fp_verify.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify.c.obj
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_verify.c.obj
 
 hal_cipher/pke/alg/ecc_ec_fp_verify.i: hal_cipher/pke/alg/ecc_ec_fp_verify.c.i
@@ -302,7 +302,7 @@ hal_cipher/pke/alg/ecc_ec_fp_verify.i: hal_cipher/pke/alg/ecc_ec_fp_verify.c.i
 
 # target to preprocess a source file
 hal_cipher/pke/alg/ecc_ec_fp_verify.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify.c.i
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_verify.c.i
 
 hal_cipher/pke/alg/ecc_ec_fp_verify.s: hal_cipher/pke/alg/ecc_ec_fp_verify.c.s
@@ -311,7 +311,7 @@ hal_cipher/pke/alg/ecc_ec_fp_verify.s: hal_cipher/pke/alg/ecc_ec_fp_verify.c.s
 
 # target to generate assembly for a file
 hal_cipher/pke/alg/ecc_ec_fp_verify.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify.c.s
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_verify.c.s
 
 hal_cipher/pke/alg/ecc_ec_fp_verify_common.obj: hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.obj
@@ -320,7 +320,7 @@ hal_cipher/pke/alg/ecc_ec_fp_verify_common.obj: hal_cipher/pke/alg/ecc_ec_fp_ver
 
 # target to build an object file
 hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.obj
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.obj
 
 hal_cipher/pke/alg/ecc_ec_fp_verify_common.i: hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.i
@@ -329,7 +329,7 @@ hal_cipher/pke/alg/ecc_ec_fp_verify_common.i: hal_cipher/pke/alg/ecc_ec_fp_verif
 
 # target to preprocess a source file
 hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.i
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.i
 
 hal_cipher/pke/alg/ecc_ec_fp_verify_common.s: hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.s
@@ -338,7 +338,7 @@ hal_cipher/pke/alg/ecc_ec_fp_verify_common.s: hal_cipher/pke/alg/ecc_ec_fp_verif
 
 # target to generate assembly for a file
 hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.s
 .PHONY : hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.s
 
 hal_cipher/pke/alg/rsa.obj: hal_cipher/pke/alg/rsa.c.obj
@@ -347,7 +347,7 @@ hal_cipher/pke/alg/rsa.obj: hal_cipher/pke/alg/rsa.c.obj
 
 # target to build an object file
 hal_cipher/pke/alg/rsa.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/rsa.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/rsa.c.obj
 .PHONY : hal_cipher/pke/alg/rsa.c.obj
 
 hal_cipher/pke/alg/rsa.i: hal_cipher/pke/alg/rsa.c.i
@@ -356,7 +356,7 @@ hal_cipher/pke/alg/rsa.i: hal_cipher/pke/alg/rsa.c.i
 
 # target to preprocess a source file
 hal_cipher/pke/alg/rsa.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/rsa.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/rsa.c.i
 .PHONY : hal_cipher/pke/alg/rsa.c.i
 
 hal_cipher/pke/alg/rsa.s: hal_cipher/pke/alg/rsa.c.s
@@ -365,7 +365,7 @@ hal_cipher/pke/alg/rsa.s: hal_cipher/pke/alg/rsa.c.s
 
 # target to generate assembly for a file
 hal_cipher/pke/alg/rsa.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/rsa.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/rsa.c.s
 .PHONY : hal_cipher/pke/alg/rsa.c.s
 
 hal_cipher/pke/alg/sm2_ec_fp_sign_verify.obj: hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.obj
@@ -374,7 +374,7 @@ hal_cipher/pke/alg/sm2_ec_fp_sign_verify.obj: hal_cipher/pke/alg/sm2_ec_fp_sign_
 
 # target to build an object file
 hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.obj
 .PHONY : hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.obj
 
 hal_cipher/pke/alg/sm2_ec_fp_sign_verify.i: hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.i
@@ -383,7 +383,7 @@ hal_cipher/pke/alg/sm2_ec_fp_sign_verify.i: hal_cipher/pke/alg/sm2_ec_fp_sign_ve
 
 # target to preprocess a source file
 hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.i
 .PHONY : hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.i
 
 hal_cipher/pke/alg/sm2_ec_fp_sign_verify.s: hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.s
@@ -392,7 +392,7 @@ hal_cipher/pke/alg/sm2_ec_fp_sign_verify.s: hal_cipher/pke/alg/sm2_ec_fp_sign_ve
 
 # target to generate assembly for a file
 hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.s
 .PHONY : hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.s
 
 hal_cipher/pke/arch/ecc_data_ram_addr.obj: hal_cipher/pke/arch/ecc_data_ram_addr.c.obj
@@ -401,7 +401,7 @@ hal_cipher/pke/arch/ecc_data_ram_addr.obj: hal_cipher/pke/arch/ecc_data_ram_addr
 
 # target to build an object file
 hal_cipher/pke/arch/ecc_data_ram_addr.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/ecc_data_ram_addr.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/ecc_data_ram_addr.c.obj
 .PHONY : hal_cipher/pke/arch/ecc_data_ram_addr.c.obj
 
 hal_cipher/pke/arch/ecc_data_ram_addr.i: hal_cipher/pke/arch/ecc_data_ram_addr.c.i
@@ -410,7 +410,7 @@ hal_cipher/pke/arch/ecc_data_ram_addr.i: hal_cipher/pke/arch/ecc_data_ram_addr.c
 
 # target to preprocess a source file
 hal_cipher/pke/arch/ecc_data_ram_addr.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/ecc_data_ram_addr.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/ecc_data_ram_addr.c.i
 .PHONY : hal_cipher/pke/arch/ecc_data_ram_addr.c.i
 
 hal_cipher/pke/arch/ecc_data_ram_addr.s: hal_cipher/pke/arch/ecc_data_ram_addr.c.s
@@ -419,7 +419,7 @@ hal_cipher/pke/arch/ecc_data_ram_addr.s: hal_cipher/pke/arch/ecc_data_ram_addr.c
 
 # target to generate assembly for a file
 hal_cipher/pke/arch/ecc_data_ram_addr.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/ecc_data_ram_addr.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/ecc_data_ram_addr.c.s
 .PHONY : hal_cipher/pke/arch/ecc_data_ram_addr.c.s
 
 hal_cipher/pke/arch/rom_lib.obj: hal_cipher/pke/arch/rom_lib.c.obj
@@ -428,7 +428,7 @@ hal_cipher/pke/arch/rom_lib.obj: hal_cipher/pke/arch/rom_lib.c.obj
 
 # target to build an object file
 hal_cipher/pke/arch/rom_lib.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rom_lib.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rom_lib.c.obj
 .PHONY : hal_cipher/pke/arch/rom_lib.c.obj
 
 hal_cipher/pke/arch/rom_lib.i: hal_cipher/pke/arch/rom_lib.c.i
@@ -437,7 +437,7 @@ hal_cipher/pke/arch/rom_lib.i: hal_cipher/pke/arch/rom_lib.c.i
 
 # target to preprocess a source file
 hal_cipher/pke/arch/rom_lib.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rom_lib.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rom_lib.c.i
 .PHONY : hal_cipher/pke/arch/rom_lib.c.i
 
 hal_cipher/pke/arch/rom_lib.s: hal_cipher/pke/arch/rom_lib.c.s
@@ -446,7 +446,7 @@ hal_cipher/pke/arch/rom_lib.s: hal_cipher/pke/arch/rom_lib.c.s
 
 # target to generate assembly for a file
 hal_cipher/pke/arch/rom_lib.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rom_lib.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rom_lib.c.s
 .PHONY : hal_cipher/pke/arch/rom_lib.c.s
 
 hal_cipher/pke/arch/rsa_data_ram_addr.obj: hal_cipher/pke/arch/rsa_data_ram_addr.c.obj
@@ -455,7 +455,7 @@ hal_cipher/pke/arch/rsa_data_ram_addr.obj: hal_cipher/pke/arch/rsa_data_ram_addr
 
 # target to build an object file
 hal_cipher/pke/arch/rsa_data_ram_addr.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rsa_data_ram_addr.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rsa_data_ram_addr.c.obj
 .PHONY : hal_cipher/pke/arch/rsa_data_ram_addr.c.obj
 
 hal_cipher/pke/arch/rsa_data_ram_addr.i: hal_cipher/pke/arch/rsa_data_ram_addr.c.i
@@ -464,7 +464,7 @@ hal_cipher/pke/arch/rsa_data_ram_addr.i: hal_cipher/pke/arch/rsa_data_ram_addr.c
 
 # target to preprocess a source file
 hal_cipher/pke/arch/rsa_data_ram_addr.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rsa_data_ram_addr.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rsa_data_ram_addr.c.i
 .PHONY : hal_cipher/pke/arch/rsa_data_ram_addr.c.i
 
 hal_cipher/pke/arch/rsa_data_ram_addr.s: hal_cipher/pke/arch/rsa_data_ram_addr.c.s
@@ -473,7 +473,7 @@ hal_cipher/pke/arch/rsa_data_ram_addr.s: hal_cipher/pke/arch/rsa_data_ram_addr.c
 
 # target to generate assembly for a file
 hal_cipher/pke/arch/rsa_data_ram_addr.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rsa_data_ram_addr.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rsa_data_ram_addr.c.s
 .PHONY : hal_cipher/pke/arch/rsa_data_ram_addr.c.s
 
 hal_cipher/pke/hal_pke.obj: hal_cipher/pke/hal_pke.c.obj
@@ -482,7 +482,7 @@ hal_cipher/pke/hal_pke.obj: hal_cipher/pke/hal_pke.c.obj
 
 # target to build an object file
 hal_cipher/pke/hal_pke.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/hal_pke.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/hal_pke.c.obj
 .PHONY : hal_cipher/pke/hal_pke.c.obj
 
 hal_cipher/pke/hal_pke.i: hal_cipher/pke/hal_pke.c.i
@@ -491,7 +491,7 @@ hal_cipher/pke/hal_pke.i: hal_cipher/pke/hal_pke.c.i
 
 # target to preprocess a source file
 hal_cipher/pke/hal_pke.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/hal_pke.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/hal_pke.c.i
 .PHONY : hal_cipher/pke/hal_pke.c.i
 
 hal_cipher/pke/hal_pke.s: hal_cipher/pke/hal_pke.c.s
@@ -500,7 +500,7 @@ hal_cipher/pke/hal_pke.s: hal_cipher/pke/hal_pke.c.s
 
 # target to generate assembly for a file
 hal_cipher/pke/hal_pke.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/hal_pke.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/hal_pke.c.s
 .PHONY : hal_cipher/pke/hal_pke.c.s
 
 hal_cipher/spacc/hal_hash.obj: hal_cipher/spacc/hal_hash.c.obj
@@ -509,7 +509,7 @@ hal_cipher/spacc/hal_hash.obj: hal_cipher/spacc/hal_hash.c.obj
 
 # target to build an object file
 hal_cipher/spacc/hal_hash.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_hash.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_hash.c.obj
 .PHONY : hal_cipher/spacc/hal_hash.c.obj
 
 hal_cipher/spacc/hal_hash.i: hal_cipher/spacc/hal_hash.c.i
@@ -518,7 +518,7 @@ hal_cipher/spacc/hal_hash.i: hal_cipher/spacc/hal_hash.c.i
 
 # target to preprocess a source file
 hal_cipher/spacc/hal_hash.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_hash.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_hash.c.i
 .PHONY : hal_cipher/spacc/hal_hash.c.i
 
 hal_cipher/spacc/hal_hash.s: hal_cipher/spacc/hal_hash.c.s
@@ -527,7 +527,7 @@ hal_cipher/spacc/hal_hash.s: hal_cipher/spacc/hal_hash.c.s
 
 # target to generate assembly for a file
 hal_cipher/spacc/hal_hash.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_hash.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_hash.c.s
 .PHONY : hal_cipher/spacc/hal_hash.c.s
 
 hal_cipher/spacc/hal_symc.obj: hal_cipher/spacc/hal_symc.c.obj
@@ -536,7 +536,7 @@ hal_cipher/spacc/hal_symc.obj: hal_cipher/spacc/hal_symc.c.obj
 
 # target to build an object file
 hal_cipher/spacc/hal_symc.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_symc.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_symc.c.obj
 .PHONY : hal_cipher/spacc/hal_symc.c.obj
 
 hal_cipher/spacc/hal_symc.i: hal_cipher/spacc/hal_symc.c.i
@@ -545,7 +545,7 @@ hal_cipher/spacc/hal_symc.i: hal_cipher/spacc/hal_symc.c.i
 
 # target to preprocess a source file
 hal_cipher/spacc/hal_symc.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_symc.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_symc.c.i
 .PHONY : hal_cipher/spacc/hal_symc.c.i
 
 hal_cipher/spacc/hal_symc.s: hal_cipher/spacc/hal_symc.c.s
@@ -554,7 +554,7 @@ hal_cipher/spacc/hal_symc.s: hal_cipher/spacc/hal_symc.c.s
 
 # target to generate assembly for a file
 hal_cipher/spacc/hal_symc.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_symc.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_symc.c.s
 .PHONY : hal_cipher/spacc/hal_symc.c.s
 
 hal_cipher/trng/hal_trng.obj: hal_cipher/trng/hal_trng.c.obj
@@ -563,7 +563,7 @@ hal_cipher/trng/hal_trng.obj: hal_cipher/trng/hal_trng.c.obj
 
 # target to build an object file
 hal_cipher/trng/hal_trng.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/trng/hal_trng.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/trng/hal_trng.c.obj
 .PHONY : hal_cipher/trng/hal_trng.c.obj
 
 hal_cipher/trng/hal_trng.i: hal_cipher/trng/hal_trng.c.i
@@ -572,7 +572,7 @@ hal_cipher/trng/hal_trng.i: hal_cipher/trng/hal_trng.c.i
 
 # target to preprocess a source file
 hal_cipher/trng/hal_trng.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/trng/hal_trng.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/trng/hal_trng.c.i
 .PHONY : hal_cipher/trng/hal_trng.c.i
 
 hal_cipher/trng/hal_trng.s: hal_cipher/trng/hal_trng.c.s
@@ -581,7 +581,7 @@ hal_cipher/trng/hal_trng.s: hal_cipher/trng/hal_trng.c.s
 
 # target to generate assembly for a file
 hal_cipher/trng/hal_trng.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/trng/hal_trng.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/trng/hal_trng.c.s
 .PHONY : hal_cipher/trng/hal_trng.c.s
 
 hal_fapc/hal_fapc.obj: hal_fapc/hal_fapc.c.obj
@@ -590,7 +590,7 @@ hal_fapc/hal_fapc.obj: hal_fapc/hal_fapc.c.obj
 
 # target to build an object file
 hal_fapc/hal_fapc.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_fapc/hal_fapc.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_fapc/hal_fapc.c.obj
 .PHONY : hal_fapc/hal_fapc.c.obj
 
 hal_fapc/hal_fapc.i: hal_fapc/hal_fapc.c.i
@@ -599,7 +599,7 @@ hal_fapc/hal_fapc.i: hal_fapc/hal_fapc.c.i
 
 # target to preprocess a source file
 hal_fapc/hal_fapc.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_fapc/hal_fapc.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_fapc/hal_fapc.c.i
 .PHONY : hal_fapc/hal_fapc.c.i
 
 hal_fapc/hal_fapc.s: hal_fapc/hal_fapc.c.s
@@ -608,7 +608,7 @@ hal_fapc/hal_fapc.s: hal_fapc/hal_fapc.c.s
 
 # target to generate assembly for a file
 hal_fapc/hal_fapc.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_fapc/hal_fapc.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_fapc/hal_fapc.c.s
 .PHONY : hal_fapc/hal_fapc.c.s
 
 hal_km/hal_keyslot.obj: hal_km/hal_keyslot.c.obj
@@ -617,7 +617,7 @@ hal_km/hal_keyslot.obj: hal_km/hal_keyslot.c.obj
 
 # target to build an object file
 hal_km/hal_keyslot.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_keyslot.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_keyslot.c.obj
 .PHONY : hal_km/hal_keyslot.c.obj
 
 hal_km/hal_keyslot.i: hal_km/hal_keyslot.c.i
@@ -626,7 +626,7 @@ hal_km/hal_keyslot.i: hal_km/hal_keyslot.c.i
 
 # target to preprocess a source file
 hal_km/hal_keyslot.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_keyslot.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_keyslot.c.i
 .PHONY : hal_km/hal_keyslot.c.i
 
 hal_km/hal_keyslot.s: hal_km/hal_keyslot.c.s
@@ -635,7 +635,7 @@ hal_km/hal_keyslot.s: hal_km/hal_keyslot.c.s
 
 # target to generate assembly for a file
 hal_km/hal_keyslot.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_keyslot.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_keyslot.c.s
 .PHONY : hal_km/hal_keyslot.c.s
 
 hal_km/hal_klad.obj: hal_km/hal_klad.c.obj
@@ -644,7 +644,7 @@ hal_km/hal_klad.obj: hal_km/hal_klad.c.obj
 
 # target to build an object file
 hal_km/hal_klad.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_klad.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_klad.c.obj
 .PHONY : hal_km/hal_klad.c.obj
 
 hal_km/hal_klad.i: hal_km/hal_klad.c.i
@@ -653,7 +653,7 @@ hal_km/hal_klad.i: hal_km/hal_klad.c.i
 
 # target to preprocess a source file
 hal_km/hal_klad.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_klad.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_klad.c.i
 .PHONY : hal_km/hal_klad.c.i
 
 hal_km/hal_klad.s: hal_km/hal_klad.c.s
@@ -662,7 +662,7 @@ hal_km/hal_klad.s: hal_km/hal_klad.c.s
 
 # target to generate assembly for a file
 hal_km/hal_klad.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_klad.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_klad.c.s
 .PHONY : hal_km/hal_klad.c.s
 
 hal_km/hal_rkp.obj: hal_km/hal_rkp.c.obj
@@ -671,7 +671,7 @@ hal_km/hal_rkp.obj: hal_km/hal_rkp.c.obj
 
 # target to build an object file
 hal_km/hal_rkp.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_rkp.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_rkp.c.obj
 .PHONY : hal_km/hal_rkp.c.obj
 
 hal_km/hal_rkp.i: hal_km/hal_rkp.c.i
@@ -680,7 +680,7 @@ hal_km/hal_rkp.i: hal_km/hal_rkp.c.i
 
 # target to preprocess a source file
 hal_km/hal_rkp.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_rkp.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_rkp.c.i
 .PHONY : hal_km/hal_rkp.c.i
 
 hal_km/hal_rkp.s: hal_km/hal_rkp.c.s
@@ -689,7 +689,7 @@ hal_km/hal_rkp.s: hal_km/hal_rkp.c.s
 
 # target to generate assembly for a file
 hal_km/hal_rkp.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_rkp.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/security_unified/CMakeFiles/hal_security_unified.dir/build.make hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_rkp.c.s
 .PHONY : hal_km/hal_rkp.c.s
 
 # Help Target
@@ -775,6 +775,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

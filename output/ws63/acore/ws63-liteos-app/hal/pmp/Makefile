@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/pmp/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/pmp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/pmp/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/pmp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/pmp/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/pmp/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/pmp/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/pmp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/pmp/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/pmp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hal/pmp/CMakeFiles/hal_pmp.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/pmp/CMakeFiles/hal_pmp.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 hal/pmp/CMakeFiles/hal_pmp.dir/rule
 .PHONY : hal/pmp/CMakeFiles/hal_pmp.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hal_pmp: hal/pmp/CMakeFiles/hal_pmp.dir/rule
 
 # fast build rule for target.
 hal_pmp/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/build
 .PHONY : hal_pmp/fast
 
 hal_pmp.obj: hal_pmp.c.obj
@@ -131,7 +131,7 @@ hal_pmp.obj: hal_pmp.c.obj
 
 # target to build an object file
 hal_pmp.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/hal_pmp.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/hal_pmp.c.obj
 .PHONY : hal_pmp.c.obj
 
 hal_pmp.i: hal_pmp.c.i
@@ -140,7 +140,7 @@ hal_pmp.i: hal_pmp.c.i
 
 # target to preprocess a source file
 hal_pmp.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/hal_pmp.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/hal_pmp.c.i
 .PHONY : hal_pmp.c.i
 
 hal_pmp.s: hal_pmp.c.s
@@ -149,7 +149,7 @@ hal_pmp.s: hal_pmp.c.s
 
 # target to generate assembly for a file
 hal_pmp.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/hal_pmp.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/hal_pmp.c.s
 .PHONY : hal_pmp.c.s
 
 v31/hal_pmp_riscv31.obj: v31/hal_pmp_riscv31.c.obj
@@ -158,7 +158,7 @@ v31/hal_pmp_riscv31.obj: v31/hal_pmp_riscv31.c.obj
 
 # target to build an object file
 v31/hal_pmp_riscv31.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.obj
 .PHONY : v31/hal_pmp_riscv31.c.obj
 
 v31/hal_pmp_riscv31.i: v31/hal_pmp_riscv31.c.i
@@ -167,7 +167,7 @@ v31/hal_pmp_riscv31.i: v31/hal_pmp_riscv31.c.i
 
 # target to preprocess a source file
 v31/hal_pmp_riscv31.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.i
 .PHONY : v31/hal_pmp_riscv31.c.i
 
 v31/hal_pmp_riscv31.s: v31/hal_pmp_riscv31.c.s
@@ -176,7 +176,7 @@ v31/hal_pmp_riscv31.s: v31/hal_pmp_riscv31.c.s
 
 # target to generate assembly for a file
 v31/hal_pmp_riscv31.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.s
 .PHONY : v31/hal_pmp_riscv31.c.s
 
 v31/hal_pmp_riscv31_regs_op.obj: v31/hal_pmp_riscv31_regs_op.c.obj
@@ -185,7 +185,7 @@ v31/hal_pmp_riscv31_regs_op.obj: v31/hal_pmp_riscv31_regs_op.c.obj
 
 # target to build an object file
 v31/hal_pmp_riscv31_regs_op.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.obj
 .PHONY : v31/hal_pmp_riscv31_regs_op.c.obj
 
 v31/hal_pmp_riscv31_regs_op.i: v31/hal_pmp_riscv31_regs_op.c.i
@@ -194,7 +194,7 @@ v31/hal_pmp_riscv31_regs_op.i: v31/hal_pmp_riscv31_regs_op.c.i
 
 # target to preprocess a source file
 v31/hal_pmp_riscv31_regs_op.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.i
 .PHONY : v31/hal_pmp_riscv31_regs_op.c.i
 
 v31/hal_pmp_riscv31_regs_op.s: v31/hal_pmp_riscv31_regs_op.c.s
@@ -203,7 +203,7 @@ v31/hal_pmp_riscv31_regs_op.s: v31/hal_pmp_riscv31_regs_op.c.s
 
 # target to generate assembly for a file
 v31/hal_pmp_riscv31_regs_op.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.s
 .PHONY : v31/hal_pmp_riscv31_regs_op.c.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

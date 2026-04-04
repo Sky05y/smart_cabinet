@@ -598,61 +598,61 @@ register_config.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/hal_spi.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/hal_spi.c
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/common_def.h
 hal_spi.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/hal_spi.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/hal_spi.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/hal_spi.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/hal_spi.h
 stdint.h
 -
 stdbool.h
 -
 errcode.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/errcode.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/errcode.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/common_def.h
 spi_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/spi_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/spi_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151.c
 stdbool.h
 -
 securec.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/securec.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/securec.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/common_def.h
 spi_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/spi_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/spi_porting.h
 hal_spi_v151_regs_op.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.h
 hal_spi_v151.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151.h
 hal_spi.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_def.h
 stdint.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.c
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.c
 stdint.h
 -
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/common_def.h
 hal_spi_v151_regs_op.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_op.h
 stdint.h
 -
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/common_def.h
 hal_spi_v151_regs_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/hal_spi_v151_regs_def.h
 spi_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/spi/v151/spi_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/spi/v151/spi_porting.h
 

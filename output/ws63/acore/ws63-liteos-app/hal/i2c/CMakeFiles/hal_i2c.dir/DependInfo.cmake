@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/hal_i2c.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.obj"
-  "/home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c" "/home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/hal_i2c.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_comm.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_master.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/i2c/v150/hal_i2c_v150_regs_op.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -359,8 +359,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../../../protocol/bt/host/bt/sdk/../include/common/L0"
   "../../../../protocol/bt/host/bt/sdk/../include/ble"
   "../../../../protocol/bt/host/bt/sdk/../include/ble/L0"
-  "../../../../application/samples/ws63_server/include"
-  "../../../../application/samples/ws63_server/sle_uart_server"
+  "../../../../application/samples/ws63_client/include"
+  "../../../../application/samples/ws63_client/sle_uart_client"
   "../../../../include/middleware/services/bts/ble"
   "../../../../include/middleware/services/bts/br"
   "../../../../include/middleware/services/bts/common"

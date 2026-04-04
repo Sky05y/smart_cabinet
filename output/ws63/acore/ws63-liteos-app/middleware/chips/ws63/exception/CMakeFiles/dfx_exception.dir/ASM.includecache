@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/exception/exception_riscv.s
+/home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/exception/exception_riscv.s
 

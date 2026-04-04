@@ -90,23 +90,23 @@ linux/types.h
 stdint.h
 -
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/arch/riscv/pmp_cfg.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/arch/riscv/pmp_cfg.c
 stdbool.h
 -
 memory_config_common.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/arch/riscv/memory_config_common.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/arch/riscv/memory_config_common.h
 share_mem_config.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/arch/riscv/share_mem_config.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/arch/riscv/share_mem_config.h
 common_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/arch/riscv/common_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/arch/riscv/common_def.h
 partition.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/arch/riscv/partition.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/arch/riscv/partition.h
 partition_resource_id.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/arch/riscv/partition_resource_id.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/arch/riscv/partition_resource_id.h
 drv_pmp.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/arch/riscv/drv_pmp.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/arch/riscv/drv_pmp.h
 pmp_cfg.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/arch/riscv/pmp_cfg.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/arch/riscv/pmp_cfg.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/arch/riscv/pmp_cfg.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/arch/riscv/pmp_cfg.h
 

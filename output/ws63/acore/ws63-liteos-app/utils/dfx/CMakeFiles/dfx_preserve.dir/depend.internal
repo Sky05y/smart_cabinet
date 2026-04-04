@@ -169,7 +169,7 @@ utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/crash_data.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/preserve/private/crash_data.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/preserve/private/crash_data.c
 utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.obj
  ../../../../drivers/boards/ws63/evb/linker/ws63_liteos_app_linker/memory_config.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/memory_config_common.h
@@ -302,4 +302,4 @@ utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.obj
  ../../../../middleware/utils/dfx/zdiag/include/diag_common.h
  ../../../../middleware/utils/dfx/zdiag/include/diag_oam_log.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/dfx/preserve/private/preserve.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/dfx/preserve/private/preserve.c

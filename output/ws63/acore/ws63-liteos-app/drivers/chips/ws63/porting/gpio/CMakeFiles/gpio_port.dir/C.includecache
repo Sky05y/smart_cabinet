@@ -630,29 +630,29 @@ chip_definitions.h
 
 ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/gpio_porting.c
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/gpio_porting.c
 hal_gpio_v150.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/hal_gpio_v150.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/hal_gpio_v150.h
 chip_io.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/chip_io.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/chip_io.h
 chip_core_irq.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/chip_core_irq.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/chip_core_irq.h
 platform_types.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/platform_types.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/platform_types.h
 platform_core.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/platform_core.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/platform_core.h
 gpio_porting.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/gpio_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/gpio_porting.h
 
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/gpio_porting.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/gpio_porting.h
 stdint.h
 -
 stdbool.h
 -
 platform_core.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/platform_core.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/platform_core.h
 platform_types.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/platform_types.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/platform_types.h
 hal_gpio_v150_comm_def.h
-/home/bearpi/project/bearpi-pico_h3863/drivers/chips/ws63/porting/gpio/hal_gpio_v150_comm_def.h
+/home/bearpi/project/smart_cabinet-main/drivers/chips/ws63/porting/gpio/hal_gpio_v150_comm_def.h
 

@@ -43,7 +43,7 @@ kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_atomic.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/osal/osal_types.h
- /home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_atomic.c
+ /home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_atomic.c
 kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_debug.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -162,7 +162,7 @@ kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_debug.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_debug.c
+ /home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_debug.c
 kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_event.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include/asm/int-ll64.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include/linux/types.h
@@ -205,7 +205,7 @@ kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_event.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/osal/osal_types.h
- /home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_event.c
+ /home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_event.c
 kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_string.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include/asm/int-ll64.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include/linux/types.h
@@ -248,7 +248,7 @@ kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_string.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/osal/osal_types.h
- /home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_string.c
+ /home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_string.c
 kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_task.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include/asm/int-ll64.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include/linux/types.h
@@ -291,7 +291,7 @@ kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_task.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/osal/osal_types.h
- /home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_task.c
+ /home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_task.c
 kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_timer.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include/asm/int-ll64.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include/linux/types.h
@@ -334,4 +334,4 @@ kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_timer.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/osal/osal_types.h
- /home/bearpi/project/bearpi-pico_h3863/kernel/osal_adapt/src/osal_adapt_timer.c
+ /home/bearpi/project/smart_cabinet-main/kernel/osal_adapt/src/osal_adapt_timer.c

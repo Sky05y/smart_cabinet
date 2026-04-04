@@ -124,4 +124,4 @@ middleware/chips/ws63/update/common/CMakeFiles/update_common_ws63.dir/upg_common
  ../../../../middleware/utils/update/inner_include/upg_default_config.h
  ../../../../middleware/utils/update/inner_include/upg_definitions.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/update/common/upg_common_porting.c
+ /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/update/common/upg_common_porting.c

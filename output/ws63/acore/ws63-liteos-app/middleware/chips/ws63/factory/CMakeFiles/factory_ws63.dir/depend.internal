@@ -97,5 +97,5 @@ middleware/chips/ws63/factory/CMakeFiles/factory_ws63.dir/factory.c.obj
  ../../../../middleware/chips/ws63/nv/nv_config/include/key_id.h
  ../../../../middleware/chips/ws63/partition/include/partition_resource_id.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/factory.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/chips/ws63/factory/factory.h
+ /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/factory.c
+ /home/bearpi/project/smart_cabinet-main/middleware/chips/ws63/factory/factory.h

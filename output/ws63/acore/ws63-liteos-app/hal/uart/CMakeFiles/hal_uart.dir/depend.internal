@@ -32,8 +32,8 @@ hal/uart/CMakeFiles/hal_uart.dir/hal_uart.c.obj
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/hal_uart.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/hal_uart.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/hal_uart.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/hal_uart.h
 hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -100,9 +100,9 @@ hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../middleware/utils/dfx/log/include/log_printf.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151.c
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_def.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.h
 hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.obj
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
  ../../../../drivers/boards/ws63/evb/memory_config/include/product/product_fpga_standard.h
@@ -207,5 +207,5 @@ hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.obj
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_def.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_def.h
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/hal/uart/v151/hal_uart_v151_regs_op.c

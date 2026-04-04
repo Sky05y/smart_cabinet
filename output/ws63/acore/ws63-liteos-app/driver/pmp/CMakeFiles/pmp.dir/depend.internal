@@ -13,4 +13,4 @@ driver/pmp/CMakeFiles/pmp.dir/pmp.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/project/bearpi-pico_h3863/drivers/drivers/driver/pmp/pmp.c
+ /home/bearpi/project/smart_cabinet-main/drivers/drivers/driver/pmp/pmp.c

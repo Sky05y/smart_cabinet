@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/project/bearpi-pico_h3863/kernel/non_os/malloc/dbg
+# Install script for directory: /home/bearpi/project/smart_cabinet-main/kernel/non_os/malloc/dbg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

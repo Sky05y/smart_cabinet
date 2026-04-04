@@ -398,39 +398,39 @@ std_def.h
 stdint.h
 ../../../../middleware/utils/dfx/panic/public/stdint.h
 
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/non_os.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/non_os.h
 core.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/core.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/core.h
 memory_config.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/memory_config.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/memory_config.h
 
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/non_os_nmi.c
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/non_os_nmi.c
 non_os.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/non_os.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/non_os.h
 chip_io.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/chip_io.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/chip_io.h
 soc_osal.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/soc_osal.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/soc_osal.h
 non_os_nmi.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/non_os_nmi.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/non_os_nmi.h
 
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/non_os_nmi.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/non_os_nmi.h
 
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/non_os_utils.c
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/non_os_utils.c
 product.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/product.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/product.h
 non_os.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/non_os.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/non_os.h
 core.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/core.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/core.h
 panic.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/panic.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/panic.h
 chip_io.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/chip_io.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/chip_io.h
 core_cm3.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/core_cm3.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/core_cm3.h
 arch_barrier.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/arch_barrier.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/arch_barrier.h
 arch_encoding.h
-/home/bearpi/project/bearpi-pico_h3863/kernel/non_os/non_os/arch_encoding.h
+/home/bearpi/project/smart_cabinet-main/kernel/non_os/non_os/arch_encoding.h
 

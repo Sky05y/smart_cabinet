@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/project/bearpi-pico_h3863
+CMAKE_SOURCE_DIR = /home/bearpi/project/smart_cabinet-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app
+CMAKE_BINARY_DIR = /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/progress.marks
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/nv/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/utils/nv/CMakeFiles/progress.marks
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/nv/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/nv/clean
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/nv/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/nv/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/nv/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/nv/preinstall
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/nv/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/nv/CMakeFiles/nv.dir/rule:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/nv/CMakeFiles/nv.dir/rule
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f CMakeFiles/Makefile2 utils/nv/CMakeFiles/nv.dir/rule
 .PHONY : utils/nv/CMakeFiles/nv.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ nv: utils/nv/CMakeFiles/nv.dir/rule
 
 # fast build rule for target.
 nv/fast:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/build
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/build
 .PHONY : nv/fast
 
 nv_storage_app/soc_nv_storage.obj: nv_storage_app/soc_nv_storage.c.obj
@@ -131,7 +131,7 @@ nv_storage_app/soc_nv_storage.obj: nv_storage_app/soc_nv_storage.c.obj
 
 # target to build an object file
 nv_storage_app/soc_nv_storage.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj
 .PHONY : nv_storage_app/soc_nv_storage.c.obj
 
 nv_storage_app/soc_nv_storage.i: nv_storage_app/soc_nv_storage.c.i
@@ -140,7 +140,7 @@ nv_storage_app/soc_nv_storage.i: nv_storage_app/soc_nv_storage.c.i
 
 # target to preprocess a source file
 nv_storage_app/soc_nv_storage.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.i
 .PHONY : nv_storage_app/soc_nv_storage.c.i
 
 nv_storage_app/soc_nv_storage.s: nv_storage_app/soc_nv_storage.c.s
@@ -149,7 +149,7 @@ nv_storage_app/soc_nv_storage.s: nv_storage_app/soc_nv_storage.c.s
 
 # target to generate assembly for a file
 nv_storage_app/soc_nv_storage.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.s
 .PHONY : nv_storage_app/soc_nv_storage.c.s
 
 nv_storage_app/soc_nv_storage_handle.obj: nv_storage_app/soc_nv_storage_handle.c.obj
@@ -158,7 +158,7 @@ nv_storage_app/soc_nv_storage_handle.obj: nv_storage_app/soc_nv_storage_handle.c
 
 # target to build an object file
 nv_storage_app/soc_nv_storage_handle.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj
 .PHONY : nv_storage_app/soc_nv_storage_handle.c.obj
 
 nv_storage_app/soc_nv_storage_handle.i: nv_storage_app/soc_nv_storage_handle.c.i
@@ -167,7 +167,7 @@ nv_storage_app/soc_nv_storage_handle.i: nv_storage_app/soc_nv_storage_handle.c.i
 
 # target to preprocess a source file
 nv_storage_app/soc_nv_storage_handle.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.i
 .PHONY : nv_storage_app/soc_nv_storage_handle.c.i
 
 nv_storage_app/soc_nv_storage_handle.s: nv_storage_app/soc_nv_storage_handle.c.s
@@ -176,7 +176,7 @@ nv_storage_app/soc_nv_storage_handle.s: nv_storage_app/soc_nv_storage_handle.c.s
 
 # target to generate assembly for a file
 nv_storage_app/soc_nv_storage_handle.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.s
 .PHONY : nv_storage_app/soc_nv_storage_handle.c.s
 
 nv_storage_lib/nv_async_store.obj: nv_storage_lib/nv_async_store.c.obj
@@ -185,7 +185,7 @@ nv_storage_lib/nv_async_store.obj: nv_storage_lib/nv_async_store.c.obj
 
 # target to build an object file
 nv_storage_lib/nv_async_store.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj
 .PHONY : nv_storage_lib/nv_async_store.c.obj
 
 nv_storage_lib/nv_async_store.i: nv_storage_lib/nv_async_store.c.i
@@ -194,7 +194,7 @@ nv_storage_lib/nv_async_store.i: nv_storage_lib/nv_async_store.c.i
 
 # target to preprocess a source file
 nv_storage_lib/nv_async_store.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.i
 .PHONY : nv_storage_lib/nv_async_store.c.i
 
 nv_storage_lib/nv_async_store.s: nv_storage_lib/nv_async_store.c.s
@@ -203,7 +203,7 @@ nv_storage_lib/nv_async_store.s: nv_storage_lib/nv_async_store.c.s
 
 # target to generate assembly for a file
 nv_storage_lib/nv_async_store.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.s
 .PHONY : nv_storage_lib/nv_async_store.c.s
 
 nv_storage_lib/nv_debug.obj: nv_storage_lib/nv_debug.c.obj
@@ -212,7 +212,7 @@ nv_storage_lib/nv_debug.obj: nv_storage_lib/nv_debug.c.obj
 
 # target to build an object file
 nv_storage_lib/nv_debug.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj
 .PHONY : nv_storage_lib/nv_debug.c.obj
 
 nv_storage_lib/nv_debug.i: nv_storage_lib/nv_debug.c.i
@@ -221,7 +221,7 @@ nv_storage_lib/nv_debug.i: nv_storage_lib/nv_debug.c.i
 
 # target to preprocess a source file
 nv_storage_lib/nv_debug.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.i
 .PHONY : nv_storage_lib/nv_debug.c.i
 
 nv_storage_lib/nv_debug.s: nv_storage_lib/nv_debug.c.s
@@ -230,7 +230,7 @@ nv_storage_lib/nv_debug.s: nv_storage_lib/nv_debug.c.s
 
 # target to generate assembly for a file
 nv_storage_lib/nv_debug.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.s
 .PHONY : nv_storage_lib/nv_debug.c.s
 
 nv_storage_lib/nv_key.obj: nv_storage_lib/nv_key.c.obj
@@ -239,7 +239,7 @@ nv_storage_lib/nv_key.obj: nv_storage_lib/nv_key.c.obj
 
 # target to build an object file
 nv_storage_lib/nv_key.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj
 .PHONY : nv_storage_lib/nv_key.c.obj
 
 nv_storage_lib/nv_key.i: nv_storage_lib/nv_key.c.i
@@ -248,7 +248,7 @@ nv_storage_lib/nv_key.i: nv_storage_lib/nv_key.c.i
 
 # target to preprocess a source file
 nv_storage_lib/nv_key.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.i
 .PHONY : nv_storage_lib/nv_key.c.i
 
 nv_storage_lib/nv_key.s: nv_storage_lib/nv_key.c.s
@@ -257,7 +257,7 @@ nv_storage_lib/nv_key.s: nv_storage_lib/nv_key.c.s
 
 # target to generate assembly for a file
 nv_storage_lib/nv_key.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.s
 .PHONY : nv_storage_lib/nv_key.c.s
 
 nv_storage_lib/nv_notify.obj: nv_storage_lib/nv_notify.c.obj
@@ -266,7 +266,7 @@ nv_storage_lib/nv_notify.obj: nv_storage_lib/nv_notify.c.obj
 
 # target to build an object file
 nv_storage_lib/nv_notify.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj
 .PHONY : nv_storage_lib/nv_notify.c.obj
 
 nv_storage_lib/nv_notify.i: nv_storage_lib/nv_notify.c.i
@@ -275,7 +275,7 @@ nv_storage_lib/nv_notify.i: nv_storage_lib/nv_notify.c.i
 
 # target to preprocess a source file
 nv_storage_lib/nv_notify.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.i
 .PHONY : nv_storage_lib/nv_notify.c.i
 
 nv_storage_lib/nv_notify.s: nv_storage_lib/nv_notify.c.s
@@ -284,7 +284,7 @@ nv_storage_lib/nv_notify.s: nv_storage_lib/nv_notify.c.s
 
 # target to generate assembly for a file
 nv_storage_lib/nv_notify.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.s
 .PHONY : nv_storage_lib/nv_notify.c.s
 
 nv_storage_lib/nv_nvregion.obj: nv_storage_lib/nv_nvregion.c.obj
@@ -293,7 +293,7 @@ nv_storage_lib/nv_nvregion.obj: nv_storage_lib/nv_nvregion.c.obj
 
 # target to build an object file
 nv_storage_lib/nv_nvregion.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj
 .PHONY : nv_storage_lib/nv_nvregion.c.obj
 
 nv_storage_lib/nv_nvregion.i: nv_storage_lib/nv_nvregion.c.i
@@ -302,7 +302,7 @@ nv_storage_lib/nv_nvregion.i: nv_storage_lib/nv_nvregion.c.i
 
 # target to preprocess a source file
 nv_storage_lib/nv_nvregion.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.i
 .PHONY : nv_storage_lib/nv_nvregion.c.i
 
 nv_storage_lib/nv_nvregion.s: nv_storage_lib/nv_nvregion.c.s
@@ -311,7 +311,7 @@ nv_storage_lib/nv_nvregion.s: nv_storage_lib/nv_nvregion.c.s
 
 # target to generate assembly for a file
 nv_storage_lib/nv_nvregion.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.s
 .PHONY : nv_storage_lib/nv_nvregion.c.s
 
 nv_storage_lib/nv_page.obj: nv_storage_lib/nv_page.c.obj
@@ -320,7 +320,7 @@ nv_storage_lib/nv_page.obj: nv_storage_lib/nv_page.c.obj
 
 # target to build an object file
 nv_storage_lib/nv_page.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj
 .PHONY : nv_storage_lib/nv_page.c.obj
 
 nv_storage_lib/nv_page.i: nv_storage_lib/nv_page.c.i
@@ -329,7 +329,7 @@ nv_storage_lib/nv_page.i: nv_storage_lib/nv_page.c.i
 
 # target to preprocess a source file
 nv_storage_lib/nv_page.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.i
 .PHONY : nv_storage_lib/nv_page.c.i
 
 nv_storage_lib/nv_page.s: nv_storage_lib/nv_page.c.s
@@ -338,7 +338,7 @@ nv_storage_lib/nv_page.s: nv_storage_lib/nv_page.c.s
 
 # target to generate assembly for a file
 nv_storage_lib/nv_page.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.s
 .PHONY : nv_storage_lib/nv_page.c.s
 
 nv_storage_lib/nv_reset.obj: nv_storage_lib/nv_reset.c.obj
@@ -347,7 +347,7 @@ nv_storage_lib/nv_reset.obj: nv_storage_lib/nv_reset.c.obj
 
 # target to build an object file
 nv_storage_lib/nv_reset.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj
 .PHONY : nv_storage_lib/nv_reset.c.obj
 
 nv_storage_lib/nv_reset.i: nv_storage_lib/nv_reset.c.i
@@ -356,7 +356,7 @@ nv_storage_lib/nv_reset.i: nv_storage_lib/nv_reset.c.i
 
 # target to preprocess a source file
 nv_storage_lib/nv_reset.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.i
 .PHONY : nv_storage_lib/nv_reset.c.i
 
 nv_storage_lib/nv_reset.s: nv_storage_lib/nv_reset.c.s
@@ -365,7 +365,7 @@ nv_storage_lib/nv_reset.s: nv_storage_lib/nv_reset.c.s
 
 # target to generate assembly for a file
 nv_storage_lib/nv_reset.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.s
 .PHONY : nv_storage_lib/nv_reset.c.s
 
 nv_storage_lib/nv_rpc.obj: nv_storage_lib/nv_rpc.c.obj
@@ -374,7 +374,7 @@ nv_storage_lib/nv_rpc.obj: nv_storage_lib/nv_rpc.c.obj
 
 # target to build an object file
 nv_storage_lib/nv_rpc.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj
 .PHONY : nv_storage_lib/nv_rpc.c.obj
 
 nv_storage_lib/nv_rpc.i: nv_storage_lib/nv_rpc.c.i
@@ -383,7 +383,7 @@ nv_storage_lib/nv_rpc.i: nv_storage_lib/nv_rpc.c.i
 
 # target to preprocess a source file
 nv_storage_lib/nv_rpc.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.i
 .PHONY : nv_storage_lib/nv_rpc.c.i
 
 nv_storage_lib/nv_rpc.s: nv_storage_lib/nv_rpc.c.s
@@ -392,7 +392,7 @@ nv_storage_lib/nv_rpc.s: nv_storage_lib/nv_rpc.c.s
 
 # target to generate assembly for a file
 nv_storage_lib/nv_rpc.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.s
 .PHONY : nv_storage_lib/nv_rpc.c.s
 
 nv_storage_lib/nv_store.obj: nv_storage_lib/nv_store.c.obj
@@ -401,7 +401,7 @@ nv_storage_lib/nv_store.obj: nv_storage_lib/nv_store.c.obj
 
 # target to build an object file
 nv_storage_lib/nv_store.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj
 .PHONY : nv_storage_lib/nv_store.c.obj
 
 nv_storage_lib/nv_store.i: nv_storage_lib/nv_store.c.i
@@ -410,7 +410,7 @@ nv_storage_lib/nv_store.i: nv_storage_lib/nv_store.c.i
 
 # target to preprocess a source file
 nv_storage_lib/nv_store.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.i
 .PHONY : nv_storage_lib/nv_store.c.i
 
 nv_storage_lib/nv_store.s: nv_storage_lib/nv_store.c.s
@@ -419,7 +419,7 @@ nv_storage_lib/nv_store.s: nv_storage_lib/nv_store.c.s
 
 # target to generate assembly for a file
 nv_storage_lib/nv_store.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.s
 .PHONY : nv_storage_lib/nv_store.c.s
 
 nv_storage_lib/nv_update.obj: nv_storage_lib/nv_update.c.obj
@@ -428,7 +428,7 @@ nv_storage_lib/nv_update.obj: nv_storage_lib/nv_update.c.obj
 
 # target to build an object file
 nv_storage_lib/nv_update.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj
 .PHONY : nv_storage_lib/nv_update.c.obj
 
 nv_storage_lib/nv_update.i: nv_storage_lib/nv_update.c.i
@@ -437,7 +437,7 @@ nv_storage_lib/nv_update.i: nv_storage_lib/nv_update.c.i
 
 # target to preprocess a source file
 nv_storage_lib/nv_update.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.i
 .PHONY : nv_storage_lib/nv_update.c.i
 
 nv_storage_lib/nv_update.s: nv_storage_lib/nv_update.c.s
@@ -446,7 +446,7 @@ nv_storage_lib/nv_update.s: nv_storage_lib/nv_update.c.s
 
 # target to generate assembly for a file
 nv_storage_lib/nv_update.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.s
 .PHONY : nv_storage_lib/nv_update.c.s
 
 nv_storage_lib/nv_upg.obj: nv_storage_lib/nv_upg.c.obj
@@ -455,7 +455,7 @@ nv_storage_lib/nv_upg.obj: nv_storage_lib/nv_upg.c.obj
 
 # target to build an object file
 nv_storage_lib/nv_upg.c.obj:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj
 .PHONY : nv_storage_lib/nv_upg.c.obj
 
 nv_storage_lib/nv_upg.i: nv_storage_lib/nv_upg.c.i
@@ -464,7 +464,7 @@ nv_storage_lib/nv_upg.i: nv_storage_lib/nv_upg.c.i
 
 # target to preprocess a source file
 nv_storage_lib/nv_upg.c.i:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.i
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.i
 .PHONY : nv_storage_lib/nv_upg.c.i
 
 nv_storage_lib/nv_upg.s: nv_storage_lib/nv_upg.c.s
@@ -473,7 +473,7 @@ nv_storage_lib/nv_upg.s: nv_storage_lib/nv_upg.c.s
 
 # target to generate assembly for a file
 nv_storage_lib/nv_upg.c.s:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.s
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f utils/nv/CMakeFiles/nv.dir/build.make utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.s
 .PHONY : nv_storage_lib/nv_upg.c.s
 
 # Help Target
@@ -535,6 +535,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/project/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

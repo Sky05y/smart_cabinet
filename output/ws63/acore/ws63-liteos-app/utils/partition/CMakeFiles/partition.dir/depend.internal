@@ -14,5 +14,5 @@ utils/partition/CMakeFiles/partition.dir/partition.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdio.h
  ../../../../middleware/chips/ws63/partition/include/partition_resource_id.h
  ../../../../middleware/chips/ws63/partition/partition_porting.h
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/partition/partition.c
- /home/bearpi/project/bearpi-pico_h3863/middleware/utils/partition/partition_info.h
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/partition/partition.c
+ /home/bearpi/project/smart_cabinet-main/middleware/utils/partition/partition_info.h
