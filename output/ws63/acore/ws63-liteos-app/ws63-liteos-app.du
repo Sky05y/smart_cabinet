@@ -3669,6 +3669,7 @@
 80      ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_read_lux
 136     ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_task
 70      ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_write_cmd
+382     ./.bth_text_flash/application/samples/ws63_client/src/dht11.c/dht11_task
 10      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/get_g_sle_uart_conn_id
 8       ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/get_g_sle_uart_send_param
 90      ./.bth_text_flash/application/samples/ws63_client/src/mq_adc.c/mq_adc_task
@@ -3686,7 +3687,7 @@
 32      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_sample_sle_enable_cbk
 28      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_sample_write_cfm_cb
 120     ./.bth_text_flash/application/samples/ws63_client/src/main.c/sle_uart_client_task
-128     ./.bth_text_flash/application/samples/ws63_client/src/main.c/sle_uart_entry
+148     ./.bth_text_flash/application/samples/ws63_client/src/main.c/sle_uart_entry
 30      ./.bth_text_flash/application/samples/ws63_client/src/main.c/sle_uart_notification_cb
 46      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_start_scan
 1       ./.bss/drivers/drivers/driver/adc/adc.c/adc_is_initialised
@@ -4659,4 +4660,4 @@
 30      ./.plat_text_sram/drivers/chips/ws63/porting/sfc/porting/sfc_protect.c/sfc_port_write_unlock
 788     ./.patch/application/ws63/ws63_liteos_application/main.c/patch_cmp
 1552    ./.patch/application/ws63/ws63_liteos_application/main.c/patch_remap
-done. Lines: 17997, Matches: 4661
+done. Lines: 17998, Matches: 4662

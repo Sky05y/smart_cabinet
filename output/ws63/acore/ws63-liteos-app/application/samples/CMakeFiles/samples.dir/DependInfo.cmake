@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/sle_uart_client/sle_uart_client.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj"
   "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/bh1750.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/dht11.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj"
   "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/main.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_client/src/main.c.obj"
   "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/mq_adc.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj"
   )

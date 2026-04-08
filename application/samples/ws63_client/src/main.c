@@ -20,7 +20,7 @@
 #include "sle_ssap_client.h"
 #include "sle_uart_client.h"
 #include "bh1750.h"
-
+#include "dht11.h"
 #include "mq_adc.h"
 
 #define SLE_UART_TASK_PRIO                  28
@@ -159,7 +159,14 @@ static void sle_uart_entry(void)
     if (osThreadNew((osThreadFunc_t)bh1750_task, NULL, &attr) == NULL) {
         osal_printk("Create BH1750 task fail!\r\n");
     }
-}
+    /************ 4. dht11任务 ************/
+    attr.name = "DHT11";
+    attr.stack_size = 0x1000;
+    attr.priority = (osPriority_t)(17);
+    if (osThreadNew((osThreadFunc_t)dht11_task, NULL, &attr) == NULL) {
+        osal_printk("[ERR]\r\n");
+    }
 
+}
 /* Run the sle_uart_entry. */
 app_run(sle_uart_entry);

@@ -179,6 +179,33 @@ ws63_client/src/bh1750.c.s:
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.s
 .PHONY : ws63_client/src/bh1750.c.s
 
+ws63_client/src/dht11.obj: ws63_client/src/dht11.c.obj
+
+.PHONY : ws63_client/src/dht11.obj
+
+# target to build an object file
+ws63_client/src/dht11.c.obj:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj
+.PHONY : ws63_client/src/dht11.c.obj
+
+ws63_client/src/dht11.i: ws63_client/src/dht11.c.i
+
+.PHONY : ws63_client/src/dht11.i
+
+# target to preprocess a source file
+ws63_client/src/dht11.c.i:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.i
+.PHONY : ws63_client/src/dht11.c.i
+
+ws63_client/src/dht11.s: ws63_client/src/dht11.c.s
+
+.PHONY : ws63_client/src/dht11.s
+
+# target to generate assembly for a file
+ws63_client/src/dht11.c.s:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.s
+.PHONY : ws63_client/src/dht11.c.s
+
 ws63_client/src/main.obj: ws63_client/src/main.c.obj
 
 .PHONY : ws63_client/src/main.obj
@@ -248,6 +275,9 @@ help:
 	@echo "... ws63_client/src/bh1750.obj"
 	@echo "... ws63_client/src/bh1750.i"
 	@echo "... ws63_client/src/bh1750.s"
+	@echo "... ws63_client/src/dht11.obj"
+	@echo "... ws63_client/src/dht11.i"
+	@echo "... ws63_client/src/dht11.s"
 	@echo "... ws63_client/src/main.obj"
 	@echo "... ws63_client/src/main.i"
 	@echo "... ws63_client/src/main.s"

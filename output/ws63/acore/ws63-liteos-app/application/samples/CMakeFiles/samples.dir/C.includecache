@@ -10,6 +10,8 @@
 stdint.h
 -
 
+../../../../application/samples/ws63_client/include/dht11.h
+
 ../../../../application/samples/ws63_client/include/mq_adc.h
 stdint.h
 -
@@ -58,6 +60,18 @@ adc.h
 osal_interrupt.h
 ../../../../drivers/chips/ws63/porting/adc/osal_interrupt.h
 
+../../../../drivers/chips/ws63/porting/gpio/gpio_porting.h
+stdint.h
+-
+stdbool.h
+-
+platform_core.h
+../../../../drivers/chips/ws63/porting/gpio/platform_core.h
+platform_types.h
+../../../../drivers/chips/ws63/porting/gpio/platform_types.h
+hal_gpio_v150_comm_def.h
+../../../../drivers/chips/ws63/porting/gpio/hal_gpio_v150_comm_def.h
+
 ../../../../drivers/chips/ws63/porting/i2c/i2c_porting.h
 stdint.h
 -
@@ -91,6 +105,26 @@ platform_core_rom.h
 ../../../../drivers/chips/ws63/rom/drivers/chips/ws63/porting/pinctrl/platform_core_rom.h
 chip_io.h
 ../../../../drivers/chips/ws63/rom/drivers/chips/ws63/porting/pinctrl/chip_io.h
+
+../../../../drivers/drivers/hal/gpio/hal_gpio.h
+stdint.h
+-
+stdbool.h
+-
+common_def.h
+../../../../drivers/drivers/hal/gpio/common_def.h
+errcode.h
+../../../../drivers/drivers/hal/gpio/errcode.h
+platform_core.h
+../../../../drivers/drivers/hal/gpio/platform_core.h
+gpio_porting.h
+../../../../drivers/drivers/hal/gpio/gpio_porting.h
+
+../../../../drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm_def.h
+stdint.h
+-
+common_def.h
+../../../../drivers/drivers/hal/gpio/v150/common_def.h
 
 ../../../../drivers/drivers/hal/i2c/hal_i2c.h
 stdint.h
@@ -1042,6 +1076,22 @@ osal_debug.h
 pinctrl.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/pinctrl.h
 
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/dht11.c
+../../../../include/driver/pinctrl.h
+/home/bearpi/project/smart_cabinet-main/include/driver/pinctrl.h
+../../../../kernel/osal/include/debug/osal_debug.h
+/home/bearpi/project/smart_cabinet-main/kernel/osal/include/debug/osal_debug.h
+../../../../include/driver/gpio.h
+/home/bearpi/project/smart_cabinet-main/include/driver/gpio.h
+../../../../kernel/osal/include/schedule/osal_task.h
+/home/bearpi/project/smart_cabinet-main/kernel/osal/include/schedule/osal_task.h
+common_def.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/common_def.h
+cmsis_os2.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/cmsis_os2.h
+app_init.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/app_init.h
+
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/main.c
 common_def.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/common_def.h
@@ -1065,6 +1115,8 @@ sle_uart_client.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/sle_uart_client.h
 bh1750.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/bh1750.h
+dht11.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/dht11.h
 mq_adc.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/mq_adc.h
 
@@ -1081,4 +1133,28 @@ osal_debug.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/osal_debug.h
 math.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/math.h
+
+/home/bearpi/project/smart_cabinet-main/include/driver/gpio.h
+stdint.h
+-
+errcode.h
+/home/bearpi/project/smart_cabinet-main/include/driver/errcode.h
+platform_core.h
+/home/bearpi/project/smart_cabinet-main/include/driver/platform_core.h
+hal_gpio.h
+/home/bearpi/project/smart_cabinet-main/include/driver/hal_gpio.h
+
+/home/bearpi/project/smart_cabinet-main/include/driver/pinctrl.h
+stdint.h
+-
+stddef.h
+-
+errcode.h
+/home/bearpi/project/smart_cabinet-main/include/driver/errcode.h
+pinctrl_porting.h
+/home/bearpi/project/smart_cabinet-main/include/driver/pinctrl_porting.h
+
+/home/bearpi/project/smart_cabinet-main/kernel/osal/include/debug/osal_debug.h
+
+/home/bearpi/project/smart_cabinet-main/kernel/osal/include/schedule/osal_task.h
 
