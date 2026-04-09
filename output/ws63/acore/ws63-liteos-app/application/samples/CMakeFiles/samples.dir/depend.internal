@@ -199,6 +199,7 @@ application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/kernel/include/los_tick.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/kernel/include/los_toolchain.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/kernel/include/los_typedef.h
+ ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/CMSIS/CMSIS/RTOS2/Include/cmsis_os2.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/generic/bits/errno.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/generic/bits/mman.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/posix.h
@@ -272,6 +273,8 @@ application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj
  ../../../../drivers/drivers/hal/gpio/hal_gpio.h
  ../../../../drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm_def.h
  ../../../../include/common_def.h
+ ../../../../include/driver/gpio.h
+ ../../../../include/driver/pinctrl.h
  ../../../../include/errcode.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -359,16 +362,14 @@ application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/soc/clock.h
+ ../../../../kernel/osal/include/debug/osal_debug.h
+ ../../../../kernel/osal/include/schedule/osal_task.h
  ../../../../middleware/utils/app_init/app_init.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
  /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/dht11.c
- /home/bearpi/project/smart_cabinet-main/include/driver/gpio.h
- /home/bearpi/project/smart_cabinet-main/include/driver/pinctrl.h
- /home/bearpi/project/smart_cabinet-main/kernel/osal/include/debug/osal_debug.h
- /home/bearpi/project/smart_cabinet-main/kernel/osal/include/schedule/osal_task.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/main.c.obj
  ../../../../application/samples/ws63_client/include/bh1750.h
  ../../../../application/samples/ws63_client/include/dht11.h
@@ -524,12 +525,14 @@ application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj
  ../../../../include/errcode.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include/asm/int-ll64.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include/linux/types.h
+ ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/CMSIS/CMSIS/RTOS2/Include/cmsis_os2.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/endian.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/features.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/math.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdbool.h
+ ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stddef.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/select.h
  ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/types.h

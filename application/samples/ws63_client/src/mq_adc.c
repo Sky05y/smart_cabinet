@@ -4,6 +4,7 @@
 #include "soc_osal.h"
 #include "osal_debug.h"
 #include "math.h"
+#include "cmsis_os2.h"
 
 #define UNUSED(x) (void)(x)
 static uint32_t g_voltage_mv = 0;
@@ -31,7 +32,7 @@ static void adc_callback(uint8_t ch, uint32_t *buffer, uint32_t length, bool *ne
         int v_mv = g_voltage_mv;
 
         /************ 2. 原有算法（保留调试） ************/
-        float v_float = v_mv / 1000.0f;   // ✅ 改名
+        float v_float = v_mv / 1000.0f;
         if (v_float < 0.01f) return;
 
         float Rs_f = RL * (VCC / v_float - 1.0f);
@@ -48,7 +49,7 @@ static void adc_callback(uint8_t ch, uint32_t *buffer, uint32_t length, bool *ne
         int ppm = (int)ppm_f;
 
         /************ 3. 线性酒精浓度 ************/
-        int v_cal = v_mv;   // ✅ 改名（用于计算）
+        int v_cal = v_mv;
 
         if (v_cal < V_MIN) v_cal = V_MIN;
         if (v_cal > V_MAX) v_cal = V_MAX;
@@ -72,10 +73,8 @@ void *mq_adc_task(const char *arg)
     UNUSED(arg);
 
     osal_printk("MQ ADC task start\r\n");
-
     uapi_adc_init(ADC_CLOCK_500KHZ);
     uapi_adc_power_en(AFE_SCAN_MODE_MAX_NUM, true);
-
     adc_scan_config_t config = {
         .type = 0,
         .freq = 1,
@@ -84,13 +83,10 @@ void *mq_adc_task(const char *arg)
     while (1) {
         /* 开始采样 */
         uapi_adc_auto_scan_ch_enable(ADC_CHANNEL_0, config, adc_callback);
-
-        osal_msleep(100);
-
+        osDelay(100);
         /* 停止采样 */
         uapi_adc_auto_scan_ch_disable(ADC_CHANNEL_0);
-
-        osal_msleep(2000);
+        osDelay(2000);
     }
 
     return NULL;

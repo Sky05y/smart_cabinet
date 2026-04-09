@@ -198,6 +198,7 @@ application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj: ../../.
 application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/kernel/include/los_tick.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/kernel/include/los_toolchain.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/kernel/include/los_typedef.h
+application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/CMSIS/CMSIS/RTOS2/Include/cmsis_os2.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/generic/bits/errno.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/generic/bits/mman.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/posix.h
@@ -271,6 +272,8 @@ application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../..
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../drivers/drivers/hal/gpio/hal_gpio.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm_def.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../include/common_def.h
+application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../include/driver/gpio.h
+application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../include/driver/pinctrl.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../include/errcode.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -358,16 +361,14 @@ application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../..
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/asm/platform.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/asm/register_config.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include/soc/clock.h
+application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../kernel/osal/include/debug/osal_debug.h
+application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../kernel/osal/include/schedule/osal_task.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../middleware/utils/app_init/app_init.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../middleware/utils/common_headers/chip_definitions.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../middleware/utils/common_headers/chip_io.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../middleware/utils/common_headers/platform_types.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../application/samples/ws63_client/src/dht11.c
-application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../include/driver/gpio.h
-application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../include/driver/pinctrl.h
-application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../kernel/osal/include/debug/osal_debug.h
-application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj: ../../../../kernel/osal/include/schedule/osal_task.h
 
 application/samples/CMakeFiles/samples.dir/ws63_client/src/main.c.obj: ../../../../application/samples/ws63_client/include/bh1750.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/main.c.obj: ../../../../application/samples/ws63_client/include/dht11.h
@@ -523,12 +524,14 @@ application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../.
 application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../include/errcode.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include/asm/int-ll64.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include/linux/types.h
+application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/CMSIS/CMSIS/RTOS2/Include/cmsis_os2.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/endian.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/features.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/math.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdbool.h
+application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stddef.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/stdint.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/select.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj: ../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include/sys/types.h

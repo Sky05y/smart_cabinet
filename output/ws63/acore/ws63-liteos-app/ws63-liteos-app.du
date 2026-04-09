@@ -3669,7 +3669,7 @@
 80      ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_read_lux
 136     ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_task
 70      ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_write_cmd
-382     ./.bth_text_flash/application/samples/ws63_client/src/dht11.c/dht11_task
+354     ./.bth_text_flash/application/samples/ws63_client/src/dht11.c/dht11_task
 10      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/get_g_sle_uart_conn_id
 8       ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/get_g_sle_uart_send_param
 90      ./.bth_text_flash/application/samples/ws63_client/src/mq_adc.c/mq_adc_task

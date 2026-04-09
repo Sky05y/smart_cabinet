@@ -9,7 +9,7 @@ extern "C" {
 
 /**************** 宏定义 ****************/
 #define MQ_ADC_TASK_STACK_SIZE   0x1000
-#define MQ_ADC_TASK_PRIO         17
+#define MQ_ADC_TASK_PRIO    (osPriority_t)(17)
 
 /**************** 对外接口 ****************/
 

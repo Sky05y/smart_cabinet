@@ -1,7 +1,7 @@
-#include "../../../../include/driver/pinctrl.h"
-#include "../../../../kernel/osal/include/debug/osal_debug.h"
-#include "../../../../include/driver/gpio.h"
-#include "../../../../kernel/osal/include/schedule/osal_task.h"
+#include "pinctrl.h"
+#include "osal_debug.h"
+#include "gpio.h"
+#include "osal_task.h"
 #include "common_def.h"
 #include "cmsis_os2.h"
 #include "app_init.h"
@@ -88,7 +88,7 @@ void dht11_task(void *arg)
             }
         }
         
-        osal_msleep(3000);
+        osal_msleep(2000);
     }
     return;
 }

@@ -1,21 +1,10 @@
-/**
- * Copyright (c) HiSilicon (Shanghai) Technologies Co., Ltd. 2023-2023. All rights reserved.
- *
- * Description: SLE UART Sample Source. \n
- *
- * History: \n
- * 2023-07-17, Create file. \n
- */
 #include "common_def.h"
 #include "soc_osal.h"
 #include "app_init.h"
 #include "pinctrl.h"
 #include "uart.h"
 #include "cmsis_os2.h"
-// #include "pm_clock.h"
 #include "sle_low_latency.h"
-
-#define SLE_UART_TASK_STACK_SIZE            0x600
 #include "sle_connection_manager.h"
 #include "sle_ssap_client.h"
 #include "sle_uart_client.h"
@@ -23,6 +12,7 @@
 #include "dht11.h"
 #include "mq_adc.h"
 
+#define SLE_UART_TASK_STACK_SIZE            0x600
 #define SLE_UART_TASK_PRIO                  28
 #define SLE_UART_TASK_DURATION_MS           2000
 #define SLE_UART_BAUDRATE                   115200
@@ -30,6 +20,9 @@
 
 #define BH1750_TASK_STACK_SIZE   0x1000
 #define BH1750_TASK_PRIO         (osPriority_t)(17)
+
+#define DHT11_TASK_STACK_SIZE   0x1000
+#define DHT11_TASK_PRIO         (osPriority_t)(17)
 
 #define CONFIG_SLE_UART_BUS 0
 #define CONFIG_UART_TXD_PIN 17
@@ -161,8 +154,8 @@ static void sle_uart_entry(void)
     }
     /************ 4. dht11任务 ************/
     attr.name = "DHT11";
-    attr.stack_size = 0x1000;
-    attr.priority = (osPriority_t)(17);
+    attr.stack_size = DHT11_TASK_STACK_SIZE;
+    attr.priority = DHT11_TASK_PRIO;
     if (osThreadNew((osThreadFunc_t)dht11_task, NULL, &attr) == NULL) {
         osal_printk("[ERR]\r\n");
     }
