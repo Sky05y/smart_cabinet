@@ -16,8 +16,8 @@
 #define CONFIG_UART_TXD_PIN 17
 #define CONFIG_UART_RXD_PIN 18
 
-#define SLE_UART_TASK_STACK_SIZE            0x600
-#define SLE_UART_TASK_PRIO                  16
+#define SLE_UART_TASK_STACK_SIZE            0x2000
+#define SLE_UART_TASK_PRIO                  17
 
 
 static void sle_uart_entry(void)

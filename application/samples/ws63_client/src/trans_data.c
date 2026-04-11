@@ -93,7 +93,7 @@ void *sle_uart_client_task(const char *arg)
     while(1)
     {
         // 定时通过SLE发送数据
-        osDelay(1200);
+        osDelay(300);
         t_lux = get_lux_value();
         osal_printk("Current lux: %d\r\n", t_lux);
         adc_v = mq_adc_get_voltage();

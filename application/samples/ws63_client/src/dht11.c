@@ -103,7 +103,7 @@ void dht11_task(void *arg)
             }
         }
         
-        osal_msleep(2000);
+        osal_msleep(1000);
     }
     return;
 }

@@ -89,6 +89,6 @@ void bh1750_task(void *arg)
         if (bh1750_read_lux(&lux) != 0) {
             osal_printk("BH1750 read error\r\n");
         }
-        osDelay(1500);
+        osDelay(1000);
     }
 }

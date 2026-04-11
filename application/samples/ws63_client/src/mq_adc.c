@@ -13,8 +13,8 @@ static uint32_t g_display_val = 0;
 #define VCC     3.3f     // 参考电压（根据你的板子改）
 #define RL      10.0f    // 负载电阻（单位kΩ）
 #define R0      115.0f
-#define V_MIN 300     // 空气电压（你测的）
-#define V_MAX 2900    // 喷酒精最大电压
+#define V_MIN 50     // 空气电压（你测的）
+#define V_MAX 1000    // 喷酒精最大电压
 
 static int last_alcohol = 0;   // 滤波用
 
@@ -86,7 +86,7 @@ void *mq_adc_task(const char *arg)
         osDelay(100);
         /* 停止采样 */
         uapi_adc_auto_scan_ch_disable(ADC_CHANNEL_0);
-        osDelay(2000);
+        osDelay(1000);
     }
 
     return NULL;
