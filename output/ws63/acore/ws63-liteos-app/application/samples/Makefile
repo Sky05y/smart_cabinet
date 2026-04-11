@@ -260,6 +260,33 @@ ws63_client/src/mq_adc.c.s:
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.s
 .PHONY : ws63_client/src/mq_adc.c.s
 
+ws63_client/src/trans_data.obj: ws63_client/src/trans_data.c.obj
+
+.PHONY : ws63_client/src/trans_data.obj
+
+# target to build an object file
+ws63_client/src/trans_data.c.obj:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/trans_data.c.obj
+.PHONY : ws63_client/src/trans_data.c.obj
+
+ws63_client/src/trans_data.i: ws63_client/src/trans_data.c.i
+
+.PHONY : ws63_client/src/trans_data.i
+
+# target to preprocess a source file
+ws63_client/src/trans_data.c.i:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/trans_data.c.i
+.PHONY : ws63_client/src/trans_data.c.i
+
+ws63_client/src/trans_data.s: ws63_client/src/trans_data.c.s
+
+.PHONY : ws63_client/src/trans_data.s
+
+# target to generate assembly for a file
+ws63_client/src/trans_data.c.s:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_client/src/trans_data.c.s
+.PHONY : ws63_client/src/trans_data.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -284,6 +311,9 @@ help:
 	@echo "... ws63_client/src/mq_adc.obj"
 	@echo "... ws63_client/src/mq_adc.i"
 	@echo "... ws63_client/src/mq_adc.s"
+	@echo "... ws63_client/src/trans_data.obj"
+	@echo "... ws63_client/src/trans_data.i"
+	@echo "... ws63_client/src/trans_data.s"
 .PHONY : help
 
 

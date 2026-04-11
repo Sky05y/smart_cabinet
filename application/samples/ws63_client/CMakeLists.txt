@@ -3,6 +3,7 @@
         ${CMAKE_CURRENT_SOURCE_DIR}/src/mq_adc.c
         ${CMAKE_CURRENT_SOURCE_DIR}/src/bh1750.c
         ${CMAKE_CURRENT_SOURCE_DIR}/src/dht11.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/trans_data.c
         ${CMAKE_CURRENT_SOURCE_DIR}/sle_uart_client/sle_uart_client.c
 
     )

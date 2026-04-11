@@ -71,7 +71,7 @@
     .wifi_text_flash  0x002638B0                585994                  
     .patch_on_flash   0x002F29C0                  1908                  
     .btc_text_flash   0x002F3138                132152                  
-    .bth_text_flash   0x00313570                233998                  
+    .bth_text_flash   0x00313570                233996                  
     .radar_text_flash  0x0034C780                 34036                  
     .radar_ai_text_flash  0x00354C78                  9980                  
     .text             0x00357378                 57568                  
@@ -860,7 +860,8 @@
             mq_adc                                 330
             bh1750                                 362
             dht11                                  354
-            main                                   328
+            trans_data                             180
+            main                                   148
 
           sle_uart_client                840
             sle_uart_client                        840
@@ -1345,7 +1346,7 @@
         ws63_client                         
           src                               
             bh1750                                   1
-            main                                     8
+            trans_data                               8
 
 
   Section                            Total     Size
@@ -1359,7 +1360,7 @@
       samples                               
         ws63_client                         
           src                            524
-            main                                   512
+            trans_data                             512
             mq_adc                                  12
 
           sle_uart_client                151

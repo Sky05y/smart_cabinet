@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj"
   "CMakeFiles/samples.dir/ws63_client/src/main.c.obj"
   "CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj"
+  "CMakeFiles/samples.dir/ws63_client/src/trans_data.c.obj"
   "libsamples.a"
   "libsamples.pdb"
 )

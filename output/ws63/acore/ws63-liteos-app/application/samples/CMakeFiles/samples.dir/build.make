@@ -109,9 +109,22 @@ application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/ws63_client/src/dht11.c.s"
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DHT11_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/dht11.c -o CMakeFiles/samples.dir/ws63_client/src/dht11.c.s
 
+application/samples/CMakeFiles/samples.dir/ws63_client/src/trans_data.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
+application/samples/CMakeFiles/samples.dir/ws63_client/src/trans_data.c.obj: ../../../../application/samples/ws63_client/src/trans_data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object application/samples/CMakeFiles/samples.dir/ws63_client/src/trans_data.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRANS_DATA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/ws63_client/src/trans_data.c.obj   -c /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/trans_data.c
+
+application/samples/CMakeFiles/samples.dir/ws63_client/src/trans_data.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/ws63_client/src/trans_data.c.i"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRANS_DATA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/trans_data.c > CMakeFiles/samples.dir/ws63_client/src/trans_data.c.i
+
+application/samples/CMakeFiles/samples.dir/ws63_client/src/trans_data.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/ws63_client/src/trans_data.c.s"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRANS_DATA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/trans_data.c -o CMakeFiles/samples.dir/ws63_client/src/trans_data.c.s
+
 application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
 application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj: ../../../../application/samples/ws63_client/sle_uart_client/sle_uart_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj"
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SLE_UART_CLIENT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj   -c /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/sle_uart_client/sle_uart_client.c
 
 application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.i: cmake_force
@@ -128,6 +141,7 @@ samples_OBJECTS = \
 "CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj" \
 "CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj" \
 "CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj" \
+"CMakeFiles/samples.dir/ws63_client/src/trans_data.c.obj" \
 "CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj"
 
 # External object files for target samples
@@ -137,10 +151,11 @@ application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws6
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj
+application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_client/src/trans_data.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/build.make
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libsamples.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libsamples.a"
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && $(CMAKE_COMMAND) -P CMakeFiles/samples.dir/cmake_clean_target.cmake
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/samples.dir/link.txt --verbose=$(VERBOSE)
 
