@@ -288,15 +288,22 @@ int sta_init(void *param)
     return 0;
 }
 
-void http_post_test(void)
+void http_post_data(uint16_t lux,
+                    uint32_t alcohol,
+                    int t_int, int t_dec,
+                    int h_int, int h_dec)
 {
     int sock;
     struct sockaddr_in server_addr;
 
     char request[512];
+    char json_data[128];
 
-    // 构造HTTP请求
-    char json_data[] = "{\"temperature\":25,\"humidity\":60,\"light\":100,\"gas\":0.1}";
+    // ===== 直接用参数拼JSON =====
+    sprintf(json_data,
+        "{\"lux\":%d,\"alcohol\":%d,\"temperature\":%d.%d,\"humidity\":%d.%d}",
+        lux, alcohol, t_int, t_dec, h_int, h_dec
+    );
 
     sprintf(request,
         "POST /api/upload/ HTTP/1.1\r\n"
@@ -310,36 +317,30 @@ void http_post_test(void)
         json_data
     );
 
-    // 创建socket
     sock = socket(AF_INET, SOCK_STREAM, 0);
     if (sock < 0) {
         osal_printk("socket create fail\n");
         return;
     }
 
-    // 配置服务器地址
     server_addr.sin_family = AF_INET;
     server_addr.sin_port = htons(SERVER_PORT);
     server_addr.sin_addr.s_addr = inet_addr(SERVER_IP);
 
-    // 连接服务器
     if (connect(sock, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
         osal_printk("connect fail\n");
         closesocket(sock);
         return;
     }
 
-    // 发送数据
     send(sock, request, strlen(request), 0);
 
-    osal_printk("POST发送成功 ");
+    osal_printk("POST发送: %s\r\n", json_data);
 
-    // 可选：接收返回
     char recv_buf[256] = {0};
     recv(sock, recv_buf, sizeof(recv_buf)-1, 0);
-    osal_printk("服务器返回: %s ", recv_buf);
+    osal_printk("服务器返回: %s\r\n", recv_buf);
 
-    // 关闭
     closesocket(sock);
 }
 
@@ -348,7 +349,7 @@ static void *http_upload_task(const char *arg)
     unused(arg);
 
     while (1) {
-        http_post_test();   // 发一次数据
+        // http_post_test();   // 发一次数据
         osal_msleep(5000);  // 每5秒
     }
 
@@ -396,11 +397,31 @@ static void ssaps_server_read_request_cbk(uint8_t server_id, uint16_t conn_id, s
 static void ssaps_server_write_request_cbk(uint8_t server_id, uint16_t conn_id, ssaps_req_write_cb_t *write_cb_para,
     errcode_t status)
 {
+    // 接收并打印客户端发送的数据
     osal_printk("%s ssaps write request callback cbk server_id:%x, conn_id:%x, handle:%x, status:%x\r\n",
         SLE_UART_SERVER_LOG, server_id, conn_id, write_cb_para->handle, status);
     if ((write_cb_para->length > 0) && write_cb_para->value) {
-        osal_printk("\n sle uart recived data : %s\r\n", write_cb_para->value);
+        // osal_printk("\n sle uart recived data : %s\r\n", write_cb_para->value);
+        uint8_t *buf = write_cb_para->value;
+
+        uint16_t lux = (buf[0] << 8) | buf[1];
+
+        uint32_t alcohol =
+            (buf[2] << 24) |
+            (buf[3] << 16) |
+            (buf[4] << 8)  |
+            buf[5];
+
+        int t_int = buf[6];
+        int t_dec = buf[7];
+        int h_int = buf[8];
+        int h_dec = buf[9];
+
+        osal_printk("lux=%d, alcohol=%d, T=%d.%d, H=%d.%d\r\n",
+            lux, alcohol, t_int, t_dec, h_int, h_dec);
         uapi_uart_write(CONFIG_SLE_UART_BUS, (uint8_t *)write_cb_para->value, write_cb_para->length, 0);
+        // 随后向服务器上传数据
+        http_post_data(lux, alcohol, t_int, t_dec, h_int, h_dec);
     }
 }
 
@@ -520,20 +541,20 @@ static void server_entry(void)
         osal_printk("[SLE] Create task succ\r\n");
     }
     /* ================= HTTP上传任务 ================= */
-    osThreadAttr_t http_attr = {
-        .name       = "HttpUploadTask",
-        .attr_bits  = 0U,
-        .cb_mem     = NULL,
-        .cb_size    = 0U,
-        .stack_mem  = NULL,
-        .stack_size = 0x1000,
-        .priority   = (osPriority_t)25
-    };
-    if (osThreadNew((osThreadFunc_t)http_upload_task, NULL, &http_attr) == NULL) {
-        osal_printk("[HTTP] Create task fail\r\n");
-    } else {
-        osal_printk("[HTTP] Create task succ\r\n");
-    }
+    // osThreadAttr_t http_attr = {
+    //     .name       = "HttpUploadTask",
+    //     .attr_bits  = 0U,
+    //     .cb_mem     = NULL,
+    //     .cb_size    = 0U,
+    //     .stack_mem  = NULL,
+    //     .stack_size = 0x1000,
+    //     .priority   = (osPriority_t)25
+    // };
+    // if (osThreadNew((osThreadFunc_t)http_upload_task, NULL, &http_attr) == NULL) {
+    //     osal_printk("[HTTP] Create task fail\r\n");
+    // } else {
+    //     osal_printk("[HTTP] Create task succ\r\n");
+    // }
     osal_kthread_unlock();  // 解锁，允许调度
 }
 

@@ -13,6 +13,7 @@
 #define BH1750_CONT_H_RES_MODE 0x10
 
 static uint8_t g_addr = BH1750_ADDR_LOW;
+uint16_t lux = 0;
 
 /*************** 写命令 ***************/
 static int bh1750_write_cmd(uint8_t cmd)
@@ -62,12 +63,15 @@ int bh1750_read_lux(uint16_t *lux)
     return 0;
 }
 
+uint16_t get_lux_value(void)
+{
+    return lux;
+}
+
 /*************** 任务函数 ***************/
 void bh1750_task(void *arg)
 {
     unused(arg);
-
-    uint16_t lux = 0;
     /************ ⭐ I2C引脚配置（关键） ************/
     uapi_pin_set_mode(I2C_SCL_PIN, 2);
     uapi_pin_set_mode(I2C_SDA_PIN, 2);
@@ -82,9 +86,7 @@ void bh1750_task(void *arg)
         osal_printk("BH1750 init fail\r\n");
     }
     while (1) {
-        if (bh1750_read_lux(&lux) == 0) {
-            osal_printk("Light: %d lx\r\n", lux);
-        } else {
+        if (bh1750_read_lux(&lux) != 0) {
             osal_printk("BH1750 read error\r\n");
         }
         osDelay(1500);

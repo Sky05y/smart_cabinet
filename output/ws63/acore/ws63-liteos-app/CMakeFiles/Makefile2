@@ -151,38 +151,38 @@ application/clean: application/ws63/clean
 
 # Recursive "all" directory target.
 application/samples/all: application/samples/CMakeFiles/samples.dir/all
-application/samples/all: application/samples/ws63_client/all
+application/samples/all: application/samples/ws63_server/all
 
 .PHONY : application/samples/all
 
 # Recursive "preinstall" directory target.
-application/samples/preinstall: application/samples/ws63_client/preinstall
+application/samples/preinstall: application/samples/ws63_server/preinstall
 
 .PHONY : application/samples/preinstall
 
 # Recursive "clean" directory target.
 application/samples/clean: application/samples/CMakeFiles/samples.dir/clean
-application/samples/clean: application/samples/ws63_client/clean
+application/samples/clean: application/samples/ws63_server/clean
 
 .PHONY : application/samples/clean
 
 #=============================================================================
-# Directory level rules for directory application/samples/ws63_client
+# Directory level rules for directory application/samples/ws63_server
 
 # Recursive "all" directory target.
-application/samples/ws63_client/all:
+application/samples/ws63_server/all:
 
-.PHONY : application/samples/ws63_client/all
+.PHONY : application/samples/ws63_server/all
 
 # Recursive "preinstall" directory target.
-application/samples/ws63_client/preinstall:
+application/samples/ws63_server/preinstall:
 
-.PHONY : application/samples/ws63_client/preinstall
+.PHONY : application/samples/ws63_server/preinstall
 
 # Recursive "clean" directory target.
-application/samples/ws63_client/clean:
+application/samples/ws63_server/clean:
 
-.PHONY : application/samples/ws63_client/clean
+.PHONY : application/samples/ws63_server/clean
 
 #=============================================================================
 # Directory level rules for directory application/ws63
@@ -5828,12 +5828,12 @@ CMakeFiles/GENERAT_LST.dir/clean:
 CMakeFiles/mbedtls.dir/all:
 	$(MAKE) -f CMakeFiles/mbedtls.dir/build.make CMakeFiles/mbedtls.dir/depend
 	$(MAKE) -f CMakeFiles/mbedtls.dir/build.make CMakeFiles/mbedtls.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62 "Built target mbedtls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62,63 "Built target mbedtls"
 .PHONY : CMakeFiles/mbedtls.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mbedtls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mbedtls.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : CMakeFiles/mbedtls.dir/rule
@@ -5963,12 +5963,12 @@ kernel/non_os/non_os/CMakeFiles/non_os.dir/clean:
 kernel/osal/CMakeFiles/osal.dir/all:
 	$(MAKE) -f kernel/osal/CMakeFiles/osal.dir/build.make kernel/osal/CMakeFiles/osal.dir/depend
 	$(MAKE) -f kernel/osal/CMakeFiles/osal.dir/build.make kernel/osal/CMakeFiles/osal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=70,71,72,73 "Built target osal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=71,72,73 "Built target osal"
 .PHONY : kernel/osal/CMakeFiles/osal.dir/all
 
 # Build rule for subdir invocation for target.
 kernel/osal/CMakeFiles/osal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 kernel/osal/CMakeFiles/osal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : kernel/osal/CMakeFiles/osal.dir/rule
@@ -6125,12 +6125,12 @@ driver/i2c/CMakeFiles/i2c.dir/clean:
 driver/i2s/CMakeFiles/i2s.dir/all:
 	$(MAKE) -f driver/i2s/CMakeFiles/i2s.dir/build.make driver/i2s/CMakeFiles/i2s.dir/depend
 	$(MAKE) -f driver/i2s/CMakeFiles/i2s.dir/build.make driver/i2s/CMakeFiles/i2s.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=38 "Built target i2s"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target i2s"
 .PHONY : driver/i2s/CMakeFiles/i2s.dir/all
 
 # Build rule for subdir invocation for target.
 driver/i2s/CMakeFiles/i2s.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 driver/i2s/CMakeFiles/i2s.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : driver/i2s/CMakeFiles/i2s.dir/rule
@@ -6314,12 +6314,12 @@ driver/tsensor/CMakeFiles/tsensor.dir/clean:
 driver/uart/CMakeFiles/uart.dir/all:
 	$(MAKE) -f driver/uart/CMakeFiles/uart.dir/build.make driver/uart/CMakeFiles/uart.dir/depend
 	$(MAKE) -f driver/uart/CMakeFiles/uart.dir/build.make driver/uart/CMakeFiles/uart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=81 "Built target uart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target uart"
 .PHONY : driver/uart/CMakeFiles/uart.dir/all
 
 # Build rule for subdir invocation for target.
 driver/uart/CMakeFiles/uart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 driver/uart/CMakeFiles/uart.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : driver/uart/CMakeFiles/uart.dir/rule
@@ -6341,12 +6341,12 @@ driver/uart/CMakeFiles/uart.dir/clean:
 driver/efuse/CMakeFiles/efuse.dir/all:
 	$(MAKE) -f driver/efuse/CMakeFiles/efuse.dir/build.make driver/efuse/CMakeFiles/efuse.dir/depend
 	$(MAKE) -f driver/efuse/CMakeFiles/efuse.dir/build.make driver/efuse/CMakeFiles/efuse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=26 "Built target efuse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target efuse"
 .PHONY : driver/efuse/CMakeFiles/efuse.dir/all
 
 # Build rule for subdir invocation for target.
 driver/efuse/CMakeFiles/efuse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 driver/efuse/CMakeFiles/efuse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : driver/efuse/CMakeFiles/efuse.dir/rule
@@ -6557,12 +6557,12 @@ hal/mips/CMakeFiles/hal_mips.dir/clean:
 hal/pmp/CMakeFiles/hal_pmp.dir/all:
 	$(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/depend
 	$(MAKE) -f hal/pmp/CMakeFiles/hal_pmp.dir/build.make hal/pmp/CMakeFiles/hal_pmp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target hal_pmp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=32 "Built target hal_pmp"
 .PHONY : hal/pmp/CMakeFiles/hal_pmp.dir/all
 
 # Build rule for subdir invocation for target.
 hal/pmp/CMakeFiles/hal_pmp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 hal/pmp/CMakeFiles/hal_pmp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : hal/pmp/CMakeFiles/hal_pmp.dir/rule
@@ -6584,12 +6584,12 @@ hal/pmp/CMakeFiles/hal_pmp.dir/clean:
 hal/pwm/CMakeFiles/hal_pwm.dir/all:
 	$(MAKE) -f hal/pwm/CMakeFiles/hal_pwm.dir/build.make hal/pwm/CMakeFiles/hal_pwm.dir/depend
 	$(MAKE) -f hal/pwm/CMakeFiles/hal_pwm.dir/build.make hal/pwm/CMakeFiles/hal_pwm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=32 "Built target hal_pwm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target hal_pwm"
 .PHONY : hal/pwm/CMakeFiles/hal_pwm.dir/all
 
 # Build rule for subdir invocation for target.
 hal/pwm/CMakeFiles/hal_pwm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 hal/pwm/CMakeFiles/hal_pwm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : hal/pwm/CMakeFiles/hal_pwm.dir/rule
@@ -6692,12 +6692,12 @@ hal/spi/CMakeFiles/hal_spi.dir/clean:
 hal/uart/CMakeFiles/hal_uart.dir/all:
 	$(MAKE) -f hal/uart/CMakeFiles/hal_uart.dir/build.make hal/uart/CMakeFiles/hal_uart.dir/depend
 	$(MAKE) -f hal/uart/CMakeFiles/hal_uart.dir/build.make hal/uart/CMakeFiles/hal_uart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=37 "Built target hal_uart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target hal_uart"
 .PHONY : hal/uart/CMakeFiles/hal_uart.dir/all
 
 # Build rule for subdir invocation for target.
 hal/uart/CMakeFiles/hal_uart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 hal/uart/CMakeFiles/hal_uart.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : hal/uart/CMakeFiles/hal_uart.dir/rule
@@ -6719,12 +6719,12 @@ hal/uart/CMakeFiles/hal_uart.dir/clean:
 hal/tsensor/CMakeFiles/hal_tsensor.dir/all:
 	$(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/depend
 	$(MAKE) -f hal/tsensor/CMakeFiles/hal_tsensor.dir/build.make hal/tsensor/CMakeFiles/hal_tsensor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target hal_tsensor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=37 "Built target hal_tsensor"
 .PHONY : hal/tsensor/CMakeFiles/hal_tsensor.dir/all
 
 # Build rule for subdir invocation for target.
 hal/tsensor/CMakeFiles/hal_tsensor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 hal/tsensor/CMakeFiles/hal_tsensor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : hal/tsensor/CMakeFiles/hal_tsensor.dir/rule
@@ -6827,12 +6827,12 @@ drivers/chips/ws63/porting/adc/CMakeFiles/adc_port.dir/clean:
 drivers/chips/ws63/porting/arch/CMakeFiles/pmp_cfg_ws63.dir/all:
 	$(MAKE) -f drivers/chips/ws63/porting/arch/CMakeFiles/pmp_cfg_ws63.dir/build.make drivers/chips/ws63/porting/arch/CMakeFiles/pmp_cfg_ws63.dir/depend
 	$(MAKE) -f drivers/chips/ws63/porting/arch/CMakeFiles/pmp_cfg_ws63.dir/build.make drivers/chips/ws63/porting/arch/CMakeFiles/pmp_cfg_ws63.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target pmp_cfg_ws63"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=76 "Built target pmp_cfg_ws63"
 .PHONY : drivers/chips/ws63/porting/arch/CMakeFiles/pmp_cfg_ws63.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/ws63/porting/arch/CMakeFiles/pmp_cfg_ws63.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/arch/CMakeFiles/pmp_cfg_ws63.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : drivers/chips/ws63/porting/arch/CMakeFiles/pmp_cfg_ws63.dir/rule
@@ -6935,12 +6935,12 @@ drivers/chips/ws63/porting/pwm/CMakeFiles/pwm_port.dir/clean:
 drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/all:
 	$(MAKE) -f drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/build.make drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/depend
 	$(MAKE) -f drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/build.make drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target uart_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=81 "Built target uart_port"
 .PHONY : drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/rule
@@ -6962,12 +6962,12 @@ drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/clean:
 drivers/chips/ws63/porting/pmp/CMakeFiles/pmp_port.dir/all:
 	$(MAKE) -f drivers/chips/ws63/porting/pmp/CMakeFiles/pmp_port.dir/build.make drivers/chips/ws63/porting/pmp/CMakeFiles/pmp_port.dir/depend
 	$(MAKE) -f drivers/chips/ws63/porting/pmp/CMakeFiles/pmp_port.dir/build.make drivers/chips/ws63/porting/pmp/CMakeFiles/pmp_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=76 "Built target pmp_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target pmp_port"
 .PHONY : drivers/chips/ws63/porting/pmp/CMakeFiles/pmp_port.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/ws63/porting/pmp/CMakeFiles/pmp_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/pmp/CMakeFiles/pmp_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : drivers/chips/ws63/porting/pmp/CMakeFiles/pmp_port.dir/rule
@@ -6989,12 +6989,12 @@ drivers/chips/ws63/porting/pmp/CMakeFiles/pmp_port.dir/clean:
 drivers/chips/ws63/porting/i2c/CMakeFiles/i2c_porting.dir/all:
 	$(MAKE) -f drivers/chips/ws63/porting/i2c/CMakeFiles/i2c_porting.dir/build.make drivers/chips/ws63/porting/i2c/CMakeFiles/i2c_porting.dir/depend
 	$(MAKE) -f drivers/chips/ws63/porting/i2c/CMakeFiles/i2c_porting.dir/build.make drivers/chips/ws63/porting/i2c/CMakeFiles/i2c_porting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target i2c_porting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=38 "Built target i2c_porting"
 .PHONY : drivers/chips/ws63/porting/i2c/CMakeFiles/i2c_porting.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/ws63/porting/i2c/CMakeFiles/i2c_porting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/i2c/CMakeFiles/i2c_porting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : drivers/chips/ws63/porting/i2c/CMakeFiles/i2c_porting.dir/rule
@@ -7178,12 +7178,12 @@ drivers/chips/ws63/porting/efuse/CMakeFiles/efuse_port.dir/clean:
 drivers/chips/ws63/porting/sio/CMakeFiles/sio_port.dir/all:
 	$(MAKE) -f drivers/chips/ws63/porting/sio/CMakeFiles/sio_port.dir/build.make drivers/chips/ws63/porting/sio/CMakeFiles/sio_port.dir/depend
 	$(MAKE) -f drivers/chips/ws63/porting/sio/CMakeFiles/sio_port.dir/build.make drivers/chips/ws63/porting/sio/CMakeFiles/sio_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=79 "Built target sio_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target sio_port"
 .PHONY : drivers/chips/ws63/porting/sio/CMakeFiles/sio_port.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/ws63/porting/sio/CMakeFiles/sio_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/sio/CMakeFiles/sio_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : drivers/chips/ws63/porting/sio/CMakeFiles/sio_port.dir/rule
@@ -7205,12 +7205,12 @@ drivers/chips/ws63/porting/sio/CMakeFiles/sio_port.dir/clean:
 drivers/chips/ws63/porting/reboot/CMakeFiles/reboot_port.dir/all:
 	$(MAKE) -f drivers/chips/ws63/porting/reboot/CMakeFiles/reboot_port.dir/build.make drivers/chips/ws63/porting/reboot/CMakeFiles/reboot_port.dir/depend
 	$(MAKE) -f drivers/chips/ws63/porting/reboot/CMakeFiles/reboot_port.dir/build.make drivers/chips/ws63/porting/reboot/CMakeFiles/reboot_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=77 "Built target reboot_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target reboot_port"
 .PHONY : drivers/chips/ws63/porting/reboot/CMakeFiles/reboot_port.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/ws63/porting/reboot/CMakeFiles/reboot_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/reboot/CMakeFiles/reboot_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : drivers/chips/ws63/porting/reboot/CMakeFiles/reboot_port.dir/rule
@@ -7286,12 +7286,12 @@ drivers/chips/ws63/porting/version/CMakeFiles/version_port.dir/clean:
 drivers/chips/ws63/porting/pm/CMakeFiles/pm_port_ws63.dir/all:
 	$(MAKE) -f drivers/chips/ws63/porting/pm/CMakeFiles/pm_port_ws63.dir/build.make drivers/chips/ws63/porting/pm/CMakeFiles/pm_port_ws63.dir/depend
 	$(MAKE) -f drivers/chips/ws63/porting/pm/CMakeFiles/pm_port_ws63.dir/build.make drivers/chips/ws63/porting/pm/CMakeFiles/pm_port_ws63.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=75 "Built target pm_port_ws63"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target pm_port_ws63"
 .PHONY : drivers/chips/ws63/porting/pm/CMakeFiles/pm_port_ws63.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/ws63/porting/pm/CMakeFiles/pm_port_ws63.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/porting/pm/CMakeFiles/pm_port_ws63.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : drivers/chips/ws63/porting/pm/CMakeFiles/pm_port_ws63.dir/rule
@@ -7340,12 +7340,12 @@ drivers/chips/ws63/porting/xo_trim/CMakeFiles/xo_trim_port.dir/clean:
 drivers/chips/ws63/dyn_mem/CMakeFiles/dyn_mem.dir/all:
 	$(MAKE) -f drivers/chips/ws63/dyn_mem/CMakeFiles/dyn_mem.dir/build.make drivers/chips/ws63/dyn_mem/CMakeFiles/dyn_mem.dir/depend
 	$(MAKE) -f drivers/chips/ws63/dyn_mem/CMakeFiles/dyn_mem.dir/build.make drivers/chips/ws63/dyn_mem/CMakeFiles/dyn_mem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target dyn_mem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=26 "Built target dyn_mem"
 .PHONY : drivers/chips/ws63/dyn_mem/CMakeFiles/dyn_mem.dir/all
 
 # Build rule for subdir invocation for target.
 drivers/chips/ws63/dyn_mem/CMakeFiles/dyn_mem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 drivers/chips/ws63/dyn_mem/CMakeFiles/dyn_mem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : drivers/chips/ws63/dyn_mem/CMakeFiles/dyn_mem.dir/rule
@@ -7367,12 +7367,12 @@ drivers/chips/ws63/dyn_mem/CMakeFiles/dyn_mem.dir/clean:
 middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/all:
 	$(MAKE) -f middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/build.make middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/depend
 	$(MAKE) -f middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/build.make middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=14 "Built target dfx_exception"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target dfx_exception"
 .PHONY : middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/all
 
 # Build rule for subdir invocation for target.
 middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/rule
@@ -7502,12 +7502,12 @@ middleware/chips/ws63/nv/nv_config/CMakeFiles/nv_config_ws63.dir/clean:
 middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/all:
 	$(MAKE) -f middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/build.make middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/depend
 	$(MAKE) -f middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/build.make middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target nv_zdiag_ws63"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=70 "Built target nv_zdiag_ws63"
 .PHONY : middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/all
 
 # Build rule for subdir invocation for target.
 middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/rule
@@ -7799,12 +7799,12 @@ utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/clean:
 utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/all:
 	$(MAKE) -f utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/build.make utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/depend
 	$(MAKE) -f utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/build.make utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target plt_at"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=75 "Built target plt_at"
 .PHONY : utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/all
 
 # Build rule for subdir invocation for target.
 utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/rule
@@ -7826,12 +7826,12 @@ utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/clean:
 utils/dfx/CMakeFiles/dfx_log_reader.dir/all:
 	$(MAKE) -f utils/dfx/CMakeFiles/dfx_log_reader.dir/build.make utils/dfx/CMakeFiles/dfx_log_reader.dir/depend
 	$(MAKE) -f utils/dfx/CMakeFiles/dfx_log_reader.dir/build.make utils/dfx/CMakeFiles/dfx_log_reader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=17 "Built target dfx_log_reader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target dfx_log_reader"
 .PHONY : utils/dfx/CMakeFiles/dfx_log_reader.dir/all
 
 # Build rule for subdir invocation for target.
 utils/dfx/CMakeFiles/dfx_log_reader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_log_reader.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : utils/dfx/CMakeFiles/dfx_log_reader.dir/rule
@@ -7853,12 +7853,12 @@ utils/dfx/CMakeFiles/dfx_log_reader.dir/clean:
 utils/dfx/CMakeFiles/dfx_diag.dir/all:
 	$(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/depend
 	$(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=9,10,11,12,13 "Built target dfx_diag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=9,10,11,12,13,14 "Built target dfx_diag"
 .PHONY : utils/dfx/CMakeFiles/dfx_diag.dir/all
 
 # Build rule for subdir invocation for target.
 utils/dfx/CMakeFiles/dfx_diag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_diag.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : utils/dfx/CMakeFiles/dfx_diag.dir/rule
@@ -7907,12 +7907,12 @@ utils/dfx/CMakeFiles/dfx_preserve.dir/clean:
 utils/dfx/CMakeFiles/soc_log.dir/all:
 	$(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/depend
 	$(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target soc_log"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=79 "Built target soc_log"
 .PHONY : utils/dfx/CMakeFiles/soc_log.dir/all
 
 # Build rule for subdir invocation for target.
 utils/dfx/CMakeFiles/soc_log.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/soc_log.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : utils/dfx/CMakeFiles/soc_log.dir/rule
@@ -8015,12 +8015,12 @@ utils/dfx/CMakeFiles/dfx_panic.dir/clean:
 utils/dfx/CMakeFiles/dfx_log.dir/all:
 	$(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/depend
 	$(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=15,16 "Built target dfx_log"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=15,16,17 "Built target dfx_log"
 .PHONY : utils/dfx/CMakeFiles/dfx_log.dir/all
 
 # Build rule for subdir invocation for target.
 utils/dfx/CMakeFiles/dfx_log.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_log.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : utils/dfx/CMakeFiles/dfx_log.dir/rule
@@ -8069,12 +8069,12 @@ utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/clean:
 utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/all:
 	$(MAKE) -f utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/build.make utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/depend
 	$(MAKE) -f utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/build.make utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target reboot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=77 "Built target reboot"
 .PHONY : utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/all
 
 # Build rule for subdir invocation for target.
 utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/rule
@@ -8231,12 +8231,12 @@ utils/update/storage/CMakeFiles/update_storage.dir/clean:
 utils/mips/CMakeFiles/mips.dir/all:
 	$(MAKE) -f utils/mips/CMakeFiles/mips.dir/build.make utils/mips/CMakeFiles/mips.dir/depend
 	$(MAKE) -f utils/mips/CMakeFiles/mips.dir/build.make utils/mips/CMakeFiles/mips.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=63 "Built target mips"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target mips"
 .PHONY : utils/mips/CMakeFiles/mips.dir/all
 
 # Build rule for subdir invocation for target.
 utils/mips/CMakeFiles/mips.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 utils/mips/CMakeFiles/mips.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : utils/mips/CMakeFiles/mips.dir/rule
@@ -8474,12 +8474,12 @@ protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/clean:
 protocol/wifi/CMakeFiles/wifi_radar_sensor.dir/all:
 	$(MAKE) -f protocol/wifi/CMakeFiles/wifi_radar_sensor.dir/build.make protocol/wifi/CMakeFiles/wifi_radar_sensor.dir/depend
 	$(MAKE) -f protocol/wifi/CMakeFiles/wifi_radar_sensor.dir/build.make protocol/wifi/CMakeFiles/wifi_radar_sensor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target wifi_radar_sensor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=86 "Built target wifi_radar_sensor"
 .PHONY : protocol/wifi/CMakeFiles/wifi_radar_sensor.dir/all
 
 # Build rule for subdir invocation for target.
 protocol/wifi/CMakeFiles/wifi_radar_sensor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 protocol/wifi/CMakeFiles/wifi_radar_sensor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : protocol/wifi/CMakeFiles/wifi_radar_sensor.dir/rule
@@ -8501,12 +8501,12 @@ protocol/wifi/CMakeFiles/wifi_radar_sensor.dir/clean:
 protocol/wifi/CMakeFiles/wifi_frag.dir/all:
 	$(MAKE) -f protocol/wifi/CMakeFiles/wifi_frag.dir/build.make protocol/wifi/CMakeFiles/wifi_frag.dir/depend
 	$(MAKE) -f protocol/wifi/CMakeFiles/wifi_frag.dir/build.make protocol/wifi/CMakeFiles/wifi_frag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=86 "Built target wifi_frag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num= "Built target wifi_frag"
 .PHONY : protocol/wifi/CMakeFiles/wifi_frag.dir/all
 
 # Build rule for subdir invocation for target.
 protocol/wifi/CMakeFiles/wifi_frag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 protocol/wifi/CMakeFiles/wifi_frag.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles 0
 .PHONY : protocol/wifi/CMakeFiles/wifi_frag.dir/rule

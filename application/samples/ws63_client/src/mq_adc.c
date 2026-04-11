@@ -63,7 +63,7 @@ static void adc_callback(uint8_t ch, uint32_t *buffer, uint32_t length, bool *ne
         /************ 5. 输出 ************/
         g_display_val = alcohol;
 
-        osal_printk("[ADC] V:%dmV alcohol:%d%%\r\n", v_mv, alcohol);
+        // osal_printk("[ADC] V:%dmV alcohol:%d%%\r\n", v_mv, alcohol);
     }
 }
 

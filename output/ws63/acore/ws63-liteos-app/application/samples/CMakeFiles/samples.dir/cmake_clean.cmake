@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj"
-  "CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj"
-  "CMakeFiles/samples.dir/ws63_client/src/dht11.c.obj"
-  "CMakeFiles/samples.dir/ws63_client/src/main.c.obj"
-  "CMakeFiles/samples.dir/ws63_client/src/mq_adc.c.obj"
-  "CMakeFiles/samples.dir/ws63_client/src/trans_data.c.obj"
+  "CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server.c.obj"
+  "CMakeFiles/samples.dir/ws63_server/sle_uart_server/sle_uart_server_adv.c.obj"
+  "CMakeFiles/samples.dir/ws63_server/src/main.c.obj"
   "libsamples.a"
   "libsamples.pdb"
 )

@@ -9,6 +9,14 @@
 #define DHT11_PIN    GPIO_00
 #define PIN_MODE_0   0
 
+// 温度
+static int g_temperature_int = 0;   // 整数部分
+static int g_temperature_dec = 0;   // 小数部分
+
+// 湿度
+static int g_humidity_int = 0;      // 整数部分
+static int g_humidity_dec = 0;      // 小数部分
+
 static int read_bit(void)
 {
     int t = 0;
@@ -61,7 +69,7 @@ void dht11_task(void *arg)
         for (int i = 0; i < 40; i++) {
             bits[i] = read_bit();
             if (bits[i] < 0) {
-                osal_printk("Bit%d timeout\r\n", i);
+                // osal_printk("Bit%d timeout\r\n", i);
                 valid = 0;
                 break;
             }
@@ -82,7 +90,14 @@ void dht11_task(void *arg)
             
             // 验证校验和
             if (data[0]+data[1]+data[2]+data[3] == data[4]) {
-                osal_printk("[OK] T=%d.%dC H=%d.%d%%\r\n", data[2], data[3], data[0], data[1]);
+                // 湿度
+                g_humidity_int = data[0];   // 整数部分
+                g_humidity_dec = data[1];   // 小数部分
+
+                // 温度
+                g_temperature_int = data[2];
+                g_temperature_dec = data[3];
+                // osal_printk("[OK] T=%d.%dC H=%d.%d%%\r\n", data[2], data[3], data[0], data[1]);
             } else {
                 osal_printk("[ERR] %d %d %d %d %d\r\n", data[0], data[1], data[2], data[3], data[4]);
             }
@@ -91,4 +106,14 @@ void dht11_task(void *arg)
         osal_msleep(2000);
     }
     return;
+}
+
+// 获取温湿度（整数+小数）
+// 返回0=成功，-1=无效
+void dht11_get_data(int *t_int, int *t_dec, int *h_int, int *h_dec)
+{
+    *t_int = g_temperature_int;
+    *t_dec = g_temperature_dec;
+    *h_int = g_humidity_int;
+    *h_dec = g_humidity_dec;
 }

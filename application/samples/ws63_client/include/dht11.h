@@ -15,5 +15,6 @@ unsigned char DHT11_REC_Data(void);
 static void debug_dht11_timing(void);
 static void debug_gpio_state(const char *phase);
 void dht11_task(void *arg);
+void dht11_get_data(int *t_int, int *t_dec, int *h_int, int *h_dec);
 
 #endif
