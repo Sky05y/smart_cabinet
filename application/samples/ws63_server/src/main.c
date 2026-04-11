@@ -49,7 +49,7 @@
 #define SLE_UART_SERVER_QUEUE_DELAY         0xFFFFFFFF
 #define SLE_UART_SERVER_BUFF_MAX_SIZE       800
 #define SLE_UART_TASK_STACK_SIZE   0x1200
-#define SLE_UART_TASK_PRIO         (osPriorityAboveNormal)
+#define SLE_UART_TASK_PRIO         13
 
 unsigned long g_sle_uart_server_msgqueue_id;
 #define SLE_UART_SERVER_LOG                 "[sle uart server]"

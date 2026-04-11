@@ -13,7 +13,7 @@
 #include "mq_adc.h"
 
 #define SLE_UART_TASK_STACK_SIZE            0x600
-#define SLE_UART_TASK_PRIO                  28
+#define SLE_UART_TASK_PRIO                  16
 #define SLE_UART_TASK_DURATION_MS           2000
 #define SLE_UART_BAUDRATE                   115200
 #define SLE_UART_TRANSFER_SIZE              512
