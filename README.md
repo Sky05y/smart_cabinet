@@ -37,8 +37,8 @@ application/samples/
 在 application/samples/CMakeLists.txt 中：
 
 ```cmake
-add_subdirectory(ws63_server)
-# add_subdirectory(ws63_client)
+add_subdirectory_if_exist(ws63_server)
+# add_subdirectory_if_exist(ws63_client)
 ```
 
 ### 编译从节点（client）
@@ -46,8 +46,8 @@ add_subdirectory(ws63_server)
 在 application/samples/CMakeLists.txt 中：
 
 ```cmake
-# add_subdirectory(ws63_server)
-add_subdirectory(ws63_client)
+# add_subdirectory_if_exist(ws63_server)
+add_subdirectory_if_exist(ws63_client)
 ```
 ### 编译项目（client）
 
@@ -57,10 +57,10 @@ add_subdirectory(ws63_client)
 #  功能说明
 
 ## 1. 嵌入式底层驱动开发
-- 基于 **WS63 / Hi3863** 平台开发  
+- 基于 **WS63** 平台开发  
 - 实现 **GPIO / PWM / UART / I2C / SPI / 单总线** 等外设驱动  
 - 完成传感器接口封装与通信调试  
-- 具备 **蓝牙与星闪 SLE 协议** 开发经验  
+- 具备 **星闪 SLE 协议** 开发经验  
 
 ## 2. 星闪 SLE 多节点通信
 - 构建 **主从式 SLE 无线通信网络**  
@@ -90,8 +90,8 @@ add_subdirectory(ws63_client)
 #  技术栈
 
 ### 嵌入式端
-- **WS63 / Hi3863**
-- **C / C++**
+- **WS63**
+- **C / CMake**
 - **CMSIS-RTOS**
 - **SLE（星闪通信）**
 - **UART / GPIO / I2C / SPI**
@@ -102,7 +102,7 @@ add_subdirectory(ws63_client)
 - **JSON**
 
 ### 前端
-- **Web 可视化界面**（独立仓库）
+- **Web 可视化界面**
 
 
 #  项目亮点
