@@ -39,6 +39,7 @@ application/samples/
 ```cmake
 add_subdirectory(ws63_server)
 # add_subdirectory(ws63_client)
+```
 
 ### 编译从节点（client）
 
@@ -47,7 +48,12 @@ add_subdirectory(ws63_server)
 ```cmake
 # add_subdirectory(ws63_server)
 add_subdirectory(ws63_client)
+```
+### 编译项目（client）
 
+```Python
+~/project/smart_cabinet-main/build.py -c ws63-liteos-app
+```
 #  功能说明
 
 ## 1. 嵌入式底层驱动开发
