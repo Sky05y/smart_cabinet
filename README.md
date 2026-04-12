@@ -49,7 +49,7 @@ add_subdirectory_if_exist(ws63_server)
 # add_subdirectory_if_exist(ws63_server)
 add_subdirectory_if_exist(ws63_client)
 ```
-### 编译项目（client）
+### 编译项目
 
 ```Python
 ~/project/smart_cabinet-main/build.py -c ws63-liteos-app
