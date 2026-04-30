@@ -3713,7 +3713,7 @@
 62      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_sample_seek_result_info_cbk
 32      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_sample_sle_enable_cbk
 28      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_sample_write_cfm_cb
-396     ./.bth_text_flash/application/samples/ws63_client/src/trans_data.c/sle_uart_client_task
+402     ./.bth_text_flash/application/samples/ws63_client/src/trans_data.c/sle_uart_client_task
 138     ./.bth_text_flash/application/samples/ws63_client/src/main.c/sle_uart_entry
 30      ./.bth_text_flash/application/samples/ws63_client/src/trans_data.c/sle_uart_notification_cb
 46      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_start_scan

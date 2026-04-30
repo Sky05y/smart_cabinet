@@ -291,18 +291,17 @@ int sta_init(void *param)
 void http_post_data(uint16_t lux,
                     uint32_t alcohol,
                     int t_int, int t_dec,
-                    int h_int, int h_dec)
+                    int h_int, int h_dec, int device_no)
 {
     int sock;
     struct sockaddr_in server_addr;
-
     char request[512];
     char json_data[128];
 
     // ===== 直接用参数拼JSON =====
     sprintf(json_data,
-        "{\"lux\":%d,\"alcohol\":%d,\"temperature\":%d.%d,\"humidity\":%d.%d}",
-        lux, alcohol, t_int, t_dec, h_int, h_dec
+        "{\"lux\":%d,\"alcohol\":%d,\"temperature\":%d.%d,\"humidity\":%d.%d,\"device_no\":%d}",
+        lux, alcohol, t_int, t_dec, h_int, h_dec, device_no
     );
 
     sprintf(request,
@@ -416,12 +415,13 @@ static void ssaps_server_write_request_cbk(uint8_t server_id, uint16_t conn_id, 
         int t_dec = buf[7];
         int h_int = buf[8];
         int h_dec = buf[9];
+        int device_no = buf[10];
 
-        osal_printk("lux=%d, alcohol=%d, T=%d.%d, H=%d.%d\r\n",
-            lux, alcohol, t_int, t_dec, h_int, h_dec);
+        osal_printk("lux=%d, alcohol=%d, T=%d.%d, H=%d.%d, device_no=%d\r\n",
+            lux, alcohol, t_int, t_dec, h_int, h_dec, device_no);
         uapi_uart_write(CONFIG_SLE_UART_BUS, (uint8_t *)write_cb_para->value, write_cb_para->length, 0);
         // 随后向服务器上传数据
-        http_post_data(lux, alcohol, t_int, t_dec, h_int, h_dec);
+        http_post_data(lux, alcohol, t_int, t_dec, h_int, h_dec, device_no);
     }
 }
 

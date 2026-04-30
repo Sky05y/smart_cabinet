@@ -15,6 +15,8 @@
 #define SLE_UART_TASK_DURATION_MS           2000
 #define SLE_UART_BAUDRATE                   115200
 #define SLE_UART_TRANSFER_SIZE              512
+#define DEVICE_NO 1                 // 设备编号设置
+
 
 #define CONFIG_SLE_UART_BUS 0
 #define CONFIG_UART_TXD_PIN 17
@@ -104,7 +106,7 @@ void *sle_uart_client_task(const char *arg)
 
         osal_printk("Send data: lux=%d, alcohol=%d, T=%d.%d, H=%d.%d\r\n",t_lux, adc_alcohol, t_int, t_dec, h_int, h_dec);
             // ================== 打包数据 ==================
-        uint8_t send_buf[10];
+        uint8_t send_buf[11];
 
         // lux (2字节)
         send_buf[0] = (t_lux >> 8) & 0xFF;
@@ -123,7 +125,7 @@ void *sle_uart_client_task(const char *arg)
         // 湿度
         send_buf[8] = (uint8_t)h_int;
         send_buf[9] = (uint8_t)h_dec;
-
+        send_buf[10] = DEVICE_NO; // 设备编号
         // ================== SLE发送 ==================
         ssapc_write_param_t *param = get_g_sle_uart_send_param();
         uint16_t conn_id = get_g_sle_uart_conn_id();

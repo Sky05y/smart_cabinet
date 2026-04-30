@@ -15493,1051 +15493,1051 @@ sle_uart_client_sample_sle_enable_cbk|0034c20c|   t  |              FUNC|0000002
 sle_uart_client_read_int_handler|0034c64e|   t  |              FUNC|0000001e|     |.bth_text_flash
 sle_uart_notification_cb|0034c66c|   T  |              FUNC|0000001e|     |.bth_text_flash
 sle_uart_indication_cb|0034c68a|   T  |              FUNC|00000002|     |.bth_text_flash
-sle_uart_client_task|0034c68c|   T  |              FUNC|0000018c|     |.bth_text_flash
-cfg_rx_gain         |0034c8f8|   t  |              FUNC|00000074|     |.radar_text_flash
-radar_get_agc_status|0034c96c|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_hal_agc_cali  |0034c970|   T  |              FUNC|000001bc|     |.radar_text_flash
-radar_get_trx_dly_status|0034cb2c|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_trx_dly_cali  |0034cb30|   T  |              FUNC|000000a2|     |.radar_text_flash
-g_radar_agc_code_table|0034cbe0|   t  |            OBJECT|0000001e|     |.radar_text_flash
-radar_hal_update_wifi_itf_systick|0034cc88|   T  |              FUNC|00000024|     |.radar_text_flash
-pulse_compression_time|0034ccac|   t  |              FUNC|0000006e|     |.radar_text_flash
-hal_send_dbg_data   |0034cd1a|   t  |              FUNC|00000088|     |.radar_text_flash
-radar_hal_get_scan_sts|0034cda2|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_hal_set_scan_sts|0034cdac|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_hal_get_hw_sts|0034cdb6|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_hal_get_isolation|0034cdc0|   T  |              FUNC|0000000c|     |.radar_text_flash
-radar_hal_get_trx_dly_cali_res|0034cdcc|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_hal_get_rx_gain|0034cdd6|   T  |              FUNC|00000010|     |.radar_text_flash
-radar_hal_get_ppa_gain|0034cde6|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_hal_get_wave_peak|0034cdea|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_hal_init_ori_wave|0034cdf4|   T  |              FUNC|00000056|     |.radar_text_flash
-radar_hal_init      |0034ce4a|   T  |              FUNC|000000b4|     |.radar_text_flash
-radar_hal_pc_proc   |0034cefe|   T  |              FUNC|0000005c|     |.radar_text_flash
-radar_hal_proc_report_data|0034cf5a|   T  |              FUNC|00000174|     |.radar_text_flash
-radar_hal_register_ppl_cb|0034d0ce|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_hal_init_data_pool|0034d0d8|   T  |              FUNC|00000028|     |.radar_text_flash
-radar_hal_set_wave_rept_times|0034d100|   T  |              FUNC|0000000c|     |.radar_text_flash
-get_data_push_addr  |0034d10c|   T  |              FUNC|0000002a|     |.radar_text_flash
-resolve_chip_data   |0034d136|   T  |              FUNC|00000016|     |.radar_text_flash
-coh_int_chip_data   |0034d14c|   T  |              FUNC|00000066|     |.radar_text_flash
-radar_hal_push_data_buf|0034d1b2|   T  |              FUNC|0000007e|     |.radar_text_flash
-radar_hal_pop_data_buf|0034d230|   T  |              FUNC|00000074|     |.radar_text_flash
-radar_get_wave_arr  |0034d2a4|   T  |              FUNC|00000008|     |.radar_text_flash
-radar_get_down_samprate|0034d2ac|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_get_dac_wave_len|0034d2b0|   T  |              FUNC|00000006|     |.radar_text_flash
-radar_get_adc_wave_len|0034d2b6|   T  |              FUNC|00000006|     |.radar_text_flash
-g_radar_wave        |0034d2bc|   t  |            OBJECT|00000800|     |.radar_text_flash
-radar_adl_mgr_init  |0034dabc|   T  |              FUNC|00000020|     |.radar_text_flash
-radar_adl_get_res   |0034dadc|   T  |              FUNC|00000008|     |.radar_text_flash
-radar_adl_alg_proc  |0034dae4|   T  |              FUNC|0000007a|     |.radar_text_flash
-alg_res_2m_rpt      |0034db5e|   t  |              FUNC|00000018|     |.radar_text_flash
-alg_res_other_rpt   |0034db76|   t  |              FUNC|00000018|     |.radar_text_flash
-alg_res_no_target_rpt|0034db8e|   t  |              FUNC|00000014|     |.radar_text_flash
-update_last_alg_res |0034dba2|   t  |              FUNC|00000098|     |.radar_text_flash
-dispersion_1m_can_rpt.isra.2|0034dc3a|   t  |              FUNC|00000010|     |.radar_text_flash
-dispersion_2m_can_rpt.isra.3|0034dc3a|   t  |              FUNC|00000010|     |.radar_text_flash
-radar_get_radar_rpt_res|0034dc4a|   T  |              FUNC|00000008|     |.radar_text_flash
-radar_fusion_res_init|0034dc52|   T  |              FUNC|00000022|     |.radar_text_flash
-alg_res_fusion      |0034dc74|   T  |              FUNC|000001ec|     |.radar_text_flash
-radar_res_whether_changed|0034de60|   T  |              FUNC|00000048|     |.radar_text_flash
-read_nv_param       |0034dea8|   t  |              FUNC|00000094|     |.radar_text_flash
-update_alg_param    |0034df3c|   t  |              FUNC|00000042|     |.radar_text_flash
-radar_get_alg_param |0034df7e|   T  |              FUNC|00000008|     |.radar_text_flash
-radar_alg_ctrl_init |0034df86|   T  |              FUNC|0000004e|     |.radar_text_flash
-radar_get_alg_ctrl  |0034dfd4|   T  |              FUNC|00000008|     |.radar_text_flash
-radar_update_alg_param|0034dfdc|   T  |              FUNC|00000056|     |.radar_text_flash
-radar_update_alg_param_by_wifi_mode|0034e032|   T  |              FUNC|00000040|     |.radar_text_flash
-radar_update_quit_time|0034e072|   T  |              FUNC|0000003e|     |.radar_text_flash
-radar_use_fusion_ai |0034e0b0|   T  |              FUNC|0000000e|     |.radar_text_flash
-radar_update_alg_param_by_cmd|0034e0be|   T  |              FUNC|00000140|     |.radar_text_flash
-g_key_id            |0034e200|   t  |            OBJECT|00000048|     |.radar_text_flash
-radar_spl_bitmap_proc_init|0034e450|   T  |              FUNC|0000001c|     |.radar_text_flash
-radar_spl_bitmap_proc|0034e46c|   T  |              FUNC|0000027a|     |.radar_text_flash
-radar_spl_get_bitmap_info|0034e6e6|   T  |              FUNC|00000028|     |.radar_text_flash
-radar_cfar_cmp_increase|0034e70e|   t  |              FUNC|00000008|     |.radar_text_flash
-radar_cfar_fix_win.part.2|0034e716|   t  |              FUNC|00000124|     |.radar_text_flash
-radar_mti           |0034e83a|   T  |              FUNC|000000be|     |.radar_text_flash
-radar_mti_multi_bin |0034e8f8|   T  |              FUNC|00000040|     |.radar_text_flash
-radar_mtd           |0034e938|   T  |              FUNC|00000016|     |.radar_text_flash
-radar_mtd_multi_bin |0034e94e|   T  |              FUNC|00000034|     |.radar_text_flash
-radar_cfar_rng_1d   |0034e982|   T  |              FUNC|00000150|     |.radar_text_flash
-radar_cfar_fix_win  |0034ead2|   T  |              FUNC|0000001a|     |.radar_text_flash
-radar_cfar_multi_bin|0034eaec|   T  |              FUNC|00000042|     |.radar_text_flash
-radar_spl_peak_extract|0034eb2e|   T  |              FUNC|0000007e|     |.radar_text_flash
-radar_fpl_set_measure_data|0034ecd0|   T  |              FUNC|00000034|     |.radar_text_flash
-radar_fpl_cluster_init|0034ed04|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_fpl_clean_cluster|0034ed0e|   T  |              FUNC|00000136|     |.radar_text_flash
-radar_fpl_condense  |0034ee44|   T  |              FUNC|000000f0|     |.radar_text_flash
-add_confirmer_point |0034ef44|   t  |              FUNC|00000046|     |.radar_text_flash
-radar_fpl_confirmer_init|0034ef8a|   T  |              FUNC|00000010|     |.radar_text_flash
-radar_fpl_get_confirmer_res|0034ef9a|   T  |              FUNC|00000022|     |.radar_text_flash
-radar_fpl_get_continue_lost_res|0034efbc|   T  |              FUNC|0000001a|     |.radar_text_flash
-radar_dfx_set_dbg_type|0034efd6|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_dfx_get_dbg_type|0034efe0|   T  |              FUNC|0000000a|     |.radar_text_flash
-rpt_dbg_val_init    |0034efea|   t  |              FUNC|00000062|     |.radar_text_flash
-radar_dfx_get_dbg_info.part.0|0034f04c|   t  |              FUNC|0000015e|     |.radar_text_flash
-radar_dfx_rpt_dbg_info_init|0034f1aa|   T  |              FUNC|00000024|     |.radar_text_flash
-radar_dfx_update_dbg_info|0034f1ce|   T  |              FUNC|0000010e|     |.radar_text_flash
-radar_ctrl_cmd_rst  |0034f2dc|   t  |              FUNC|0000001a|     |.radar_text_flash
-proc_radar_disable_reason|0034f2f6|   t  |              FUNC|0000009e|     |.radar_text_flash
-radar_ctrl_cmd_stop.part.0|0034f394|   t  |              FUNC|0000005a|     |.radar_text_flash
-radar_ctrl_cmd_start|0034f3ee|   t  |              FUNC|0000005a|     |.radar_text_flash
-radar_get_rpt_hw_sts|0034f448|   T  |              FUNC|0000001a|     |.radar_text_flash
-radar_get_rpt_sts   |0034f462|   T  |              FUNC|00000018|     |.radar_text_flash
-radar_set_ctrl_cmd  |0034f47a|   T  |              FUNC|000000c8|     |.radar_text_flash
-radar_set_driver_para|0034f542|   T  |              FUNC|0000005a|     |.radar_text_flash
-radar_driver_get_isolation|0034f59c|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_driver_get_rx_gain|0034f5a0|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_driver_get_ppa_code|0034f5a4|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_driver_get_wave_peak|0034f5a8|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_driver_task   |0034f5ac|   T  |              FUNC|00000078|     |.radar_text_flash
-radar_init_driver_event|0034f946|   T  |              FUNC|0000001c|     |.radar_text_flash
-radar_send_driver_event|0034f962|   T  |              FUNC|0000001c|     |.radar_text_flash
-radar_recv_driver_event|0034f97e|   T  |              FUNC|00000036|     |.radar_text_flash
-radar_init_feature_event|0034f9b4|   T  |              FUNC|0000001c|     |.radar_text_flash
-radar_send_feature_event|0034f9d0|   T  |              FUNC|0000001c|     |.radar_text_flash
-radar_recv_feature_event|0034f9ec|   T  |              FUNC|00000036|     |.radar_text_flash
-update_alg_res      |0034fa22|   T  |              FUNC|000004a2|     |.radar_text_flash
-radar_set_dly_time  |0034fec4|   T  |              FUNC|0000003c|     |.radar_text_flash
-radar_get_dly_time  |0034ff00|   T  |              FUNC|00000018|     |.radar_text_flash
-radar_get_isolation |0034ff18|   T  |              FUNC|00000018|     |.radar_text_flash
-radar_set_ctrl_para |0034ff30|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_set_alg_ctrl_para|0034ff34|   T  |              FUNC|00000016|     |.radar_text_flash
-init_feature_task   |0034ff4a|   T  |              FUNC|00000046|     |.radar_text_flash
-radar_feature_stop_init|0034ff90|   T  |              FUNC|0000000c|     |.radar_text_flash
-radar_feature_rst_init|0034ff9c|   T  |              FUNC|00000034|     |.radar_text_flash
-radar_feature_task  |0034ffd0|   T  |              FUNC|0000004c|     |.radar_text_flash
-radar_fft_find_idx_11bit|00350294|   t  |              FUNC|00000064|     |.radar_text_flash
-radar_fft_find_idx_10bit|003502f8|   t  |              FUNC|00000058|     |.radar_text_flash
-radar_fft_find_idx_9bit|00350350|   t  |              FUNC|0000004a|     |.radar_text_flash
-radar_fft_find_idx_8bit|0035039a|   t  |              FUNC|00000044|     |.radar_text_flash
-radar_fft_find_idx_7bit|003503de|   t  |              FUNC|00000036|     |.radar_text_flash
-radar_fft_find_idx_6bit|00350414|   t  |              FUNC|00000030|     |.radar_text_flash
-radar_fft_s64_right_shift.constprop.1|00350444|   t  |              FUNC|00000038|     |.radar_text_flash
-radar_fft_conj      |0035047c|   T  |              FUNC|0000001a|     |.radar_text_flash
-radar_fft_complex   |00350496|   T  |              FUNC|00000200|     |.radar_text_flash
-radar_fft_shift     |00350696|   T  |              FUNC|0000005a|     |.radar_text_flash
-g_wn                |003506f0|   t  |            OBJECT|00001000|     |.radar_text_flash
-target_track_proc   |003516f0|   t  |              FUNC|0000003c|     |.radar_text_flash
-radar_fpl_mgr_init  |0035172c|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_fpl_register_multi_target_rpt_cb|00351736|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_fpl_alg_proc  |00351740|   T  |              FUNC|00000070|     |.radar_text_flash
-radar_asinc_interpolation|003517b0|   T  |              FUNC|00000078|     |.radar_text_flash
-matrix_transpose    |00351828|   t  |              FUNC|00000012|     |.radar_text_flash
-matrix_multiply_mismatch_size|0035183a|   t  |              FUNC|0000002a|     |.radar_text_flash
-matrix_multiply     |00351864|   t  |              FUNC|0000004e|     |.radar_text_flash
-matrix_add          |003518b2|   t  |              FUNC|0000002a|     |.radar_text_flash
-vector_subtract     |003518dc|   t  |              FUNC|00000016|     |.radar_text_flash
-radar_fpl_tracker_init|003518f2|   T  |              FUNC|00000024|     |.radar_text_flash
-radar_fpl_get_kalman_res|00351916|   T  |              FUNC|00000256|     |.radar_text_flash
-g_measure_arr       |00351b6c|   T  |            OBJECT|00000010|     |.radar_text_flash
-g_measure_covar_arr |00351b7c|   T  |            OBJECT|00000010|     |.radar_text_flash
-g_trans_arr         |00351b8c|   T  |            OBJECT|00000010|     |.radar_text_flash
-g_trans_covar_arr   |00351b9c|   T  |            OBJECT|00000010|     |.radar_text_flash
-radar_fpl_multi_target_mgr_init|00351bc4|   T  |              FUNC|0000004c|     |.radar_text_flash
-radar_multi_target_mgr_set_rls_bitmap|00351c10|   T  |              FUNC|00000010|     |.radar_text_flash
-radar_multi_target_mgr_clear_rls_bitmap|00351c20|   T  |              FUNC|00000010|     |.radar_text_flash
-radar_multi_target_mgr_inc_target_num|00351c30|   T  |              FUNC|00000012|     |.radar_text_flash
-radar_multi_target_mgr_dec_target_num|00351c42|   T  |              FUNC|00000012|     |.radar_text_flash
-radar_fpl_update_all_trail|00351c54|   T  |              FUNC|00000314|     |.radar_text_flash
-radar_fpl_get_multi_target_mgr|00351f68|   T  |              FUNC|00000008|     |.radar_text_flash
-cal_right_shift_pwr |00351f88|   t  |              FUNC|00000024|     |.radar_text_flash
-get_vld_distance    |00351fac|   T  |              FUNC|00000016|     |.radar_text_flash
-update_meas_data_2d |00351fc2|   T  |              FUNC|00000168|     |.radar_text_flash
-radar_spl_plot_extraction|0035212a|   T  |              FUNC|000000e8|     |.radar_text_flash
-radar_spl_register_fpl_cb|00352212|   T  |              FUNC|0000000a|     |.radar_text_flash
-cali_inv_get_update_flag|00352230|   t  |              FUNC|00000074|     |.radar_text_flash
-cali_inv_determine_whether_update|003522a4|   t  |              FUNC|00000054|     |.radar_text_flash
-radar_ppl_cali_inv_init|003522f8|   T  |              FUNC|00000086|     |.radar_text_flash
-radar_ppl_get_dc_value|0035237e|   T  |              FUNC|0000000e|     |.radar_text_flash
-radar_ppl_get_pwr_indicator|0035238c|   T  |              FUNC|0000000e|     |.radar_text_flash
-radar_ppl_get_sign  |0035239a|   T  |              FUNC|00000008|     |.radar_text_flash
-radar_ppl_cali_dc   |003523a2|   T  |              FUNC|00000310|     |.radar_text_flash
-radar_ppl_cali_inv_phase|003526b2|   T  |              FUNC|000002ee|     |.radar_text_flash
-cube_copy_data_in_matrix|003529a0|   t  |              FUNC|00000020|     |.radar_text_flash
-radar_ppl_cube_push_subframe|003529c0|   T  |              FUNC|000001ec|     |.radar_text_flash
-radar_ppl_cube_init |00352bac|   T  |              FUNC|00000032|     |.radar_text_flash
-radar_ppl_cube_get_target_data|00352bde|   T  |              FUNC|00000084|     |.radar_text_flash
-radar_ppl_cube_get_multi_bin_target_data|00352c62|   T  |              FUNC|00000096|     |.radar_text_flash
-radar_ppl_cube_get_preproc_data|00352cf8|   T  |              FUNC|00000008|     |.radar_text_flash
-smooth_find_part_outliers.constprop.2|00352d00|   t  |              FUNC|0000006e|     |.radar_text_flash
-smooth_calc_diff_median.constprop.4|00352d6e|   t  |              FUNC|0000007e|     |.radar_text_flash
-smooth_comp_outlier_val|00352dec|   t  |              FUNC|00000174|     |.radar_text_flash
-radar_ppl_smooth_data_mono_bin|00352f60|   T  |              FUNC|0000016c|     |.radar_text_flash
-radar_ppl_mgr_init  |003530cc|   T  |              FUNC|00000014|     |.radar_text_flash
-radar_ppl_mgr_get_dc|003530e0|   T  |              FUNC|00000008|     |.radar_text_flash
-radar_ppl_mgr_get_pwr_indicator|003530e8|   T  |              FUNC|00000008|     |.radar_text_flash
-radar_ppl_mgr_get_sign|003530f0|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_ppl_mgr_proc  |003530f4|   T  |              FUNC|00000090|     |.radar_text_flash
-cmp_func            |003531b4|   t  |              FUNC|0000000c|     |.radar_text_flash
-cmp_short_real      |003531c0|   t  |              FUNC|0000000c|     |.radar_text_flash
-cmp_short_imag      |003531cc|   t  |              FUNC|0000000c|     |.radar_text_flash
-cmp_real            |003531d8|   t  |              FUNC|00000008|     |.radar_text_flash
-cmp_imag            |003531e0|   t  |              FUNC|00000008|     |.radar_text_flash
-radar_ppl_calc_int_median|003531e8|   T  |              FUNC|00000078|     |.radar_text_flash
-radar_ppl_calc_complex_short_median|00353260|   T  |              FUNC|000000c8|     |.radar_text_flash
-radar_ppl_calc_complex_median|00353328|   T  |              FUNC|000000f0|     |.radar_text_flash
-radar_spl_presence_detect|00353418|   T  |              FUNC|00000134|     |.radar_text_flash
-radar_spl_get_presence_res|0035354c|   T  |              FUNC|00000026|     |.radar_text_flash
-radar_presence_fusion_init|00353572|   T  |              FUNC|00000034|     |.radar_text_flash
-radar_presence_calc_win_res|003535a6|   T  |              FUNC|000000b2|     |.radar_text_flash
-radar_presence_calc_dly_res|00353658|   T  |              FUNC|00000056|     |.radar_text_flash
-proximity_calc_motion_pwr|003536ae|   T  |              FUNC|00000018|     |.radar_text_flash
-radar_spl_get_proximity_res|003536c6|   T  |              FUNC|0000002a|     |.radar_text_flash
-radar_spl_proximity_detect|003536f0|   T  |              FUNC|000000b6|     |.radar_text_flash
-proximity_cnt_res_buf|003537fc|   t  |              FUNC|00000034|     |.radar_text_flash
-radar_proximity_fusion_init|00353830|   T  |              FUNC|00000048|     |.radar_text_flash
-radar_proximity_calc_dly_res|00353878|   T  |              FUNC|0000004a|     |.radar_text_flash
-radar_proximity_calc_win_res|003538c2|   T  |              FUNC|0000011e|     |.radar_text_flash
-uapi_radar_set_status|003539e0|   T  |              FUNC|0000000a|     |.radar_text_flash
-uapi_radar_get_status|003539ea|   T  |              FUNC|00000014|     |.radar_text_flash
-uapi_radar_set_delay_time|003539fe|   T  |              FUNC|0000000a|     |.radar_text_flash
-uapi_radar_get_delay_time|00353a08|   T  |              FUNC|00000014|     |.radar_text_flash
-uapi_radar_get_isolation|00353a1c|   T  |              FUNC|0000001e|     |.radar_text_flash
-track_calc_proc     |00353a3a|   t  |              FUNC|00000102|     |.radar_text_flash
-radar_spl_mgr_init  |00353b3c|   T  |              FUNC|00000026|     |.radar_text_flash
-radar_spl_set_channel_change_state|00353b62|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_spl_get_channel_change_state|00353b6c|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_spl_get_res   |00353b76|   T  |              FUNC|00000008|     |.radar_text_flash
-radar_spl_alg_proc  |00353b7e|   T  |              FUNC|00000100|     |.radar_text_flash
-radar_spl_dfx_info  |00353c7e|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_target_state_track_exit|00353ce4|   t  |              FUNC|00000002|     |.radar_text_flash
-radar_target_state_track_entry|00353ce6|   t  |              FUNC|0000000e|     |.radar_text_flash
-radar_target_state_lost_search_entry|00353cf4|   t  |              FUNC|0000000e|     |.radar_text_flash
-radar_target_state_confirm_entry|00353d02|   t  |              FUNC|0000000e|     |.radar_text_flash
-radar_target_state_confirm_exit|00353d10|   t  |              FUNC|0000000a|     |.radar_text_flash
-radar_target_state_lost_search_exit|00353d1a|   t  |              FUNC|00000002|     |.radar_text_flash
-radar_target_state_rls_exit|00353d1c|   t  |              FUNC|00000012|     |.radar_text_flash
-radar_target_state_rls_entry|00353d2e|   t  |              FUNC|00000036|     |.radar_text_flash
-radar_target_state_rls_event|00353d64|   t  |              FUNC|00000046|     |.radar_text_flash
-radar_target_state_track_event|00353daa|   t  |              FUNC|0000007e|     |.radar_text_flash
-radar_target_state_confirm_event|00353e28|   t  |              FUNC|00000062|     |.radar_text_flash
-radar_target_state_lost_search_event|00353e8a|   t  |              FUNC|00000062|     |.radar_text_flash
-radar_get_fsm_cur_state|00353eec|   T  |              FUNC|00000006|     |.radar_text_flash
-radar_target_fsm_attach|00353ef2|   T  |              FUNC|0000005e|     |.radar_text_flash
-radar_target_handle_event|00353f50|   T  |              FUNC|00000050|     |.radar_text_flash
-g_radar_target_fsm_info|00353fa0|   T  |            OBJECT|00000050|     |.radar_text_flash
-radar_fpl_set_target_predict|0035400c|   T  |              FUNC|0000000e|     |.radar_text_flash
-radar_fpl_set_target_id|0035401a|   T  |              FUNC|00000006|     |.radar_text_flash
-radar_fpl_target_mgr_init|00354020|   T  |              FUNC|00000046|     |.radar_text_flash
-radar_fpl_target_mgr_add_point|00354066|   T  |              FUNC|00000054|     |.radar_text_flash
-radar_fpl_create_trail|003540ba|   T  |              FUNC|00000018|     |.radar_text_flash
-radar_tcxo_get_cnt  |003540d2|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_calc_time_diff|003540d6|   T  |              FUNC|0000002a|     |.radar_text_flash
-get_multi_target_rpt_info|00354100|   t  |              FUNC|0000000a|     |.radar_text_flash
-add_bit_on          |0035410a|   t  |              FUNC|0000000c|     |.radar_text_flash
-add_bit_off         |00354116|   t  |              FUNC|0000000c|     |.radar_text_flash
-read_last_bit_state |00354122|   t  |              FUNC|0000000c|     |.radar_text_flash
-radar_track_calc_win_res|0035412e|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_track_calc_dly_res|00354138|   T  |              FUNC|00000202|     |.radar_text_flash
-radar_track_get_dbg_info|0035433a|   T  |              FUNC|0000000a|     |.radar_text_flash
-radar_track_fusion_init|00354344|   T  |              FUNC|00000020|     |.radar_text_flash
-get_interpolation_proc_buffer|00354368|   T  |              FUNC|00000008|     |.radar_text_flash
-radar_ppl_trx_delay_comp|00354370|   T  |              FUNC|000000b6|     |.radar_text_flash
-radar_get_tsensor   |0035442c|   T  |              FUNC|00000004|     |.radar_text_flash
-radar_send_dbg_data |00354430|   T  |              FUNC|0000005c|     |.radar_text_flash
-fixed_reverse       |0035448c|   t  |              FUNC|00000046|     |.radar_text_flash
-filter_filtering    |003544d2|   t  |              FUNC|000000ac|     |.radar_text_flash
-radar_fir_filter    |0035457e|   T  |              FUNC|0000012c|     |.radar_text_flash
-radar_s64_right_shift|003546aa|   T  |              FUNC|0000003c|     |.radar_text_flash
-radar_s64_right_shift_round|003546e6|   T  |              FUNC|0000003e|     |.radar_text_flash
-radar_complex_mean_calc|00354724|   T  |              FUNC|00000056|     |.radar_text_flash
-radar_complex_abs_calc|0035477a|   T  |              FUNC|00000080|     |.radar_text_flash
-radar_linear2db     |003547fa|   T  |              FUNC|00000088|     |.radar_text_flash
-on_bit_h            |00354882|   T  |              FUNC|0000001c|     |.radar_text_flash
-off_bit_h           |0035489e|   T  |              FUNC|00000020|     |.radar_text_flash
-get_bit_sum         |003548be|   T  |              FUNC|0000002e|     |.radar_text_flash
-read_bit_val_h      |003548ec|   T  |              FUNC|00000018|     |.radar_text_flash
-radar_calc_vld_distance|00354904|   T  |              FUNC|00000064|     |.radar_text_flash
-on_bit_l            |00354968|   T  |              FUNC|00000018|     |.radar_text_flash
-off_bit_l           |00354980|   T  |              FUNC|0000001c|     |.radar_text_flash
-read_bit_val_l      |0035499c|   T  |              FUNC|00000014|     |.radar_text_flash
-radar_conjugate     |003549b0|   T  |              FUNC|0000001a|     |.radar_text_flash
-at_radar_set_sts    |003549f0|   T  |              FUNC|00000014|     |.radar_text_flash
-at_radar_get_sts    |00354a04|   T  |              FUNC|00000016|     |.radar_text_flash
-at_radar_set_para   |00354a1a|   T  |              FUNC|00000038|     |.radar_text_flash
-at_radar_alg_ctrl   |00354a52|   T  |              FUNC|00000032|     |.radar_text_flash
-at_radar_alg_para   |00354a84|   T  |              FUNC|0000004a|     |.radar_text_flash
-at_radar_set_dly_time|00354ace|   T  |              FUNC|00000014|     |.radar_text_flash
-at_radar_get_dly_time|00354ae2|   T  |              FUNC|00000016|     |.radar_text_flash
-at_radar_get_isolation|00354af8|   T  |              FUNC|00000016|     |.radar_text_flash
-at_radar_set_led_gear|00354b0e|   T  |              FUNC|00000016|     |.radar_text_flash
-los_at_radar_cmd_register|00354b24|   T  |              FUNC|0000000a|     |.radar_text_flash
-at_radar_cmd_parse_table|00354b30|   T  |            OBJECT|000000fc|     |.radar_text_flash
-radaralgctrl_syntax |00354c2c|   T  |            OBJECT|0000003c|     |.radar_text_flash
-radaralgpara_syntax |00354c68|   T  |            OBJECT|0000006c|     |.radar_text_flash
-radarsetdlytime_syntax|00354cd4|   T  |            OBJECT|0000000c|     |.radar_text_flash
-radarsetledgear_syntax|00354ce0|   T  |            OBJECT|0000000c|     |.radar_text_flash
-radarsetpara_syntax |00354cec|   T  |            OBJECT|00000048|     |.radar_text_flash
-radarsetst_syntax   |00354d34|   T  |            OBJECT|0000000c|     |.radar_text_flash
-uapi_at_radar_register_cmd|00354dae|   T  |              FUNC|0000001e|     |.radar_text_flash
-at_radar_cmd_register|00354dcc|   T  |              FUNC|00000002|     |.radar_text_flash
-radar_ai_conv2_forward|00354df0|   T  |              FUNC|0000006a|     |.radar_ai_text_flash
-radar_ai_conv_forward|00354e5a|   T  |              FUNC|0000008e|     |.radar_ai_text_flash
-radar_ai_fc_forward |00354ee8|   T  |              FUNC|0000004c|     |.radar_ai_text_flash
-lstm_gate           |00354f34|   t  |              FUNC|00000054|     |.radar_ai_text_flash
-multi_arr.constprop.0|00354f88|   t  |              FUNC|0000001c|     |.radar_ai_text_flash
-radar_ai_lstm_forward|00354fa4|   T  |              FUNC|000000ba|     |.radar_ai_text_flash
-radar_ai_min_max_norm_zero_one.constprop.2|0035505e|   t  |              FUNC|00000060|     |.radar_ai_text_flash
-radar_ai_model_preprocess_init|003550be|   T  |              FUNC|0000001e|     |.radar_ai_text_flash
-radar_ai_preproc    |003550dc|   T  |              FUNC|000002d2|     |.radar_ai_text_flash
-radar_ai_conv2_proc |003553d8|   t  |              FUNC|00000084|     |.radar_ai_text_flash
-radar_ai_lstm_proc.constprop.1|0035545c|   t  |              FUNC|000000c6|     |.radar_ai_text_flash
-radar_ai_conv_proc.constprop.2|00355522|   t  |              FUNC|0000005e|     |.radar_ai_text_flash
-radar_ai_model_init |00355580|   T  |              FUNC|00000040|     |.radar_ai_text_flash
-radar_fpl_ai_proc   |003555c0|   T  |              FUNC|0000039a|     |.radar_ai_text_flash
-radar_ai_get_res    |0035595a|   T  |              FUNC|0000000a|     |.radar_ai_text_flash
-radar_ai_get_similarity|00355964|   T  |              FUNC|0000000a|     |.radar_ai_text_flash
-radar_ai_pool_forward|00357318|   T  |              FUNC|00000036|     |.radar_ai_text_flash
-radar_ai_add_arr    |0035734e|   T  |              FUNC|0000001e|     |.radar_ai_text_flash
-radar_ai_sigmoid    |0035736c|   T  |              FUNC|0000004c|     |.radar_ai_text_flash
-radar_ai_tanh       |003573b8|   T  |              FUNC|00000020|     |.radar_ai_text_flash
-radar_ai_relu_matrix|003573d8|   T  |              FUNC|0000001e|     |.radar_ai_text_flash
-radar_ai_norm_data  |003573f6|   T  |              FUNC|000000a2|     |.radar_ai_text_flash
-radar_ai_multi_weight|00357498|   T  |              FUNC|00000034|     |.radar_ai_text_flash
-radar_ai_get_data_slice|003574cc|   T  |              FUNC|0000001c|     |.radar_ai_text_flash
-uapi_adc_init       |003574f0|   T  |              FUNC|0000003e|     |.text
-uapi_adc_power_en   |0035752e|   T  |              FUNC|0000002c|     |.text
-uapi_adc_auto_scan_ch_enable|0035755a|   T  |              FUNC|00000068|     |.text
-uapi_adc_auto_scan_ch_disable|003575c2|   T  |              FUNC|0000001a|     |.text
-uapi_gpio_init      |003575dc|   T  |              FUNC|00000016|     |.text
-uapi_gpio_set_dir   |003575f2|   T  |              FUNC|0000003a|     |.text
-uapi_gpio_get_dir   |0035762c|   T  |              FUNC|00000012|     |.text
-uapi_gpio_set_val   |0035763e|   T  |              FUNC|00000032|     |.text
-uapi_gpio_get_val   |00357670|   T  |              FUNC|00000012|     |.text
-i2c_evt_callback    |00357682|   t  |              FUNC|00000004|     |.text
-i2c_wait.isra.10.constprop.17|00357686|   t  |              FUNC|0000008a|     |.text
-i2c_read_pre_check.part.1|00357710|   t  |              FUNC|00000024|     |.text
-i2c_write_pre_check.part.0|00357710|   t  |              FUNC|00000024|     |.text
-uapi_i2c_master_init|00357734|   T  |              FUNC|00000058|     |.text
-uapi_i2c_master_write|0035778c|   T  |              FUNC|000000e6|     |.text
-uapi_i2c_master_read|00357872|   T  |              FUNC|000000d4|     |.text
-uapi_pmp_config     |00357946|   T  |              FUNC|00000074|     |.text
-inner_drv_cipher_wait_func|003579ba|   t  |              FUNC|00000024|     |.text
-inner_drv_cipher_symc_crypto_for_ctr|003579de|   t  |              FUNC|0000011e|     |.text
-drv_cipher_symc_create.part.4|00357afc|   t  |              FUNC|00000070|     |.text
-inner_drv_cipher_symc_crypto_for_others|00357b6c|   t  |              FUNC|00000242|     |.text
-inner_symc_drv_handle_chk|00357dae|   T  |              FUNC|0000001c|     |.text
-inner_get_symc_ctx  |00357dca|   T  |              FUNC|00000018|     |.text
-drv_cipher_symc_init|00357de2|   T  |              FUNC|0000002a|     |.text
-drv_cipher_symc_deinit|00357e0c|   T  |              FUNC|0000002a|     |.text
-drv_cipher_symc_create|00357e36|   T  |              FUNC|0000000e|     |.text
-drv_cipher_symc_destroy|00357e44|   T  |              FUNC|0000002c|     |.text
-inner_symc_cfg_param_check|00357e70|   T  |              FUNC|000000de|     |.text
-drv_cipher_symc_set_config|00357f4e|   T  |              FUNC|00000164|     |.text
-drv_cipher_symc_get_config|003580b2|   T  |              FUNC|000000ae|     |.text
-drv_cipher_symc_attach|00358160|   T  |              FUNC|00000040|     |.text
-drv_cipher_symc_get_tag|003581a0|   T  |              FUNC|00000100|     |.text
-drv_cipher_dma_copy |003582a0|   T  |              FUNC|00000082|     |.text
-inner_drv_get_mac_ctx|00358322|   T  |              FUNC|0000005c|     |.text
-inner_drv_set_mac_ctx|0035837e|   T  |              FUNC|0000005a|     |.text
-inner_drv_symc_crypto_chk|003583d8|   T  |              FUNC|00000052|     |.text
-inner_drv_cipher_symc_crypto|0035842a|   t  |              FUNC|0000014c|     |.text
-drv_cipher_symc_encrypt|00358576|   T  |              FUNC|00000004|     |.text
-drv_cipher_symc_decrypt|0035857a|   T  |              FUNC|00000004|     |.text
-inner_mac_process   |0035857e|   t  |              FUNC|0000003e|     |.text
-drv_cipher_mac_start|003585bc|   T  |              FUNC|000000c4|     |.text
-drv_cipher_mac_update|00358680|   T  |              FUNC|00000106|     |.text
-drv_cipher_mac_finish|00358786|   T  |              FUNC|00000162|     |.text
-crypto_malloc_mmz   |003588e8|   T  |              FUNC|00000012|     |.text
-crypto_free_coherent|003588fa|   T  |              FUNC|0000000e|     |.text
-crypto_get_phys_addr|00358908|   T  |              FUNC|0000000e|     |.text
-crypto_smmu_support |00358916|   T  |              FUNC|0000000e|     |.text
-crypto_malloc_coherent|00358924|   T  |              FUNC|00000020|     |.text
-drv_cipher_register_func|00358944|   T  |              FUNC|00000028|     |.text
-crypto_get_cpu_type |0035896c|   T  |              FUNC|00000010|     |.text
-crypto_rsa_support  |0035897c|   T  |              FUNC|00000004|     |.text
-crypto_hash_support |00358980|   T  |              FUNC|00000004|     |.text
-crypto_symc_support |00358984|   T  |              FUNC|00000004|     |.text
-crypto_dump_data    |00358988|   T  |              FUNC|00000002|     |.text
-crypto_get_multi_random|0035898a|   W  |              FUNC|00000004|     |.text
-crypto_virt_xor_phys_copy_to_phys|0035898e|   W  |              FUNC|00000032|     |.text
-crypto_virt_copy_to_phys|003589c0|   W  |              FUNC|0000001c|     |.text
-crypto_phys_copy_to_virt|003589dc|   W  |              FUNC|0000001c|     |.text
-crypto_get_value_by_index|003589f8|   T  |              FUNC|0000002a|     |.text
-drv_cipher_hash_init|00358a22|   T  |              FUNC|0000003c|     |.text
-drv_hash_get_state_iv|00358a5e|   T  |              FUNC|0000002a|     |.text
-inner_hash_drv_handle_chk|00358a88|   T  |              FUNC|0000001c|     |.text
-drv_cipher_hash_update|00358aa4|   T  |              FUNC|000001da|     |.text
-inner_hash_finish_common|00358c7e|   t  |              FUNC|0000019c|     |.text
-drv_cipher_hash_finish|00358e1a|   T  |              FUNC|00000004|     |.text
-drv_cipher_hash_finish_data|00358e1e|   T  |              FUNC|00000004|     |.text
-drv_cipher_hash_get |00358e22|   T  |              FUNC|000000a4|     |.text
-drv_cipher_hash_set |00358ec6|   T  |              FUNC|000000d2|     |.text
-drv_cipher_hash_destroy|00358f98|   T  |              FUNC|00000052|     |.text
-drv_cipher_hash_deinit|00358fea|   T  |              FUNC|00000054|     |.text
-inner_hash_start_param_chk|0035903e|   T  |              FUNC|0000007c|     |.text
-drv_cipher_hash_start|003590ba|   T  |              FUNC|0000013e|     |.text
-priv_kdf_output_key |003591f8|   t  |              FUNC|0000005e|     |.text
-priv_kdf_calculation|00359256|   t  |              FUNC|0000016c|     |.text
-drv_cipher_pbkdf2   |003593c2|   T  |              FUNC|00000122|     |.text
-drv_cipher_trng_init|003594e4|   T  |              FUNC|0000001a|     |.text
-drv_cipher_trng_get_random|003594fe|   T  |              FUNC|00000020|     |.text
-drv_cipher_trng_get_multi_random|0035951e|   T  |              FUNC|0000006c|     |.text
-drv_cipher_trng_deinit|0035958a|   T  |              FUNC|00000016|     |.text
-drv_keyslot_init    |003595a0|   T  |              FUNC|00000004|     |.text
-drv_keyslot_deinit  |003595a4|   T  |              FUNC|00000004|     |.text
-drv_keyslot_create  |003595a8|   T  |              FUNC|00000056|     |.text
-drv_keyslot_destroy |003595fe|   T  |              FUNC|00000036|     |.text
-drv_klad_create     |00359634|   T  |              FUNC|00000030|     |.text
-drv_klad_destroy    |00359664|   T  |              FUNC|0000002c|     |.text
-drv_klad_attach     |00359690|   T  |              FUNC|0000005c|     |.text
-drv_klad_detach     |003596ec|   T  |              FUNC|0000003a|     |.text
-drv_klad_set_attr   |00359726|   T  |              FUNC|00000066|     |.text
-drv_klad_set_clear_key|0035978c|   T  |              FUNC|00000038|     |.text
-crypto_curve_param_init|003597c4|   T  |              FUNC|0000000e|     |.text
-drv_cipher_pke_init_ecc_param|003597d2|   T  |              FUNC|00000012|     |.text
-drv_cipher_pke_init |003597e4|   T  |              FUNC|00000012|     |.text
-drv_cipher_pke_deinit|003597f6|   T  |              FUNC|00000012|     |.text
-drv_cipher_pke_ecdsa_sign|00359808|   T  |              FUNC|00000030|     |.text
-drv_cipher_pke_ecdsa_verify|00359838|   T  |              FUNC|00000030|     |.text
-curve_ecfp_mul_dot  |00359868|   W  |              FUNC|00000008|     |.text
-ed_ecfp_mul_naf     |00359870|   W  |              FUNC|00000008|     |.text
-ed_secret_to_public |00359878|   W  |              FUNC|00000008|     |.text
-crypto_drv_pke_common_sm2_sign|00359880|   W  |              FUNC|00000008|     |.text
-crypto_drv_pke_common_sm2_verify|00359888|   W  |              FUNC|00000008|     |.text
-priv_get_hkdf_table_item|00359890|   t  |              FUNC|00000062|     |.text
-inner_hkdf_hmac     |003598f2|   t  |              FUNC|00000060|     |.text
-inner_hkdf_key_config|00359952|   t  |              FUNC|000000b0|     |.text
-kapi_cipher_hkdf_extract|00359a02|   T  |              FUNC|000000c0|     |.text
-kapi_cipher_hkdf_expand|00359ac2|   T  |              FUNC|0000017c|     |.text
-kapi_cipher_hkdf    |00359c3e|   T  |              FUNC|000000aa|     |.text
-inner_kapi_free_hash_ctx|00359ce8|   t  |              FUNC|00000054|     |.text
-inner_kapi_get_hash_ctx|00359d3c|   t  |              FUNC|00000028|     |.text
-kapi_cipher_hash_env_init|00359d64|   T  |              FUNC|00000020|     |.text
-kapi_cipher_hash_env_deinit|00359d84|   T  |              FUNC|00000042|     |.text
-kapi_cipher_hash_init|00359dc6|   T  |              FUNC|00000004|     |.text
-kapi_cipher_hash_deinit|00359dca|   T  |              FUNC|00000004|     |.text
-kapi_cipher_hash_start|00359dce|   T  |              FUNC|0000010c|     |.text
-kapi_cipher_hash_update|00359eda|   T  |              FUNC|00000084|     |.text
-kapi_cipher_hash_finish|00359f5e|   T  |              FUNC|00000084|     |.text
-kapi_cipher_hash_get|00359fe2|   T  |              FUNC|0000003a|     |.text
-kapi_cipher_hash_set|0035a01c|   T  |              FUNC|00000038|     |.text
-kapi_cipher_hash_destroy|0035a054|   T  |              FUNC|00000034|     |.text
-kapi_cipher_pbkdf2  |0035a088|   T  |              FUNC|0000002a|     |.text
-kapi_env_init       |0035a0b2|   T  |              FUNC|00000032|     |.text
-kapi_env_deinit     |0035a0e4|   T  |              FUNC|00000012|     |.text
-kapi_cipher_pke_env_init|0035a0f6|   T  |              FUNC|00000020|     |.text
-kapi_cipher_pke_env_deinit|0035a116|   T  |              FUNC|00000014|     |.text
-kapi_pke_ecc_gen_key|0035a12a|   T  |              FUNC|0000002e|     |.text
-kapi_pke_ecdsa_sign |0035a158|   T  |              FUNC|0000002e|     |.text
-kapi_pke_ecdsa_verify|0035a186|   T  |              FUNC|0000002e|     |.text
-kapi_pke_ecc_gen_ecdh_key|0035a1b4|   T  |              FUNC|0000002e|     |.text
-kapi_pke_rsa_sign   |0035a1e2|   T  |              FUNC|00000032|     |.text
-kapi_pke_rsa_verify |0035a214|   T  |              FUNC|00000032|     |.text
-kapi_pke_rsa_public_encrypt|0035a246|   T  |              FUNC|00000036|     |.text
-kapi_pke_rsa_private_decrypt|0035a27c|   T  |              FUNC|00000036|     |.text
-priv_symc_handle_check|0035a2b2|   t  |              FUNC|00000020|     |.text
-priv_release_symc_soft_chn|0035a2d2|   t  |              FUNC|00000026|     |.text
-priv_get_current_symc_channel|0035a2f8|   t  |              FUNC|00000020|     |.text
-priv_drv_lock_destroy|0035a318|   t  |              FUNC|0000001e|     |.text
-priv_occupy_symc_soft_chn|0035a336|   t  |              FUNC|0000006e|     |.text
-inner_kapi_cipher_symc_crypto|0035a3a4|   t  |              FUNC|0000007a|     |.text
-kapi_cipher_symc_crypto.part.0|0035a41e|   t  |              FUNC|0000010c|     |.text
-kapi_cipher_symc_env_init|0035a52a|   T  |              FUNC|00000052|     |.text
-kapi_cipher_symc_env_deinit|0035a57c|   T  |              FUNC|00000080|     |.text
-kapi_cipher_symc_init|0035a5fc|   T  |              FUNC|000000fa|     |.text
-kapi_cipher_symc_deinit|0035a6f6|   T  |              FUNC|00000070|     |.text
-kapi_cipher_symc_create|0035a766|   T  |              FUNC|000000d8|     |.text
-kapi_cipher_symc_destroy|0035a83e|   T  |              FUNC|0000005c|     |.text
-kapi_cipher_symc_set_config|0035a89a|   T  |              FUNC|0000010c|     |.text
-kapi_cipher_symc_get_config|0035a9a6|   T  |              FUNC|000000b0|     |.text
-kapi_cipher_symc_attach|0035aa56|   T  |              FUNC|00000074|     |.text
-kapi_cipher_symc_encrypt|0035aaca|   T  |              FUNC|00000048|     |.text
-kapi_cipher_symc_decrypt|0035ab12|   T  |              FUNC|00000048|     |.text
-kapi_cipher_symc_get_tag|0035ab5a|   T  |              FUNC|000000b8|     |.text
-kapi_cipher_mac_start|0035ac12|   T  |              FUNC|000000d6|     |.text
-kapi_cipher_mac_update|0035ace8|   T  |              FUNC|000000fe|     |.text
-kapi_cipher_mac_finish|0035ade6|   T  |              FUNC|000000d0|     |.text
-kapi_cipher_trng_env_init|0035aeb6|   T  |              FUNC|00000016|     |.text
-kapi_cipher_trng_env_deinit|0035aecc|   T  |              FUNC|00000014|     |.text
-kapi_cipher_trng_get_random|0035aee0|   T  |              FUNC|00000012|     |.text
-kapi_cipher_trng_get_multi_random|0035aef2|   T  |              FUNC|0000000e|     |.text
-inner_keyslot_get_ctx|0035af00|   t  |              FUNC|00000046|     |.text
-inner_klad_handle_chk|0035af46|   t  |              FUNC|00000020|     |.text
-crypto_get_owner    |0035af66|   t  |              FUNC|0000000e|     |.text
-kapi_km_env_init    |0035af74|   T  |              FUNC|00000034|     |.text
-kapi_km_env_deinit  |0035afa8|   T  |              FUNC|0000004e|     |.text
-kapi_km_deinit      |0035aff6|   T  |              FUNC|00000090|     |.text
-kapi_keyslot_create |0035b086|   T  |              FUNC|00000074|     |.text
-kapi_keyslot_destroy|0035b0fa|   T  |              FUNC|0000005a|     |.text
-kapi_klad_create    |0035b154|   T  |              FUNC|0000005e|     |.text
-kapi_klad_destroy   |0035b1b2|   T  |              FUNC|00000060|     |.text
-kapi_klad_attach    |0035b212|   T  |              FUNC|000000a0|     |.text
-kapi_klad_detach    |0035b2b2|   T  |              FUNC|000000b0|     |.text
-kapi_klad_set_attr  |0035b362|   T  |              FUNC|0000009e|     |.text
-kapi_klad_set_clear_key|0035b400|   T  |              FUNC|0000011c|     |.text
-crypto_sl_common_get_errcode|0035b51c|   T  |              FUNC|00000018|     |.text
-uapi_drv_cipher_trng_get_random|0035b534|   T  |              FUNC|00000008|     |.text
-uapi_drv_cipher_trng_get_random_bytes|0035b53c|   T  |              FUNC|0000000e|     |.text
-uapi_drv_cipher_hash_init|0035b54a|   T  |              FUNC|0000000a|     |.text
-uapi_drv_cipher_hash_deinit|0035b554|   T  |              FUNC|0000000a|     |.text
-uapi_drv_cipher_hash_start|0035b55e|   T  |              FUNC|00000034|     |.text
-uapi_drv_cipher_hash_update|0035b592|   T  |              FUNC|00000030|     |.text
-uapi_drv_cipher_hash_finish|0035b5c2|   T  |              FUNC|0000000a|     |.text
-uapi_drv_cipher_pke_ecc_gen_key|0035b5cc|   T  |              FUNC|0000000a|     |.text
-uapi_drv_cipher_pke_ecc_gen_ecdh_key|0035b5d6|   T  |              FUNC|0000000a|     |.text
-uapi_drv_km_init    |0035b5e0|   T  |              FUNC|00000004|     |.text
-uapi_drv_km_deinit  |0035b5e4|   T  |              FUNC|00000008|     |.text
-uapi_drv_keyslot_create|0035b5ec|   T  |              FUNC|00000008|     |.text
-uapi_drv_keyslot_destroy|0035b5f4|   T  |              FUNC|00000008|     |.text
-uapi_drv_klad_create|0035b5fc|   T  |              FUNC|00000008|     |.text
-uapi_drv_klad_destroy|0035b604|   T  |              FUNC|00000008|     |.text
-uapi_drv_klad_attach|0035b60c|   T  |              FUNC|00000008|     |.text
-uapi_drv_klad_detach|0035b614|   T  |              FUNC|00000008|     |.text
-uapi_drv_klad_set_attr|0035b61c|   T  |              FUNC|00000050|     |.text
-uapi_drv_klad_set_clear_key|0035b66c|   T  |              FUNC|00000050|     |.text
-uapi_drv_cipher_env_init|0035b6bc|   T  |              FUNC|00000002|     |.text
-uapi_drv_cipher_sha256_start|0035b6be|   T  |              FUNC|00000018|     |.text
-uapi_drv_cipher_sha256_update|0035b6d6|   T  |              FUNC|0000001e|     |.text
-uapi_drv_cipher_sha256_finish|0035b6f4|   T  |              FUNC|00000002|     |.text
-inner_get_phys_addr |0035b6f6|   t  |              FUNC|00000002|     |.text
-liteos_get_cpu_type |0035b6f8|   t  |              FUNC|00000004|     |.text
-liteos_get_pke_rom_lib_start_addr|0035b6fc|   t  |              FUNC|00000006|     |.text
-inner_free_coherent |0035b702|   t  |              FUNC|00000004|     |.text
-inner_malloc_coherent|0035b706|   t  |              FUNC|0000000a|     |.text
-crypto_drv_mod_init |0035b710|   T  |              FUNC|0000007a|     |.text
-crypto_wait_func_is_support|0035b78a|   T  |              FUNC|00000020|     |.text
-crypto_irq_init     |0035b7aa|   T  |              FUNC|00000004|     |.text
-drv_cipher_pke_mul_dot|0035b7ae|   T  |              FUNC|00000054|     |.text
-kapi_pke_mul_dot    |0035b802|   T  |              FUNC|0000001c|     |.text
-drv_cipher_pke_exp_mod|0035b81e|   T  |              FUNC|00000004|     |.text
-drv_get_hash_len    |0035b822|   t  |              FUNC|0000002c|     |.text
-rsa_get_bit_num     |0035b84e|   t  |              FUNC|00000050|     |.text
-pkcs1_get_hash      |0035b89e|   t  |              FUNC|00000052|     |.text
-pkcs1_mgf           |0035b8f0|   t  |              FUNC|000000c8|     |.text
-pke_rsa_decrypt     |0035b9b8|   t  |              FUNC|0000016a|     |.text
-pkcs1_pss_hash.isra.0|0035bb22|   t  |              FUNC|00000052|     |.text
-pkcs1_pss_verify    |0035bb74|   t  |              FUNC|000000e8|     |.text
-get_random          |0035bc5c|   t  |              FUNC|00000042|     |.text
-pke_rsa_encrypt     |0035bc9e|   t  |              FUNC|00000164|     |.text
-drv_cipher_pke_rsa_sign|0035be02|   T  |              FUNC|00000280|     |.text
-drv_cipher_pke_rsa_verify|0035c082|   T  |              FUNC|000001f4|     |.text
-drv_cipher_pke_rsa_public_encrypt|0035c276|   T  |              FUNC|000000be|     |.text
-drv_cipher_pke_rsa_private_decrypt|0035c334|   T  |              FUNC|000000be|     |.text
-crypto_drv_pke_common_ecc_sign|0035c3f2|   T  |              FUNC|00000194|     |.text
-crypto_drv_pke_common_ecc_verify|0035c586|   T  |              FUNC|0000014c|     |.text
-drv_cipher_pke_ecc_gen_ecdh_key|0035c6d2|   T  |              FUNC|000000d0|     |.text
-drv_cipher_pke_ecc_gen_key|0035c7a2|   T  |              FUNC|00000126|     |.text
-init_adapt_func     |0035c8c8|   t  |              FUNC|00000004|     |.text
-deinit_adapt_func   |0035c8cc|   t  |              FUNC|00000004|     |.text
-mbedtls_adapt_register_func|0035c8d0|   T  |              FUNC|00000016|     |.text
-mbedtls_alt_ecp_mul_impl|0035c8e6|   T  |              FUNC|00000004|     |.text
-mbedtls_alt_ecdsa_sign_impl|0035c8ea|   T  |              FUNC|00000020|     |.text
-mbedtls_alt_ecdsa_verify_impl|0035c90a|   T  |              FUNC|00000020|     |.text
-mbedtls_alt_ecdh_compute_shared_impl|0035c92a|   T  |              FUNC|00000004|     |.text
-mbedtls_alt_ecdsa_genkey_impl|0035c92e|   T  |              FUNC|0000000a|     |.text
-mbedtls_alt_ecp_init|0035c938|   T  |              FUNC|0000001a|     |.text
-mbedtls_alt_hash_start_impl|0035c952|   T  |              FUNC|00000036|     |.text
-mbedtls_alt_hash_update_impl|0035c988|   T  |              FUNC|0000004c|     |.text
-mbedtls_alt_hash_finish_impl|0035c9d4|   T  |              FUNC|00000040|     |.text
-mbedtls_alt_pkcs5_pbkdf2_hmac_impl|0035ca14|   T  |              FUNC|0000001c|     |.text
-mbedtls_alt_hash_init|0035ca30|   T  |              FUNC|00000056|     |.text
-mbedlts_adapt_aes_crypto|0035ca86|   t  |              FUNC|000000ce|     |.text
-mbedtls_alt_aes_decrypt_impl|0035cb54|   T  |              FUNC|00000048|     |.text
-mbedtls_alt_aes_encrypt_impl|0035cb9c|   T  |              FUNC|00000048|     |.text
-mbedtls_alt_aes_ctr_crypt_impl|0035cbe4|   T  |              FUNC|000000d8|     |.text
-mbedtls_alt_aes_cbc_decrypt_impl|0035ccbc|   T  |              FUNC|0000006c|     |.text
-mbedtls_alt_aes_cbc_encrypt_impl|0035cd28|   T  |              FUNC|0000006c|     |.text
-mbedtls_alt_aes_ofb_crypt_impl|0035cd94|   T  |              FUNC|000000d4|     |.text
-mbedtls_alt_aes_init|0035ce68|   T  |              FUNC|00000076|     |.text
-hal_adc_register_funcs|0035cede|   T  |              FUNC|00000016|     |.text
-hal_adc_get_funcs   |0035cef4|   T  |              FUNC|0000000a|     |.text
-hal_adc_reg_fifo_data_get|0035cefe|   t  |              FUNC|00000012|     |.text
-hal_adc_offset_cali_data_spi_refresh|0035cf10|   t  |              FUNC|00000018|     |.text
-hal_adc_offset_cali_enable|0035cf28|   t  |              FUNC|00000014|     |.text
-hal_adc_cfg_offset_cali_data_enable|0035cf3c|   t  |              FUNC|00000012|     |.text
-hal_adc_start_sample|0035cf4e|   t  |              FUNC|00000012|     |.text
-hal_adc_stop_sample |0035cf60|   t  |              FUNC|00000012|     |.text
-hal_adc_v154_deinit |0035cf72|   t  |              FUNC|00000004|     |.text
-hal_adc_v154_auto_scan_enable|0035cf76|   t  |              FUNC|0000001a|     |.text
-hal_adc_v154_auto_scan_is_enabled|0035cf90|   t  |              FUNC|0000000a|     |.text
-hal_adc_v154_manual_sample|0035cf9a|   t  |              FUNC|00000004|     |.text
-hal_adc_v154_init   |0035cf9e|   t  |              FUNC|0000000e|     |.text
-hal_adc_v154_channel_set|0035cfac|   T  |              FUNC|00000048|     |.text
-hal_adc_v154_auto_scan_ch_config|0035cff4|   t  |              FUNC|00000026|     |.text
-hal_adc_v154_auto_scan_ch_enable|0035d01a|   t  |              FUNC|000000f8|     |.text
-adc_port_calibration|0035d112|   T  |              FUNC|0000013a|     |.text
-hal_adc_v154_power_en|0035d24c|   t  |              FUNC|000000f0|     |.text
-hal_adc_irq_handler |0035d33c|   T  |              FUNC|0000003e|     |.text
-hal_adc_v154_funcs_get|0035d37a|   T  |              FUNC|00000008|     |.text
-hal_adc_v154_regs_init|0035d382|   T  |              FUNC|0000001e|     |.text
-hal_adc_auto_scan_mode_set|0035d3a0|   T  |              FUNC|0000007c|     |.text
-hal_i2c_v150_master_write_restore|0035d41c|   t  |              FUNC|00000016|     |.text
-hal_i2c_v150_master_cfg_target_addr|0035d432|   t  |              FUNC|00000056|     |.text
-hal_i2c_v150_master_read_prepeare|0035d488|   t  |              FUNC|00000032|     |.text
-hal_i2c_v150_master_read_restore|0035d4ba|   t  |              FUNC|00000016|     |.text
-hal_i2c_v150_master_write_prepeare|0035d4d0|   t  |              FUNC|00000032|     |.text
-hal_i2c_master_init |0035d502|   W  |              FUNC|0000008c|     |.text
-hal_i2c_v150_master_init|0035d502|   T  |              FUNC|0000008c|     |.text
-hal_i2c_v150_set_command|0035d58e|   t  |              FUNC|00000016|     |.text
-hal_i2c_v150_wait   |0035d5a4|   t  |              FUNC|0000007a|     |.text
-hal_i2c_v150_stop   |0035d61e|   t  |              FUNC|00000022|     |.text
-hal_i2c_v150_get_ctrl_info|0035d640|   T  |              FUNC|0000000c|     |.text
-hal_i2c_v150_load_ctrl_func|0035d64c|   T  |              FUNC|0000000e|     |.text
-hal_i2c_v150_register_callback|0035d65a|   T  |              FUNC|0000000a|     |.text
-hal_i2c_v150_ctrl_check_default|0035d664|   T  |              FUNC|00000008|     |.text
-hal_i2c_v150_ctrl_check_default_false|0035d66c|   T  |              FUNC|00000008|     |.text
-hal_i2c_v150_ctrl_proc_default|0035d674|   T  |              FUNC|00000004|     |.text
-hal_i2c_v150_get_write_num|0035d678|   T  |              FUNC|00000008|     |.text
-hal_i2c_v150_get_read_num|0035d680|   T  |              FUNC|00000008|     |.text
-hal_i2c_v150_send_byte|0035d688|   T  |              FUNC|0000003c|     |.text
-hal_i2c_v150_receive_byte|0035d6c4|   T  |              FUNC|00000048|     |.text
-hal_i2c_v150_write  |0035d70c|   T  |              FUNC|00000040|     |.text
-hal_i2c_write       |0035d70c|   W  |              FUNC|00000040|     |.text
-hal_i2c_read        |0035d74c|   W  |              FUNC|0000002e|     |.text
-hal_i2c_v150_read   |0035d74c|   T  |              FUNC|0000002e|     |.text
-hal_i2c_v150_cfg_clk|0035d77a|   T  |              FUNC|00000052|     |.text
-hal_i2c_ctrl        |0035d7cc|   W  |              FUNC|0000002a|     |.text
-hal_i2c_v150_ctrl   |0035d7cc|   T  |              FUNC|0000002a|     |.text
-hal_i2c_v150_regs_init|0035d7f6|   T  |              FUNC|00000016|     |.text
-hal_i2c_v150_reset_all_regs|0035d80c|   T  |              FUNC|00000042|     |.text
-crypto_osal_get_phys_addr|0035d84e|   T  |              FUNC|0000000a|     |.text
-crypto_cache_flush  |0035d858|   T  |              FUNC|00000004|     |.text
-crypto_cache_all    |0035d85c|   T  |              FUNC|00000004|     |.text
-crypto_data_buf_check|0035d860|   T  |              FUNC|00000004|     |.text
-memset_enhance      |0035d864|   T  |              FUNC|00000010|     |.text
-memcpy_enhance      |0035d874|   T  |              FUNC|00000010|     |.text
-crypto_drv_pke_common_get_ecc_curve|0035d884|   T  |              FUNC|0000002c|     |.text
-crypto_drv_pke_common_arry_right_shift_value|0035d8b0|   T  |              FUNC|0000004c|     |.text
-crypto_drv_pke_common_array_add_plus_minus_one|0035d8fc|   T  |              FUNC|0000005a|     |.text
-crypto_drv_pke_common_montgomery_data_config|0035d956|   T  |              FUNC|0000002e|     |.text
-crypto_drv_pke_common_is_zero|0035d984|   T  |              FUNC|00000036|     |.text
-crypto_drv_pke_common_convert_normal_scalar_to_naf|0035d9ba|   T  |              FUNC|0000008c|     |.text
-crypto_drv_pke_common_array_sub_value|0035da46|   T  |              FUNC|0000001c|     |.text
-crypto_drv_pke_common_byte_stream_to_int_array|0035da62|   T  |              FUNC|00000060|     |.text
-crypto_drv_pke_common_normal_add|0035dac2|   T  |              FUNC|0000014e|     |.text
-normal_sub          |0035dc10|   T  |              FUNC|000000a8|     |.text
-crypto_drv_pke_common_set_mont_param|0035dcb8|   T  |              FUNC|0000011a|     |.text
-crypto_drv_pke_common_set_ecc_mont_param|0035ddd2|   T  |              FUNC|00000082|     |.text
-crypto_drv_pke_common_batch_instr_process|0035de54|   T  |              FUNC|00000022|     |.text
-crypto_drv_pke_common_jac_to_aff_cal|0035de76|   T  |              FUNC|00000074|     |.text
-crypto_drv_pke_common_point_mul_naf|0035deea|   T  |              FUNC|00000092|     |.text
-crypto_drv_pke_common_calc_hash|0035df7c|   T  |              FUNC|0000008c|     |.text
-crypto_drv_pke_common_resume|0035e008|   T  |              FUNC|00000016|     |.text
-crypto_drv_pke_common_suspend|0035e01e|   T  |              FUNC|0000000c|     |.text
-crypto_drv_pke_common_limit_value_check|0035e02a|   T  |              FUNC|0000002a|     |.text
-crypto_drv_pke_common_range_check|0035e054|   T  |              FUNC|0000001e|     |.text
-crypto_drv_pke_common_init_param|0035e072|   T  |              FUNC|00000042|     |.text
-ecc_ecfp_jac_to_aff |0035e0b4|   T  |              FUNC|00000060|     |.text
-ecc_ecfp_montgomery_data_aff|0035e114|   T  |              FUNC|000000bc|     |.text
-ecc_ecfp_demontgomery_data_aff|0035e1d0|   T  |              FUNC|00000038|     |.text
-update_modulus      |0035e208|   T  |              FUNC|0000002c|     |.text
-ecc_ecfn_inv        |0035e234|   T  |              FUNC|000000e4|     |.text
-pke_lock_condition  |0035e318|   T  |              FUNC|00000022|     |.text
-wait_free_condition |0035e33a|   T  |              FUNC|0000001a|     |.text
-hal_pke_calc_int_enable|0035e354|   T  |              FUNC|00000020|     |.text
-hal_pke_calc_int_disable|0035e374|   T  |              FUNC|0000001e|     |.text
-hal_pke_check_robust_warn|0035e392|   T  |              FUNC|00000022|     |.text
-hal_pke_error_code  |0035e3b4|   T  |              FUNC|00000014|     |.text
-check_instr_rdy     |0035e3c8|   T  |              FUNC|00000042|     |.text
-hal_pke_start_pre_process|0035e40a|   T  |              FUNC|00000028|     |.text
-hal_pke_start0      |0035e432|   T  |              FUNC|00000016|     |.text
-hal_pke_start1      |0035e448|   T  |              FUNC|00000016|     |.text
-hal_pke_batch_start |0035e45e|   T  |              FUNC|00000014|     |.text
-hal_pke_wait_free   |0035e472|   T  |              FUNC|00000054|     |.text
-hal_pke_wait_free_int|0035e4c6|   T  |              FUNC|0000002c|     |.text
-hal_pke_init        |0035e4f2|   T  |              FUNC|00000014|     |.text
-hal_pke_deinit      |0035e506|   T  |              FUNC|0000001c|     |.text
-get_lock_code       |0035e522|   T  |              FUNC|0000003a|     |.text
-hal_pke_lock        |0035e55c|   T  |              FUNC|00000076|     |.text
-hal_pke_unlock      |0035e5d2|   T  |              FUNC|00000016|     |.text
-hal_pke_enable_noise|0035e5e8|   T  |              FUNC|00000014|     |.text
-hal_pke_disable_noise|0035e5fc|   T  |              FUNC|00000010|     |.text
-hal_pke_pre_process |0035e60c|   T  |              FUNC|00000034|     |.text
-hal_pke_check_free  |0035e640|   T  |              FUNC|00000028|     |.text
-hal_pke_set_ram     |0035e668|   T  |              FUNC|0000009c|     |.text
-hal_pke_get_ram     |0035e704|   T  |              FUNC|00000084|     |.text
-hal_pke_clean_ram   |0035e788|   T  |              FUNC|00000016|     |.text
-hal_pke_set_mode    |0035e79e|   T  |              FUNC|0000006c|     |.text
-hal_pke_start       |0035e80a|   T  |              FUNC|0000001e|     |.text
-hal_pke_wait_done   |0035e828|   T  |              FUNC|00000026|     |.text
-hal_pke_get_align_val|0035e84e|   T  |              FUNC|0000006e|     |.text
-hal_pke_set_mont_para|0035e8bc|   T  |              FUNC|00000014|     |.text
-hal_pke_set_ecc_param|0035e8d0|   T  |              FUNC|000000a8|     |.text
-hal_pke_set_init_param|0035e978|   T  |              FUNC|0000001e|     |.text
-hal_hash_condition  |0035e996|   t  |              FUNC|0000001c|     |.text
-hal_cipher_hash_init|0035e9b2|   T  |              FUNC|0000005a|     |.text
-hal_hash_unlock     |0035ea0c|   T  |              FUNC|00000020|     |.text
-hal_cipher_hash_deinit|0035ea2c|   T  |              FUNC|0000003e|     |.text
-hal_cipher_hash_config|0035ea6a|   T  |              FUNC|000000de|     |.text
-hal_cipher_hash_attach|0035eb48|   T  |              FUNC|00000028|     |.text
-hal_cipher_hash_add_in_node|0035eb70|   T  |              FUNC|00000070|     |.text
-hal_cipher_hash_start|0035ebe0|   T  |              FUNC|00000094|     |.text
-hal_cipher_hash_done_try|0035ec74|   T  |              FUNC|0000001a|     |.text
-hal_hash_lock       |0035ec8e|   T  |              FUNC|000000fa|     |.text
-hal_hash_debug_chn  |0035ed88|   T  |              FUNC|0000001e|     |.text
-hal_cipher_hash_wait_done|0035eda6|   T  |              FUNC|00000142|     |.text
-priv_set_in_node    |0035eee8|   t  |              FUNC|0000003c|     |.text
-hal_cipher_symc_out_node_done_try|0035ef24|   t  |              FUNC|0000002c|     |.text
-hal_symc_condition  |0035ef50|   t  |              FUNC|0000001e|     |.text
-hal_wait_in_node_done|0035ef6e|   t  |              FUNC|00000038|     |.text
-inner_spacc_interrupt_enable|0035efa6|   t  |              FUNC|0000002c|     |.text
-hal_cipher_symc_clear_channel|0035efd2|   t  |              FUNC|0000007a|     |.text
-hal_cipher_symc_init|0035f04c|   T  |              FUNC|00000054|     |.text
-hal_cipher_symc_unlock_chn|0035f0a0|   T  |              FUNC|00000040|     |.text
-hal_cipher_symc_deinit|0035f0e0|   T  |              FUNC|0000003a|     |.text
-hal_cipher_symc_attach|0035f11a|   T  |              FUNC|00000028|     |.text
-hal_cipher_symc_set_iv|0035f142|   T  |              FUNC|00000036|     |.text
-hal_cipher_symc_get_iv|0035f178|   T  |              FUNC|00000038|     |.text
-hal_cipher_symc_get_config|0035f1b0|   T  |              FUNC|0000001c|     |.text
-hal_cipher_symc_start|0035f1cc|   T  |              FUNC|000000c0|     |.text
-hal_cipher_symc_done_try|0035f28c|   T  |              FUNC|00000028|     |.text
-hal_cipher_symc_lock_chn|0035f2b4|   T  |              FUNC|00000130|     |.text
-hal_cipher_symc_add_out_node|0035f3e4|   T  |              FUNC|00000098|     |.text
-hal_cipher_symc_debug_chn|0035f47c|   T  |              FUNC|0000004e|     |.text
-hal_cipher_symc_wait_noout_done|0035f4ca|   t  |              FUNC|00000038|     |.text
-hal_cipher_symc_gcm_mac_update|0035f502|   t  |              FUNC|00000094|     |.text
-hal_cipher_symc_ccm_mac_update|0035f596|   t  |              FUNC|00000082|     |.text
-hal_cipher_symc_add_in_node|0035f618|   T  |              FUNC|000001ce|     |.text
-hal_cipher_symc_get_tag|0035f7e6|   T  |              FUNC|000000da|     |.text
-hal_cipher_symc_wait_done|0035f8c0|   T  |              FUNC|00000198|     |.text
-hal_cipher_symc_config|0035fa58|   T  |              FUNC|000002d6|     |.text
-hal_cipher_set_chn_secure|0035fd2e|   T  |              FUNC|00000002|     |.text
-hal_cipher_trng_init|0035fd30|   T  |              FUNC|0000003c|     |.text
-hal_cipher_trng_deinit|0035fd6c|   T  |              FUNC|0000000e|     |.text
-hal_cipher_trng_get_random|0035fd7a|   T  |              FUNC|00000062|     |.text
-hal_rkp_lock        |0035fddc|   T  |              FUNC|0000003e|     |.text
-hal_rkp_unlock      |0035fe1a|   T  |              FUNC|00000010|     |.text
-hal_rkp_kdf_set_val |0035fe2a|   T  |              FUNC|00000032|     |.text
-hal_rkp_kdf_set_padding_salt|0035fe5c|   T  |              FUNC|00000030|     |.text
-hal_rkp_kdf_set_padding_key|0035fe8c|   T  |              FUNC|00000030|     |.text
-hal_rkp_kdf_sw_start|0035febc|   T  |              FUNC|0000004c|     |.text
-hal_rkp_kdf_wait_done|0035ff08|   T  |              FUNC|00000040|     |.text
-hal_rkp_clear_reg_key|0035ff48|   T  |              FUNC|0000004c|     |.text
-inner_kslot_chn_is_locked|0035ff94|   t  |              FUNC|00000036|     |.text
-inner_chk_kslot_busy|0035ffca|   t  |              FUNC|0000002a|     |.text
-inner_kslot_is_busy |0035fff4|   t  |              FUNC|00000014|     |.text
-hal_keyslot_lock    |00360008|   T  |              FUNC|0000008e|     |.text
-hal_keyslot_unlock  |00360096|   T  |              FUNC|000000ac|     |.text
-hal_klad_clear_data |00360142|   t  |              FUNC|00000026|     |.text
-inner_klad_set_key_odd|00360168|   t  |              FUNC|00000018|     |.text
-inner_klad_wait_clr_route_done|00360180|   t  |              FUNC|0000004e|     |.text
-hal_klad_set_key_crypto_cfg|003601ce|   T  |              FUNC|0000005a|     |.text
-hal_klad_set_key_dest_cfg|00360228|   T  |              FUNC|00000032|     |.text
-hal_klad_set_key_secure_cfg|0036025a|   T  |              FUNC|00000052|     |.text
-hal_klad_set_key_addr|003602ac|   T  |              FUNC|00000032|     |.text
-hal_klad_set_data   |003602de|   T  |              FUNC|00000038|     |.text
-hal_klad_start_clr_route|00360316|   T  |              FUNC|00000156|     |.text
-get_valid_bit       |0036046c|   t  |              FUNC|0000001a|     |.text
-rsa_rrn             |00360486|   T  |              FUNC|000000b2|     |.text
-update_rsa_modulus  |00360538|   T  |              FUNC|0000004c|     |.text
-rsa_exp_mod         |00360584|   T  |              FUNC|000001e6|     |.text
-ecc_ecfn_add_mod    |0036076a|   T  |              FUNC|0000006c|     |.text
-get_random_key      |003607d6|   T  |              FUNC|000000a2|     |.text
-ecc_ecfp_aff_to_jac |00360878|   T  |              FUNC|000000c4|     |.text
-ecc_ecfp_mul_naf_cal|0036093c|   T  |              FUNC|0000005c|     |.text
-ecc_ecfp_mul_naf    |00360998|   T  |              FUNC|00000102|     |.text
-ecc_ecfn_sign_s     |00360a9a|   T  |              FUNC|00000096|     |.text
-ecc_ecfp_mul_add    |00360b30|   T  |              FUNC|0000021c|     |.text
-ecc_ecfn_verify_u   |00360d4c|   T  |              FUNC|00000098|     |.text
-ecc_ecfn_verify_v   |00360de4|   T  |              FUNC|00000084|     |.text
-irq_adc_handler     |00360e68|   t  |              FUNC|0000000a|     |.text
-adc_porting_base_addr_get|00360e72|   T  |              FUNC|00000006|     |.text
-cldo_addr_get       |00360e78|   T  |              FUNC|00000008|     |.text
-adc_port_clock_enable|00360e80|   T  |              FUNC|00000002|     |.text
-adc_port_init_clock |00360e82|   T  |              FUNC|00000002|     |.text
-adc_port_register_hal_funcs|00360e84|   T  |              FUNC|0000000c|     |.text
-adc_port_register_irq|00360e90|   T  |              FUNC|00000038|     |.text
-adc_port_power_on   |00360ec8|   T  |              FUNC|00000002|     |.text
-adc_port_get_cali_param|00360eca|   T  |              FUNC|0000002c|     |.text
-reboot_port_reboot_chip|00360ef6|   T  |              FUNC|00000022|     |.text
-print_version       |00360f18|   T  |              FUNC|00000010|     |.text
-cmu_xo_trim_temp_comp_timer_proc|00360f28|   t  |              FUNC|000000b2|     |.text
-cmu_xo_trim_init    |00360fda|   T  |              FUNC|000000a0|     |.text
-cmu_xo_trim_temp_comp_init|0036107a|   T  |              FUNC|0000009e|     |.text
-partition_get_addr  |00361118|   T  |              FUNC|00000008|     |.text
-partition_get_path_map|00361120|   T  |              FUNC|0000000c|     |.text
-zdiag_adapt_nv_read |0036112c|   T  |              FUNC|00000076|     |.text
-zdiag_adapt_nv_write|003611a2|   T  |              FUNC|0000004c|     |.text
-print_mac_addr      |003611ee|   t  |              FUNC|00000036|     |.text
-mac_addr_is_zero    |00361224|   t  |              FUNC|00000018|     |.text
-mac_addr_nv_check   |0036123c|   t  |              FUNC|00000058|     |.text
-get_dev_addr        |00361294|   T  |              FUNC|00000184|     |.text
-set_dev_addr        |00361418|   T  |              FUNC|00000094|     |.text
-init_dev_addr       |003614ac|   T  |              FUNC|0000009e|     |.text
-mfg_flash_erase     |0036154a|   T  |              FUNC|0000003a|     |.text
-mfg_flash_read      |00361584|   T  |              FUNC|00000044|     |.text
-mfg_flash_write_info|003615c8|   T  |              FUNC|000000f6|     |.text
-mfg_flash_write     |003616be|   T  |              FUNC|00000042|     |.text
-mfg_get_region_config|00361700|   T  |              FUNC|00000020|     |.text
-mfg_factory_mode_switch|00361720|   T  |              FUNC|00000066|     |.text
-log_uart_trigger    |00361786|   T  |              FUNC|0000000c|     |.text
-log_uart_init_after_rtos|00361792|   T  |              FUNC|00000046|     |.text
-log_main            |003617d8|   T  |              FUNC|00000092|     |.text
-dfx_print_get_level |0036186a|   T  |              FUNC|0000000a|     |.text
-dfx_print_set_level |00361874|   T  |              FUNC|0000000e|     |.text
-uapi_partition_init |00361882|   T  |              FUNC|00000072|     |.text
-uapi_partition_get_info|003618f4|   T  |              FUNC|00000078|     |.text
-sle_chba_user_cmd_start|0036196c|   T  |              FUNC|00000042|     |.text
-sle_chba_user_cmd_conn_update|003619ae|   T  |              FUNC|00000030|     |.text
-sle_chba_user_init  |003619de|   T  |              FUNC|00000002|     |.text
-sle_chba_user_send_msg_malloc|003619e0|   T  |              FUNC|00000036|     |.text
-sle_chba_user_msg_init|00361a16|   T  |              FUNC|00000024|     |.text
-sle_chba_get_status |00361a3a|   t  |              FUNC|0000001e|     |.text
-sle_chba_user_conn_state_cb|00361a58|   t  |              FUNC|00000186|     |.text
-sle_chba_user_get_info|00361bde|   t  |              FUNC|000000c6|     |.text
-sle_chba_user_read_rssi|00361ca4|   t  |              FUNC|00000046|     |.text
-sle_chba_user_scan_enable_cb|00361cea|   t  |              FUNC|00000040|     |.text
-sle_chba_user_adv_enable_cb|00361d2a|   t  |              FUNC|00000048|     |.text
-sle_chba_user_disconn|00361d72|   t  |              FUNC|0000007a|     |.text
-sle_chba_user_register_cbks|00361dec|   t  |              FUNC|000000c8|     |.text
-sle_chba_user_scan_report_cb|00361eb4|   t  |              FUNC|000000c0|     |.text
-sle_chba_user_create_connection|00361f74|   t  |              FUNC|0000009a|     |.text
-sle_chba_user_scan_disable_cb|0036200e|   t  |              FUNC|00000072|     |.text
-sle_chba_user_read_rssi_cb|00362080|   t  |              FUNC|00000078|     |.text
-sle_chba_user_start_sta|003620f8|   t  |              FUNC|000001cc|     |.text
-sle_chba_user_start_ap|003622c4|   t  |              FUNC|00000154|     |.text
-sle_chba_user_process_message|00362418|   T  |              FUNC|00000096|     |.text
-sle_chba_user_check_status_change|003624ae|   T  |              FUNC|00000174|     |.text
-sle_chba_user_set_phy_cb|00362622|   t  |              FUNC|00000046|     |.text
-sle_chba_user_pair_complete_cb|00362668|   t  |              FUNC|00000088|     |.text
-sle_chba_user_conn_update_cb|003626f0|   t  |              FUNC|00000046|     |.text
-sle_at_chba_update  |00362736|   T  |              FUNC|00000012|     |.text
-sle_at_chba_sle_disconn|00362748|   T  |              FUNC|0000000a|     |.text
-sle_at_chba_state   |00362752|   T  |              FUNC|0000000c|     |.text
-sle_at_chba_start   |0036275e|   T  |              FUNC|00000022|     |.text
-sle_at_chba_register|00362780|   T  |              FUNC|0000000c|     |.text
-sle_chba_netdev_set_hwaddr_cb|0036278c|   t  |              FUNC|00000004|     |.text
-sle_chba_netdev_wake_queue|00362790|   t  |              FUNC|0000003e|     |.text
-sle_chba_netdev_stop_queue|003627ce|   t  |              FUNC|0000002e|     |.text
-sle_chba_netdev_rx_to_buffer|003627fc|   t  |              FUNC|000000a2|     |.text
-sle_chba_netdev_rx_buffer_process|0036289e|   t  |              FUNC|00000236|     |.text
-sle_chba_netdev_hci_recv|00362ad4|   T  |              FUNC|0000010e|     |.text
-sle_chba_netdev_save_2_tx_buffer.isra.1|00362be2|   t  |              FUNC|00000136|     |.text
-sle_chba_netdev_send_data.isra.3|00362d18|   t  |              FUNC|0000006e|     |.text
-sle_chba_netdev_send_to_device|00362d86|   t  |              FUNC|00000246|     |.text
-sle_chba_netdev_driver_send|00362fcc|   T  |              FUNC|0000007a|     |.text
-sle_chba_netdev_get |00363046|   T  |              FUNC|0000000a|     |.text
-sle_chba_netdev_switch|00363050|   T  |              FUNC|00000090|     |.text
-sle_chba_netdev_set_mac_address|003630e0|   T  |              FUNC|0000001c|     |.text
-sle_chba_netdev_ndo_start_xmit|003630fc|   T  |              FUNC|00000086|     |.text
-sle_chba_netdev_enable|00363182|   T  |              FUNC|00000156|     |.text
-sle_chba_netdev_info_show|003632d8|   T  |              FUNC|00000152|     |.text
-sle_chba_user_msg_register|0036342a|   T  |              FUNC|0000000c|     |.text
-sle_chba_netdev2user_send_msg|00363436|   T  |              FUNC|00000016|     |.text
-sle_chba_user_rssi  |0036344c|   t  |              FUNC|00000032|     |.text
-sle_chba_user_conn_sts|0036347e|   t  |              FUNC|0000008e|     |.text
-sle_chba_user_hello |0036350c|   t  |              FUNC|00000014|     |.text
-sle_chba_user_info  |00363520|   t  |              FUNC|000000a4|     |.text
-sle_chba_user2netdev_send_msg|003635c4|   T  |              FUNC|000000ac|     |.text
-sle_chba_achba_get_info_ptr|00363670|   T  |              FUNC|00000008|     |.text
-sle_chba_achba_get_peer_info_ptr|00363678|   T  |              FUNC|00000008|     |.text
-sle_chba_netdev_achba_switch_link_rsp_proc|00363680|   T  |              FUNC|0000002a|     |.text
-sle_chba_achba_control_switch_link_rsp|003636aa|   T  |              FUNC|0000001c|     |.text
-sle_chba_achba_rssi_report|003636c6|   T  |              FUNC|00000022|     |.text
-sle_chba_achba_disconn|003636e8|   T  |              FUNC|00000064|     |.text
-sle_chba_netdev_msg_thread|0036374c|   t  |              FUNC|000000da|     |.text
-sle_chba_netdev_msg_task_create|00363826|   T  |              FUNC|00000034|     |.text
-sle_chba_send_msg_to_proc_thread|0036385a|   T  |              FUNC|0000008e|     |.text
-sle_chba_send_br    |003638e8|   T  |              FUNC|000000a8|     |.text
-achba_sle_achba_ops_get|00363990|   T  |              FUNC|00000008|     |.text
-g_hash_state        |00363a00|   t  |            OBJECT|00000090|     |.text
-g_sha1_ival         |00363a90|   t  |            OBJECT|00000014|     |.text
-g_sha224_ival       |00363aa4|   t  |            OBJECT|00000020|     |.text
-g_sha256_ival       |00363ac4|   t  |            OBJECT|00000020|     |.text
-g_sha384_ival       |00363ae4|   t  |            OBJECT|00000040|     |.text
-g_sha512_ival       |00363b24|   t  |            OBJECT|00000040|     |.text
-g_sm3_ival          |00363b64|   t  |            OBJECT|00000020|     |.text
-hash_state_table    |00363b84|   t  |            OBJECT|00000090|     |.text
-g_hash_to_kdf_sw    |00363c14|   t  |            OBJECT|00000028|     |.text
-ecc_brainpool_256r1_a|00363c3c|   t  |            OBJECT|00000020|     |.text
-ecc_brainpool_256r1_b|00363c5c|   t  |            OBJECT|00000020|     |.text
-ecc_brainpool_256r1_gx|00363c7c|   t  |            OBJECT|00000020|     |.text
-ecc_brainpool_256r1_gy|00363c9c|   t  |            OBJECT|00000020|     |.text
-ecc_brainpool_256r1_mont_1_n|00363cbc|   t  |            OBJECT|00000020|     |.text
-ecc_brainpool_256r1_mont_1_p|00363cdc|   t  |            OBJECT|00000020|     |.text
-ecc_brainpool_256r1_mont_a|00363cfc|   t  |            OBJECT|00000020|     |.text
-ecc_brainpool_256r1_mont_b|00363d1c|   t  |            OBJECT|00000020|     |.text
-ecc_brainpool_256r1_mont_param_n|00363d3c|   t  |            OBJECT|00000008|     |.text
-ecc_brainpool_256r1_mont_param_p|00363d44|   t  |            OBJECT|00000008|     |.text
-ecc_brainpool_256r1_n|00363d4c|   t  |            OBJECT|00000020|     |.text
-ecc_brainpool_256r1_p|00363d6c|   t  |            OBJECT|00000020|     |.text
-ecc_brainpool_256r1_rrn|00363d8c|   t  |            OBJECT|00000020|     |.text
-ecc_brainpool_256r1_rrp|00363dac|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p192_a     |00363dcc|   t  |            OBJECT|00000018|     |.text
-ecc_nist_p192_b     |00363de4|   t  |            OBJECT|00000018|     |.text
-ecc_nist_p192_gx    |00363dfc|   t  |            OBJECT|00000018|     |.text
-ecc_nist_p192_gy    |00363e14|   t  |            OBJECT|00000018|     |.text
-ecc_nist_p192_mont_1_n|00363e2c|   t  |            OBJECT|00000018|     |.text
-ecc_nist_p192_mont_1_p|00363e44|   t  |            OBJECT|00000018|     |.text
-ecc_nist_p192_mont_a|00363e5c|   t  |            OBJECT|00000018|     |.text
-ecc_nist_p192_mont_b|00363e74|   t  |            OBJECT|00000018|     |.text
-ecc_nist_p192_mont_param_n|00363e8c|   t  |            OBJECT|00000008|     |.text
-ecc_nist_p192_mont_param_p|00363e94|   t  |            OBJECT|00000008|     |.text
-ecc_nist_p192_n     |00363e9c|   t  |            OBJECT|00000018|     |.text
-ecc_nist_p192_p     |00363eb4|   t  |            OBJECT|00000018|     |.text
-ecc_nist_p192_rrn   |00363ecc|   t  |            OBJECT|00000018|     |.text
-ecc_nist_p192_rrp   |00363ee4|   t  |            OBJECT|00000018|     |.text
-ecc_nist_p224_a     |00363efc|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p224_b     |00363f1c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p224_gx    |00363f3c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p224_gy    |00363f5c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p224_mont_1_n|00363f7c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p224_mont_1_p|00363f9c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p224_mont_a|00363fbc|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p224_mont_b|00363fdc|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p224_mont_param_n|00363ffc|   t  |            OBJECT|00000008|     |.text
-ecc_nist_p224_mont_param_p|00364004|   t  |            OBJECT|00000008|     |.text
-ecc_nist_p224_n     |0036400c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p224_p     |0036402c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p224_rrn   |0036404c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p224_rrp   |0036406c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p256_a     |0036408c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p256_b     |003640ac|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p256_gx    |003640cc|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p256_gy    |003640ec|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p256_mont_1_n|0036410c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p256_mont_1_p|0036412c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p256_mont_a|0036414c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p256_mont_b|0036416c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p256_mont_param_n|0036418c|   t  |            OBJECT|00000008|     |.text
-ecc_nist_p256_mont_param_p|00364194|   t  |            OBJECT|00000008|     |.text
-ecc_nist_p256_n     |0036419c|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p256_p     |003641bc|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p256_rrn   |003641dc|   t  |            OBJECT|00000020|     |.text
-ecc_nist_p256_rrp   |003641fc|   t  |            OBJECT|00000020|     |.text
-g_brainpool_256r1_init_param|0036421c|   t  |            OBJECT|00000028|     |.text
-g_brainpool_256r1_param|00364244|   t  |            OBJECT|00000024|     |.text
-g_const_0           |00364268|   t  |            OBJECT|00000048|     |.text
-g_const_1           |003642b0|   t  |            OBJECT|00000048|     |.text
-g_crypto_ecc_num    |003642f8|   T  |            OBJECT|00000004|     |.text
-g_crypto_ecc_params |003642fc|   T  |            OBJECT|00000020|     |.text
-g_nist_p192_init_param|0036431c|   t  |            OBJECT|00000028|     |.text
-g_nist_p192_param   |00364344|   T  |            OBJECT|00000024|     |.text
-g_nist_p224_init_param|00364368|   t  |            OBJECT|00000028|     |.text
-g_nist_p224_param   |00364390|   t  |            OBJECT|00000024|     |.text
-g_nist_p256_init_param|003643b4|   t  |            OBJECT|00000028|     |.text
-g_nist_p256_param   |003643dc|   t  |            OBJECT|00000024|     |.text
-g_hkdf_hmac_table   |00364400|   t  |            OBJECT|00000078|     |.text
-g_asn1_sha1         |00364478|   t  |            OBJECT|0000000f|     |.text
-g_asn1_sha224       |00364488|   t  |            OBJECT|00000013|     |.text
-g_asn1_sha256       |0036449c|   t  |            OBJECT|00000013|     |.text
-g_asn1_sha384       |003644b0|   t  |            OBJECT|00000013|     |.text
-g_asn1_sha512       |003644c4|   t  |            OBJECT|00000013|     |.text
-g_bits              |003644d8|   t  |            OBJECT|00000010|     |.text
-g_empty_l_sha1      |003644e8|   t  |            OBJECT|00000014|     |.text
-g_empty_l_sha224    |003644fc|   t  |            OBJECT|0000001c|     |.text
-g_empty_l_sha256    |00364518|   t  |            OBJECT|00000020|     |.text
-g_empty_l_sha384    |00364538|   t  |            OBJECT|00000030|     |.text
-g_empty_l_sha512    |00364568|   t  |            OBJECT|00000040|     |.text
-g_pke_hash_properties|003645a8|   t  |            OBJECT|00000048|     |.text
-g_pke_pkcs1_hash    |003645f0|   t  |            OBJECT|00000064|     |.text
-CSWTCH.16           |00364654|   t  |            OBJECT|00000011|     |.text
-CSWTCH.112          |00364668|   t  |            OBJECT|00000006|     |.text
-CSWTCH.90           |0036469c|   t  |            OBJECT|00000018|     |.text
-ecc_addr_const_0    |003646b4|   T  |            OBJECT|00000004|     |.text
-ecc_addr_const_1    |003646b8|   T  |            OBJECT|00000004|     |.text
-ecc_addr_cx         |003646bc|   T  |            OBJECT|00000004|     |.text
-ecc_addr_cy         |003646c0|   T  |            OBJECT|00000004|     |.text
-ecc_addr_cz         |003646c4|   T  |            OBJECT|00000004|     |.text
-ecc_addr_d          |003646c8|   T  |            OBJECT|00000004|     |.text
-ecc_addr_e          |003646cc|   T  |            OBJECT|00000004|     |.text
-ecc_addr_gx         |003646d0|   T  |            OBJECT|00000004|     |.text
-ecc_addr_gy         |003646d4|   T  |            OBJECT|00000004|     |.text
-ecc_addr_k          |003646d8|   T  |            OBJECT|00000004|     |.text
-ecc_addr_m          |003646dc|   T  |            OBJECT|00000004|     |.text
-ecc_addr_mont_1_n   |003646e0|   T  |            OBJECT|00000004|     |.text
-ecc_addr_mont_1_p   |003646e4|   T  |            OBJECT|00000004|     |.text
-ecc_addr_mont_a     |003646e8|   T  |            OBJECT|00000004|     |.text
-ecc_addr_mont_b     |003646ec|   T  |            OBJECT|00000004|     |.text
-ecc_addr_n          |003646f0|   T  |            OBJECT|00000004|     |.text
-ecc_addr_p          |003646f4|   T  |            OBJECT|00000004|     |.text
-ecc_addr_px         |003646f8|   T  |            OBJECT|00000004|     |.text
-ecc_addr_py         |003646fc|   T  |            OBJECT|00000004|     |.text
-ecc_addr_r          |00364700|   T  |            OBJECT|00000004|     |.text
-ecc_addr_rrn        |00364704|   T  |            OBJECT|00000004|     |.text
-ecc_addr_rrp        |00364708|   T  |            OBJECT|00000004|     |.text
-ecc_addr_s          |0036470c|   T  |            OBJECT|00000004|     |.text
-ecc_addr_t          |00364710|   T  |            OBJECT|00000004|     |.text
-ecc_addr_u1         |00364714|   T  |            OBJECT|00000004|     |.text
-ecc_addr_u2         |00364718|   T  |            OBJECT|00000004|     |.text
-instr_ecfn_inv_exp_00|0036471c|   T  |            OBJECT|00000008|     |.text
-instr_ecfn_inv_exp_01|00364724|   T  |            OBJECT|00000008|     |.text
-instr_ecfn_inv_exp_10|0036472c|   T  |            OBJECT|00000008|     |.text
-instr_ecfn_inv_exp_11|00364734|   T  |            OBJECT|00000008|     |.text
-instr_ecfn_inv_pre_5|0036473c|   T  |            OBJECT|00000008|     |.text
-instr_ecfn_sign_s_12|00364744|   T  |            OBJECT|00000008|     |.text
-instr_ecfn_verify_u_10|0036474c|   T  |            OBJECT|00000008|     |.text
-instr_ecfn_verify_v_4|00364754|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_add_ja_verify_18|0036475c|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_cpy_a2c_3|00364764|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_cpy_g2c_3|0036476c|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_cpy_np2g_2|00364774|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_cpy_p2c_3|0036477c|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_demont_c_6|00364784|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_j2a_exp_00|0036478c|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_j2a_exp_01|00364794|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_j2a_exp_10|0036479c|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_j2a_exp_11|003647a4|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_j2a_post_4|003647ac|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_j2a_pre_5|003647b4|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_mont_p_2 |003647bc|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_mul_c_double_22|003647c4|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_mul_g_22_18|003647cc|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_mul_jj_22_23|003647d4|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_mul_p_22_18|003647dc|   T  |            OBJECT|00000008|     |.text
-instr_ecfp_prime_n_1|003647e4|   T  |            OBJECT|00000008|     |.text
-instr_rsa_exp_00    |003647ec|   T  |            OBJECT|00000008|     |.text
-instr_rsa_exp_01    |003647f4|   T  |            OBJECT|00000008|     |.text
-instr_rsa_exp_10    |003647fc|   T  |            OBJECT|00000008|     |.text
-instr_rsa_exp_11    |00364804|   T  |            OBJECT|00000008|     |.text
-instr_rsa_exp_post_3|0036480c|   T  |            OBJECT|00000008|     |.text
-instr_rsa_exp_pre_6 |00364814|   T  |            OBJECT|00000008|     |.text
-instr_rsa_rrn_add   |0036481c|   T  |            OBJECT|00000008|     |.text
-instr_rsa_rrn_add_3072|00364824|   T  |            OBJECT|00000008|     |.text
-instr_rsa_rrn_add_320|0036482c|   T  |            OBJECT|00000008|     |.text
-instr_rsa_rrn_mul   |00364834|   T  |            OBJECT|00000008|     |.text
-instr_sm2_verify_t_3|0036483c|   T  |            OBJECT|00000008|     |.text
-CSWTCH.40           |00364894|   t  |            OBJECT|00000011|     |.text
-rsa_addr_a          |003648a8|   T  |            OBJECT|00000004|     |.text
-rsa_addr_const_1    |003648ac|   T  |            OBJECT|00000004|     |.text
-rsa_addr_n          |003648b0|   T  |            OBJECT|00000004|     |.text
-rsa_addr_rr         |003648b4|   T  |            OBJECT|00000004|     |.text
-rsa_addr_s          |003648b8|   T  |            OBJECT|00000004|     |.text
-g_rrn_loop_table    |003648bc|   T  |            OBJECT|00000078|     |.text
-__FUNCTION__.4716   |00364c1c|   t  |            OBJECT|00000016|     |.text
-__FUNCTION__.4723   |00364c34|   t  |            OBJECT|00000019|     |.text
-__FUNCTION__.4731   |00364c50|   t  |            OBJECT|0000001c|     |.text
-__FUNCTION__.4738   |00364c6c|   t  |            OBJECT|0000001d|     |.text
-__FUNCTION__.4743   |00364c8c|   t  |            OBJECT|0000001c|     |.text
-__FUNCTION__.4747   |00364ca8|   t  |            OBJECT|0000001d|     |.text
-__FUNCTION__.4751   |00364cc8|   t  |            OBJECT|0000001e|     |.text
-__FUNCTION__.4757   |00364ce8|   t  |            OBJECT|0000001d|     |.text
-__FUNCTION__.4763   |00364d08|   t  |            OBJECT|0000001f|     |.text
-__FUNCTION__.4772   |00364d28|   t  |            OBJECT|0000001b|     |.text
-__FUNCTION__.4780   |00364d44|   t  |            OBJECT|0000001c|     |.text
-__FUNCTION__.4790   |00364d60|   t  |            OBJECT|00000021|     |.text
-__FUNCTION__.4795   |00364d84|   t  |            OBJECT|00000021|     |.text
-__FUNCTION__.4801   |00364da8|   t  |            OBJECT|00000020|     |.text
-__FUNCTION__.4812   |00364dc8|   t  |            OBJECT|00000019|     |.text
-__FUNCTION__.4821   |00364de4|   t  |            OBJECT|00000019|     |.text
-__FUNCTION__.4826   |00364e00|   t  |            OBJECT|00000016|     |.text
-__FUNCTION__.4839   |00364e18|   t  |            OBJECT|00000017|     |.text
-__FUNCTION__.4850   |00364e30|   t  |            OBJECT|00000017|     |.text
-__FUNCTION__.4858   |00364e48|   t  |            OBJECT|00000018|     |.text
-__FUNCTION__.4866   |00364e60|   t  |            OBJECT|00000016|     |.text
-__FUNCTION__.4873   |00364e78|   t  |            OBJECT|00000018|     |.text
-__FUNCTION__.4879   |00364e90|   t  |            OBJECT|00000020|     |.text
-__FUNCTION__.4887   |00364eb0|   t  |            OBJECT|0000001e|     |.text
-__func__.4849       |00364ed0|   t  |            OBJECT|00000017|     |.text
-__func__.4857       |00364ee8|   t  |            OBJECT|00000018|     |.text
-__func__.4864       |00364f00|   t  |            OBJECT|00000016|     |.text
-at_bt_cmd_chba_table|00365314|   T  |            OBJECT|00000070|     |.text
-sle_at_chba_start_syntax|00365384|   T  |            OBJECT|0000003c|     |.text
-sle_at_chba_update_syntax|003653c0|   T  |            OBJECT|00000024|     |.text
-__func__.12814      |00365414|   t  |            OBJECT|00000017|     |.text
-__func__.12899      |0036542c|   t  |            OBJECT|00000023|     |.text
-__func__.12910      |00365450|   t  |            OBJECT|00000020|     |.text
-__func__.12926      |00365470|   t  |            OBJECT|0000001d|     |.text
-__func__.12947      |00365490|   t  |            OBJECT|00000019|     |.text
-__func__.12965      |003654ac|   t  |            OBJECT|0000001c|     |.text
-__FUNCTION__.9009   |00365548|   t  |            OBJECT|00000013|     |.text
-__FUNCTION__.9018   |0036555c|   t  |            OBJECT|00000017|     |.text
-__FUNCTION__.9033   |00365574|   t  |            OBJECT|0000001e|     |.text
-__data_load__       |003655d0|   A  |            NOTYPE|        |     |*ABS*
-__text_end__        |003655d0|   T  |            NOTYPE|        |     |.text
+sle_uart_client_task|0034c68c|   T  |              FUNC|00000192|     |.bth_text_flash
+cfg_rx_gain         |0034c900|   t  |              FUNC|00000074|     |.radar_text_flash
+radar_get_agc_status|0034c974|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_hal_agc_cali  |0034c978|   T  |              FUNC|000001bc|     |.radar_text_flash
+radar_get_trx_dly_status|0034cb34|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_trx_dly_cali  |0034cb38|   T  |              FUNC|000000a2|     |.radar_text_flash
+g_radar_agc_code_table|0034cbe8|   t  |            OBJECT|0000001e|     |.radar_text_flash
+radar_hal_update_wifi_itf_systick|0034cc90|   T  |              FUNC|00000024|     |.radar_text_flash
+pulse_compression_time|0034ccb4|   t  |              FUNC|0000006e|     |.radar_text_flash
+hal_send_dbg_data   |0034cd22|   t  |              FUNC|00000088|     |.radar_text_flash
+radar_hal_get_scan_sts|0034cdaa|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_hal_set_scan_sts|0034cdb4|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_hal_get_hw_sts|0034cdbe|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_hal_get_isolation|0034cdc8|   T  |              FUNC|0000000c|     |.radar_text_flash
+radar_hal_get_trx_dly_cali_res|0034cdd4|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_hal_get_rx_gain|0034cdde|   T  |              FUNC|00000010|     |.radar_text_flash
+radar_hal_get_ppa_gain|0034cdee|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_hal_get_wave_peak|0034cdf2|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_hal_init_ori_wave|0034cdfc|   T  |              FUNC|00000056|     |.radar_text_flash
+radar_hal_init      |0034ce52|   T  |              FUNC|000000b4|     |.radar_text_flash
+radar_hal_pc_proc   |0034cf06|   T  |              FUNC|0000005c|     |.radar_text_flash
+radar_hal_proc_report_data|0034cf62|   T  |              FUNC|00000174|     |.radar_text_flash
+radar_hal_register_ppl_cb|0034d0d6|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_hal_init_data_pool|0034d0e0|   T  |              FUNC|00000028|     |.radar_text_flash
+radar_hal_set_wave_rept_times|0034d108|   T  |              FUNC|0000000c|     |.radar_text_flash
+get_data_push_addr  |0034d114|   T  |              FUNC|0000002a|     |.radar_text_flash
+resolve_chip_data   |0034d13e|   T  |              FUNC|00000016|     |.radar_text_flash
+coh_int_chip_data   |0034d154|   T  |              FUNC|00000066|     |.radar_text_flash
+radar_hal_push_data_buf|0034d1ba|   T  |              FUNC|0000007e|     |.radar_text_flash
+radar_hal_pop_data_buf|0034d238|   T  |              FUNC|00000074|     |.radar_text_flash
+radar_get_wave_arr  |0034d2ac|   T  |              FUNC|00000008|     |.radar_text_flash
+radar_get_down_samprate|0034d2b4|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_get_dac_wave_len|0034d2b8|   T  |              FUNC|00000006|     |.radar_text_flash
+radar_get_adc_wave_len|0034d2be|   T  |              FUNC|00000006|     |.radar_text_flash
+g_radar_wave        |0034d2c4|   t  |            OBJECT|00000800|     |.radar_text_flash
+radar_adl_mgr_init  |0034dac4|   T  |              FUNC|00000020|     |.radar_text_flash
+radar_adl_get_res   |0034dae4|   T  |              FUNC|00000008|     |.radar_text_flash
+radar_adl_alg_proc  |0034daec|   T  |              FUNC|0000007a|     |.radar_text_flash
+alg_res_2m_rpt      |0034db66|   t  |              FUNC|00000018|     |.radar_text_flash
+alg_res_other_rpt   |0034db7e|   t  |              FUNC|00000018|     |.radar_text_flash
+alg_res_no_target_rpt|0034db96|   t  |              FUNC|00000014|     |.radar_text_flash
+update_last_alg_res |0034dbaa|   t  |              FUNC|00000098|     |.radar_text_flash
+dispersion_1m_can_rpt.isra.2|0034dc42|   t  |              FUNC|00000010|     |.radar_text_flash
+dispersion_2m_can_rpt.isra.3|0034dc42|   t  |              FUNC|00000010|     |.radar_text_flash
+radar_get_radar_rpt_res|0034dc52|   T  |              FUNC|00000008|     |.radar_text_flash
+radar_fusion_res_init|0034dc5a|   T  |              FUNC|00000022|     |.radar_text_flash
+alg_res_fusion      |0034dc7c|   T  |              FUNC|000001ec|     |.radar_text_flash
+radar_res_whether_changed|0034de68|   T  |              FUNC|00000048|     |.radar_text_flash
+read_nv_param       |0034deb0|   t  |              FUNC|00000094|     |.radar_text_flash
+update_alg_param    |0034df44|   t  |              FUNC|00000042|     |.radar_text_flash
+radar_get_alg_param |0034df86|   T  |              FUNC|00000008|     |.radar_text_flash
+radar_alg_ctrl_init |0034df8e|   T  |              FUNC|0000004e|     |.radar_text_flash
+radar_get_alg_ctrl  |0034dfdc|   T  |              FUNC|00000008|     |.radar_text_flash
+radar_update_alg_param|0034dfe4|   T  |              FUNC|00000056|     |.radar_text_flash
+radar_update_alg_param_by_wifi_mode|0034e03a|   T  |              FUNC|00000040|     |.radar_text_flash
+radar_update_quit_time|0034e07a|   T  |              FUNC|0000003e|     |.radar_text_flash
+radar_use_fusion_ai |0034e0b8|   T  |              FUNC|0000000e|     |.radar_text_flash
+radar_update_alg_param_by_cmd|0034e0c6|   T  |              FUNC|00000140|     |.radar_text_flash
+g_key_id            |0034e208|   t  |            OBJECT|00000048|     |.radar_text_flash
+radar_spl_bitmap_proc_init|0034e458|   T  |              FUNC|0000001c|     |.radar_text_flash
+radar_spl_bitmap_proc|0034e474|   T  |              FUNC|0000027a|     |.radar_text_flash
+radar_spl_get_bitmap_info|0034e6ee|   T  |              FUNC|00000028|     |.radar_text_flash
+radar_cfar_cmp_increase|0034e716|   t  |              FUNC|00000008|     |.radar_text_flash
+radar_cfar_fix_win.part.2|0034e71e|   t  |              FUNC|00000124|     |.radar_text_flash
+radar_mti           |0034e842|   T  |              FUNC|000000be|     |.radar_text_flash
+radar_mti_multi_bin |0034e900|   T  |              FUNC|00000040|     |.radar_text_flash
+radar_mtd           |0034e940|   T  |              FUNC|00000016|     |.radar_text_flash
+radar_mtd_multi_bin |0034e956|   T  |              FUNC|00000034|     |.radar_text_flash
+radar_cfar_rng_1d   |0034e98a|   T  |              FUNC|00000150|     |.radar_text_flash
+radar_cfar_fix_win  |0034eada|   T  |              FUNC|0000001a|     |.radar_text_flash
+radar_cfar_multi_bin|0034eaf4|   T  |              FUNC|00000042|     |.radar_text_flash
+radar_spl_peak_extract|0034eb36|   T  |              FUNC|0000007e|     |.radar_text_flash
+radar_fpl_set_measure_data|0034ecd8|   T  |              FUNC|00000034|     |.radar_text_flash
+radar_fpl_cluster_init|0034ed0c|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_fpl_clean_cluster|0034ed16|   T  |              FUNC|00000136|     |.radar_text_flash
+radar_fpl_condense  |0034ee4c|   T  |              FUNC|000000f0|     |.radar_text_flash
+add_confirmer_point |0034ef4c|   t  |              FUNC|00000046|     |.radar_text_flash
+radar_fpl_confirmer_init|0034ef92|   T  |              FUNC|00000010|     |.radar_text_flash
+radar_fpl_get_confirmer_res|0034efa2|   T  |              FUNC|00000022|     |.radar_text_flash
+radar_fpl_get_continue_lost_res|0034efc4|   T  |              FUNC|0000001a|     |.radar_text_flash
+radar_dfx_set_dbg_type|0034efde|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_dfx_get_dbg_type|0034efe8|   T  |              FUNC|0000000a|     |.radar_text_flash
+rpt_dbg_val_init    |0034eff2|   t  |              FUNC|00000062|     |.radar_text_flash
+radar_dfx_get_dbg_info.part.0|0034f054|   t  |              FUNC|0000015e|     |.radar_text_flash
+radar_dfx_rpt_dbg_info_init|0034f1b2|   T  |              FUNC|00000024|     |.radar_text_flash
+radar_dfx_update_dbg_info|0034f1d6|   T  |              FUNC|0000010e|     |.radar_text_flash
+radar_ctrl_cmd_rst  |0034f2e4|   t  |              FUNC|0000001a|     |.radar_text_flash
+proc_radar_disable_reason|0034f2fe|   t  |              FUNC|0000009e|     |.radar_text_flash
+radar_ctrl_cmd_stop.part.0|0034f39c|   t  |              FUNC|0000005a|     |.radar_text_flash
+radar_ctrl_cmd_start|0034f3f6|   t  |              FUNC|0000005a|     |.radar_text_flash
+radar_get_rpt_hw_sts|0034f450|   T  |              FUNC|0000001a|     |.radar_text_flash
+radar_get_rpt_sts   |0034f46a|   T  |              FUNC|00000018|     |.radar_text_flash
+radar_set_ctrl_cmd  |0034f482|   T  |              FUNC|000000c8|     |.radar_text_flash
+radar_set_driver_para|0034f54a|   T  |              FUNC|0000005a|     |.radar_text_flash
+radar_driver_get_isolation|0034f5a4|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_driver_get_rx_gain|0034f5a8|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_driver_get_ppa_code|0034f5ac|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_driver_get_wave_peak|0034f5b0|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_driver_task   |0034f5b4|   T  |              FUNC|00000078|     |.radar_text_flash
+radar_init_driver_event|0034f94e|   T  |              FUNC|0000001c|     |.radar_text_flash
+radar_send_driver_event|0034f96a|   T  |              FUNC|0000001c|     |.radar_text_flash
+radar_recv_driver_event|0034f986|   T  |              FUNC|00000036|     |.radar_text_flash
+radar_init_feature_event|0034f9bc|   T  |              FUNC|0000001c|     |.radar_text_flash
+radar_send_feature_event|0034f9d8|   T  |              FUNC|0000001c|     |.radar_text_flash
+radar_recv_feature_event|0034f9f4|   T  |              FUNC|00000036|     |.radar_text_flash
+update_alg_res      |0034fa2a|   T  |              FUNC|000004a2|     |.radar_text_flash
+radar_set_dly_time  |0034fecc|   T  |              FUNC|0000003c|     |.radar_text_flash
+radar_get_dly_time  |0034ff08|   T  |              FUNC|00000018|     |.radar_text_flash
+radar_get_isolation |0034ff20|   T  |              FUNC|00000018|     |.radar_text_flash
+radar_set_ctrl_para |0034ff38|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_set_alg_ctrl_para|0034ff3c|   T  |              FUNC|00000016|     |.radar_text_flash
+init_feature_task   |0034ff52|   T  |              FUNC|00000046|     |.radar_text_flash
+radar_feature_stop_init|0034ff98|   T  |              FUNC|0000000c|     |.radar_text_flash
+radar_feature_rst_init|0034ffa4|   T  |              FUNC|00000034|     |.radar_text_flash
+radar_feature_task  |0034ffd8|   T  |              FUNC|0000004c|     |.radar_text_flash
+radar_fft_find_idx_11bit|0035029c|   t  |              FUNC|00000064|     |.radar_text_flash
+radar_fft_find_idx_10bit|00350300|   t  |              FUNC|00000058|     |.radar_text_flash
+radar_fft_find_idx_9bit|00350358|   t  |              FUNC|0000004a|     |.radar_text_flash
+radar_fft_find_idx_8bit|003503a2|   t  |              FUNC|00000044|     |.radar_text_flash
+radar_fft_find_idx_7bit|003503e6|   t  |              FUNC|00000036|     |.radar_text_flash
+radar_fft_find_idx_6bit|0035041c|   t  |              FUNC|00000030|     |.radar_text_flash
+radar_fft_s64_right_shift.constprop.1|0035044c|   t  |              FUNC|00000038|     |.radar_text_flash
+radar_fft_conj      |00350484|   T  |              FUNC|0000001a|     |.radar_text_flash
+radar_fft_complex   |0035049e|   T  |              FUNC|00000200|     |.radar_text_flash
+radar_fft_shift     |0035069e|   T  |              FUNC|0000005a|     |.radar_text_flash
+g_wn                |003506f8|   t  |            OBJECT|00001000|     |.radar_text_flash
+target_track_proc   |003516f8|   t  |              FUNC|0000003c|     |.radar_text_flash
+radar_fpl_mgr_init  |00351734|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_fpl_register_multi_target_rpt_cb|0035173e|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_fpl_alg_proc  |00351748|   T  |              FUNC|00000070|     |.radar_text_flash
+radar_asinc_interpolation|003517b8|   T  |              FUNC|00000078|     |.radar_text_flash
+matrix_transpose    |00351830|   t  |              FUNC|00000012|     |.radar_text_flash
+matrix_multiply_mismatch_size|00351842|   t  |              FUNC|0000002a|     |.radar_text_flash
+matrix_multiply     |0035186c|   t  |              FUNC|0000004e|     |.radar_text_flash
+matrix_add          |003518ba|   t  |              FUNC|0000002a|     |.radar_text_flash
+vector_subtract     |003518e4|   t  |              FUNC|00000016|     |.radar_text_flash
+radar_fpl_tracker_init|003518fa|   T  |              FUNC|00000024|     |.radar_text_flash
+radar_fpl_get_kalman_res|0035191e|   T  |              FUNC|00000256|     |.radar_text_flash
+g_measure_arr       |00351b74|   T  |            OBJECT|00000010|     |.radar_text_flash
+g_measure_covar_arr |00351b84|   T  |            OBJECT|00000010|     |.radar_text_flash
+g_trans_arr         |00351b94|   T  |            OBJECT|00000010|     |.radar_text_flash
+g_trans_covar_arr   |00351ba4|   T  |            OBJECT|00000010|     |.radar_text_flash
+radar_fpl_multi_target_mgr_init|00351bcc|   T  |              FUNC|0000004c|     |.radar_text_flash
+radar_multi_target_mgr_set_rls_bitmap|00351c18|   T  |              FUNC|00000010|     |.radar_text_flash
+radar_multi_target_mgr_clear_rls_bitmap|00351c28|   T  |              FUNC|00000010|     |.radar_text_flash
+radar_multi_target_mgr_inc_target_num|00351c38|   T  |              FUNC|00000012|     |.radar_text_flash
+radar_multi_target_mgr_dec_target_num|00351c4a|   T  |              FUNC|00000012|     |.radar_text_flash
+radar_fpl_update_all_trail|00351c5c|   T  |              FUNC|00000314|     |.radar_text_flash
+radar_fpl_get_multi_target_mgr|00351f70|   T  |              FUNC|00000008|     |.radar_text_flash
+cal_right_shift_pwr |00351f90|   t  |              FUNC|00000024|     |.radar_text_flash
+get_vld_distance    |00351fb4|   T  |              FUNC|00000016|     |.radar_text_flash
+update_meas_data_2d |00351fca|   T  |              FUNC|00000168|     |.radar_text_flash
+radar_spl_plot_extraction|00352132|   T  |              FUNC|000000e8|     |.radar_text_flash
+radar_spl_register_fpl_cb|0035221a|   T  |              FUNC|0000000a|     |.radar_text_flash
+cali_inv_get_update_flag|00352238|   t  |              FUNC|00000074|     |.radar_text_flash
+cali_inv_determine_whether_update|003522ac|   t  |              FUNC|00000054|     |.radar_text_flash
+radar_ppl_cali_inv_init|00352300|   T  |              FUNC|00000086|     |.radar_text_flash
+radar_ppl_get_dc_value|00352386|   T  |              FUNC|0000000e|     |.radar_text_flash
+radar_ppl_get_pwr_indicator|00352394|   T  |              FUNC|0000000e|     |.radar_text_flash
+radar_ppl_get_sign  |003523a2|   T  |              FUNC|00000008|     |.radar_text_flash
+radar_ppl_cali_dc   |003523aa|   T  |              FUNC|00000310|     |.radar_text_flash
+radar_ppl_cali_inv_phase|003526ba|   T  |              FUNC|000002ee|     |.radar_text_flash
+cube_copy_data_in_matrix|003529a8|   t  |              FUNC|00000020|     |.radar_text_flash
+radar_ppl_cube_push_subframe|003529c8|   T  |              FUNC|000001ec|     |.radar_text_flash
+radar_ppl_cube_init |00352bb4|   T  |              FUNC|00000032|     |.radar_text_flash
+radar_ppl_cube_get_target_data|00352be6|   T  |              FUNC|00000084|     |.radar_text_flash
+radar_ppl_cube_get_multi_bin_target_data|00352c6a|   T  |              FUNC|00000096|     |.radar_text_flash
+radar_ppl_cube_get_preproc_data|00352d00|   T  |              FUNC|00000008|     |.radar_text_flash
+smooth_find_part_outliers.constprop.2|00352d08|   t  |              FUNC|0000006e|     |.radar_text_flash
+smooth_calc_diff_median.constprop.4|00352d76|   t  |              FUNC|0000007e|     |.radar_text_flash
+smooth_comp_outlier_val|00352df4|   t  |              FUNC|00000174|     |.radar_text_flash
+radar_ppl_smooth_data_mono_bin|00352f68|   T  |              FUNC|0000016c|     |.radar_text_flash
+radar_ppl_mgr_init  |003530d4|   T  |              FUNC|00000014|     |.radar_text_flash
+radar_ppl_mgr_get_dc|003530e8|   T  |              FUNC|00000008|     |.radar_text_flash
+radar_ppl_mgr_get_pwr_indicator|003530f0|   T  |              FUNC|00000008|     |.radar_text_flash
+radar_ppl_mgr_get_sign|003530f8|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_ppl_mgr_proc  |003530fc|   T  |              FUNC|00000090|     |.radar_text_flash
+cmp_func            |003531bc|   t  |              FUNC|0000000c|     |.radar_text_flash
+cmp_short_real      |003531c8|   t  |              FUNC|0000000c|     |.radar_text_flash
+cmp_short_imag      |003531d4|   t  |              FUNC|0000000c|     |.radar_text_flash
+cmp_real            |003531e0|   t  |              FUNC|00000008|     |.radar_text_flash
+cmp_imag            |003531e8|   t  |              FUNC|00000008|     |.radar_text_flash
+radar_ppl_calc_int_median|003531f0|   T  |              FUNC|00000078|     |.radar_text_flash
+radar_ppl_calc_complex_short_median|00353268|   T  |              FUNC|000000c8|     |.radar_text_flash
+radar_ppl_calc_complex_median|00353330|   T  |              FUNC|000000f0|     |.radar_text_flash
+radar_spl_presence_detect|00353420|   T  |              FUNC|00000134|     |.radar_text_flash
+radar_spl_get_presence_res|00353554|   T  |              FUNC|00000026|     |.radar_text_flash
+radar_presence_fusion_init|0035357a|   T  |              FUNC|00000034|     |.radar_text_flash
+radar_presence_calc_win_res|003535ae|   T  |              FUNC|000000b2|     |.radar_text_flash
+radar_presence_calc_dly_res|00353660|   T  |              FUNC|00000056|     |.radar_text_flash
+proximity_calc_motion_pwr|003536b6|   T  |              FUNC|00000018|     |.radar_text_flash
+radar_spl_get_proximity_res|003536ce|   T  |              FUNC|0000002a|     |.radar_text_flash
+radar_spl_proximity_detect|003536f8|   T  |              FUNC|000000b6|     |.radar_text_flash
+proximity_cnt_res_buf|00353804|   t  |              FUNC|00000034|     |.radar_text_flash
+radar_proximity_fusion_init|00353838|   T  |              FUNC|00000048|     |.radar_text_flash
+radar_proximity_calc_dly_res|00353880|   T  |              FUNC|0000004a|     |.radar_text_flash
+radar_proximity_calc_win_res|003538ca|   T  |              FUNC|0000011e|     |.radar_text_flash
+uapi_radar_set_status|003539e8|   T  |              FUNC|0000000a|     |.radar_text_flash
+uapi_radar_get_status|003539f2|   T  |              FUNC|00000014|     |.radar_text_flash
+uapi_radar_set_delay_time|00353a06|   T  |              FUNC|0000000a|     |.radar_text_flash
+uapi_radar_get_delay_time|00353a10|   T  |              FUNC|00000014|     |.radar_text_flash
+uapi_radar_get_isolation|00353a24|   T  |              FUNC|0000001e|     |.radar_text_flash
+track_calc_proc     |00353a42|   t  |              FUNC|00000102|     |.radar_text_flash
+radar_spl_mgr_init  |00353b44|   T  |              FUNC|00000026|     |.radar_text_flash
+radar_spl_set_channel_change_state|00353b6a|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_spl_get_channel_change_state|00353b74|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_spl_get_res   |00353b7e|   T  |              FUNC|00000008|     |.radar_text_flash
+radar_spl_alg_proc  |00353b86|   T  |              FUNC|00000100|     |.radar_text_flash
+radar_spl_dfx_info  |00353c86|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_target_state_track_exit|00353cec|   t  |              FUNC|00000002|     |.radar_text_flash
+radar_target_state_track_entry|00353cee|   t  |              FUNC|0000000e|     |.radar_text_flash
+radar_target_state_lost_search_entry|00353cfc|   t  |              FUNC|0000000e|     |.radar_text_flash
+radar_target_state_confirm_entry|00353d0a|   t  |              FUNC|0000000e|     |.radar_text_flash
+radar_target_state_confirm_exit|00353d18|   t  |              FUNC|0000000a|     |.radar_text_flash
+radar_target_state_lost_search_exit|00353d22|   t  |              FUNC|00000002|     |.radar_text_flash
+radar_target_state_rls_exit|00353d24|   t  |              FUNC|00000012|     |.radar_text_flash
+radar_target_state_rls_entry|00353d36|   t  |              FUNC|00000036|     |.radar_text_flash
+radar_target_state_rls_event|00353d6c|   t  |              FUNC|00000046|     |.radar_text_flash
+radar_target_state_track_event|00353db2|   t  |              FUNC|0000007e|     |.radar_text_flash
+radar_target_state_confirm_event|00353e30|   t  |              FUNC|00000062|     |.radar_text_flash
+radar_target_state_lost_search_event|00353e92|   t  |              FUNC|00000062|     |.radar_text_flash
+radar_get_fsm_cur_state|00353ef4|   T  |              FUNC|00000006|     |.radar_text_flash
+radar_target_fsm_attach|00353efa|   T  |              FUNC|0000005e|     |.radar_text_flash
+radar_target_handle_event|00353f58|   T  |              FUNC|00000050|     |.radar_text_flash
+g_radar_target_fsm_info|00353fa8|   T  |            OBJECT|00000050|     |.radar_text_flash
+radar_fpl_set_target_predict|00354014|   T  |              FUNC|0000000e|     |.radar_text_flash
+radar_fpl_set_target_id|00354022|   T  |              FUNC|00000006|     |.radar_text_flash
+radar_fpl_target_mgr_init|00354028|   T  |              FUNC|00000046|     |.radar_text_flash
+radar_fpl_target_mgr_add_point|0035406e|   T  |              FUNC|00000054|     |.radar_text_flash
+radar_fpl_create_trail|003540c2|   T  |              FUNC|00000018|     |.radar_text_flash
+radar_tcxo_get_cnt  |003540da|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_calc_time_diff|003540de|   T  |              FUNC|0000002a|     |.radar_text_flash
+get_multi_target_rpt_info|00354108|   t  |              FUNC|0000000a|     |.radar_text_flash
+add_bit_on          |00354112|   t  |              FUNC|0000000c|     |.radar_text_flash
+add_bit_off         |0035411e|   t  |              FUNC|0000000c|     |.radar_text_flash
+read_last_bit_state |0035412a|   t  |              FUNC|0000000c|     |.radar_text_flash
+radar_track_calc_win_res|00354136|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_track_calc_dly_res|00354140|   T  |              FUNC|00000202|     |.radar_text_flash
+radar_track_get_dbg_info|00354342|   T  |              FUNC|0000000a|     |.radar_text_flash
+radar_track_fusion_init|0035434c|   T  |              FUNC|00000020|     |.radar_text_flash
+get_interpolation_proc_buffer|00354370|   T  |              FUNC|00000008|     |.radar_text_flash
+radar_ppl_trx_delay_comp|00354378|   T  |              FUNC|000000b6|     |.radar_text_flash
+radar_get_tsensor   |00354434|   T  |              FUNC|00000004|     |.radar_text_flash
+radar_send_dbg_data |00354438|   T  |              FUNC|0000005c|     |.radar_text_flash
+fixed_reverse       |00354494|   t  |              FUNC|00000046|     |.radar_text_flash
+filter_filtering    |003544da|   t  |              FUNC|000000ac|     |.radar_text_flash
+radar_fir_filter    |00354586|   T  |              FUNC|0000012c|     |.radar_text_flash
+radar_s64_right_shift|003546b2|   T  |              FUNC|0000003c|     |.radar_text_flash
+radar_s64_right_shift_round|003546ee|   T  |              FUNC|0000003e|     |.radar_text_flash
+radar_complex_mean_calc|0035472c|   T  |              FUNC|00000056|     |.radar_text_flash
+radar_complex_abs_calc|00354782|   T  |              FUNC|00000080|     |.radar_text_flash
+radar_linear2db     |00354802|   T  |              FUNC|00000088|     |.radar_text_flash
+on_bit_h            |0035488a|   T  |              FUNC|0000001c|     |.radar_text_flash
+off_bit_h           |003548a6|   T  |              FUNC|00000020|     |.radar_text_flash
+get_bit_sum         |003548c6|   T  |              FUNC|0000002e|     |.radar_text_flash
+read_bit_val_h      |003548f4|   T  |              FUNC|00000018|     |.radar_text_flash
+radar_calc_vld_distance|0035490c|   T  |              FUNC|00000064|     |.radar_text_flash
+on_bit_l            |00354970|   T  |              FUNC|00000018|     |.radar_text_flash
+off_bit_l           |00354988|   T  |              FUNC|0000001c|     |.radar_text_flash
+read_bit_val_l      |003549a4|   T  |              FUNC|00000014|     |.radar_text_flash
+radar_conjugate     |003549b8|   T  |              FUNC|0000001a|     |.radar_text_flash
+at_radar_set_sts    |003549f8|   T  |              FUNC|00000014|     |.radar_text_flash
+at_radar_get_sts    |00354a0c|   T  |              FUNC|00000016|     |.radar_text_flash
+at_radar_set_para   |00354a22|   T  |              FUNC|00000038|     |.radar_text_flash
+at_radar_alg_ctrl   |00354a5a|   T  |              FUNC|00000032|     |.radar_text_flash
+at_radar_alg_para   |00354a8c|   T  |              FUNC|0000004a|     |.radar_text_flash
+at_radar_set_dly_time|00354ad6|   T  |              FUNC|00000014|     |.radar_text_flash
+at_radar_get_dly_time|00354aea|   T  |              FUNC|00000016|     |.radar_text_flash
+at_radar_get_isolation|00354b00|   T  |              FUNC|00000016|     |.radar_text_flash
+at_radar_set_led_gear|00354b16|   T  |              FUNC|00000016|     |.radar_text_flash
+los_at_radar_cmd_register|00354b2c|   T  |              FUNC|0000000a|     |.radar_text_flash
+at_radar_cmd_parse_table|00354b38|   T  |            OBJECT|000000fc|     |.radar_text_flash
+radaralgctrl_syntax |00354c34|   T  |            OBJECT|0000003c|     |.radar_text_flash
+radaralgpara_syntax |00354c70|   T  |            OBJECT|0000006c|     |.radar_text_flash
+radarsetdlytime_syntax|00354cdc|   T  |            OBJECT|0000000c|     |.radar_text_flash
+radarsetledgear_syntax|00354ce8|   T  |            OBJECT|0000000c|     |.radar_text_flash
+radarsetpara_syntax |00354cf4|   T  |            OBJECT|00000048|     |.radar_text_flash
+radarsetst_syntax   |00354d3c|   T  |            OBJECT|0000000c|     |.radar_text_flash
+uapi_at_radar_register_cmd|00354db6|   T  |              FUNC|0000001e|     |.radar_text_flash
+at_radar_cmd_register|00354dd4|   T  |              FUNC|00000002|     |.radar_text_flash
+radar_ai_conv2_forward|00354df8|   T  |              FUNC|0000006a|     |.radar_ai_text_flash
+radar_ai_conv_forward|00354e62|   T  |              FUNC|0000008e|     |.radar_ai_text_flash
+radar_ai_fc_forward |00354ef0|   T  |              FUNC|0000004c|     |.radar_ai_text_flash
+lstm_gate           |00354f3c|   t  |              FUNC|00000054|     |.radar_ai_text_flash
+multi_arr.constprop.0|00354f90|   t  |              FUNC|0000001c|     |.radar_ai_text_flash
+radar_ai_lstm_forward|00354fac|   T  |              FUNC|000000ba|     |.radar_ai_text_flash
+radar_ai_min_max_norm_zero_one.constprop.2|00355066|   t  |              FUNC|00000060|     |.radar_ai_text_flash
+radar_ai_model_preprocess_init|003550c6|   T  |              FUNC|0000001e|     |.radar_ai_text_flash
+radar_ai_preproc    |003550e4|   T  |              FUNC|000002d2|     |.radar_ai_text_flash
+radar_ai_conv2_proc |003553e0|   t  |              FUNC|00000084|     |.radar_ai_text_flash
+radar_ai_lstm_proc.constprop.1|00355464|   t  |              FUNC|000000c6|     |.radar_ai_text_flash
+radar_ai_conv_proc.constprop.2|0035552a|   t  |              FUNC|0000005e|     |.radar_ai_text_flash
+radar_ai_model_init |00355588|   T  |              FUNC|00000040|     |.radar_ai_text_flash
+radar_fpl_ai_proc   |003555c8|   T  |              FUNC|0000039a|     |.radar_ai_text_flash
+radar_ai_get_res    |00355962|   T  |              FUNC|0000000a|     |.radar_ai_text_flash
+radar_ai_get_similarity|0035596c|   T  |              FUNC|0000000a|     |.radar_ai_text_flash
+radar_ai_pool_forward|00357320|   T  |              FUNC|00000036|     |.radar_ai_text_flash
+radar_ai_add_arr    |00357356|   T  |              FUNC|0000001e|     |.radar_ai_text_flash
+radar_ai_sigmoid    |00357374|   T  |              FUNC|0000004c|     |.radar_ai_text_flash
+radar_ai_tanh       |003573c0|   T  |              FUNC|00000020|     |.radar_ai_text_flash
+radar_ai_relu_matrix|003573e0|   T  |              FUNC|0000001e|     |.radar_ai_text_flash
+radar_ai_norm_data  |003573fe|   T  |              FUNC|000000a2|     |.radar_ai_text_flash
+radar_ai_multi_weight|003574a0|   T  |              FUNC|00000034|     |.radar_ai_text_flash
+radar_ai_get_data_slice|003574d4|   T  |              FUNC|0000001c|     |.radar_ai_text_flash
+uapi_adc_init       |003574f8|   T  |              FUNC|0000003e|     |.text
+uapi_adc_power_en   |00357536|   T  |              FUNC|0000002c|     |.text
+uapi_adc_auto_scan_ch_enable|00357562|   T  |              FUNC|00000068|     |.text
+uapi_adc_auto_scan_ch_disable|003575ca|   T  |              FUNC|0000001a|     |.text
+uapi_gpio_init      |003575e4|   T  |              FUNC|00000016|     |.text
+uapi_gpio_set_dir   |003575fa|   T  |              FUNC|0000003a|     |.text
+uapi_gpio_get_dir   |00357634|   T  |              FUNC|00000012|     |.text
+uapi_gpio_set_val   |00357646|   T  |              FUNC|00000032|     |.text
+uapi_gpio_get_val   |00357678|   T  |              FUNC|00000012|     |.text
+i2c_evt_callback    |0035768a|   t  |              FUNC|00000004|     |.text
+i2c_wait.isra.10.constprop.17|0035768e|   t  |              FUNC|0000008a|     |.text
+i2c_read_pre_check.part.1|00357718|   t  |              FUNC|00000024|     |.text
+i2c_write_pre_check.part.0|00357718|   t  |              FUNC|00000024|     |.text
+uapi_i2c_master_init|0035773c|   T  |              FUNC|00000058|     |.text
+uapi_i2c_master_write|00357794|   T  |              FUNC|000000e6|     |.text
+uapi_i2c_master_read|0035787a|   T  |              FUNC|000000d4|     |.text
+uapi_pmp_config     |0035794e|   T  |              FUNC|00000074|     |.text
+inner_drv_cipher_wait_func|003579c2|   t  |              FUNC|00000024|     |.text
+inner_drv_cipher_symc_crypto_for_ctr|003579e6|   t  |              FUNC|0000011e|     |.text
+drv_cipher_symc_create.part.4|00357b04|   t  |              FUNC|00000070|     |.text
+inner_drv_cipher_symc_crypto_for_others|00357b74|   t  |              FUNC|00000242|     |.text
+inner_symc_drv_handle_chk|00357db6|   T  |              FUNC|0000001c|     |.text
+inner_get_symc_ctx  |00357dd2|   T  |              FUNC|00000018|     |.text
+drv_cipher_symc_init|00357dea|   T  |              FUNC|0000002a|     |.text
+drv_cipher_symc_deinit|00357e14|   T  |              FUNC|0000002a|     |.text
+drv_cipher_symc_create|00357e3e|   T  |              FUNC|0000000e|     |.text
+drv_cipher_symc_destroy|00357e4c|   T  |              FUNC|0000002c|     |.text
+inner_symc_cfg_param_check|00357e78|   T  |              FUNC|000000de|     |.text
+drv_cipher_symc_set_config|00357f56|   T  |              FUNC|00000164|     |.text
+drv_cipher_symc_get_config|003580ba|   T  |              FUNC|000000ae|     |.text
+drv_cipher_symc_attach|00358168|   T  |              FUNC|00000040|     |.text
+drv_cipher_symc_get_tag|003581a8|   T  |              FUNC|00000100|     |.text
+drv_cipher_dma_copy |003582a8|   T  |              FUNC|00000082|     |.text
+inner_drv_get_mac_ctx|0035832a|   T  |              FUNC|0000005c|     |.text
+inner_drv_set_mac_ctx|00358386|   T  |              FUNC|0000005a|     |.text
+inner_drv_symc_crypto_chk|003583e0|   T  |              FUNC|00000052|     |.text
+inner_drv_cipher_symc_crypto|00358432|   t  |              FUNC|0000014c|     |.text
+drv_cipher_symc_encrypt|0035857e|   T  |              FUNC|00000004|     |.text
+drv_cipher_symc_decrypt|00358582|   T  |              FUNC|00000004|     |.text
+inner_mac_process   |00358586|   t  |              FUNC|0000003e|     |.text
+drv_cipher_mac_start|003585c4|   T  |              FUNC|000000c4|     |.text
+drv_cipher_mac_update|00358688|   T  |              FUNC|00000106|     |.text
+drv_cipher_mac_finish|0035878e|   T  |              FUNC|00000162|     |.text
+crypto_malloc_mmz   |003588f0|   T  |              FUNC|00000012|     |.text
+crypto_free_coherent|00358902|   T  |              FUNC|0000000e|     |.text
+crypto_get_phys_addr|00358910|   T  |              FUNC|0000000e|     |.text
+crypto_smmu_support |0035891e|   T  |              FUNC|0000000e|     |.text
+crypto_malloc_coherent|0035892c|   T  |              FUNC|00000020|     |.text
+drv_cipher_register_func|0035894c|   T  |              FUNC|00000028|     |.text
+crypto_get_cpu_type |00358974|   T  |              FUNC|00000010|     |.text
+crypto_rsa_support  |00358984|   T  |              FUNC|00000004|     |.text
+crypto_hash_support |00358988|   T  |              FUNC|00000004|     |.text
+crypto_symc_support |0035898c|   T  |              FUNC|00000004|     |.text
+crypto_dump_data    |00358990|   T  |              FUNC|00000002|     |.text
+crypto_get_multi_random|00358992|   W  |              FUNC|00000004|     |.text
+crypto_virt_xor_phys_copy_to_phys|00358996|   W  |              FUNC|00000032|     |.text
+crypto_virt_copy_to_phys|003589c8|   W  |              FUNC|0000001c|     |.text
+crypto_phys_copy_to_virt|003589e4|   W  |              FUNC|0000001c|     |.text
+crypto_get_value_by_index|00358a00|   T  |              FUNC|0000002a|     |.text
+drv_cipher_hash_init|00358a2a|   T  |              FUNC|0000003c|     |.text
+drv_hash_get_state_iv|00358a66|   T  |              FUNC|0000002a|     |.text
+inner_hash_drv_handle_chk|00358a90|   T  |              FUNC|0000001c|     |.text
+drv_cipher_hash_update|00358aac|   T  |              FUNC|000001da|     |.text
+inner_hash_finish_common|00358c86|   t  |              FUNC|0000019c|     |.text
+drv_cipher_hash_finish|00358e22|   T  |              FUNC|00000004|     |.text
+drv_cipher_hash_finish_data|00358e26|   T  |              FUNC|00000004|     |.text
+drv_cipher_hash_get |00358e2a|   T  |              FUNC|000000a4|     |.text
+drv_cipher_hash_set |00358ece|   T  |              FUNC|000000d2|     |.text
+drv_cipher_hash_destroy|00358fa0|   T  |              FUNC|00000052|     |.text
+drv_cipher_hash_deinit|00358ff2|   T  |              FUNC|00000054|     |.text
+inner_hash_start_param_chk|00359046|   T  |              FUNC|0000007c|     |.text
+drv_cipher_hash_start|003590c2|   T  |              FUNC|0000013e|     |.text
+priv_kdf_output_key |00359200|   t  |              FUNC|0000005e|     |.text
+priv_kdf_calculation|0035925e|   t  |              FUNC|0000016c|     |.text
+drv_cipher_pbkdf2   |003593ca|   T  |              FUNC|00000122|     |.text
+drv_cipher_trng_init|003594ec|   T  |              FUNC|0000001a|     |.text
+drv_cipher_trng_get_random|00359506|   T  |              FUNC|00000020|     |.text
+drv_cipher_trng_get_multi_random|00359526|   T  |              FUNC|0000006c|     |.text
+drv_cipher_trng_deinit|00359592|   T  |              FUNC|00000016|     |.text
+drv_keyslot_init    |003595a8|   T  |              FUNC|00000004|     |.text
+drv_keyslot_deinit  |003595ac|   T  |              FUNC|00000004|     |.text
+drv_keyslot_create  |003595b0|   T  |              FUNC|00000056|     |.text
+drv_keyslot_destroy |00359606|   T  |              FUNC|00000036|     |.text
+drv_klad_create     |0035963c|   T  |              FUNC|00000030|     |.text
+drv_klad_destroy    |0035966c|   T  |              FUNC|0000002c|     |.text
+drv_klad_attach     |00359698|   T  |              FUNC|0000005c|     |.text
+drv_klad_detach     |003596f4|   T  |              FUNC|0000003a|     |.text
+drv_klad_set_attr   |0035972e|   T  |              FUNC|00000066|     |.text
+drv_klad_set_clear_key|00359794|   T  |              FUNC|00000038|     |.text
+crypto_curve_param_init|003597cc|   T  |              FUNC|0000000e|     |.text
+drv_cipher_pke_init_ecc_param|003597da|   T  |              FUNC|00000012|     |.text
+drv_cipher_pke_init |003597ec|   T  |              FUNC|00000012|     |.text
+drv_cipher_pke_deinit|003597fe|   T  |              FUNC|00000012|     |.text
+drv_cipher_pke_ecdsa_sign|00359810|   T  |              FUNC|00000030|     |.text
+drv_cipher_pke_ecdsa_verify|00359840|   T  |              FUNC|00000030|     |.text
+curve_ecfp_mul_dot  |00359870|   W  |              FUNC|00000008|     |.text
+ed_ecfp_mul_naf     |00359878|   W  |              FUNC|00000008|     |.text
+ed_secret_to_public |00359880|   W  |              FUNC|00000008|     |.text
+crypto_drv_pke_common_sm2_sign|00359888|   W  |              FUNC|00000008|     |.text
+crypto_drv_pke_common_sm2_verify|00359890|   W  |              FUNC|00000008|     |.text
+priv_get_hkdf_table_item|00359898|   t  |              FUNC|00000062|     |.text
+inner_hkdf_hmac     |003598fa|   t  |              FUNC|00000060|     |.text
+inner_hkdf_key_config|0035995a|   t  |              FUNC|000000b0|     |.text
+kapi_cipher_hkdf_extract|00359a0a|   T  |              FUNC|000000c0|     |.text
+kapi_cipher_hkdf_expand|00359aca|   T  |              FUNC|0000017c|     |.text
+kapi_cipher_hkdf    |00359c46|   T  |              FUNC|000000aa|     |.text
+inner_kapi_free_hash_ctx|00359cf0|   t  |              FUNC|00000054|     |.text
+inner_kapi_get_hash_ctx|00359d44|   t  |              FUNC|00000028|     |.text
+kapi_cipher_hash_env_init|00359d6c|   T  |              FUNC|00000020|     |.text
+kapi_cipher_hash_env_deinit|00359d8c|   T  |              FUNC|00000042|     |.text
+kapi_cipher_hash_init|00359dce|   T  |              FUNC|00000004|     |.text
+kapi_cipher_hash_deinit|00359dd2|   T  |              FUNC|00000004|     |.text
+kapi_cipher_hash_start|00359dd6|   T  |              FUNC|0000010c|     |.text
+kapi_cipher_hash_update|00359ee2|   T  |              FUNC|00000084|     |.text
+kapi_cipher_hash_finish|00359f66|   T  |              FUNC|00000084|     |.text
+kapi_cipher_hash_get|00359fea|   T  |              FUNC|0000003a|     |.text
+kapi_cipher_hash_set|0035a024|   T  |              FUNC|00000038|     |.text
+kapi_cipher_hash_destroy|0035a05c|   T  |              FUNC|00000034|     |.text
+kapi_cipher_pbkdf2  |0035a090|   T  |              FUNC|0000002a|     |.text
+kapi_env_init       |0035a0ba|   T  |              FUNC|00000032|     |.text
+kapi_env_deinit     |0035a0ec|   T  |              FUNC|00000012|     |.text
+kapi_cipher_pke_env_init|0035a0fe|   T  |              FUNC|00000020|     |.text
+kapi_cipher_pke_env_deinit|0035a11e|   T  |              FUNC|00000014|     |.text
+kapi_pke_ecc_gen_key|0035a132|   T  |              FUNC|0000002e|     |.text
+kapi_pke_ecdsa_sign |0035a160|   T  |              FUNC|0000002e|     |.text
+kapi_pke_ecdsa_verify|0035a18e|   T  |              FUNC|0000002e|     |.text
+kapi_pke_ecc_gen_ecdh_key|0035a1bc|   T  |              FUNC|0000002e|     |.text
+kapi_pke_rsa_sign   |0035a1ea|   T  |              FUNC|00000032|     |.text
+kapi_pke_rsa_verify |0035a21c|   T  |              FUNC|00000032|     |.text
+kapi_pke_rsa_public_encrypt|0035a24e|   T  |              FUNC|00000036|     |.text
+kapi_pke_rsa_private_decrypt|0035a284|   T  |              FUNC|00000036|     |.text
+priv_symc_handle_check|0035a2ba|   t  |              FUNC|00000020|     |.text
+priv_release_symc_soft_chn|0035a2da|   t  |              FUNC|00000026|     |.text
+priv_get_current_symc_channel|0035a300|   t  |              FUNC|00000020|     |.text
+priv_drv_lock_destroy|0035a320|   t  |              FUNC|0000001e|     |.text
+priv_occupy_symc_soft_chn|0035a33e|   t  |              FUNC|0000006e|     |.text
+inner_kapi_cipher_symc_crypto|0035a3ac|   t  |              FUNC|0000007a|     |.text
+kapi_cipher_symc_crypto.part.0|0035a426|   t  |              FUNC|0000010c|     |.text
+kapi_cipher_symc_env_init|0035a532|   T  |              FUNC|00000052|     |.text
+kapi_cipher_symc_env_deinit|0035a584|   T  |              FUNC|00000080|     |.text
+kapi_cipher_symc_init|0035a604|   T  |              FUNC|000000fa|     |.text
+kapi_cipher_symc_deinit|0035a6fe|   T  |              FUNC|00000070|     |.text
+kapi_cipher_symc_create|0035a76e|   T  |              FUNC|000000d8|     |.text
+kapi_cipher_symc_destroy|0035a846|   T  |              FUNC|0000005c|     |.text
+kapi_cipher_symc_set_config|0035a8a2|   T  |              FUNC|0000010c|     |.text
+kapi_cipher_symc_get_config|0035a9ae|   T  |              FUNC|000000b0|     |.text
+kapi_cipher_symc_attach|0035aa5e|   T  |              FUNC|00000074|     |.text
+kapi_cipher_symc_encrypt|0035aad2|   T  |              FUNC|00000048|     |.text
+kapi_cipher_symc_decrypt|0035ab1a|   T  |              FUNC|00000048|     |.text
+kapi_cipher_symc_get_tag|0035ab62|   T  |              FUNC|000000b8|     |.text
+kapi_cipher_mac_start|0035ac1a|   T  |              FUNC|000000d6|     |.text
+kapi_cipher_mac_update|0035acf0|   T  |              FUNC|000000fe|     |.text
+kapi_cipher_mac_finish|0035adee|   T  |              FUNC|000000d0|     |.text
+kapi_cipher_trng_env_init|0035aebe|   T  |              FUNC|00000016|     |.text
+kapi_cipher_trng_env_deinit|0035aed4|   T  |              FUNC|00000014|     |.text
+kapi_cipher_trng_get_random|0035aee8|   T  |              FUNC|00000012|     |.text
+kapi_cipher_trng_get_multi_random|0035aefa|   T  |              FUNC|0000000e|     |.text
+inner_keyslot_get_ctx|0035af08|   t  |              FUNC|00000046|     |.text
+inner_klad_handle_chk|0035af4e|   t  |              FUNC|00000020|     |.text
+crypto_get_owner    |0035af6e|   t  |              FUNC|0000000e|     |.text
+kapi_km_env_init    |0035af7c|   T  |              FUNC|00000034|     |.text
+kapi_km_env_deinit  |0035afb0|   T  |              FUNC|0000004e|     |.text
+kapi_km_deinit      |0035affe|   T  |              FUNC|00000090|     |.text
+kapi_keyslot_create |0035b08e|   T  |              FUNC|00000074|     |.text
+kapi_keyslot_destroy|0035b102|   T  |              FUNC|0000005a|     |.text
+kapi_klad_create    |0035b15c|   T  |              FUNC|0000005e|     |.text
+kapi_klad_destroy   |0035b1ba|   T  |              FUNC|00000060|     |.text
+kapi_klad_attach    |0035b21a|   T  |              FUNC|000000a0|     |.text
+kapi_klad_detach    |0035b2ba|   T  |              FUNC|000000b0|     |.text
+kapi_klad_set_attr  |0035b36a|   T  |              FUNC|0000009e|     |.text
+kapi_klad_set_clear_key|0035b408|   T  |              FUNC|0000011c|     |.text
+crypto_sl_common_get_errcode|0035b524|   T  |              FUNC|00000018|     |.text
+uapi_drv_cipher_trng_get_random|0035b53c|   T  |              FUNC|00000008|     |.text
+uapi_drv_cipher_trng_get_random_bytes|0035b544|   T  |              FUNC|0000000e|     |.text
+uapi_drv_cipher_hash_init|0035b552|   T  |              FUNC|0000000a|     |.text
+uapi_drv_cipher_hash_deinit|0035b55c|   T  |              FUNC|0000000a|     |.text
+uapi_drv_cipher_hash_start|0035b566|   T  |              FUNC|00000034|     |.text
+uapi_drv_cipher_hash_update|0035b59a|   T  |              FUNC|00000030|     |.text
+uapi_drv_cipher_hash_finish|0035b5ca|   T  |              FUNC|0000000a|     |.text
+uapi_drv_cipher_pke_ecc_gen_key|0035b5d4|   T  |              FUNC|0000000a|     |.text
+uapi_drv_cipher_pke_ecc_gen_ecdh_key|0035b5de|   T  |              FUNC|0000000a|     |.text
+uapi_drv_km_init    |0035b5e8|   T  |              FUNC|00000004|     |.text
+uapi_drv_km_deinit  |0035b5ec|   T  |              FUNC|00000008|     |.text
+uapi_drv_keyslot_create|0035b5f4|   T  |              FUNC|00000008|     |.text
+uapi_drv_keyslot_destroy|0035b5fc|   T  |              FUNC|00000008|     |.text
+uapi_drv_klad_create|0035b604|   T  |              FUNC|00000008|     |.text
+uapi_drv_klad_destroy|0035b60c|   T  |              FUNC|00000008|     |.text
+uapi_drv_klad_attach|0035b614|   T  |              FUNC|00000008|     |.text
+uapi_drv_klad_detach|0035b61c|   T  |              FUNC|00000008|     |.text
+uapi_drv_klad_set_attr|0035b624|   T  |              FUNC|00000050|     |.text
+uapi_drv_klad_set_clear_key|0035b674|   T  |              FUNC|00000050|     |.text
+uapi_drv_cipher_env_init|0035b6c4|   T  |              FUNC|00000002|     |.text
+uapi_drv_cipher_sha256_start|0035b6c6|   T  |              FUNC|00000018|     |.text
+uapi_drv_cipher_sha256_update|0035b6de|   T  |              FUNC|0000001e|     |.text
+uapi_drv_cipher_sha256_finish|0035b6fc|   T  |              FUNC|00000002|     |.text
+inner_get_phys_addr |0035b6fe|   t  |              FUNC|00000002|     |.text
+liteos_get_cpu_type |0035b700|   t  |              FUNC|00000004|     |.text
+liteos_get_pke_rom_lib_start_addr|0035b704|   t  |              FUNC|00000006|     |.text
+inner_free_coherent |0035b70a|   t  |              FUNC|00000004|     |.text
+inner_malloc_coherent|0035b70e|   t  |              FUNC|0000000a|     |.text
+crypto_drv_mod_init |0035b718|   T  |              FUNC|0000007a|     |.text
+crypto_wait_func_is_support|0035b792|   T  |              FUNC|00000020|     |.text
+crypto_irq_init     |0035b7b2|   T  |              FUNC|00000004|     |.text
+drv_cipher_pke_mul_dot|0035b7b6|   T  |              FUNC|00000054|     |.text
+kapi_pke_mul_dot    |0035b80a|   T  |              FUNC|0000001c|     |.text
+drv_cipher_pke_exp_mod|0035b826|   T  |              FUNC|00000004|     |.text
+drv_get_hash_len    |0035b82a|   t  |              FUNC|0000002c|     |.text
+rsa_get_bit_num     |0035b856|   t  |              FUNC|00000050|     |.text
+pkcs1_get_hash      |0035b8a6|   t  |              FUNC|00000052|     |.text
+pkcs1_mgf           |0035b8f8|   t  |              FUNC|000000c8|     |.text
+pke_rsa_decrypt     |0035b9c0|   t  |              FUNC|0000016a|     |.text
+pkcs1_pss_hash.isra.0|0035bb2a|   t  |              FUNC|00000052|     |.text
+pkcs1_pss_verify    |0035bb7c|   t  |              FUNC|000000e8|     |.text
+get_random          |0035bc64|   t  |              FUNC|00000042|     |.text
+pke_rsa_encrypt     |0035bca6|   t  |              FUNC|00000164|     |.text
+drv_cipher_pke_rsa_sign|0035be0a|   T  |              FUNC|00000280|     |.text
+drv_cipher_pke_rsa_verify|0035c08a|   T  |              FUNC|000001f4|     |.text
+drv_cipher_pke_rsa_public_encrypt|0035c27e|   T  |              FUNC|000000be|     |.text
+drv_cipher_pke_rsa_private_decrypt|0035c33c|   T  |              FUNC|000000be|     |.text
+crypto_drv_pke_common_ecc_sign|0035c3fa|   T  |              FUNC|00000194|     |.text
+crypto_drv_pke_common_ecc_verify|0035c58e|   T  |              FUNC|0000014c|     |.text
+drv_cipher_pke_ecc_gen_ecdh_key|0035c6da|   T  |              FUNC|000000d0|     |.text
+drv_cipher_pke_ecc_gen_key|0035c7aa|   T  |              FUNC|00000126|     |.text
+init_adapt_func     |0035c8d0|   t  |              FUNC|00000004|     |.text
+deinit_adapt_func   |0035c8d4|   t  |              FUNC|00000004|     |.text
+mbedtls_adapt_register_func|0035c8d8|   T  |              FUNC|00000016|     |.text
+mbedtls_alt_ecp_mul_impl|0035c8ee|   T  |              FUNC|00000004|     |.text
+mbedtls_alt_ecdsa_sign_impl|0035c8f2|   T  |              FUNC|00000020|     |.text
+mbedtls_alt_ecdsa_verify_impl|0035c912|   T  |              FUNC|00000020|     |.text
+mbedtls_alt_ecdh_compute_shared_impl|0035c932|   T  |              FUNC|00000004|     |.text
+mbedtls_alt_ecdsa_genkey_impl|0035c936|   T  |              FUNC|0000000a|     |.text
+mbedtls_alt_ecp_init|0035c940|   T  |              FUNC|0000001a|     |.text
+mbedtls_alt_hash_start_impl|0035c95a|   T  |              FUNC|00000036|     |.text
+mbedtls_alt_hash_update_impl|0035c990|   T  |              FUNC|0000004c|     |.text
+mbedtls_alt_hash_finish_impl|0035c9dc|   T  |              FUNC|00000040|     |.text
+mbedtls_alt_pkcs5_pbkdf2_hmac_impl|0035ca1c|   T  |              FUNC|0000001c|     |.text
+mbedtls_alt_hash_init|0035ca38|   T  |              FUNC|00000056|     |.text
+mbedlts_adapt_aes_crypto|0035ca8e|   t  |              FUNC|000000ce|     |.text
+mbedtls_alt_aes_decrypt_impl|0035cb5c|   T  |              FUNC|00000048|     |.text
+mbedtls_alt_aes_encrypt_impl|0035cba4|   T  |              FUNC|00000048|     |.text
+mbedtls_alt_aes_ctr_crypt_impl|0035cbec|   T  |              FUNC|000000d8|     |.text
+mbedtls_alt_aes_cbc_decrypt_impl|0035ccc4|   T  |              FUNC|0000006c|     |.text
+mbedtls_alt_aes_cbc_encrypt_impl|0035cd30|   T  |              FUNC|0000006c|     |.text
+mbedtls_alt_aes_ofb_crypt_impl|0035cd9c|   T  |              FUNC|000000d4|     |.text
+mbedtls_alt_aes_init|0035ce70|   T  |              FUNC|00000076|     |.text
+hal_adc_register_funcs|0035cee6|   T  |              FUNC|00000016|     |.text
+hal_adc_get_funcs   |0035cefc|   T  |              FUNC|0000000a|     |.text
+hal_adc_reg_fifo_data_get|0035cf06|   t  |              FUNC|00000012|     |.text
+hal_adc_offset_cali_data_spi_refresh|0035cf18|   t  |              FUNC|00000018|     |.text
+hal_adc_offset_cali_enable|0035cf30|   t  |              FUNC|00000014|     |.text
+hal_adc_cfg_offset_cali_data_enable|0035cf44|   t  |              FUNC|00000012|     |.text
+hal_adc_start_sample|0035cf56|   t  |              FUNC|00000012|     |.text
+hal_adc_stop_sample |0035cf68|   t  |              FUNC|00000012|     |.text
+hal_adc_v154_deinit |0035cf7a|   t  |              FUNC|00000004|     |.text
+hal_adc_v154_auto_scan_enable|0035cf7e|   t  |              FUNC|0000001a|     |.text
+hal_adc_v154_auto_scan_is_enabled|0035cf98|   t  |              FUNC|0000000a|     |.text
+hal_adc_v154_manual_sample|0035cfa2|   t  |              FUNC|00000004|     |.text
+hal_adc_v154_init   |0035cfa6|   t  |              FUNC|0000000e|     |.text
+hal_adc_v154_channel_set|0035cfb4|   T  |              FUNC|00000048|     |.text
+hal_adc_v154_auto_scan_ch_config|0035cffc|   t  |              FUNC|00000026|     |.text
+hal_adc_v154_auto_scan_ch_enable|0035d022|   t  |              FUNC|000000f8|     |.text
+adc_port_calibration|0035d11a|   T  |              FUNC|0000013a|     |.text
+hal_adc_v154_power_en|0035d254|   t  |              FUNC|000000f0|     |.text
+hal_adc_irq_handler |0035d344|   T  |              FUNC|0000003e|     |.text
+hal_adc_v154_funcs_get|0035d382|   T  |              FUNC|00000008|     |.text
+hal_adc_v154_regs_init|0035d38a|   T  |              FUNC|0000001e|     |.text
+hal_adc_auto_scan_mode_set|0035d3a8|   T  |              FUNC|0000007c|     |.text
+hal_i2c_v150_master_write_restore|0035d424|   t  |              FUNC|00000016|     |.text
+hal_i2c_v150_master_cfg_target_addr|0035d43a|   t  |              FUNC|00000056|     |.text
+hal_i2c_v150_master_read_prepeare|0035d490|   t  |              FUNC|00000032|     |.text
+hal_i2c_v150_master_read_restore|0035d4c2|   t  |              FUNC|00000016|     |.text
+hal_i2c_v150_master_write_prepeare|0035d4d8|   t  |              FUNC|00000032|     |.text
+hal_i2c_master_init |0035d50a|   W  |              FUNC|0000008c|     |.text
+hal_i2c_v150_master_init|0035d50a|   T  |              FUNC|0000008c|     |.text
+hal_i2c_v150_set_command|0035d596|   t  |              FUNC|00000016|     |.text
+hal_i2c_v150_wait   |0035d5ac|   t  |              FUNC|0000007a|     |.text
+hal_i2c_v150_stop   |0035d626|   t  |              FUNC|00000022|     |.text
+hal_i2c_v150_get_ctrl_info|0035d648|   T  |              FUNC|0000000c|     |.text
+hal_i2c_v150_load_ctrl_func|0035d654|   T  |              FUNC|0000000e|     |.text
+hal_i2c_v150_register_callback|0035d662|   T  |              FUNC|0000000a|     |.text
+hal_i2c_v150_ctrl_check_default|0035d66c|   T  |              FUNC|00000008|     |.text
+hal_i2c_v150_ctrl_check_default_false|0035d674|   T  |              FUNC|00000008|     |.text
+hal_i2c_v150_ctrl_proc_default|0035d67c|   T  |              FUNC|00000004|     |.text
+hal_i2c_v150_get_write_num|0035d680|   T  |              FUNC|00000008|     |.text
+hal_i2c_v150_get_read_num|0035d688|   T  |              FUNC|00000008|     |.text
+hal_i2c_v150_send_byte|0035d690|   T  |              FUNC|0000003c|     |.text
+hal_i2c_v150_receive_byte|0035d6cc|   T  |              FUNC|00000048|     |.text
+hal_i2c_v150_write  |0035d714|   T  |              FUNC|00000040|     |.text
+hal_i2c_write       |0035d714|   W  |              FUNC|00000040|     |.text
+hal_i2c_read        |0035d754|   W  |              FUNC|0000002e|     |.text
+hal_i2c_v150_read   |0035d754|   T  |              FUNC|0000002e|     |.text
+hal_i2c_v150_cfg_clk|0035d782|   T  |              FUNC|00000052|     |.text
+hal_i2c_ctrl        |0035d7d4|   W  |              FUNC|0000002a|     |.text
+hal_i2c_v150_ctrl   |0035d7d4|   T  |              FUNC|0000002a|     |.text
+hal_i2c_v150_regs_init|0035d7fe|   T  |              FUNC|00000016|     |.text
+hal_i2c_v150_reset_all_regs|0035d814|   T  |              FUNC|00000042|     |.text
+crypto_osal_get_phys_addr|0035d856|   T  |              FUNC|0000000a|     |.text
+crypto_cache_flush  |0035d860|   T  |              FUNC|00000004|     |.text
+crypto_cache_all    |0035d864|   T  |              FUNC|00000004|     |.text
+crypto_data_buf_check|0035d868|   T  |              FUNC|00000004|     |.text
+memset_enhance      |0035d86c|   T  |              FUNC|00000010|     |.text
+memcpy_enhance      |0035d87c|   T  |              FUNC|00000010|     |.text
+crypto_drv_pke_common_get_ecc_curve|0035d88c|   T  |              FUNC|0000002c|     |.text
+crypto_drv_pke_common_arry_right_shift_value|0035d8b8|   T  |              FUNC|0000004c|     |.text
+crypto_drv_pke_common_array_add_plus_minus_one|0035d904|   T  |              FUNC|0000005a|     |.text
+crypto_drv_pke_common_montgomery_data_config|0035d95e|   T  |              FUNC|0000002e|     |.text
+crypto_drv_pke_common_is_zero|0035d98c|   T  |              FUNC|00000036|     |.text
+crypto_drv_pke_common_convert_normal_scalar_to_naf|0035d9c2|   T  |              FUNC|0000008c|     |.text
+crypto_drv_pke_common_array_sub_value|0035da4e|   T  |              FUNC|0000001c|     |.text
+crypto_drv_pke_common_byte_stream_to_int_array|0035da6a|   T  |              FUNC|00000060|     |.text
+crypto_drv_pke_common_normal_add|0035daca|   T  |              FUNC|0000014e|     |.text
+normal_sub          |0035dc18|   T  |              FUNC|000000a8|     |.text
+crypto_drv_pke_common_set_mont_param|0035dcc0|   T  |              FUNC|0000011a|     |.text
+crypto_drv_pke_common_set_ecc_mont_param|0035ddda|   T  |              FUNC|00000082|     |.text
+crypto_drv_pke_common_batch_instr_process|0035de5c|   T  |              FUNC|00000022|     |.text
+crypto_drv_pke_common_jac_to_aff_cal|0035de7e|   T  |              FUNC|00000074|     |.text
+crypto_drv_pke_common_point_mul_naf|0035def2|   T  |              FUNC|00000092|     |.text
+crypto_drv_pke_common_calc_hash|0035df84|   T  |              FUNC|0000008c|     |.text
+crypto_drv_pke_common_resume|0035e010|   T  |              FUNC|00000016|     |.text
+crypto_drv_pke_common_suspend|0035e026|   T  |              FUNC|0000000c|     |.text
+crypto_drv_pke_common_limit_value_check|0035e032|   T  |              FUNC|0000002a|     |.text
+crypto_drv_pke_common_range_check|0035e05c|   T  |              FUNC|0000001e|     |.text
+crypto_drv_pke_common_init_param|0035e07a|   T  |              FUNC|00000042|     |.text
+ecc_ecfp_jac_to_aff |0035e0bc|   T  |              FUNC|00000060|     |.text
+ecc_ecfp_montgomery_data_aff|0035e11c|   T  |              FUNC|000000bc|     |.text
+ecc_ecfp_demontgomery_data_aff|0035e1d8|   T  |              FUNC|00000038|     |.text
+update_modulus      |0035e210|   T  |              FUNC|0000002c|     |.text
+ecc_ecfn_inv        |0035e23c|   T  |              FUNC|000000e4|     |.text
+pke_lock_condition  |0035e320|   T  |              FUNC|00000022|     |.text
+wait_free_condition |0035e342|   T  |              FUNC|0000001a|     |.text
+hal_pke_calc_int_enable|0035e35c|   T  |              FUNC|00000020|     |.text
+hal_pke_calc_int_disable|0035e37c|   T  |              FUNC|0000001e|     |.text
+hal_pke_check_robust_warn|0035e39a|   T  |              FUNC|00000022|     |.text
+hal_pke_error_code  |0035e3bc|   T  |              FUNC|00000014|     |.text
+check_instr_rdy     |0035e3d0|   T  |              FUNC|00000042|     |.text
+hal_pke_start_pre_process|0035e412|   T  |              FUNC|00000028|     |.text
+hal_pke_start0      |0035e43a|   T  |              FUNC|00000016|     |.text
+hal_pke_start1      |0035e450|   T  |              FUNC|00000016|     |.text
+hal_pke_batch_start |0035e466|   T  |              FUNC|00000014|     |.text
+hal_pke_wait_free   |0035e47a|   T  |              FUNC|00000054|     |.text
+hal_pke_wait_free_int|0035e4ce|   T  |              FUNC|0000002c|     |.text
+hal_pke_init        |0035e4fa|   T  |              FUNC|00000014|     |.text
+hal_pke_deinit      |0035e50e|   T  |              FUNC|0000001c|     |.text
+get_lock_code       |0035e52a|   T  |              FUNC|0000003a|     |.text
+hal_pke_lock        |0035e564|   T  |              FUNC|00000076|     |.text
+hal_pke_unlock      |0035e5da|   T  |              FUNC|00000016|     |.text
+hal_pke_enable_noise|0035e5f0|   T  |              FUNC|00000014|     |.text
+hal_pke_disable_noise|0035e604|   T  |              FUNC|00000010|     |.text
+hal_pke_pre_process |0035e614|   T  |              FUNC|00000034|     |.text
+hal_pke_check_free  |0035e648|   T  |              FUNC|00000028|     |.text
+hal_pke_set_ram     |0035e670|   T  |              FUNC|0000009c|     |.text
+hal_pke_get_ram     |0035e70c|   T  |              FUNC|00000084|     |.text
+hal_pke_clean_ram   |0035e790|   T  |              FUNC|00000016|     |.text
+hal_pke_set_mode    |0035e7a6|   T  |              FUNC|0000006c|     |.text
+hal_pke_start       |0035e812|   T  |              FUNC|0000001e|     |.text
+hal_pke_wait_done   |0035e830|   T  |              FUNC|00000026|     |.text
+hal_pke_get_align_val|0035e856|   T  |              FUNC|0000006e|     |.text
+hal_pke_set_mont_para|0035e8c4|   T  |              FUNC|00000014|     |.text
+hal_pke_set_ecc_param|0035e8d8|   T  |              FUNC|000000a8|     |.text
+hal_pke_set_init_param|0035e980|   T  |              FUNC|0000001e|     |.text
+hal_hash_condition  |0035e99e|   t  |              FUNC|0000001c|     |.text
+hal_cipher_hash_init|0035e9ba|   T  |              FUNC|0000005a|     |.text
+hal_hash_unlock     |0035ea14|   T  |              FUNC|00000020|     |.text
+hal_cipher_hash_deinit|0035ea34|   T  |              FUNC|0000003e|     |.text
+hal_cipher_hash_config|0035ea72|   T  |              FUNC|000000de|     |.text
+hal_cipher_hash_attach|0035eb50|   T  |              FUNC|00000028|     |.text
+hal_cipher_hash_add_in_node|0035eb78|   T  |              FUNC|00000070|     |.text
+hal_cipher_hash_start|0035ebe8|   T  |              FUNC|00000094|     |.text
+hal_cipher_hash_done_try|0035ec7c|   T  |              FUNC|0000001a|     |.text
+hal_hash_lock       |0035ec96|   T  |              FUNC|000000fa|     |.text
+hal_hash_debug_chn  |0035ed90|   T  |              FUNC|0000001e|     |.text
+hal_cipher_hash_wait_done|0035edae|   T  |              FUNC|00000142|     |.text
+priv_set_in_node    |0035eef0|   t  |              FUNC|0000003c|     |.text
+hal_cipher_symc_out_node_done_try|0035ef2c|   t  |              FUNC|0000002c|     |.text
+hal_symc_condition  |0035ef58|   t  |              FUNC|0000001e|     |.text
+hal_wait_in_node_done|0035ef76|   t  |              FUNC|00000038|     |.text
+inner_spacc_interrupt_enable|0035efae|   t  |              FUNC|0000002c|     |.text
+hal_cipher_symc_clear_channel|0035efda|   t  |              FUNC|0000007a|     |.text
+hal_cipher_symc_init|0035f054|   T  |              FUNC|00000054|     |.text
+hal_cipher_symc_unlock_chn|0035f0a8|   T  |              FUNC|00000040|     |.text
+hal_cipher_symc_deinit|0035f0e8|   T  |              FUNC|0000003a|     |.text
+hal_cipher_symc_attach|0035f122|   T  |              FUNC|00000028|     |.text
+hal_cipher_symc_set_iv|0035f14a|   T  |              FUNC|00000036|     |.text
+hal_cipher_symc_get_iv|0035f180|   T  |              FUNC|00000038|     |.text
+hal_cipher_symc_get_config|0035f1b8|   T  |              FUNC|0000001c|     |.text
+hal_cipher_symc_start|0035f1d4|   T  |              FUNC|000000c0|     |.text
+hal_cipher_symc_done_try|0035f294|   T  |              FUNC|00000028|     |.text
+hal_cipher_symc_lock_chn|0035f2bc|   T  |              FUNC|00000130|     |.text
+hal_cipher_symc_add_out_node|0035f3ec|   T  |              FUNC|00000098|     |.text
+hal_cipher_symc_debug_chn|0035f484|   T  |              FUNC|0000004e|     |.text
+hal_cipher_symc_wait_noout_done|0035f4d2|   t  |              FUNC|00000038|     |.text
+hal_cipher_symc_gcm_mac_update|0035f50a|   t  |              FUNC|00000094|     |.text
+hal_cipher_symc_ccm_mac_update|0035f59e|   t  |              FUNC|00000082|     |.text
+hal_cipher_symc_add_in_node|0035f620|   T  |              FUNC|000001ce|     |.text
+hal_cipher_symc_get_tag|0035f7ee|   T  |              FUNC|000000da|     |.text
+hal_cipher_symc_wait_done|0035f8c8|   T  |              FUNC|00000198|     |.text
+hal_cipher_symc_config|0035fa60|   T  |              FUNC|000002d6|     |.text
+hal_cipher_set_chn_secure|0035fd36|   T  |              FUNC|00000002|     |.text
+hal_cipher_trng_init|0035fd38|   T  |              FUNC|0000003c|     |.text
+hal_cipher_trng_deinit|0035fd74|   T  |              FUNC|0000000e|     |.text
+hal_cipher_trng_get_random|0035fd82|   T  |              FUNC|00000062|     |.text
+hal_rkp_lock        |0035fde4|   T  |              FUNC|0000003e|     |.text
+hal_rkp_unlock      |0035fe22|   T  |              FUNC|00000010|     |.text
+hal_rkp_kdf_set_val |0035fe32|   T  |              FUNC|00000032|     |.text
+hal_rkp_kdf_set_padding_salt|0035fe64|   T  |              FUNC|00000030|     |.text
+hal_rkp_kdf_set_padding_key|0035fe94|   T  |              FUNC|00000030|     |.text
+hal_rkp_kdf_sw_start|0035fec4|   T  |              FUNC|0000004c|     |.text
+hal_rkp_kdf_wait_done|0035ff10|   T  |              FUNC|00000040|     |.text
+hal_rkp_clear_reg_key|0035ff50|   T  |              FUNC|0000004c|     |.text
+inner_kslot_chn_is_locked|0035ff9c|   t  |              FUNC|00000036|     |.text
+inner_chk_kslot_busy|0035ffd2|   t  |              FUNC|0000002a|     |.text
+inner_kslot_is_busy |0035fffc|   t  |              FUNC|00000014|     |.text
+hal_keyslot_lock    |00360010|   T  |              FUNC|0000008e|     |.text
+hal_keyslot_unlock  |0036009e|   T  |              FUNC|000000ac|     |.text
+hal_klad_clear_data |0036014a|   t  |              FUNC|00000026|     |.text
+inner_klad_set_key_odd|00360170|   t  |              FUNC|00000018|     |.text
+inner_klad_wait_clr_route_done|00360188|   t  |              FUNC|0000004e|     |.text
+hal_klad_set_key_crypto_cfg|003601d6|   T  |              FUNC|0000005a|     |.text
+hal_klad_set_key_dest_cfg|00360230|   T  |              FUNC|00000032|     |.text
+hal_klad_set_key_secure_cfg|00360262|   T  |              FUNC|00000052|     |.text
+hal_klad_set_key_addr|003602b4|   T  |              FUNC|00000032|     |.text
+hal_klad_set_data   |003602e6|   T  |              FUNC|00000038|     |.text
+hal_klad_start_clr_route|0036031e|   T  |              FUNC|00000156|     |.text
+get_valid_bit       |00360474|   t  |              FUNC|0000001a|     |.text
+rsa_rrn             |0036048e|   T  |              FUNC|000000b2|     |.text
+update_rsa_modulus  |00360540|   T  |              FUNC|0000004c|     |.text
+rsa_exp_mod         |0036058c|   T  |              FUNC|000001e6|     |.text
+ecc_ecfn_add_mod    |00360772|   T  |              FUNC|0000006c|     |.text
+get_random_key      |003607de|   T  |              FUNC|000000a2|     |.text
+ecc_ecfp_aff_to_jac |00360880|   T  |              FUNC|000000c4|     |.text
+ecc_ecfp_mul_naf_cal|00360944|   T  |              FUNC|0000005c|     |.text
+ecc_ecfp_mul_naf    |003609a0|   T  |              FUNC|00000102|     |.text
+ecc_ecfn_sign_s     |00360aa2|   T  |              FUNC|00000096|     |.text
+ecc_ecfp_mul_add    |00360b38|   T  |              FUNC|0000021c|     |.text
+ecc_ecfn_verify_u   |00360d54|   T  |              FUNC|00000098|     |.text
+ecc_ecfn_verify_v   |00360dec|   T  |              FUNC|00000084|     |.text
+irq_adc_handler     |00360e70|   t  |              FUNC|0000000a|     |.text
+adc_porting_base_addr_get|00360e7a|   T  |              FUNC|00000006|     |.text
+cldo_addr_get       |00360e80|   T  |              FUNC|00000008|     |.text
+adc_port_clock_enable|00360e88|   T  |              FUNC|00000002|     |.text
+adc_port_init_clock |00360e8a|   T  |              FUNC|00000002|     |.text
+adc_port_register_hal_funcs|00360e8c|   T  |              FUNC|0000000c|     |.text
+adc_port_register_irq|00360e98|   T  |              FUNC|00000038|     |.text
+adc_port_power_on   |00360ed0|   T  |              FUNC|00000002|     |.text
+adc_port_get_cali_param|00360ed2|   T  |              FUNC|0000002c|     |.text
+reboot_port_reboot_chip|00360efe|   T  |              FUNC|00000022|     |.text
+print_version       |00360f20|   T  |              FUNC|00000010|     |.text
+cmu_xo_trim_temp_comp_timer_proc|00360f30|   t  |              FUNC|000000b2|     |.text
+cmu_xo_trim_init    |00360fe2|   T  |              FUNC|000000a0|     |.text
+cmu_xo_trim_temp_comp_init|00361082|   T  |              FUNC|0000009e|     |.text
+partition_get_addr  |00361120|   T  |              FUNC|00000008|     |.text
+partition_get_path_map|00361128|   T  |              FUNC|0000000c|     |.text
+zdiag_adapt_nv_read |00361134|   T  |              FUNC|00000076|     |.text
+zdiag_adapt_nv_write|003611aa|   T  |              FUNC|0000004c|     |.text
+print_mac_addr      |003611f6|   t  |              FUNC|00000036|     |.text
+mac_addr_is_zero    |0036122c|   t  |              FUNC|00000018|     |.text
+mac_addr_nv_check   |00361244|   t  |              FUNC|00000058|     |.text
+get_dev_addr        |0036129c|   T  |              FUNC|00000184|     |.text
+set_dev_addr        |00361420|   T  |              FUNC|00000094|     |.text
+init_dev_addr       |003614b4|   T  |              FUNC|0000009e|     |.text
+mfg_flash_erase     |00361552|   T  |              FUNC|0000003a|     |.text
+mfg_flash_read      |0036158c|   T  |              FUNC|00000044|     |.text
+mfg_flash_write_info|003615d0|   T  |              FUNC|000000f6|     |.text
+mfg_flash_write     |003616c6|   T  |              FUNC|00000042|     |.text
+mfg_get_region_config|00361708|   T  |              FUNC|00000020|     |.text
+mfg_factory_mode_switch|00361728|   T  |              FUNC|00000066|     |.text
+log_uart_trigger    |0036178e|   T  |              FUNC|0000000c|     |.text
+log_uart_init_after_rtos|0036179a|   T  |              FUNC|00000046|     |.text
+log_main            |003617e0|   T  |              FUNC|00000092|     |.text
+dfx_print_get_level |00361872|   T  |              FUNC|0000000a|     |.text
+dfx_print_set_level |0036187c|   T  |              FUNC|0000000e|     |.text
+uapi_partition_init |0036188a|   T  |              FUNC|00000072|     |.text
+uapi_partition_get_info|003618fc|   T  |              FUNC|00000078|     |.text
+sle_chba_user_cmd_start|00361974|   T  |              FUNC|00000042|     |.text
+sle_chba_user_cmd_conn_update|003619b6|   T  |              FUNC|00000030|     |.text
+sle_chba_user_init  |003619e6|   T  |              FUNC|00000002|     |.text
+sle_chba_user_send_msg_malloc|003619e8|   T  |              FUNC|00000036|     |.text
+sle_chba_user_msg_init|00361a1e|   T  |              FUNC|00000024|     |.text
+sle_chba_get_status |00361a42|   t  |              FUNC|0000001e|     |.text
+sle_chba_user_conn_state_cb|00361a60|   t  |              FUNC|00000186|     |.text
+sle_chba_user_get_info|00361be6|   t  |              FUNC|000000c6|     |.text
+sle_chba_user_read_rssi|00361cac|   t  |              FUNC|00000046|     |.text
+sle_chba_user_scan_enable_cb|00361cf2|   t  |              FUNC|00000040|     |.text
+sle_chba_user_adv_enable_cb|00361d32|   t  |              FUNC|00000048|     |.text
+sle_chba_user_disconn|00361d7a|   t  |              FUNC|0000007a|     |.text
+sle_chba_user_register_cbks|00361df4|   t  |              FUNC|000000c8|     |.text
+sle_chba_user_scan_report_cb|00361ebc|   t  |              FUNC|000000c0|     |.text
+sle_chba_user_create_connection|00361f7c|   t  |              FUNC|0000009a|     |.text
+sle_chba_user_scan_disable_cb|00362016|   t  |              FUNC|00000072|     |.text
+sle_chba_user_read_rssi_cb|00362088|   t  |              FUNC|00000078|     |.text
+sle_chba_user_start_sta|00362100|   t  |              FUNC|000001cc|     |.text
+sle_chba_user_start_ap|003622cc|   t  |              FUNC|00000154|     |.text
+sle_chba_user_process_message|00362420|   T  |              FUNC|00000096|     |.text
+sle_chba_user_check_status_change|003624b6|   T  |              FUNC|00000174|     |.text
+sle_chba_user_set_phy_cb|0036262a|   t  |              FUNC|00000046|     |.text
+sle_chba_user_pair_complete_cb|00362670|   t  |              FUNC|00000088|     |.text
+sle_chba_user_conn_update_cb|003626f8|   t  |              FUNC|00000046|     |.text
+sle_at_chba_update  |0036273e|   T  |              FUNC|00000012|     |.text
+sle_at_chba_sle_disconn|00362750|   T  |              FUNC|0000000a|     |.text
+sle_at_chba_state   |0036275a|   T  |              FUNC|0000000c|     |.text
+sle_at_chba_start   |00362766|   T  |              FUNC|00000022|     |.text
+sle_at_chba_register|00362788|   T  |              FUNC|0000000c|     |.text
+sle_chba_netdev_set_hwaddr_cb|00362794|   t  |              FUNC|00000004|     |.text
+sle_chba_netdev_wake_queue|00362798|   t  |              FUNC|0000003e|     |.text
+sle_chba_netdev_stop_queue|003627d6|   t  |              FUNC|0000002e|     |.text
+sle_chba_netdev_rx_to_buffer|00362804|   t  |              FUNC|000000a2|     |.text
+sle_chba_netdev_rx_buffer_process|003628a6|   t  |              FUNC|00000236|     |.text
+sle_chba_netdev_hci_recv|00362adc|   T  |              FUNC|0000010e|     |.text
+sle_chba_netdev_save_2_tx_buffer.isra.1|00362bea|   t  |              FUNC|00000136|     |.text
+sle_chba_netdev_send_data.isra.3|00362d20|   t  |              FUNC|0000006e|     |.text
+sle_chba_netdev_send_to_device|00362d8e|   t  |              FUNC|00000246|     |.text
+sle_chba_netdev_driver_send|00362fd4|   T  |              FUNC|0000007a|     |.text
+sle_chba_netdev_get |0036304e|   T  |              FUNC|0000000a|     |.text
+sle_chba_netdev_switch|00363058|   T  |              FUNC|00000090|     |.text
+sle_chba_netdev_set_mac_address|003630e8|   T  |              FUNC|0000001c|     |.text
+sle_chba_netdev_ndo_start_xmit|00363104|   T  |              FUNC|00000086|     |.text
+sle_chba_netdev_enable|0036318a|   T  |              FUNC|00000156|     |.text
+sle_chba_netdev_info_show|003632e0|   T  |              FUNC|00000152|     |.text
+sle_chba_user_msg_register|00363432|   T  |              FUNC|0000000c|     |.text
+sle_chba_netdev2user_send_msg|0036343e|   T  |              FUNC|00000016|     |.text
+sle_chba_user_rssi  |00363454|   t  |              FUNC|00000032|     |.text
+sle_chba_user_conn_sts|00363486|   t  |              FUNC|0000008e|     |.text
+sle_chba_user_hello |00363514|   t  |              FUNC|00000014|     |.text
+sle_chba_user_info  |00363528|   t  |              FUNC|000000a4|     |.text
+sle_chba_user2netdev_send_msg|003635cc|   T  |              FUNC|000000ac|     |.text
+sle_chba_achba_get_info_ptr|00363678|   T  |              FUNC|00000008|     |.text
+sle_chba_achba_get_peer_info_ptr|00363680|   T  |              FUNC|00000008|     |.text
+sle_chba_netdev_achba_switch_link_rsp_proc|00363688|   T  |              FUNC|0000002a|     |.text
+sle_chba_achba_control_switch_link_rsp|003636b2|   T  |              FUNC|0000001c|     |.text
+sle_chba_achba_rssi_report|003636ce|   T  |              FUNC|00000022|     |.text
+sle_chba_achba_disconn|003636f0|   T  |              FUNC|00000064|     |.text
+sle_chba_netdev_msg_thread|00363754|   t  |              FUNC|000000da|     |.text
+sle_chba_netdev_msg_task_create|0036382e|   T  |              FUNC|00000034|     |.text
+sle_chba_send_msg_to_proc_thread|00363862|   T  |              FUNC|0000008e|     |.text
+sle_chba_send_br    |003638f0|   T  |              FUNC|000000a8|     |.text
+achba_sle_achba_ops_get|00363998|   T  |              FUNC|00000008|     |.text
+g_hash_state        |00363a08|   t  |            OBJECT|00000090|     |.text
+g_sha1_ival         |00363a98|   t  |            OBJECT|00000014|     |.text
+g_sha224_ival       |00363aac|   t  |            OBJECT|00000020|     |.text
+g_sha256_ival       |00363acc|   t  |            OBJECT|00000020|     |.text
+g_sha384_ival       |00363aec|   t  |            OBJECT|00000040|     |.text
+g_sha512_ival       |00363b2c|   t  |            OBJECT|00000040|     |.text
+g_sm3_ival          |00363b6c|   t  |            OBJECT|00000020|     |.text
+hash_state_table    |00363b8c|   t  |            OBJECT|00000090|     |.text
+g_hash_to_kdf_sw    |00363c1c|   t  |            OBJECT|00000028|     |.text
+ecc_brainpool_256r1_a|00363c44|   t  |            OBJECT|00000020|     |.text
+ecc_brainpool_256r1_b|00363c64|   t  |            OBJECT|00000020|     |.text
+ecc_brainpool_256r1_gx|00363c84|   t  |            OBJECT|00000020|     |.text
+ecc_brainpool_256r1_gy|00363ca4|   t  |            OBJECT|00000020|     |.text
+ecc_brainpool_256r1_mont_1_n|00363cc4|   t  |            OBJECT|00000020|     |.text
+ecc_brainpool_256r1_mont_1_p|00363ce4|   t  |            OBJECT|00000020|     |.text
+ecc_brainpool_256r1_mont_a|00363d04|   t  |            OBJECT|00000020|     |.text
+ecc_brainpool_256r1_mont_b|00363d24|   t  |            OBJECT|00000020|     |.text
+ecc_brainpool_256r1_mont_param_n|00363d44|   t  |            OBJECT|00000008|     |.text
+ecc_brainpool_256r1_mont_param_p|00363d4c|   t  |            OBJECT|00000008|     |.text
+ecc_brainpool_256r1_n|00363d54|   t  |            OBJECT|00000020|     |.text
+ecc_brainpool_256r1_p|00363d74|   t  |            OBJECT|00000020|     |.text
+ecc_brainpool_256r1_rrn|00363d94|   t  |            OBJECT|00000020|     |.text
+ecc_brainpool_256r1_rrp|00363db4|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p192_a     |00363dd4|   t  |            OBJECT|00000018|     |.text
+ecc_nist_p192_b     |00363dec|   t  |            OBJECT|00000018|     |.text
+ecc_nist_p192_gx    |00363e04|   t  |            OBJECT|00000018|     |.text
+ecc_nist_p192_gy    |00363e1c|   t  |            OBJECT|00000018|     |.text
+ecc_nist_p192_mont_1_n|00363e34|   t  |            OBJECT|00000018|     |.text
+ecc_nist_p192_mont_1_p|00363e4c|   t  |            OBJECT|00000018|     |.text
+ecc_nist_p192_mont_a|00363e64|   t  |            OBJECT|00000018|     |.text
+ecc_nist_p192_mont_b|00363e7c|   t  |            OBJECT|00000018|     |.text
+ecc_nist_p192_mont_param_n|00363e94|   t  |            OBJECT|00000008|     |.text
+ecc_nist_p192_mont_param_p|00363e9c|   t  |            OBJECT|00000008|     |.text
+ecc_nist_p192_n     |00363ea4|   t  |            OBJECT|00000018|     |.text
+ecc_nist_p192_p     |00363ebc|   t  |            OBJECT|00000018|     |.text
+ecc_nist_p192_rrn   |00363ed4|   t  |            OBJECT|00000018|     |.text
+ecc_nist_p192_rrp   |00363eec|   t  |            OBJECT|00000018|     |.text
+ecc_nist_p224_a     |00363f04|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p224_b     |00363f24|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p224_gx    |00363f44|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p224_gy    |00363f64|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p224_mont_1_n|00363f84|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p224_mont_1_p|00363fa4|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p224_mont_a|00363fc4|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p224_mont_b|00363fe4|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p224_mont_param_n|00364004|   t  |            OBJECT|00000008|     |.text
+ecc_nist_p224_mont_param_p|0036400c|   t  |            OBJECT|00000008|     |.text
+ecc_nist_p224_n     |00364014|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p224_p     |00364034|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p224_rrn   |00364054|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p224_rrp   |00364074|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p256_a     |00364094|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p256_b     |003640b4|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p256_gx    |003640d4|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p256_gy    |003640f4|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p256_mont_1_n|00364114|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p256_mont_1_p|00364134|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p256_mont_a|00364154|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p256_mont_b|00364174|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p256_mont_param_n|00364194|   t  |            OBJECT|00000008|     |.text
+ecc_nist_p256_mont_param_p|0036419c|   t  |            OBJECT|00000008|     |.text
+ecc_nist_p256_n     |003641a4|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p256_p     |003641c4|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p256_rrn   |003641e4|   t  |            OBJECT|00000020|     |.text
+ecc_nist_p256_rrp   |00364204|   t  |            OBJECT|00000020|     |.text
+g_brainpool_256r1_init_param|00364224|   t  |            OBJECT|00000028|     |.text
+g_brainpool_256r1_param|0036424c|   t  |            OBJECT|00000024|     |.text
+g_const_0           |00364270|   t  |            OBJECT|00000048|     |.text
+g_const_1           |003642b8|   t  |            OBJECT|00000048|     |.text
+g_crypto_ecc_num    |00364300|   T  |            OBJECT|00000004|     |.text
+g_crypto_ecc_params |00364304|   T  |            OBJECT|00000020|     |.text
+g_nist_p192_init_param|00364324|   t  |            OBJECT|00000028|     |.text
+g_nist_p192_param   |0036434c|   T  |            OBJECT|00000024|     |.text
+g_nist_p224_init_param|00364370|   t  |            OBJECT|00000028|     |.text
+g_nist_p224_param   |00364398|   t  |            OBJECT|00000024|     |.text
+g_nist_p256_init_param|003643bc|   t  |            OBJECT|00000028|     |.text
+g_nist_p256_param   |003643e4|   t  |            OBJECT|00000024|     |.text
+g_hkdf_hmac_table   |00364408|   t  |            OBJECT|00000078|     |.text
+g_asn1_sha1         |00364480|   t  |            OBJECT|0000000f|     |.text
+g_asn1_sha224       |00364490|   t  |            OBJECT|00000013|     |.text
+g_asn1_sha256       |003644a4|   t  |            OBJECT|00000013|     |.text
+g_asn1_sha384       |003644b8|   t  |            OBJECT|00000013|     |.text
+g_asn1_sha512       |003644cc|   t  |            OBJECT|00000013|     |.text
+g_bits              |003644e0|   t  |            OBJECT|00000010|     |.text
+g_empty_l_sha1      |003644f0|   t  |            OBJECT|00000014|     |.text
+g_empty_l_sha224    |00364504|   t  |            OBJECT|0000001c|     |.text
+g_empty_l_sha256    |00364520|   t  |            OBJECT|00000020|     |.text
+g_empty_l_sha384    |00364540|   t  |            OBJECT|00000030|     |.text
+g_empty_l_sha512    |00364570|   t  |            OBJECT|00000040|     |.text
+g_pke_hash_properties|003645b0|   t  |            OBJECT|00000048|     |.text
+g_pke_pkcs1_hash    |003645f8|   t  |            OBJECT|00000064|     |.text
+CSWTCH.16           |0036465c|   t  |            OBJECT|00000011|     |.text
+CSWTCH.112          |00364670|   t  |            OBJECT|00000006|     |.text
+CSWTCH.90           |003646a4|   t  |            OBJECT|00000018|     |.text
+ecc_addr_const_0    |003646bc|   T  |            OBJECT|00000004|     |.text
+ecc_addr_const_1    |003646c0|   T  |            OBJECT|00000004|     |.text
+ecc_addr_cx         |003646c4|   T  |            OBJECT|00000004|     |.text
+ecc_addr_cy         |003646c8|   T  |            OBJECT|00000004|     |.text
+ecc_addr_cz         |003646cc|   T  |            OBJECT|00000004|     |.text
+ecc_addr_d          |003646d0|   T  |            OBJECT|00000004|     |.text
+ecc_addr_e          |003646d4|   T  |            OBJECT|00000004|     |.text
+ecc_addr_gx         |003646d8|   T  |            OBJECT|00000004|     |.text
+ecc_addr_gy         |003646dc|   T  |            OBJECT|00000004|     |.text
+ecc_addr_k          |003646e0|   T  |            OBJECT|00000004|     |.text
+ecc_addr_m          |003646e4|   T  |            OBJECT|00000004|     |.text
+ecc_addr_mont_1_n   |003646e8|   T  |            OBJECT|00000004|     |.text
+ecc_addr_mont_1_p   |003646ec|   T  |            OBJECT|00000004|     |.text
+ecc_addr_mont_a     |003646f0|   T  |            OBJECT|00000004|     |.text
+ecc_addr_mont_b     |003646f4|   T  |            OBJECT|00000004|     |.text
+ecc_addr_n          |003646f8|   T  |            OBJECT|00000004|     |.text
+ecc_addr_p          |003646fc|   T  |            OBJECT|00000004|     |.text
+ecc_addr_px         |00364700|   T  |            OBJECT|00000004|     |.text
+ecc_addr_py         |00364704|   T  |            OBJECT|00000004|     |.text
+ecc_addr_r          |00364708|   T  |            OBJECT|00000004|     |.text
+ecc_addr_rrn        |0036470c|   T  |            OBJECT|00000004|     |.text
+ecc_addr_rrp        |00364710|   T  |            OBJECT|00000004|     |.text
+ecc_addr_s          |00364714|   T  |            OBJECT|00000004|     |.text
+ecc_addr_t          |00364718|   T  |            OBJECT|00000004|     |.text
+ecc_addr_u1         |0036471c|   T  |            OBJECT|00000004|     |.text
+ecc_addr_u2         |00364720|   T  |            OBJECT|00000004|     |.text
+instr_ecfn_inv_exp_00|00364724|   T  |            OBJECT|00000008|     |.text
+instr_ecfn_inv_exp_01|0036472c|   T  |            OBJECT|00000008|     |.text
+instr_ecfn_inv_exp_10|00364734|   T  |            OBJECT|00000008|     |.text
+instr_ecfn_inv_exp_11|0036473c|   T  |            OBJECT|00000008|     |.text
+instr_ecfn_inv_pre_5|00364744|   T  |            OBJECT|00000008|     |.text
+instr_ecfn_sign_s_12|0036474c|   T  |            OBJECT|00000008|     |.text
+instr_ecfn_verify_u_10|00364754|   T  |            OBJECT|00000008|     |.text
+instr_ecfn_verify_v_4|0036475c|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_add_ja_verify_18|00364764|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_cpy_a2c_3|0036476c|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_cpy_g2c_3|00364774|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_cpy_np2g_2|0036477c|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_cpy_p2c_3|00364784|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_demont_c_6|0036478c|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_j2a_exp_00|00364794|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_j2a_exp_01|0036479c|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_j2a_exp_10|003647a4|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_j2a_exp_11|003647ac|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_j2a_post_4|003647b4|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_j2a_pre_5|003647bc|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_mont_p_2 |003647c4|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_mul_c_double_22|003647cc|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_mul_g_22_18|003647d4|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_mul_jj_22_23|003647dc|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_mul_p_22_18|003647e4|   T  |            OBJECT|00000008|     |.text
+instr_ecfp_prime_n_1|003647ec|   T  |            OBJECT|00000008|     |.text
+instr_rsa_exp_00    |003647f4|   T  |            OBJECT|00000008|     |.text
+instr_rsa_exp_01    |003647fc|   T  |            OBJECT|00000008|     |.text
+instr_rsa_exp_10    |00364804|   T  |            OBJECT|00000008|     |.text
+instr_rsa_exp_11    |0036480c|   T  |            OBJECT|00000008|     |.text
+instr_rsa_exp_post_3|00364814|   T  |            OBJECT|00000008|     |.text
+instr_rsa_exp_pre_6 |0036481c|   T  |            OBJECT|00000008|     |.text
+instr_rsa_rrn_add   |00364824|   T  |            OBJECT|00000008|     |.text
+instr_rsa_rrn_add_3072|0036482c|   T  |            OBJECT|00000008|     |.text
+instr_rsa_rrn_add_320|00364834|   T  |            OBJECT|00000008|     |.text
+instr_rsa_rrn_mul   |0036483c|   T  |            OBJECT|00000008|     |.text
+instr_sm2_verify_t_3|00364844|   T  |            OBJECT|00000008|     |.text
+CSWTCH.40           |0036489c|   t  |            OBJECT|00000011|     |.text
+rsa_addr_a          |003648b0|   T  |            OBJECT|00000004|     |.text
+rsa_addr_const_1    |003648b4|   T  |            OBJECT|00000004|     |.text
+rsa_addr_n          |003648b8|   T  |            OBJECT|00000004|     |.text
+rsa_addr_rr         |003648bc|   T  |            OBJECT|00000004|     |.text
+rsa_addr_s          |003648c0|   T  |            OBJECT|00000004|     |.text
+g_rrn_loop_table    |003648c4|   T  |            OBJECT|00000078|     |.text
+__FUNCTION__.4716   |00364c24|   t  |            OBJECT|00000016|     |.text
+__FUNCTION__.4723   |00364c3c|   t  |            OBJECT|00000019|     |.text
+__FUNCTION__.4731   |00364c58|   t  |            OBJECT|0000001c|     |.text
+__FUNCTION__.4738   |00364c74|   t  |            OBJECT|0000001d|     |.text
+__FUNCTION__.4743   |00364c94|   t  |            OBJECT|0000001c|     |.text
+__FUNCTION__.4747   |00364cb0|   t  |            OBJECT|0000001d|     |.text
+__FUNCTION__.4751   |00364cd0|   t  |            OBJECT|0000001e|     |.text
+__FUNCTION__.4757   |00364cf0|   t  |            OBJECT|0000001d|     |.text
+__FUNCTION__.4763   |00364d10|   t  |            OBJECT|0000001f|     |.text
+__FUNCTION__.4772   |00364d30|   t  |            OBJECT|0000001b|     |.text
+__FUNCTION__.4780   |00364d4c|   t  |            OBJECT|0000001c|     |.text
+__FUNCTION__.4790   |00364d68|   t  |            OBJECT|00000021|     |.text
+__FUNCTION__.4795   |00364d8c|   t  |            OBJECT|00000021|     |.text
+__FUNCTION__.4801   |00364db0|   t  |            OBJECT|00000020|     |.text
+__FUNCTION__.4812   |00364dd0|   t  |            OBJECT|00000019|     |.text
+__FUNCTION__.4821   |00364dec|   t  |            OBJECT|00000019|     |.text
+__FUNCTION__.4826   |00364e08|   t  |            OBJECT|00000016|     |.text
+__FUNCTION__.4839   |00364e20|   t  |            OBJECT|00000017|     |.text
+__FUNCTION__.4850   |00364e38|   t  |            OBJECT|00000017|     |.text
+__FUNCTION__.4858   |00364e50|   t  |            OBJECT|00000018|     |.text
+__FUNCTION__.4866   |00364e68|   t  |            OBJECT|00000016|     |.text
+__FUNCTION__.4873   |00364e80|   t  |            OBJECT|00000018|     |.text
+__FUNCTION__.4879   |00364e98|   t  |            OBJECT|00000020|     |.text
+__FUNCTION__.4887   |00364eb8|   t  |            OBJECT|0000001e|     |.text
+__func__.4849       |00364ed8|   t  |            OBJECT|00000017|     |.text
+__func__.4857       |00364ef0|   t  |            OBJECT|00000018|     |.text
+__func__.4864       |00364f08|   t  |            OBJECT|00000016|     |.text
+at_bt_cmd_chba_table|0036531c|   T  |            OBJECT|00000070|     |.text
+sle_at_chba_start_syntax|0036538c|   T  |            OBJECT|0000003c|     |.text
+sle_at_chba_update_syntax|003653c8|   T  |            OBJECT|00000024|     |.text
+__func__.12814      |0036541c|   t  |            OBJECT|00000017|     |.text
+__func__.12899      |00365434|   t  |            OBJECT|00000023|     |.text
+__func__.12910      |00365458|   t  |            OBJECT|00000020|     |.text
+__func__.12926      |00365478|   t  |            OBJECT|0000001d|     |.text
+__func__.12947      |00365498|   t  |            OBJECT|00000019|     |.text
+__func__.12965      |003654b4|   t  |            OBJECT|0000001c|     |.text
+__FUNCTION__.9009   |00365550|   t  |            OBJECT|00000013|     |.text
+__FUNCTION__.9018   |00365564|   t  |            OBJECT|00000017|     |.text
+__FUNCTION__.9033   |0036557c|   t  |            OBJECT|0000001e|     |.text
+__data_load__       |003655d8|   A  |            NOTYPE|        |     |*ABS*
+__text_end__        |003655d8|   T  |            NOTYPE|        |     |.text
 g_ram_begin         |00a00000|   B  |            NOTYPE|        |     |.bss
 __wifi_pkt_ram_begin__|00a00000|   B  |            NOTYPE|        |     |.wifi_pkt_ram
 LOS_ListDelete      |00a0c000|   t  |              FUNC|0000001e|     |.plat_text_sram
