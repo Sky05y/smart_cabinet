@@ -82,10 +82,10 @@ void *mq_adc_task(const char *arg)
 
     while (1) {
         /* 开始采样 */
-        uapi_adc_auto_scan_ch_enable(ADC_CHANNEL_0, config, adc_callback);
+        uapi_adc_auto_scan_ch_enable(ADC_CHANNEL_2, config, adc_callback);
         osDelay(100);
         /* 停止采样 */
-        uapi_adc_auto_scan_ch_disable(ADC_CHANNEL_0);
+        uapi_adc_auto_scan_ch_disable(ADC_CHANNEL_2);
         osDelay(1000);
     }
 
