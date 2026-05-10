@@ -73,14 +73,14 @@ void bh1750_task(void *arg)
 {
     unused(arg);
     /************ ⭐ I2C引脚配置（关键） ************/
-    uapi_pin_set_mode(I2C_SCL_PIN, 2);
-    uapi_pin_set_mode(I2C_SDA_PIN, 2);
-    uapi_pin_set_pull(I2C_SCL_PIN, PIN_PULL_TYPE_UP);
-    uapi_pin_set_pull(I2C_SDA_PIN, PIN_PULL_TYPE_UP);
+    // uapi_pin_set_mode(I2C_SCL_PIN, 2);
+    // uapi_pin_set_mode(I2C_SDA_PIN, 2);
+    // uapi_pin_set_pull(I2C_SCL_PIN, PIN_PULL_TYPE_UP);
+    // uapi_pin_set_pull(I2C_SDA_PIN, PIN_PULL_TYPE_UP);
     /************ I2C初始化 ************/
-    if (uapi_i2c_master_init(BH1750_I2C_BUS, 400000, 0) != 0) {
-        osal_printk("I2C init fail\r\n");
-    }
+    // if (uapi_i2c_master_init(BH1750_I2C_BUS, 400000, 0) != 0) {
+    //     osal_printk("I2C init fail\r\n");
+    // }
     if (bh1750_init(BH1750_ADDR_LOW) != 0) {
         osal_printk("Error code: %d\r\n", bh1750_init(BH1750_ADDR_LOW));
         osal_printk("BH1750 init fail\r\n");

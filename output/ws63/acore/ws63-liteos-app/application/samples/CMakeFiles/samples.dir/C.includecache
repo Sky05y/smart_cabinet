@@ -10,11 +10,23 @@
 stdint.h
 -
 
+../../../../application/samples/ws63_client/include/demo.h
+
 ../../../../application/samples/ws63_client/include/dht11.h
 
 ../../../../application/samples/ws63_client/include/mq_adc.h
 stdint.h
 -
+
+../../../../application/samples/ws63_client/include/ssd1306.h
+stddef.h
+-
+stdint.h
+-
+ssd1306_fonts.h
+../../../../application/samples/ws63_client/include/ssd1306_fonts.h
+
+../../../../application/samples/ws63_client/include/ssd1306_fonts.h
 
 ../../../../application/samples/ws63_client/include/trans_data.h
 
@@ -62,6 +74,14 @@ adc.h
 osal_interrupt.h
 ../../../../drivers/chips/ws63/porting/adc/osal_interrupt.h
 
+../../../../drivers/chips/ws63/porting/dma/dma_porting.h
+stdint.h
+-
+stdbool.h
+-
+dma.h
+../../../../drivers/chips/ws63/porting/dma/dma.h
+
 ../../../../drivers/chips/ws63/porting/gpio/gpio_porting.h
 stdint.h
 -
@@ -81,6 +101,16 @@ stdbool.h
 -
 platform_core.h
 ../../../../drivers/chips/ws63/porting/i2c/platform_core.h
+
+../../../../drivers/chips/ws63/porting/spi/spi_porting.h
+stdint.h
+-
+platform_core.h
+../../../../drivers/chips/ws63/porting/spi/platform_core.h
+hal_spi_v151_regs_def.h
+../../../../drivers/chips/ws63/porting/spi/hal_spi_v151_regs_def.h
+dma_porting.h
+../../../../drivers/chips/ws63/porting/spi/dma_porting.h
 
 ../../../../drivers/chips/ws63/porting/uart/uart_porting.h
 stdint.h
@@ -136,6 +166,22 @@ errcode.h
 i2c_porting.h
 ../../../../drivers/drivers/hal/i2c/i2c_porting.h
 
+../../../../drivers/drivers/hal/spi/hal_spi.h
+stdint.h
+-
+stdbool.h
+-
+errcode.h
+../../../../drivers/drivers/hal/spi/errcode.h
+common_def.h
+../../../../drivers/drivers/hal/spi/common_def.h
+spi_porting.h
+../../../../drivers/drivers/hal/spi/spi_porting.h
+
+../../../../drivers/drivers/hal/spi/v151/hal_spi_v151_regs_def.h
+stdint.h
+-
+
 ../../../../drivers/drivers/hal/uart/hal_uart.h
 stdint.h
 -
@@ -156,6 +202,12 @@ stdint.h
 stdint.h
 -
 stdbool.h
+-
+errcode.h
+../../../../include/driver/errcode.h
+
+../../../../include/driver/dma.h
+stdint.h
 -
 errcode.h
 ../../../../include/driver/errcode.h
@@ -191,6 +243,14 @@ errcode.h
 ../../../../include/driver/errcode.h
 pinctrl_porting.h
 ../../../../include/driver/pinctrl_porting.h
+
+../../../../include/driver/spi.h
+stdint.h
+-
+errcode.h
+../../../../include/driver/errcode.h
+hal_spi.h
+../../../../include/driver/hal_spi.h
 
 ../../../../include/driver/uart.h
 stdint.h
@@ -1090,6 +1150,30 @@ pinctrl.h
 cmsis_os2.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/cmsis_os2.h
 
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/demo.c
+common_def.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/common_def.h
+osal_debug.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/osal_debug.h
+cmsis_os2.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/cmsis_os2.h
+app_init.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/app_init.h
+pinctrl.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/pinctrl.h
+i2c.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/i2c.h
+uart.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/uart.h
+gpio.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/gpio.h
+demo.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/demo.h
+ssd1306.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/ssd1306.h
+ssd1306_fonts.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/ssd1306_fonts.h
+
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/dht11.c
 pinctrl.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/pinctrl.h
@@ -1121,6 +1205,8 @@ cmsis_os2.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/cmsis_os2.h
 app_init.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/app_init.h
+demo.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/demo.h
 
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/mq_adc.c
 mq_adc.h
@@ -1137,6 +1223,40 @@ math.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/math.h
 cmsis_os2.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/cmsis_os2.h
+
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/ssd1306.c
+math.h
+-
+stdlib.h
+-
+string.h
+-
+stdarg.h
+-
+stdio.h
+-
+unistd.h
+-
+securec.h
+-
+spi.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/spi.h
+pinctrl.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/pinctrl.h
+gpio.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/gpio.h
+i2c.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/i2c.h
+soc_osal.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/soc_osal.h
+ssd1306.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/ssd1306.h
+demo.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/demo.h
+
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/ssd1306_fonts.c
+ssd1306_fonts.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/ssd1306_fonts.h
 
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/trans_data.c
 sle_low_latency.h

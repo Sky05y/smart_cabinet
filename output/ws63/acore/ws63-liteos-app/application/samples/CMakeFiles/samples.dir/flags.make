@@ -20,3 +20,9 @@ C_INCLUDES = -I/home/bearpi/project/smart_cabinet-main/kernel/liteos/liteos_v208
 
 # Custom defines: application/samples/CMakeFiles/samples.dir/ws63_client/sle_uart_client/sle_uart_client.c.obj_DEFINES = THIS_FILE_ID=SLE_UART_CLIENT_C;THIS_MOD_ID=LOG_PFMODULE
 
+# Custom defines: application/samples/CMakeFiles/samples.dir/ws63_client/src/demo.c.obj_DEFINES = THIS_FILE_ID=DEMO_C;THIS_MOD_ID=LOG_PFMODULE
+
+# Custom defines: application/samples/CMakeFiles/samples.dir/ws63_client/src/ssd1306.c.obj_DEFINES = THIS_FILE_ID=SSD1306_C;THIS_MOD_ID=LOG_PFMODULE
+
+# Custom defines: application/samples/CMakeFiles/samples.dir/ws63_client/src/ssd1306_fonts.c.obj_DEFINES = THIS_FILE_ID=SSD1306_FONTS_C;THIS_MOD_ID=LOG_PFMODULE
+
