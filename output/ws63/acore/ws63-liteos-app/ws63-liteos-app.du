@@ -3696,8 +3696,9 @@
 74      ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_task
 70      ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_write_cmd
 42      ./.bth_text_flash/application/samples/ws63_client/src/dht11.c/dht11_get_data
-382     ./.bth_text_flash/application/samples/ws63_client/src/dht11.c/dht11_task
+360     ./.bth_text_flash/application/samples/ws63_client/src/dht11.c/dht11_task
 3420    ./.bth_text_flash/application/samples/ws63_client/src/ssd1306_fonts.c/Font11x18
+1520    ./.bth_text_flash/application/samples/ws63_client/src/ssd1306_fonts.c/Font6x8
 1900    ./.bth_text_flash/application/samples/ws63_client/src/ssd1306_fonts.c/Font7x10
 10      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/get_g_sle_uart_conn_id
 8       ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/get_g_sle_uart_send_param
@@ -3705,7 +3706,7 @@
 10      ./.bth_text_flash/application/samples/ws63_client/src/mq_adc.c/mq_adc_get_display
 10      ./.bth_text_flash/application/samples/ws63_client/src/mq_adc.c/mq_adc_get_voltage
 90      ./.bth_text_flash/application/samples/ws63_client/src/mq_adc.c/mq_adc_task
-226     ./.bth_text_flash/application/samples/ws63_client/src/demo.c/oled_task
+306     ./.bth_text_flash/application/samples/ws63_client/src/demo.c/oled_task
 168     ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_init
 34      ./.bth_text_flash/application/samples/ws63_client/src/trans_data.c/sle_uart_client_read_int_handler
 132     ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_sample_connect_state_changed_cbk
@@ -4561,6 +4562,7 @@
 0       ./startup/application/ws63/ws63_liteos_application/reset_vector.S/set_stack_loop
 4       ./startup/application/samples/ws63_client/src/main.c/__zinitcall_run_sle_uart_entry
 8       ./.bth_data_flash/application/samples/ws63_client/src/ssd1306_fonts.c/Font_11x18
+8       ./.bth_data_flash/application/samples/ws63_client/src/ssd1306_fonts.c/Font_6x8
 8       ./.bth_data_flash/application/samples/ws63_client/src/ssd1306_fonts.c/Font_7x10
 1       ./.bth_data_flash/application/samples/ws63_client/src/bh1750.c/g_addr
 8       ./.bth_data_flash/application/samples/ws63_client/src/trans_data.c/g_app_uart_buffer_config
@@ -4697,4 +4699,4 @@
 30      ./.plat_text_sram/drivers/chips/ws63/porting/sfc/porting/sfc_protect.c/sfc_port_write_unlock
 788     ./.patch/application/ws63/ws63_liteos_application/main.c/patch_cmp
 1552    ./.patch/application/ws63/ws63_liteos_application/main.c/patch_remap
-done. Lines: 18035, Matches: 4699
+done. Lines: 18037, Matches: 4701

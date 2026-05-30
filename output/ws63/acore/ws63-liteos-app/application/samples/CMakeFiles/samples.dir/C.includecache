@@ -1173,6 +1173,12 @@ ssd1306.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/ssd1306.h
 ssd1306_fonts.h
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/ssd1306_fonts.h
+bh1750.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/bh1750.h
+mq_adc.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/mq_adc.h
+dht11.h
+/home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/dht11.h
 
 /home/bearpi/project/smart_cabinet-main/application/samples/ws63_client/src/dht11.c
 pinctrl.h

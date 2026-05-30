@@ -9,6 +9,9 @@
 #include "demo.h"
 #include "ssd1306.h"
 #include "ssd1306_fonts.h"
+#include "bh1750.h"
+#include "mq_adc.h"
+#include "dht11.h"
 
 // 全局识别状态：0-等待, 1-成功, 2-失败
 static volatile int g_verify_status = 0;
@@ -238,27 +241,49 @@ void *oled_task(void *arg)
     ssd1306_Init();
     osal_printk("[OLED] Init done\r\n");
 
+    uint16_t show_lux = 0;
+    uint32_t adc_alcohol_s = 0;
+    int t_int_s = 0, t_dec_s = 0, h_int_s = 0, h_dec_s = 0;
+
     while (1) {
+        show_lux = get_lux_value();
+        adc_alcohol_s = mq_adc_get_display();
+        dht11_get_data(&t_int_s, &t_dec_s, &h_int_s, &h_dec_s);
+
         cur = g_verify_status;
         if (cur != last_st) {
             ssd1306_Fill(Black);
+
+            /* 第一行：指纹结果 */
             if (cur == 1) {
-                ssd1306_SetCursor(25, 16);
+                ssd1306_SetCursor(25, 0);
                 ssd1306_DrawString("SUCCESS", Font_11x18, White);
-                ssd1306_SetCursor(25, 40);
-                ssd1306_DrawString("Unlocked!", Font_7x10, White); // 增加开锁提示
             } else if (cur == 2) {
-                ssd1306_SetCursor(25, 16);
+                ssd1306_SetCursor(25, 0);
                 ssd1306_DrawString("DENIED", Font_11x18, White);
             } else {
-                ssd1306_SetCursor(10, 20);
+                ssd1306_SetCursor(10, 0);
                 ssd1306_DrawString("WAITING...", Font_7x10, White);
-                ssd1306_SetCursor(5, 36);
+                ssd1306_SetCursor(5, 16);
                 ssd1306_DrawString("Place Finger", Font_7x10, White);
             }
-            ssd1306_UpdateScreen();
+
             last_st = cur;
         }
+            /* 3. 传感器区（固定位置，不依赖指纹状态） */
+        char buf[32];
+
+        snprintf(buf, sizeof(buf), "T:%d.%dC H:%d.%d%%",
+                t_int_s, t_dec_s, h_int_s, h_dec_s);
+        ssd1306_SetCursor(0, 36);
+        ssd1306_DrawString(buf, Font_6x8, White);
+
+        snprintf(buf, sizeof(buf), "Lux:%d Alc:%lu",
+                show_lux, adc_alcohol_s);
+        ssd1306_SetCursor(0, 46);
+        ssd1306_DrawString(buf, Font_6x8, White);
+
+        ssd1306_UpdateScreen();
         osDelay(100);
     }
     return NULL;

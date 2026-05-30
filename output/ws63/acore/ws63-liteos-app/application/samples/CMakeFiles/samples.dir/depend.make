@@ -264,7 +264,10 @@ application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj: ../../.
 application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj: ../../../../open_source/lwip/lwip_adapter/liteos_207/src/include/fs/fs.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/bh1750.c.obj: ../../../../application/samples/ws63_client/src/bh1750.c
 
+application/samples/CMakeFiles/samples.dir/ws63_client/src/demo.c.obj: ../../../../application/samples/ws63_client/include/bh1750.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/demo.c.obj: ../../../../application/samples/ws63_client/include/demo.h
+application/samples/CMakeFiles/samples.dir/ws63_client/src/demo.c.obj: ../../../../application/samples/ws63_client/include/dht11.h
+application/samples/CMakeFiles/samples.dir/ws63_client/src/demo.c.obj: ../../../../application/samples/ws63_client/include/mq_adc.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/demo.c.obj: ../../../../application/samples/ws63_client/include/ssd1306.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/demo.c.obj: ../../../../application/samples/ws63_client/include/ssd1306_fonts.h
 application/samples/CMakeFiles/samples.dir/ws63_client/src/demo.c.obj: ../../../../drivers/boards/ws63/evb/memory_config/include/product/product.h
