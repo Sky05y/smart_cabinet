@@ -97,7 +97,7 @@ static void trigger_unlock(void)
     uapi_gpio_set_val(RELAY_CTRL_PIN, RELAY_ON_LEVEL);
     
     // 2. 保持通电 2 秒钟（给开门留出时间）
-    osDelay(2000); 
+    osDelay(10000); 
     
     // 3. 断电，继电器断开，锁舌弹出（恢复常闭安全状态）
     uapi_gpio_set_val(RELAY_CTRL_PIN, RELAY_OFF_LEVEL);
@@ -145,11 +145,11 @@ static int32_t zw101_send_recv(const uint8_t *cmd, uint8_t cmd_len,
         elapsed += step;
     }
 
-    osal_printk("[ZW101] recv(%d): ", len);
-    for (int i = 0; i < len && i < 16; i++) {
-        osal_printk("%02X ", rx[i]);
-    }
-    osal_printk("\r\n");
+    // osal_printk("[ZW101] recv(%d): ", len);
+    // for (int i = 0; i < len && i < 16; i++) {
+    //     osal_printk("%02X ", rx[i]);
+    // }
+    // osal_printk("\r\n");
     return len;
 }
 

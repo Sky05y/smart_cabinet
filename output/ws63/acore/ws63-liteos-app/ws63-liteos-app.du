@@ -1044,6 +1044,7 @@
 64      ./.plat_text_flash/drivers/drivers/driver/tsensor/tsensor.c/uapi_tsensor_start_inquire_mode
 92      ./.plat_text_flash/drivers/drivers/driver/uart/uart.c/uapi_uart_deinit
 270     ./.plat_text_flash/drivers/drivers/driver/uart/uart.c/uapi_uart_init
+126     ./.plat_text_flash/drivers/drivers/driver/uart/uart.c/uapi_uart_read
 186     ./.plat_text_flash/drivers/drivers/driver/uart/uart.c/uapi_uart_register_rx_callback
 100     ./.plat_text_flash/drivers/drivers/driver/uart/uart.c/uapi_uart_unregister_rx_callback
 112     ./.plat_text_flash/drivers/drivers/driver/uart/uart.c/uapi_uart_write
@@ -3679,6 +3680,7 @@
 36      ./.bth_bss_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/g_sle_uart_ssapc_cbk
 4       ./.bth_bss_flash/application/samples/ws63_client/src/dht11.c/g_temperature_dec
 4       ./.bth_bss_flash/application/samples/ws63_client/src/dht11.c/g_temperature_int
+512     ./.bth_bss_flash/application/samples/ws63_client/src/demo.c/g_uart_rx_buff
 4       ./.bth_bss_flash/application/samples/ws63_client/src/demo.c/g_verify_status
 4       ./.bth_bss_flash/application/samples/ws63_client/src/mq_adc.c/g_voltage_mv
 4       ./.bth_bss_flash/application/samples/ws63_client/src/trans_data.c/h_dec
@@ -3695,8 +3697,13 @@
 80      ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_read_lux
 74      ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_task
 70      ./.bth_text_flash/application/samples/ws63_client/src/bh1750.c/bh1750_write_cmd
+122     ./.bth_text_flash/application/samples/ws63_client/src/demo.c/board_hardware_init
+13      ./.bth_text_flash/application/samples/ws63_client/src/demo.c/CMD_GEN_CHAR
+12      ./.bth_text_flash/application/samples/ws63_client/src/demo.c/CMD_GET_IMAGE
+17      ./.bth_text_flash/application/samples/ws63_client/src/demo.c/CMD_SEARCH
 42      ./.bth_text_flash/application/samples/ws63_client/src/dht11.c/dht11_get_data
 360     ./.bth_text_flash/application/samples/ws63_client/src/dht11.c/dht11_task
+286     ./.bth_text_flash/application/samples/ws63_client/src/demo.c/fingerprint_task
 3420    ./.bth_text_flash/application/samples/ws63_client/src/ssd1306_fonts.c/Font11x18
 1520    ./.bth_text_flash/application/samples/ws63_client/src/ssd1306_fonts.c/Font6x8
 1900    ./.bth_text_flash/application/samples/ws63_client/src/ssd1306_fonts.c/Font7x10
@@ -3706,7 +3713,7 @@
 10      ./.bth_text_flash/application/samples/ws63_client/src/mq_adc.c/mq_adc_get_display
 10      ./.bth_text_flash/application/samples/ws63_client/src/mq_adc.c/mq_adc_get_voltage
 90      ./.bth_text_flash/application/samples/ws63_client/src/mq_adc.c/mq_adc_task
-306     ./.bth_text_flash/application/samples/ws63_client/src/demo.c/oled_task
+304     ./.bth_text_flash/application/samples/ws63_client/src/demo.c/oled_task
 168     ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_init
 34      ./.bth_text_flash/application/samples/ws63_client/src/trans_data.c/sle_uart_client_read_int_handler
 132     ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_sample_connect_state_changed_cbk
@@ -3721,7 +3728,7 @@
 32      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_sample_sle_enable_cbk
 28      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_client_sample_write_cfm_cb
 408     ./.bth_text_flash/application/samples/ws63_client/src/trans_data.c/sle_uart_client_task
-166     ./.bth_text_flash/application/samples/ws63_client/src/main.c/sle_uart_entry
+180     ./.bth_text_flash/application/samples/ws63_client/src/main.c/sle_uart_entry
 30      ./.bth_text_flash/application/samples/ws63_client/src/trans_data.c/sle_uart_notification_cb
 46      ./.bth_text_flash/application/samples/ws63_client/sle_uart_client/sle_uart_client.c/sle_uart_start_scan
 156     ./.bth_text_flash/application/samples/ws63_client/src/ssd1306.c/ssd1306_DrawChar
@@ -3737,6 +3744,7 @@
 52      ./.bth_text_flash/application/samples/ws63_client/src/ssd1306.c/ssd1306_UpdateScreen
 18      ./.bth_text_flash/application/samples/ws63_client/src/ssd1306.c/ssd1306_WriteCommand
 78      ./.bth_text_flash/application/samples/ws63_client/src/ssd1306.c/ssd1306_WriteData
+110     ./.bth_text_flash/application/samples/ws63_client/src/demo.c/zw101_send_recv.constprop.0
 1       ./.bss/drivers/drivers/driver/adc/adc.c/adc_is_initialised
 1       ./.bss/drivers/drivers/driver/adc/adc.c/adc_is_power_on
 1       ./.bss/drivers/drivers/hal/adc/v154/hal_adc_v154.c/g_adc_auto_scan_status
@@ -4566,6 +4574,7 @@
 8       ./.bth_data_flash/application/samples/ws63_client/src/ssd1306_fonts.c/Font_7x10
 1       ./.bth_data_flash/application/samples/ws63_client/src/bh1750.c/g_addr
 8       ./.bth_data_flash/application/samples/ws63_client/src/trans_data.c/g_app_uart_buffer_config
+8       ./.bth_data_flash/application/samples/ws63_client/src/demo.c/g_uart_buffer_config
 4       ./.wifi_data_tcm/middleware/services/wifi_service/wpa/liteos_wpa_api/wifi_api.c/g_assoc_auth
 16      ./.wifi_data_tcm/protocol/wifi/source/host/feature/hmac_btcoex_ba.c/g_btcoex_netbuf_hook
 1       ./.wifi_data_tcm/middleware/utils/at/at_wifi_cmd/at/at_wifi.c/g_bw_setup_value
@@ -4699,4 +4708,4 @@
 30      ./.plat_text_sram/drivers/chips/ws63/porting/sfc/porting/sfc_protect.c/sfc_port_write_unlock
 788     ./.patch/application/ws63/ws63_liteos_application/main.c/patch_cmp
 1552    ./.patch/application/ws63/ws63_liteos_application/main.c/patch_remap
-done. Lines: 18037, Matches: 4701
+done. Lines: 18046, Matches: 4710

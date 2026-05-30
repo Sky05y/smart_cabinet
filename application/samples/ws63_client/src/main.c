@@ -23,7 +23,7 @@
 
 static void sle_uart_entry(void)
 {
-    // board_hardware_init();
+    board_hardware_init();
     osThreadAttr_t attr;
 
     /************ 1. 创建 SLE 任务 ************/
@@ -68,7 +68,7 @@ static void sle_uart_entry(void)
     attr.stack_size = 0x2000;
     attr.priority   = 17;
     attr.name = "FingerTask";
-    // osThreadNew((osThreadFunc_t)fingerprint_task, NULL, &attr);
+    osThreadNew((osThreadFunc_t)fingerprint_task, NULL, &attr);
 
     attr.name = "OledTask";
     osThreadNew((osThreadFunc_t)oled_task, NULL, &attr);
