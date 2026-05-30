@@ -24,7 +24,7 @@
     .btc_bss_tcm      0x00183628                    28                  
     .wifi_bss_tcm     0x00183648                   956                  
   
-  SRAM                0x00A00000     0x85F00   0x2CF60 = 184160
+  SRAM                0x00A00000     0x85F00   0x2D020 = 184352
     .wifi_pkt_ram     0x00A00000                 49152                  
     .plat_text_sram   0x00A0C000                 10884 load address 0x234C48
     .wifi_text_sram   0x00A0EA88                     0                  
@@ -34,19 +34,19 @@
     .wifi_data_sram   0x00A0F460                     0                  
     .btc_data_sram    0x00A0F460                     0                  
     .bth_data_sram    0x00A0F460                     0                  
-    .btc_data_flash   0x00A0F460                  4928 load address 0x3667A8
-    .bth_data_flash   0x00A107A0                  2392 load address 0x367AE8
-    .data             0x00A110F8                   644 load address 0x368440
+    .btc_data_flash   0x00A0F460                  4928 load address 0x366ED8
+    .bth_data_flash   0x00A107A0                  2392 load address 0x368218
+    .data             0x00A110F8                   644 load address 0x368B70
     .plat_bss_sram    0x00A11380                  1217                  
     .plat_bss_flash   0x00A11848                 12708                  
     .wifi_bss_flash   0x00A149F0                 37504                  
     .radar_bss_flash  0x00A1DC70                 39292                  
     .radar_ai_bss_flash  0x00A275F0                  6120                  
     .btc_bss_flash    0x00A28DD8                  3260                  
-    .bth_bss_flash    0x00A29A98                  4504                  
-    .bss              0x00A2AC30                  3876                  
-    .stacks           0x00A2BB60                  5120                  
-    .heap             0x00A2CF60                     0                  
+    .bth_bss_flash    0x00A29A98                  4686                  
+    .bss              0x00A2ACE8                  3884                  
+    .stacks           0x00A2BC20                  5120                  
+    .heap             0x00A2D020                     0                  
   
   PRESERVE_SHARE_MEM  0x00A85F00       0x100      0xFC = 252
     .preserve         0x00A85F00                   252                  
@@ -55,7 +55,7 @@
     startup           0x00230300                   424                  
     .sysintcall.init  0x002304A8                    52                  
   
-  PROGRAM             0x00230700    0x23F900  0x137FC4 = 1277892
+  PROGRAM             0x00230700    0x23F900  0x1386F4 = 1279732
     .patch            0x00230700                  2344                  
     .rom_ram_cb_text  0x00231028                  1816                  
     .plat_romdata     0x00231740                   212                  
@@ -67,17 +67,17 @@
     .wifi_data_tcm    0x00233EE8                  3420                  
     .plat_text_sram   0x00234C48                 10884                  
     .patch_on_sram    0x002376D0                  2520                  
-    .plat_text_flash  0x002380A8                178308                  
-    .wifi_text_flash  0x00263930                585994                  
-    .patch_on_flash   0x002F2A40                  1908                  
-    .btc_text_flash   0x002F31B8                132152                  
-    .bth_text_flash   0x003135F0                238812                  
-    .radar_text_flash  0x0034DAD0                 34036                  
-    .radar_ai_text_flash  0x00355FC8                  9980                  
-    .text             0x003586C8                 57568                  
-    .btc_data_flash   0x003667A8                  4928                  
-    .bth_data_flash   0x00367AE8                  2392                  
-    .data             0x00368440                   644                  
+    .plat_text_flash  0x002380A8                178180                  
+    .wifi_text_flash  0x002638B0                585994                  
+    .patch_on_flash   0x002F29C0                  1908                  
+    .btc_text_flash   0x002F3138                132152                  
+    .bth_text_flash   0x00313570                240780                  
+    .radar_text_flash  0x0034E200                 34036                  
+    .radar_ai_text_flash  0x003566F8                  9980                  
+    .text             0x00358DF8                 57568                  
+    .btc_data_flash   0x00366ED8                  4928                  
+    .bth_data_flash   0x00368218                  2392                  
+    .data             0x00368B70                   644                  
 
   ====================================================
 
@@ -89,7 +89,7 @@
   --------------------------------  --------  -----
 
 
-  .plat_text_flash                    101017
+  .plat_text_flash                    100891
 
     middleware                         31285
       utils                            27681
@@ -319,7 +319,7 @@
           main                                    1086
           clock_init                               578
 
-    drivers                            10040
+    drivers                             9914
       chips                             3192
         ws63                                
           porting                       2795
@@ -367,7 +367,7 @@
           interrupt                       73
             interrupt_os_adapter                    73
 
-      drivers                           6848
+      drivers                           6722
         hal                             4742
           tsensor                       1156
             v151                        1080
@@ -406,15 +406,15 @@
           reboot                          22
             hal_reboot                              22
 
-        driver                          2106
+        driver                          1980
           efuse                          380
             efuse                                  380
 
           tsensor                        176
             tsensor                                176
 
-          uart                          1550
-            uart                                  1550
+          uart                          1424
+            uart                                  1424
 
     kernel                              1764
       non_os                             220
@@ -851,19 +851,45 @@
   --------------------------------  --------  -----
 
 
-  .bth_text_flash                       7966
+  .bth_bss_flash                        1755
 
     application                             
       samples                               
         ws63_client                         
-          src                               
-            mq_adc                                 310
-            bh1750                                 292
-            demo                                   800
-            dht11                                  360
+          src                           1604
+            trans_data                             538
+            mq_adc                                  12
+            dht11                                   16
+            demo                                     4
+            bh1750                                   2
+            ssd1306                               1032
+
+          sle_uart_client                151
+            sle_uart_client                        151
+
+
+  Section                            Total     Size
+
+  --------------------------------  --------  -----
+
+
+  .bth_text_flash                       8804
+
+    application                             
+      samples                               
+        ws63_client                         
+          src                           7964
+            mq_adc                                 330
+            bh1750                                 310
+            dht11                                  424
             ssd1306_fonts                         5320
-            main                                   168
+            demo                                   226
+            trans_data                             472
+            main                                   166
             ssd1306                                716
+
+          sle_uart_client                840
+            sle_uart_client                        840
 
 
   Section                            Total     Size
@@ -1346,7 +1372,7 @@
           src                               
             ssd1306_fonts                           16
             bh1750                                   1
-            demo                                     8
+            trans_data                               8
 
 
   Section                            Total     Size
@@ -1487,24 +1513,6 @@
   --------------------------------  --------  -----
 
 
-  .bth_bss_flash                        1578
-
-    application                             
-      samples                               
-        ws63_client                         
-          src                               
-            mq_adc                                  12
-            dht11                                   16
-            demo                                   516
-            bh1750                                   2
-            ssd1306                               1032
-
-
-  Section                            Total     Size
-
-  --------------------------------  --------  -----
-
-
   .data                                  486
 
     drivers                              485
@@ -1631,7 +1639,7 @@
          .data  .lst file = 644 (0x284)
                  .du file = 486 (0x1E6)
 
-          .bss  .lst file = 3876 (0xF24)
+          .bss  .lst file = 3884 (0xF2C)
                  .du file = 3773 (0xEBD)
 
   ====================================================

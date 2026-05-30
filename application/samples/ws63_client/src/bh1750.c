@@ -81,6 +81,7 @@ void bh1750_task(void *arg)
     // if (uapi_i2c_master_init(BH1750_I2C_BUS, 400000, 0) != 0) {
     //     osal_printk("I2C init fail\r\n");
     // }
+    osDelay(2000); // 等待OLED初始化完成，避免I2C冲突
     if (bh1750_init(BH1750_ADDR_LOW) != 0) {
         osal_printk("Error code: %d\r\n", bh1750_init(BH1750_ADDR_LOW));
         osal_printk("BH1750 init fail\r\n");
@@ -89,6 +90,9 @@ void bh1750_task(void *arg)
         if (bh1750_read_lux(&lux) != 0) {
             osal_printk("BH1750 read error\r\n");
         }
+        // else {
+        //     osal_printk("[BH1750] lux=%d\r\n", lux);
+        // }
         osDelay(1000);
     }
 }

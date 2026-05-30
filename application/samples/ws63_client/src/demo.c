@@ -40,14 +40,17 @@ static const uint8_t CMD_SEARCH[] = {
 };
 
 // ===================== 硬件初始化 =====================
+static void app_i2c_init_pin(void)
+{
+    uapi_pin_set_mode(CONFIG_I2C_SCL_MASTER_PIN, 2);
+    uapi_pin_set_mode(CONFIG_I2C_SDA_MASTER_PIN, 2);
+    uapi_pin_set_pull(CONFIG_I2C_SCL_MASTER_PIN, PIN_PULL_TYPE_UP);
+    uapi_pin_set_pull(CONFIG_I2C_SDA_MASTER_PIN, PIN_PULL_TYPE_UP);
+}
 void board_hardware_init(void)
 {
     // OLED I2C1 (GPIO15=SDA, GPIO16=SCL)
-    uapi_pin_set_mode(CONFIG_I2C_SCL_MASTER_PIN, 2);
-    uapi_pin_set_mode(CONFIG_I2C_SDA_MASTER_PIN, 2);
-    uapi_pin_set_pull(CONFIG_I2C_SCL_MASTER_PIN, 1);
-    uapi_pin_set_pull(CONFIG_I2C_SDA_MASTER_PIN, 1);
-    uapi_i2c_master_init(CONFIG_I2C_MASTER_BUS_ID, 100000, 0);
+    uapi_gpio_init();
 
     // 指纹 UART2 (GPIO8=TX, GPIO7=RX)
     uapi_pin_set_mode(FP_UART_TX_PIN, 2);
@@ -65,13 +68,14 @@ void board_hardware_init(void)
         .stop_bits = UART_STOP_BIT_1,
         .parity    = UART_PARITY_NONE,
     };
+
+
     uapi_uart_deinit(FP_UART_BUS_ID);
     uapi_uart_init(FP_UART_BUS_ID, &uart_cfg, &uart_attr, NULL, &g_uart_buffer_config);
     uapi_uart_unregister_rx_callback(FP_UART_BUS_ID);
 
     // WAKE 引脚 GPIO11 输入下拉
     uapi_pin_set_mode(FP_WAKE_PIN, 0);
-    uapi_gpio_init();
     uapi_gpio_set_dir(FP_WAKE_PIN, GPIO_DIRECTION_INPUT);
     uapi_pin_set_pull(FP_WAKE_PIN, 2);
 
@@ -79,6 +83,7 @@ void board_hardware_init(void)
     uapi_pin_set_mode(RELAY_CTRL_PIN, 0); // 配置为普通 GPIO
     uapi_gpio_set_dir(RELAY_CTRL_PIN, GPIO_DIRECTION_OUTPUT);
     uapi_gpio_set_val(RELAY_CTRL_PIN, RELAY_OFF_LEVEL); // 初始状态必须为断电！防止上电乱开锁
+
 }
 
 // ===================== 开锁动作函数 (带安全保护) =====================
@@ -166,44 +171,43 @@ void *fingerprint_task(void *arg)
                 got_image = 0;
 
                 osal_printk("\r\n[FP] Finger detected!\r\n");
-                osDelay(200); 
+                osDelay(50);
 
-                // Step 1: GetImage
-                for (i = 0; i < 15; i++) {
-                    len = zw101_send_recv(CMD_GET_IMAGE, sizeof(CMD_GET_IMAGE), rx, sizeof(rx), 400);
+                for (i = 0; i < 40; i++) {
+                    len = zw101_send_recv(CMD_GET_IMAGE, sizeof(CMD_GET_IMAGE), rx, sizeof(rx), 100);
                     if (len >= 12 && rx[9] == 0x00) {
                         got_image = 1;
                         break;
                     }
-                    osDelay(20); 
+                    osDelay(30);
                 }
 
                 if (!got_image) {
+                    osal_printk("[FP] No image -> DENIED\r\n");
                     g_verify_status = 2;
                     goto wait_lift;
                 }
 
-                // Step 2: GenChar
-                len = zw101_send_recv(CMD_GEN_CHAR, sizeof(CMD_GEN_CHAR), rx, sizeof(rx), 600);
+                len = zw101_send_recv(CMD_GEN_CHAR, sizeof(CMD_GEN_CHAR), rx, sizeof(rx), 300);
                 if (len < 12 || rx[9] != 0x00) {
+                    osal_printk("[FP] GenChar fail -> DENIED\r\n");
                     g_verify_status = 2;
                     goto wait_lift;
                 }
 
-                // Step 3: Search
-                len = zw101_send_recv(CMD_SEARCH, sizeof(CMD_SEARCH), rx, sizeof(rx), 1500);
+                len = zw101_send_recv(CMD_SEARCH, sizeof(CMD_SEARCH), rx, sizeof(rx), 500);
                 if (len >= 12 && rx[9] == 0x00) {
                     success = 1;
                 }
 
                 g_verify_status = success ? 1 : 2;
 
-
                 if (success) {
+                    osal_printk("[FP] Match SUCCESS\r\n");
                     trigger_unlock();
                 } else {
-
-                    osDelay(1500); 
+                    osal_printk("[FP] Match fail -> DENIED\r\n");
+                    osDelay(1500);
                 }
 
 wait_lift:
@@ -229,7 +233,8 @@ void *oled_task(void *arg)
     int cur;
 
     unused(arg);
-    osDelay(1000);
+    app_i2c_init_pin();
+    uapi_i2c_master_init(CONFIG_I2C_MASTER_BUS_ID, 400000, 0);
     ssd1306_Init();
     osal_printk("[OLED] Init done\r\n");
 
