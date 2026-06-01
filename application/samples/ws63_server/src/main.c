@@ -288,6 +288,25 @@ int sta_init(void *param)
     return 0;
 }
 
+void signal_open_door(int door_no) // door_no表示要发给哪个机柜
+{
+    osal_printk("Signaling to open door %d\r\n", door_no);
+
+    // 检查SLE客户端是否连接
+    if (!sle_uart_client_is_connected()) {
+        osal_printk("SLE client not connected, cannot signal door %d\r\n", door_no);
+        return;
+    }
+
+    // 构造发送数据：open:1 或 open:2
+    uint8_t msg[16];
+    int len = sprintf((char *)msg, "open:%d", door_no);
+
+    // 通过SLE发送给客户端
+    sle_uart_server_send_report_by_handle(msg, len);
+    osal_printk("SLE sent: %s\r\n", msg);
+}
+
 void http_post_data(uint16_t lux,
                     uint32_t alcohol,
                     int t_int, int t_dec,
@@ -336,11 +355,64 @@ void http_post_data(uint16_t lux,
 
     osal_printk("POST发送: %s\r\n", json_data);
 
-    char recv_buf[256] = {0};
-    recv(sock, recv_buf, sizeof(recv_buf)-1, 0);
-    osal_printk("服务器返回: %s\r\n", recv_buf);
+    char recv_buf[512] = {0};
+    size_t total = 0;
+    int ret;
+    int content_length = -1;  // 从头部解析
+    int header_end = 0;       // 头部结束位置
+
+    while (total < sizeof(recv_buf) - 1) {
+        ret = recv(sock, recv_buf + total, sizeof(recv_buf) - 1 - total, 0);
+
+        if (ret <= 0) {
+            break;
+        }
+
+        total += ret;
+        
+        // 找 Content-Length
+        if (content_length < 0) {
+            char *cl = strstr(recv_buf, "Content-Length: ");
+            if (cl) {
+                sscanf(cl, "Content-Length: %d", &content_length);
+            }
+        }
+
+        // 找头部结束 \r\n\r\n
+        if (header_end == 0) {
+            char *hend = strstr(recv_buf, "\r\n\r\n");
+            if (hend) {
+                header_end = hend - recv_buf + 4;  // 头部总字节数
+            }
+        }
+
+        // 如果知道 Content-Length 和头部结束位置，判断是否收完
+        if (content_length >= 0 && header_end > 0) {
+            int need_total = header_end + content_length;
+            if ((int)total >= need_total) {
+                break;      // 数据收完了
+            }
+        }
+    }
+
+    // 提取 door 并判断
+    char *body = strstr(recv_buf, "\r\n\r\n");
+    if (body) {
+        body += 4;
+        
+        int door1 = 0, door2 = 0;
+        char *door = strstr(body, "\"door\"");
+        if (door) {
+            sscanf(door, "\"door\": {\"1\": %d, \"2\": %d}", &door1, &door2);
+            osal_printk("door: {\"1\": %d, \"2\": %d}\r\n", door1, door2);
+
+            if (door1 == 1) signal_open_door(1);
+            if (door2 == 1) signal_open_door(2);
+        }
+    }
 
     closesocket(sock);
+
 }
 
 static void *http_upload_task(const char *arg)
