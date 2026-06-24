@@ -90,14 +90,14 @@ void board_hardware_init(void)
 }
 
 // ===================== 开锁动作函数 (带安全保护) =====================
-static void trigger_unlock(void)
+void trigger_unlock(void)
 {
     osal_printk("[LOCK] Unlocking! (Relay ON)\r\n");
     // 1. 通电，继电器吸合，锁舌缩回
     uapi_gpio_set_val(RELAY_CTRL_PIN, RELAY_ON_LEVEL);
     
     // 2. 保持通电 2 秒钟（给开门留出时间）
-    osDelay(10000); 
+    osDelay(1000); 
     
     // 3. 断电，继电器断开，锁舌弹出（恢复常闭安全状态）
     uapi_gpio_set_val(RELAY_CTRL_PIN, RELAY_OFF_LEVEL);

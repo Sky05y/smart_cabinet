@@ -11,11 +11,12 @@
 #include "bh1750.h"
 #include "mq_adc.h"
 #include "dht11.h"
+#include "demo.h"
 
 #define SLE_UART_TASK_DURATION_MS           2000
 #define SLE_UART_BAUDRATE                   115200
 #define SLE_UART_TRANSFER_SIZE              512
-#define DEVICE_NO 1                 // 设备编号设置
+#define DEVICE_NO 2                 // 设备编号设置
 
 
 #define CONFIG_SLE_UART_BUS 0
@@ -145,7 +146,14 @@ void sle_uart_notification_cb(uint8_t client_id, uint16_t conn_id, ssapc_handle_
     unused(client_id);
     unused(conn_id);
     unused(status);
+    int door_no = 0;
     osal_printk("\n sle uart recived data : %s\r\n", data->data);
+    // 出数据是open:1这种形式，解析出来
+    if (sscanf((char *)data->data, "open:%d", &door_no) == 1) {
+        if (door_no == 1) {
+            trigger_unlock(); // 触发开锁动作
+        }
+    }
     uapi_uart_write(CONFIG_SLE_UART_BUS, (uint8_t *)(data->data), data->data_len, 0);
 }
 

@@ -22,9 +22,11 @@ endif()
 
 add_subdirectory_if_exist(custom)
 
-add_subdirectory_if_exist(ws63_server)
+# add_subdirectory_if_exist(ws63_server)
 
-# add_subdirectory_if_exist(ws63_client)
+# add_subdirectory_if_exist(ws63_client_1)
+
+add_subdirectory_if_exist(ws63_client_2)
 
 set(PRIVATE_HEADER
 )

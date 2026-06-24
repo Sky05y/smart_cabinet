@@ -44,4 +44,6 @@ void *fingerprint_task(void *arg);
  */
 void *oled_task(void *arg);
 
+void trigger_unlock(void);
+
 #endif
