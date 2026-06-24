@@ -1,7 +1,10 @@
 #include "sle_low_latency.h"
 #include "sle_connection_manager.h"
-#include "sle_ssap_client.h"
-#include "sle_uart_client.h"
+#include "sle_ssap_server.h"
+#include "sle_uart_server.h"
+#include "sle_uart_server_adv.h"
+#include "sle_device_discovery.h"
+#include "sle_errcode.h"
 #include "common_def.h"
 #include "uart.h"
 #include "pinctrl.h"
@@ -16,8 +19,7 @@
 #define SLE_UART_TASK_DURATION_MS           2000
 #define SLE_UART_BAUDRATE                   115200
 #define SLE_UART_TRANSFER_SIZE              512
-#define DEVICE_NO 1                 // 设备编号设置
-
+#define DEVICE_NO 1                 // 设备编号：1 或 2，每个设备不同
 
 #define CONFIG_SLE_UART_BUS 0
 #define CONFIG_UART_TXD_PIN 17
@@ -29,16 +31,21 @@ static uart_buffer_config_t g_app_uart_buffer_config = {
     .rx_buffer = g_app_uart_rx_buff,
     .rx_buffer_size = SLE_UART_TRANSFER_SIZE
 };
+
 uint16_t t_lux = 0;
 uint32_t adc_v = 0;
 uint32_t adc_alcohol = 0;
 int t_int = 0, t_dec = 0, h_int = 0, h_dec = 0;
+
+// ===== SLE Server 相关 =====
+#define SLE_UART_SERVER_LOG "[sle uart server]"
+
 static void uart_init_pin(void)
 {
     if (CONFIG_SLE_UART_BUS == 0) {
         uapi_pin_set_mode(CONFIG_UART_TXD_PIN, PIN_MODE_1);
         uapi_pin_set_mode(CONFIG_UART_RXD_PIN, PIN_MODE_1);       
-    }else if (CONFIG_SLE_UART_BUS == 1) {
+    } else if (CONFIG_SLE_UART_BUS == 1) {
         uapi_pin_set_mode(CONFIG_UART_TXD_PIN, PIN_MODE_1);
         uapi_pin_set_mode(CONFIG_UART_RXD_PIN, PIN_MODE_1);       
     }
@@ -61,108 +68,100 @@ static void uart_init_config(void)
     };
     uapi_uart_deinit(CONFIG_SLE_UART_BUS);
     uapi_uart_init(CONFIG_SLE_UART_BUS, &pin_config, &attr, NULL, &g_app_uart_buffer_config);
-
 }
 
-static void sle_uart_client_read_int_handler(const void *buffer, uint16_t length, bool error)
+// ===== SLE Server 回调 =====
+
+static void ssaps_server_read_request_cbk(uint8_t server_id, uint16_t conn_id, 
+    ssaps_req_read_cb_t *read_cb_para, errcode_t status)
 {
-    unused(error);
-    ssapc_write_param_t *sle_uart_send_param = get_g_sle_uart_send_param();
-    uint16_t g_sle_uart_conn_id = get_g_sle_uart_conn_id();
-    sle_uart_send_param->data_len = length;
-    sle_uart_send_param->data = (uint8_t *)buffer;
-    ssapc_write_req(0, g_sle_uart_conn_id, sle_uart_send_param);    // 通过SLE发送数据
+    osal_printk("%s ssaps read request cbk server_id:%x, conn_id:%x, handle:%x, status:%x\r\n",
+        SLE_UART_SERVER_LOG, server_id, conn_id, read_cb_para->handle, status);
 }
+
+static void ssaps_server_write_request_cbk(uint8_t server_id, uint16_t conn_id, 
+    ssaps_req_write_cb_t *write_cb_para, errcode_t status)
+{
+    osal_printk("%s ssaps write request cbk server_id:%x, conn_id:%x, handle:%x, status:%x\r\n",
+        SLE_UART_SERVER_LOG, server_id, conn_id, write_cb_para->handle, status);
+    
+    if ((write_cb_para->length > 0) && write_cb_para->value) {
+        osal_printk("\n sle uart received data : %s\r\n", write_cb_para->value);
+        
+        // 解析开门指令
+        int door_no = 0;
+        if (sscanf((char *)write_cb_para->value, "open:%d", &door_no) == 1) {
+            if (door_no == DEVICE_NO) {
+                trigger_unlock(); // 触发开锁动作
+                osal_printk("Door %d unlocked!\r\n", door_no);
+            }
+        }
+        
+        uapi_uart_write(CONFIG_SLE_UART_BUS, (uint8_t *)write_cb_para->value, 
+            write_cb_para->length, 0);
+    }
+}
+
+// ===== 定时发送数据给 Client =====
+
+static void send_sensor_data(void)
+{
+    // 读取传感器
+    t_lux = get_lux_value();
+    adc_v = mq_adc_get_voltage();
+    adc_alcohol = mq_adc_get_display();
+    dht11_get_data(&t_int, &t_dec, &h_int, &h_dec);
+    
+    osal_printk("Send data: lux=%d, alcohol=%d, T=%d.%d, H=%d.%d\r\n",
+        t_lux, adc_alcohol, t_int, t_dec, h_int, h_dec);
+    
+    // 打包数据
+    uint8_t send_buf[11];
+    send_buf[0] = (t_lux >> 8) & 0xFF;
+    send_buf[1] = t_lux & 0xFF;
+    send_buf[2] = (adc_alcohol >> 24) & 0xFF;
+    send_buf[3] = (adc_alcohol >> 16) & 0xFF;
+    send_buf[4] = (adc_alcohol >> 8) & 0xFF;
+    send_buf[5] = adc_alcohol & 0xFF;
+    send_buf[6] = (uint8_t)t_int;
+    send_buf[7] = (uint8_t)t_dec;
+    send_buf[8] = (uint8_t)h_int;
+    send_buf[9] = (uint8_t)h_dec;
+    send_buf[10] = DEVICE_NO; // 设备编号
+    
+    // 通过 SLE 发送给 Client（主动 notify）
+    sle_uart_server_send_report_by_handle(send_buf, 11);
+}
+
+// ===== 保持原函数名，但内部改为 Server 任务 =====
 
 void *sle_uart_client_task(const char *arg)
 {
     unused(arg);
-    /* UART pinmux. */
+    
+    /* UART pinmux */
     uart_init_pin();
-
-    /* UART init config. */
+    /* UART init config */
     uart_init_config();
 
-    uapi_uart_unregister_rx_callback(CONFIG_SLE_UART_BUS);
-    errcode_t ret = uapi_uart_register_rx_callback(CONFIG_SLE_UART_BUS,
-                                                   UART_RX_CONDITION_FULL_OR_IDLE,
-                                                   1, sle_uart_client_read_int_handler);
-    sle_uart_client_init(sle_uart_notification_cb, sle_uart_indication_cb); // 注册SLE接收回调（用于接收对端发来的数据）
+    // 初始化 SLE Server
+    sle_uart_server_init(ssaps_server_read_request_cbk, ssaps_server_write_request_cbk);
     
-    if (ret != ERRCODE_SUCC) {
-        osal_printk("Register uart callback fail.");
-        return NULL;
-    }
-    while(1)
-    {
-        // 定时通过SLE发送数据
-        osDelay(300);
-        t_lux = get_lux_value();
-        osal_printk("Current lux: %d\r\n", t_lux);
-        adc_v = mq_adc_get_voltage();
-        adc_alcohol = mq_adc_get_display();
-        osal_printk("Current voltage: %dmV, alcohol: %d%%\r\n", adc_v, adc_alcohol);
-        dht11_get_data(&t_int, &t_dec, &h_int, &h_dec);
-        osal_printk("Current temperature: %d.%dC, humidity: %d.%d%%\r\n", t_int, t_dec, h_int, h_dec);
+    // 启动广播
+    // errcode_t ret = sle_uart_server_adv_init();
+    // if (ret != ERRCODE_SLE_SUCCESS) {
+    //     osal_printk("[SLE] Server adv init fail: %d\r\n", ret);
+    //     return NULL;
+    // }
+    osal_printk("[SLE] Server started, waiting for Client connection...\r\n");
 
-        osal_printk("Send data: lux=%d, alcohol=%d, T=%d.%d, H=%d.%d\r\n",t_lux, adc_alcohol, t_int, t_dec, h_int, h_dec);
-            // ================== 打包数据 ==================
-        uint8_t send_buf[11];
-
-        // lux (2字节)
-        send_buf[0] = (t_lux >> 8) & 0xFF;
-        send_buf[1] = t_lux & 0xFF;
-
-        // alcohol (4字节)
-        send_buf[2] = (adc_alcohol >> 24) & 0xFF;
-        send_buf[3] = (adc_alcohol >> 16) & 0xFF;
-        send_buf[4] = (adc_alcohol >> 8) & 0xFF;
-        send_buf[5] = adc_alcohol & 0xFF;
-
-        // 温度
-        send_buf[6] = (uint8_t)t_int;
-        send_buf[7] = (uint8_t)t_dec;
-
-        // 湿度
-        send_buf[8] = (uint8_t)h_int;
-        send_buf[9] = (uint8_t)h_dec;
-        send_buf[10] = DEVICE_NO; // 设备编号
-        // ================== SLE发送 ==================
-        ssapc_write_param_t *param = get_g_sle_uart_send_param();
-        uint16_t conn_id = get_g_sle_uart_conn_id();
-
-        param->data_len = sizeof(send_buf);
-        param->data = send_buf;
-
-        ssapc_write_req(0, conn_id, param);
-
+    while (1) {
+        // 检查是否有 Client 连接
+        if (sle_uart_client_is_connected()) {
+            // 定时发送传感器数据
+            send_sensor_data();
+        }
+        osDelay(300); // 300ms 发送一次
     }
     return NULL;
-}
-
-void sle_uart_notification_cb(uint8_t client_id, uint16_t conn_id, ssapc_handle_value_t *data,
-    errcode_t status)
-{
-    unused(client_id);
-    unused(conn_id);
-    unused(status);
-    int door_no = 0;
-    osal_printk("\n sle uart recived data : %s\r\n", data->data);
-    // 出数据是open:1这种形式，解析出来
-    if (sscanf((char *)data->data, "open:%d", &door_no) == 1) {
-        if (door_no == 1) {
-            trigger_unlock(); // 触发开锁动作
-        }
-    }
-    uapi_uart_write(CONFIG_SLE_UART_BUS, (uint8_t *)(data->data), data->data_len, 0);
-}
-
-void sle_uart_indication_cb(uint8_t client_id, uint16_t conn_id, ssapc_handle_value_t *data,
-    errcode_t status)
-{
-    unused(client_id);
-    unused(conn_id);
-    unused(status);
-    osal_printk("\n sle uart recived data : %s\r\n", data->data);
-    uapi_uart_write(CONFIG_SLE_UART_BUS, (uint8_t *)(data->data), data->data_len, 0);
 }

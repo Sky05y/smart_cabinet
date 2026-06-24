@@ -2,6 +2,7 @@
         ${CMAKE_CURRENT_SOURCE_DIR}/src/main.c
         ${CMAKE_CURRENT_SOURCE_DIR}/sle_uart_server/sle_uart_server_adv.c
         ${CMAKE_CURRENT_SOURCE_DIR}/sle_uart_server/sle_uart_server.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/sle_uart_server/sle_uart_client.c
 
     )
     set(HEADER_LIST ${CMAKE_CURRENT_SOURCE_DIR}/sle_uart_server)

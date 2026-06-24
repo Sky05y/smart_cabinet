@@ -8,6 +8,8 @@
         ${CMAKE_CURRENT_SOURCE_DIR}/src/demo.c
         ${CMAKE_CURRENT_SOURCE_DIR}/src/ssd1306.c
         ${CMAKE_CURRENT_SOURCE_DIR}/src/ssd1306_fonts.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/sle_uart_server_adv.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/sle_uart_server.c
     )
     set(HEADER_LIST ${CMAKE_CURRENT_SOURCE_DIR}/sle_uart_client)
     set(PUBLIC_HEADER_LIST
