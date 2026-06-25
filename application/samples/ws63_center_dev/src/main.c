@@ -242,7 +242,7 @@ static int find_server_slot_by_device(uint8_t device_no)
     return -1;
 }
 void signal_open_door(int door_no);
-// ===== HTTP 发送（不变）=====
+// ===== HTTP 发送 =====
 void http_post_data(uint16_t lux, uint32_t alcohol, int t_int, int t_dec,
                     int h_int, int h_dec, int device_no)
 {
@@ -603,26 +603,11 @@ static void sle_uart_client_ssapc_cbk_register(void)
     ssapc_register_callbacks(&ssapc_cbk);
 }
 
-// void sle_uart_start_scan(void)
-// {
-//     sle_seek_param_t param = {0};
-//     param.own_addr_type = 0;
-//     param.filter_duplicates = 0;
-//     param.seek_filter_policy = 0;
-//     param.seek_phys = 1;
-//     param.seek_type[0] = 1;
-//     param.seek_interval[0] = 100;
-//     param.seek_window[0] = 100;
-//     sle_set_seek_param(&param);
-//     sle_start_seek();
-//     osal_printk("[SLE] Start scanning...\r\n");
-// }
-
 void *sle_uart_client_task(const char *arg)
 {
     unused(arg);
     
-    osal_printk("[SLE] === TASK ENTRY ===\r\n");  // 第一行就打印
+    osal_printk("[SLE] === TASK ENTRY ===\r\n");
     
     uart_init_pin();
     osal_printk("[SLE] uart_init_pin done\r\n");
