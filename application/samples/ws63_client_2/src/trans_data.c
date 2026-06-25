@@ -147,12 +147,6 @@ void *sle_uart_client_task(const char *arg)
     // 初始化 SLE Server
     sle_uart_server_init(ssaps_server_read_request_cbk, ssaps_server_write_request_cbk);
     
-    // 启动广播
-    // errcode_t ret = sle_uart_server_adv_init();
-    // if (ret != ERRCODE_SLE_SUCCESS) {
-    //     osal_printk("[SLE] Server adv init fail: %d\r\n", ret);
-    //     return NULL;
-    // }
     osal_printk("[SLE] Server started, waiting for Client connection...\r\n");
 
     while (1) {
