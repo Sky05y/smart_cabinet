@@ -59,6 +59,7 @@ typedef struct {
     bool     connected;
     uint8_t  device_no;     // 1 或 2
     uint16_t write_handle;  // Server 的 write handle
+    sle_addr_t addr;
 } sle_server_t;
 
 static sle_server_t g_servers[MAX_SLE_SERVERS] = {0};
@@ -336,14 +337,27 @@ static void sle_uart_client_seek_result_cbk(sle_seek_result_info_t *seek_result_
 {
     if (seek_result_data == NULL) return;
     
-    // 检查是否已记录
+    // 如果已经连满了，不处理
+    if (g_sle_uart_conn_num >= MAX_SLE_SERVERS) {
+        return;
+    }
+    
+    // 检查是否已连接
+    for (int i = 0; i < MAX_SLE_SERVERS; i++) {
+        if (g_servers[i].connected && 
+            memcmp(g_servers[i].addr.addr, seek_result_data->addr.addr, SLE_ADDR_LEN) == 0) {
+            return; // 已连接，跳过
+        }
+    }
+    
+    // 检查是否已记录但未连接
     for (int i = 0; i < g_server_found_count; i++) {
         if (memcmp(g_server_addrs[i].addr, seek_result_data->addr.addr, SLE_ADDR_LEN) == 0) {
             return; // 已记录，跳过
         }
     }
     
-    // 宽松匹配：检查数据里是否包含 "sle"
+    // 匹配检查
     bool match = false;
     if (seek_result_data->data_length > 0) {
         for (uint16_t i = 0; i < seek_result_data->data_length - 3; i++) {
@@ -355,51 +369,59 @@ static void sle_uart_client_seek_result_cbk(sle_seek_result_info_t *seek_result_
     }
     
     if (match) {
-        osal_printk("[SLE] FOUND Server %d: %02x:%02x:%02x:%02x:%02x:%02x\r\n",
-            g_server_found_count + 1,
-            seek_result_data->addr.addr[0], seek_result_data->addr.addr[1],
-            seek_result_data->addr.addr[2], seek_result_data->addr.addr[3],
-            seek_result_data->addr.addr[4], seek_result_data->addr.addr[5]);
-        
-        memcpy_s(&g_server_addrs[g_server_found_count], sizeof(sle_addr_t),
+        // 记录
+        int slot = g_server_found_count;
+        memcpy_s(&g_server_addrs[slot], sizeof(sle_addr_t),
                  &seek_result_data->addr, sizeof(sle_addr_t));
         g_server_found_count++;
         
-        // 找到1个就连接（如果还没连满）
-        if (g_sle_uart_conn_num < MAX_SLE_SERVERS) {
-            osal_printk("[SLE] Connect to server %d (conn_num=%d)\r\n", 
-                g_server_found_count - 1, g_sle_uart_conn_num);
-            sle_connect_remote_device(&g_server_addrs[g_server_found_count - 1]);
-        }
+        osal_printk("[SLE] FOUND Server %d/%d: %02x:%02x:%02x:%02x:%02x:%02x, connected=%d\r\n",
+            g_server_found_count, MAX_SLE_SERVERS,
+            seek_result_data->addr.addr[0], seek_result_data->addr.addr[1],
+            seek_result_data->addr.addr[2], seek_result_data->addr.addr[3],
+            seek_result_data->addr.addr[4], seek_result_data->addr.addr[5],
+            g_sle_uart_conn_num);
         
-        // 如果还没找满，继续扫描
-        if (g_server_found_count >= MAX_SLE_SERVERS) {
-            osal_printk("[SLE] All %d servers found, stop seek\r\n", MAX_SLE_SERVERS);
-            sle_stop_seek();
+        // 如果当前没有在连接中的，发起连接
+        if (g_sle_uart_conn_num < MAX_SLE_SERVERS) {
+            osal_msleep(200);
+            errcode_t ret = sle_connect_remote_device(&g_server_addrs[slot]);
+            osal_printk("[SLE] Connect to server %d, ret=%d\r\n", slot, ret);
         }
-        // 否则继续扫描，不 stop
     }
 }
 
 static void sle_uart_client_seek_disable_cbk(errcode_t status)
 {
-    if (status == 0 && g_server_found_count > 0 && g_sle_uart_conn_num == 0) {
-        sle_connect_remote_device(&g_server_addrs[0]);
-    }
+    unused(status);
 }
 
 static void sle_uart_client_connect_state_changed_cbk(uint16_t conn_id, const sle_addr_t *addr,
     sle_acb_state_t conn_state, sle_pair_state_t pair_state, sle_disc_reason_t disc_reason)
 {
-    unused(addr);
     unused(pair_state);
     osal_printk("[SLE] Connect state: conn_id=0x%02x, state=%d, reason=0x%x\r\n", conn_id, conn_state, disc_reason);
     
     if (conn_state == SLE_ACB_STATE_CONNECTED) {
-        g_sle_uart_conn_id[g_sle_uart_conn_num] = conn_id;
-        int slot = g_sle_uart_conn_num;
+        // 找到空位保存
+        int slot = -1;
+        for (int i = 0; i < MAX_SLE_SERVERS; i++) {
+            if (!g_servers[i].connected) {
+                slot = i;
+                break;
+            }
+        }
+        
+        if (slot < 0) {
+            osal_printk("[SLE] No empty slot, disconnect conn_id=0x%02x\r\n", conn_id);
+            // 可选：断开多余的连接
+            return;
+        }
+        
         g_servers[slot].conn_id = conn_id;
+        memcpy_s(&g_servers[slot].addr, sizeof(sle_addr_t), addr, sizeof(sle_addr_t));
         g_servers[slot].connected = true;
+        g_sle_uart_conn_id[slot] = conn_id;
         g_sle_uart_conn_num++;
         
         osal_printk("[SLE] Server %d CONNECTED, conn_id=0x%02x, total=%d\r\n", 
@@ -411,10 +433,13 @@ static void sle_uart_client_connect_state_changed_cbk(uint16_t conn_id, const sl
         info.version = 1;
         ssapc_exchange_info_req(0, conn_id, &info);
         
-        // 如果还有未连接的 Server，继续扫描找
+        // 如果还没连满，继续扫描
         if (g_sle_uart_conn_num < MAX_SLE_SERVERS) {
-            osal_printk("[SLE] Need more servers, restart scan\r\n");
-            sle_start_seek();
+            osal_printk("[SLE] Need more servers, continue scan\r\n");
+            // 不停止扫描，继续找
+        } else {
+            osal_printk("[SLE] All connected, stop seek\r\n");
+            sle_stop_seek();
         }
         
     } else if (conn_state == SLE_ACB_STATE_DISCONNECTED) {
@@ -428,12 +453,23 @@ static void sle_uart_client_connect_state_changed_cbk(uint16_t conn_id, const sl
                 break;
             }
         }
+        
         if (slot >= 0) {
             g_sle_uart_conn_num--;
             osal_printk("[SLE] Server %d DISCONNECTED, remaining=%d\r\n", slot, g_sle_uart_conn_num);
         }
+        
+        // 全部清空
+        g_server_found_count = 0;
+        memset(g_server_addrs, 0, sizeof(g_server_addrs));
+        
         // 重新扫描
-        sle_start_seek();
+        if (g_sle_uart_conn_num < MAX_SLE_SERVERS) {
+            osal_printk("[SLE] Restart scan\r\n");
+            sle_stop_seek();
+            osal_msleep(100);
+            sle_start_seek();
+        }
     }
 }
 
