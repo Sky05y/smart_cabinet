@@ -329,7 +329,7 @@ static void sle_connect_state_changed_cbk(uint16_t conn_id, const sle_addr_t *ad
 
         errcode_t ret = sle_start_announce(SLE_ADV_HANDLE_DEFAULT);
         sample_at_log_print("%s restart announce ret:%d\r\n", SLE_UART_SERVER_LOG, ret);
-
+                
         if (g_sle_uart_server_msg_queue != NULL) {
             g_sle_uart_server_msg_queue(sle_connect_state, sizeof(sle_connect_state));
         }
