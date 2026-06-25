@@ -1,5 +1,4 @@
 # 基于星闪（SLE）的智能药品监管系统
-# StarDrug-IoT
 
 [🇨🇳 中文](README.md) | [🇺🇸 English](README_EN.md)
 
@@ -26,13 +25,22 @@
 
 ## 系统架构
 
+```mermaid
 graph LR
 
-A[Cabinet 1] -->|SLE| C[WS63 Center]
-B[Cabinet 2] -->|SLE| C
+A[Slave Node 1<br/>Medicine Cabinet 1]
+--> |SparkLink SLE|
+C[WS63 Master Node]
 
-C -->|HTTP| D[Django Server]
+B[Slave Node 2<br/>Medicine Cabinet 2]
+--> |SparkLink SLE|
+C
+
+C --> |HTTP/JSON|
+D[Django Server]
+
 D --> E[Web Dashboard]
+```
 
 ## 项目结构
 
