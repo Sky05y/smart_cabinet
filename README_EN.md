@@ -1,4 +1,4 @@
-# StarDrug-IoT
+# Intelligent drug supervision system based on Star Flash (SLE)
 
 <p align="center">
   <a href="./README.md">简体中文</a> |
