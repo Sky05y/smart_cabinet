@@ -72,16 +72,7 @@ uint16_t get_lux_value(void)
 void bh1750_task(void *arg)
 {
     unused(arg);
-    /************ ⭐ I2C引脚配置（关键） ************/
-    // uapi_pin_set_mode(I2C_SCL_PIN, 2);
-    // uapi_pin_set_mode(I2C_SDA_PIN, 2);
-    // uapi_pin_set_pull(I2C_SCL_PIN, PIN_PULL_TYPE_UP);
-    // uapi_pin_set_pull(I2C_SDA_PIN, PIN_PULL_TYPE_UP);
-    /************ I2C初始化 ************/
-    // if (uapi_i2c_master_init(BH1750_I2C_BUS, 400000, 0) != 0) {
-    //     osal_printk("I2C init fail\r\n");
-    // }
-    osDelay(2000); // 等待OLED初始化完成，避免I2C冲突
+    osDelay(200); // 等待OLED初始化完成，避免I2C冲突
     if (bh1750_init(BH1750_ADDR_LOW) != 0) {
         osal_printk("Error code: %d\r\n", bh1750_init(BH1750_ADDR_LOW));
         osal_printk("BH1750 init fail\r\n");
@@ -90,9 +81,6 @@ void bh1750_task(void *arg)
         if (bh1750_read_lux(&lux) != 0) {
             osal_printk("BH1750 read error\r\n");
         }
-        // else {
-        //     osal_printk("[BH1750] lux=%d\r\n", lux);
-        // }
         osDelay(1000);
     }
 }

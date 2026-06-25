@@ -859,7 +859,7 @@
 
     application                             
       samples                               
-        ws63_client_2                       
+        ws63_node_2                         
           src                               
             trans_data                             538
             mq_adc                                  12
@@ -879,7 +879,7 @@
 
     application                             
       samples                               
-        ws63_client_2                       
+        ws63_node_2                         
           src                               
             mq_adc                                 330
             bh1750                                 310
@@ -1349,7 +1349,7 @@
           main                                     242
 
       samples                              4
-        ws63_client_2                       
+        ws63_node_2                         
           src                               
             main                                     4
 
@@ -1369,7 +1369,7 @@
 
     application                             
       samples                               
-        ws63_client_2                       
+        ws63_node_2                         
           src                               
             ssd1306_fonts                           24
             bh1750                                   1
