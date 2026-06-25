@@ -26,29 +26,61 @@
 ## 系统架构
 
 ```mermaid
-graph LR
+graph TD
 
-A[Slave Node 1<br/>Medicine Cabinet 1]
---> |SparkLink SLE|
-C[WS63 Master Node]
+subgraph Sensor Nodes
+    A[WS63 Node 1]
+    B[WS63 Node 2]
+end
 
-B[Slave Node 2<br/>Medicine Cabinet 2]
---> |SparkLink SLE|
-C
+subgraph Wireless Layer
+    C[SparkLink SLE]
+end
 
-C --> |HTTP/JSON|
-D[Django Server]
+subgraph Gateway
+    D[WS63 Master]
+end
 
-D --> E[Web Dashboard]
+subgraph Cloud Platform
+    E[Django Backend]
+    F[(Database)]
+end
+
+subgraph User
+    G[Web Dashboard]
+end
+
+A --> C
+B --> C
+C --> D
+D -->|HTTP/JSON| E
+E --> F
+E --> G
 ```
 
 ## 项目结构
 
+```text
 application/samples/
-├── ws63_center_dev      （主控节点：SLE接收 + WiFi/HTTP上传）
-├── ws63_node_1      （从控节点1：传感器采集 + SLE发送）
-├── ws63_node_2      （从控节点2：传感器采集 + SLE发送）
-└── CMakeLists.txt   （编译配置文件）
+
+├── ws63_center_dev
+│   └── Master Node
+│       ├── SLE Receiver
+│       ├── WiFi Connection
+│       └── HTTP Upload
+
+├── ws63_node_1
+│   └── Slave Node 1
+│       ├── Sensor Acquisition
+│       └── SLE Transmission
+
+├── ws63_node_2
+│   └── Slave Node 2
+│       ├── Sensor Acquisition
+│       └── SLE Transmission
+
+└── CMakeLists.txt
+```
 
 ## 快速开始
 
