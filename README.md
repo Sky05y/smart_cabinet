@@ -1,4 +1,18 @@
 # 基于星闪（SLE）的智能药品监管系统
+# StarDrug-IoT
+
+[🇨🇳 中文](README.md) | [🇺🇸 English](README_EN.md)
+
+## Why this project
+
+目前关于星闪（SparkLink / SLE）的开源项目较少，
+尤其缺少完整的：
+
+传感器采集 → SLE无线传输 → 云端上传 → Web监控
+
+全链路工程案例。
+
+本项目提供一个可直接运行的参考实现。
 
 ## 项目简介
 
@@ -10,44 +24,50 @@
 - 主控节点进行数据汇总处理后，通过 HTTP 上传至云端服务器
 - 用户通过 Web 前端实现远程查看机柜运行状态与数据
 
-<!-- 前端项目地址：
-https://github.com/ -->
-
 ## 系统架构
 
-从节点A（机柜1） ──SLE──┐  
-                         │  
-从节点B（机柜2） ──SLE──┤──▶ 主控节点（WS63）──HTTP──▶ 云服务器（Django）──▶ Web前端  
-                         │  
-                         └── 数据汇总/处理/转发  
+graph LR
+
+A[Cabinet 1] -->|SLE| C[WS63 Center]
+B[Cabinet 2] -->|SLE| C
+
+C -->|HTTP| D[Django Server]
+D --> E[Web Dashboard]
 
 ## 项目结构
 
 application/samples/
-├── ws63_server      （主控节点：SLE接收 + WiFi/HTTP上传）
-├── ws63_client      （从控节点：传感器采集 + SLE发送）
+├── ws63_center_dev      （主控节点：SLE接收 + WiFi/HTTP上传）
+├── ws63_node_1      （从控节点1：传感器采集 + SLE发送）
+├── ws63_node_2      （从控节点2：传感器采集 + SLE发送）
 └── CMakeLists.txt   （编译配置文件）
 
-## 编译说明
+## 快速开始
 
-本工程同一代码仓库包含服务端与客户端，需要通过修改 CMakeLists.txt 选择编译目标。
+本工程同一代码仓库包含服务端与客户端，需要通过修改 application/samples/CMakeLists.txt 选择编译目标
 
 ### 编译主控节点（server）
 
 在 application/samples/CMakeLists.txt 中：
 
 ```cmake
-add_subdirectory_if_exist(ws63_server)
-# add_subdirectory_if_exist(ws63_client)
+add_subdirectory_if_exist(ws63_center_dev)
+
+# add_subdirectory_if_exist(ws63_node_1)
+
+# add_subdirectory_if_exist(ws63_node_2)
 ```
 
-### 编译从节点（client）
+### 编译从节点1（client）
 
 在 application/samples/CMakeLists.txt 中：
 
 ```cmake
-# add_subdirectory_if_exist(ws63_server)
-add_subdirectory_if_exist(ws63_client)
+# add_subdirectory_if_exist(ws63_center_dev)
+
+add_subdirectory_if_exist(ws63_node_1)
+
+# add_subdirectory_if_exist(ws63_node_2)
 ```
 ### 编译项目
 
