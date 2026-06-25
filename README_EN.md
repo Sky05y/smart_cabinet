@@ -233,12 +233,6 @@ add_subdirectory_if_exist(ws63_node_1)
 
 ---
 
-## License
-
-This project is released under the MIT License.
-
----
-
 ## Acknowledgements
 
 * Huawei SparkLink (StarFlash) Ecosystem
