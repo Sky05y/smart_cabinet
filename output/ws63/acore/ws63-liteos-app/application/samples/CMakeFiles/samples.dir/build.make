@@ -122,22 +122,48 @@ application/samples/CMakeFiles/samples.dir/ws63_node_2/src/trans_data.c.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/ws63_node_2/src/trans_data.c.s"
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRANS_DATA_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/trans_data.c -o CMakeFiles/samples.dir/ws63_node_2/src/trans_data.c.s
 
-application/samples/CMakeFiles/samples.dir/ws63_node_2/src/demo.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
-application/samples/CMakeFiles/samples.dir/ws63_node_2/src/demo.c.obj: ../../../../application/samples/ws63_node_2/src/demo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object application/samples/CMakeFiles/samples.dir/ws63_node_2/src/demo.c.obj"
-	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DEMO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/ws63_node_2/src/demo.c.obj   -c /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/demo.c
+application/samples/CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
+application/samples/CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.obj: ../../../../application/samples/ws63_node_2/src/fingerprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object application/samples/CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=FINGERPRINT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.obj   -c /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/fingerprint.c
 
-application/samples/CMakeFiles/samples.dir/ws63_node_2/src/demo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/ws63_node_2/src/demo.c.i"
-	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DEMO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/demo.c > CMakeFiles/samples.dir/ws63_node_2/src/demo.c.i
+application/samples/CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.i"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=FINGERPRINT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/fingerprint.c > CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.i
 
-application/samples/CMakeFiles/samples.dir/ws63_node_2/src/demo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/ws63_node_2/src/demo.c.s"
-	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DEMO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/demo.c -o CMakeFiles/samples.dir/ws63_node_2/src/demo.c.s
+application/samples/CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.s"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=FINGERPRINT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/fingerprint.c -o CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.s
+
+application/samples/CMakeFiles/samples.dir/ws63_node_2/src/lock.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
+application/samples/CMakeFiles/samples.dir/ws63_node_2/src/lock.c.obj: ../../../../application/samples/ws63_node_2/src/lock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object application/samples/CMakeFiles/samples.dir/ws63_node_2/src/lock.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/ws63_node_2/src/lock.c.obj   -c /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/lock.c
+
+application/samples/CMakeFiles/samples.dir/ws63_node_2/src/lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/ws63_node_2/src/lock.c.i"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/lock.c > CMakeFiles/samples.dir/ws63_node_2/src/lock.c.i
+
+application/samples/CMakeFiles/samples.dir/ws63_node_2/src/lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/ws63_node_2/src/lock.c.s"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/lock.c -o CMakeFiles/samples.dir/ws63_node_2/src/lock.c.s
+
+application/samples/CMakeFiles/samples.dir/ws63_node_2/src/oled.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
+application/samples/CMakeFiles/samples.dir/ws63_node_2/src/oled.c.obj: ../../../../application/samples/ws63_node_2/src/oled.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object application/samples/CMakeFiles/samples.dir/ws63_node_2/src/oled.c.obj"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OLED_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/ws63_node_2/src/oled.c.obj   -c /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/oled.c
+
+application/samples/CMakeFiles/samples.dir/ws63_node_2/src/oled.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/ws63_node_2/src/oled.c.i"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OLED_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/oled.c > CMakeFiles/samples.dir/ws63_node_2/src/oled.c.i
+
+application/samples/CMakeFiles/samples.dir/ws63_node_2/src/oled.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/ws63_node_2/src/oled.c.s"
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OLED_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/oled.c -o CMakeFiles/samples.dir/ws63_node_2/src/oled.c.s
 
 application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
 application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306.c.obj: ../../../../application/samples/ws63_node_2/src/ssd1306.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306.c.obj"
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SSD1306_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/ws63_node_2/src/ssd1306.c.obj   -c /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/ssd1306.c
 
 application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306.c.i: cmake_force
@@ -150,7 +176,7 @@ application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306.c.s: cmake_fo
 
 application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306_fonts.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
 application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306_fonts.c.obj: ../../../../application/samples/ws63_node_2/src/ssd1306_fonts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306_fonts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306_fonts.c.obj"
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SSD1306_FONTS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/ws63_node_2/src/ssd1306_fonts.c.obj   -c /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/ssd1306_fonts.c
 
 application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306_fonts.c.i: cmake_force
@@ -163,7 +189,7 @@ application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306_fonts.c.s: cm
 
 application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server_adv.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
 application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server_adv.c.obj: ../../../../application/samples/ws63_node_2/src/sle_uart_server_adv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server_adv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server_adv.c.obj"
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SLE_UART_SERVER_ADV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server_adv.c.obj   -c /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/sle_uart_server_adv.c
 
 application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server_adv.c.i: cmake_force
@@ -176,7 +202,7 @@ application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server_adv.c
 
 application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
 application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server.c.obj: ../../../../application/samples/ws63_node_2/src/sle_uart_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server.c.obj"
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && /home/bearpi/project/smart_cabinet-main/tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SLE_UART_SERVER_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server.c.obj   -c /home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/sle_uart_server.c
 
 application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server.c.i: cmake_force
@@ -194,7 +220,9 @@ samples_OBJECTS = \
 "CMakeFiles/samples.dir/ws63_node_2/src/bh1750.c.obj" \
 "CMakeFiles/samples.dir/ws63_node_2/src/dht11.c.obj" \
 "CMakeFiles/samples.dir/ws63_node_2/src/trans_data.c.obj" \
-"CMakeFiles/samples.dir/ws63_node_2/src/demo.c.obj" \
+"CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.obj" \
+"CMakeFiles/samples.dir/ws63_node_2/src/lock.c.obj" \
+"CMakeFiles/samples.dir/ws63_node_2/src/oled.c.obj" \
 "CMakeFiles/samples.dir/ws63_node_2/src/ssd1306.c.obj" \
 "CMakeFiles/samples.dir/ws63_node_2/src/ssd1306_fonts.c.obj" \
 "CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server_adv.c.obj" \
@@ -208,14 +236,16 @@ application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws6
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_node_2/src/bh1750.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_node_2/src/dht11.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_node_2/src/trans_data.c.obj
-application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_node_2/src/demo.c.obj
+application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.obj
+application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_node_2/src/lock.c.obj
+application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_node_2/src/oled.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306_fonts.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server_adv.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/build.make
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C static library libsamples.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C static library libsamples.a"
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && $(CMAKE_COMMAND) -P CMakeFiles/samples.dir/cmake_clean_target.cmake
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/samples.dir/link.txt --verbose=$(VERBOSE)
 

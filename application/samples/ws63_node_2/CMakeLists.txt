@@ -4,7 +4,9 @@
         ${CMAKE_CURRENT_SOURCE_DIR}/src/bh1750.c
         ${CMAKE_CURRENT_SOURCE_DIR}/src/dht11.c
         ${CMAKE_CURRENT_SOURCE_DIR}/src/trans_data.c
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/demo.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/fingerprint.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/lock.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/oled.c
         ${CMAKE_CURRENT_SOURCE_DIR}/src/ssd1306.c
         ${CMAKE_CURRENT_SOURCE_DIR}/src/ssd1306_fonts.c
         ${CMAKE_CURRENT_SOURCE_DIR}/src/sle_uart_server_adv.c

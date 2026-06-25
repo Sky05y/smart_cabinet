@@ -5,7 +5,9 @@
 #include "soc_osal.h"
 #include "cmsis_os2.h"
 #include "app_init.h"
-#include "demo.h"
+#include "fingerprint.h"
+#include "lock.h"
+#include "oled.h"
 
 #define BH1750_TASK_STACK_SIZE   0x1000
 #define BH1750_TASK_PRIO         (osPriority_t)(17)
@@ -23,7 +25,6 @@
 
 static void sle_uart_entry(void)
 {
-    board_hardware_init();
     osThreadAttr_t attr;
 
     /************ 1. 创建 SLE 任务 ************/
@@ -62,9 +63,7 @@ static void sle_uart_entry(void)
     if (osThreadNew((osThreadFunc_t)dht11_task, NULL, &attr) == NULL) {
         osal_printk("[ERR]\r\n");
     }
-
-
-    
+ 
     attr.stack_size = 0x2000;
     attr.priority   = 17;
     attr.name = "FingerTask";

@@ -152,33 +152,6 @@ ws63_node_2/src/bh1750.c.s:
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/bh1750.c.s
 .PHONY : ws63_node_2/src/bh1750.c.s
 
-ws63_node_2/src/demo.obj: ws63_node_2/src/demo.c.obj
-
-.PHONY : ws63_node_2/src/demo.obj
-
-# target to build an object file
-ws63_node_2/src/demo.c.obj:
-	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/demo.c.obj
-.PHONY : ws63_node_2/src/demo.c.obj
-
-ws63_node_2/src/demo.i: ws63_node_2/src/demo.c.i
-
-.PHONY : ws63_node_2/src/demo.i
-
-# target to preprocess a source file
-ws63_node_2/src/demo.c.i:
-	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/demo.c.i
-.PHONY : ws63_node_2/src/demo.c.i
-
-ws63_node_2/src/demo.s: ws63_node_2/src/demo.c.s
-
-.PHONY : ws63_node_2/src/demo.s
-
-# target to generate assembly for a file
-ws63_node_2/src/demo.c.s:
-	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/demo.c.s
-.PHONY : ws63_node_2/src/demo.c.s
-
 ws63_node_2/src/dht11.obj: ws63_node_2/src/dht11.c.obj
 
 .PHONY : ws63_node_2/src/dht11.obj
@@ -205,6 +178,60 @@ ws63_node_2/src/dht11.s: ws63_node_2/src/dht11.c.s
 ws63_node_2/src/dht11.c.s:
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/dht11.c.s
 .PHONY : ws63_node_2/src/dht11.c.s
+
+ws63_node_2/src/fingerprint.obj: ws63_node_2/src/fingerprint.c.obj
+
+.PHONY : ws63_node_2/src/fingerprint.obj
+
+# target to build an object file
+ws63_node_2/src/fingerprint.c.obj:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.obj
+.PHONY : ws63_node_2/src/fingerprint.c.obj
+
+ws63_node_2/src/fingerprint.i: ws63_node_2/src/fingerprint.c.i
+
+.PHONY : ws63_node_2/src/fingerprint.i
+
+# target to preprocess a source file
+ws63_node_2/src/fingerprint.c.i:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.i
+.PHONY : ws63_node_2/src/fingerprint.c.i
+
+ws63_node_2/src/fingerprint.s: ws63_node_2/src/fingerprint.c.s
+
+.PHONY : ws63_node_2/src/fingerprint.s
+
+# target to generate assembly for a file
+ws63_node_2/src/fingerprint.c.s:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.s
+.PHONY : ws63_node_2/src/fingerprint.c.s
+
+ws63_node_2/src/lock.obj: ws63_node_2/src/lock.c.obj
+
+.PHONY : ws63_node_2/src/lock.obj
+
+# target to build an object file
+ws63_node_2/src/lock.c.obj:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/lock.c.obj
+.PHONY : ws63_node_2/src/lock.c.obj
+
+ws63_node_2/src/lock.i: ws63_node_2/src/lock.c.i
+
+.PHONY : ws63_node_2/src/lock.i
+
+# target to preprocess a source file
+ws63_node_2/src/lock.c.i:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/lock.c.i
+.PHONY : ws63_node_2/src/lock.c.i
+
+ws63_node_2/src/lock.s: ws63_node_2/src/lock.c.s
+
+.PHONY : ws63_node_2/src/lock.s
+
+# target to generate assembly for a file
+ws63_node_2/src/lock.c.s:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/lock.c.s
+.PHONY : ws63_node_2/src/lock.c.s
 
 ws63_node_2/src/main.obj: ws63_node_2/src/main.c.obj
 
@@ -259,6 +286,33 @@ ws63_node_2/src/mq_adc.s: ws63_node_2/src/mq_adc.c.s
 ws63_node_2/src/mq_adc.c.s:
 	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/mq_adc.c.s
 .PHONY : ws63_node_2/src/mq_adc.c.s
+
+ws63_node_2/src/oled.obj: ws63_node_2/src/oled.c.obj
+
+.PHONY : ws63_node_2/src/oled.obj
+
+# target to build an object file
+ws63_node_2/src/oled.c.obj:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/oled.c.obj
+.PHONY : ws63_node_2/src/oled.c.obj
+
+ws63_node_2/src/oled.i: ws63_node_2/src/oled.c.i
+
+.PHONY : ws63_node_2/src/oled.i
+
+# target to preprocess a source file
+ws63_node_2/src/oled.c.i:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/oled.c.i
+.PHONY : ws63_node_2/src/oled.c.i
+
+ws63_node_2/src/oled.s: ws63_node_2/src/oled.c.s
+
+.PHONY : ws63_node_2/src/oled.s
+
+# target to generate assembly for a file
+ws63_node_2/src/oled.c.s:
+	cd /home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/ws63_node_2/src/oled.c.s
+.PHONY : ws63_node_2/src/oled.c.s
 
 ws63_node_2/src/sle_uart_server.obj: ws63_node_2/src/sle_uart_server.c.obj
 
@@ -407,18 +461,24 @@ help:
 	@echo "... ws63_node_2/src/bh1750.obj"
 	@echo "... ws63_node_2/src/bh1750.i"
 	@echo "... ws63_node_2/src/bh1750.s"
-	@echo "... ws63_node_2/src/demo.obj"
-	@echo "... ws63_node_2/src/demo.i"
-	@echo "... ws63_node_2/src/demo.s"
 	@echo "... ws63_node_2/src/dht11.obj"
 	@echo "... ws63_node_2/src/dht11.i"
 	@echo "... ws63_node_2/src/dht11.s"
+	@echo "... ws63_node_2/src/fingerprint.obj"
+	@echo "... ws63_node_2/src/fingerprint.i"
+	@echo "... ws63_node_2/src/fingerprint.s"
+	@echo "... ws63_node_2/src/lock.obj"
+	@echo "... ws63_node_2/src/lock.i"
+	@echo "... ws63_node_2/src/lock.s"
 	@echo "... ws63_node_2/src/main.obj"
 	@echo "... ws63_node_2/src/main.i"
 	@echo "... ws63_node_2/src/main.s"
 	@echo "... ws63_node_2/src/mq_adc.obj"
 	@echo "... ws63_node_2/src/mq_adc.i"
 	@echo "... ws63_node_2/src/mq_adc.s"
+	@echo "... ws63_node_2/src/oled.obj"
+	@echo "... ws63_node_2/src/oled.i"
+	@echo "... ws63_node_2/src/oled.s"
 	@echo "... ws63_node_2/src/sle_uart_server.obj"
 	@echo "... ws63_node_2/src/sle_uart_server.i"
 	@echo "... ws63_node_2/src/sle_uart_server.s"

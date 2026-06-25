@@ -26,7 +26,7 @@
 #include "i2c.h"
 #include "soc_osal.h"
 #include "ssd1306.h"
-#include "demo.h"
+#include "oled.h"
 
 #define CONFIG_I2C_MASTER_BUS_ID 1
 // #define I2C_SLAVE2_ADDR 0x3C

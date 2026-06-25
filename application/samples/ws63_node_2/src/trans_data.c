@@ -14,7 +14,7 @@
 #include "bh1750.h"
 #include "mq_adc.h"
 #include "dht11.h"
-#include "demo.h"
+#include "lock.h"
 
 #define SLE_UART_TASK_DURATION_MS           2000
 #define SLE_UART_BAUDRATE                   115200
