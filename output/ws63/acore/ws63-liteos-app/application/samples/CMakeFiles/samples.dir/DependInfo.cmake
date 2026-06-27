@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_1/src/bh1750.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_1/src/bh1750.c.obj"
-  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_1/src/dht11.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_1/src/dht11.c.obj"
-  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_1/src/fingerprint.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_1/src/fingerprint.c.obj"
-  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_1/src/lock.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_1/src/lock.c.obj"
-  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_1/src/main.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_1/src/main.c.obj"
-  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_1/src/mq_adc.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_1/src/mq_adc.c.obj"
-  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_1/src/oled.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_1/src/oled.c.obj"
-  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_1/src/sle_uart_server.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_1/src/sle_uart_server.c.obj"
-  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_1/src/sle_uart_server_adv.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_1/src/sle_uart_server_adv.c.obj"
-  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_1/src/ssd1306.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_1/src/ssd1306.c.obj"
-  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_1/src/ssd1306_fonts.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_1/src/ssd1306_fonts.c.obj"
-  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_1/src/trans_data.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_1/src/trans_data.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/bh1750.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_2/src/bh1750.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/dht11.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_2/src/dht11.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/fingerprint.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_2/src/fingerprint.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/lock.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_2/src/lock.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/main.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_2/src/main.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/mq_adc.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_2/src/mq_adc.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/oled.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_2/src/oled.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/sle_uart_server.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/sle_uart_server_adv.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_2/src/sle_uart_server_adv.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/ssd1306.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/ssd1306_fonts.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_2/src/ssd1306_fonts.c.obj"
+  "/home/bearpi/project/smart_cabinet-main/application/samples/ws63_node_2/src/trans_data.c" "/home/bearpi/project/smart_cabinet-main/output/ws63/acore/ws63-liteos-app/application/samples/CMakeFiles/samples.dir/ws63_node_2/src/trans_data.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -139,8 +139,8 @@ set(CMAKE_TARGET_DEFINITIONS_C
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../../../kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include"
-  "../../../../application/samples/ws63_node_1/include"
-  "../../../../application/samples/ws63_node_1/sle_uart_server"
+  "../../../../application/samples/ws63_node_2/include"
+  "../../../../application/samples/ws63_node_2/sle_uart_server"
   "../../../../kernel/osal/include"
   "../../../../kernel/osal/include/atomic"
   "../../../../kernel/osal/include/debug"
