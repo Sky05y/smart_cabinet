@@ -7,6 +7,7 @@
 #include "fingerprint.h"
 #include "lock.h"
 #include "gpio.h"
+
 // 全局识别状态：0-等待, 1-成功, 2-失败
 volatile int g_verify_status = 0;
 
@@ -16,6 +17,7 @@ static uart_buffer_config_t g_uart_buffer_config = {
     .rx_buffer      = g_uart_rx_buff,
     .rx_buffer_size = 512
 };
+
 // ===================== 静态指令包 =====================
 static const uint8_t CMD_GET_IMAGE[] = {
     0xEF, 0x01, 0xFF, 0xFF, 0xFF, 0xFF,
@@ -32,6 +34,7 @@ static const uint8_t CMD_SEARCH[] = {
     0x00, 0xFF,
     0x01, 0x0D
 };
+
 void fingerprint_init(void)
 {
     // 指纹 UART2 (GPIO8=TX, GPIO7=RX)
@@ -60,7 +63,7 @@ void fingerprint_init(void)
     uapi_pin_set_pull(FP_WAKE_PIN, 2);
 }
 
-// ===================== UART 极速通信核心 =====================
+// ===================== UART 通信 =====================
 static void uart_flush_rx(void)
 {
     uint8_t tmp[64];
@@ -82,23 +85,25 @@ static int32_t zw101_send_recv(const uint8_t *cmd, uint8_t cmd_len,
         if (chunk > 0) {
             len += chunk;
         }
-        
         if (len >= 9 && rx[0] == 0xEF && rx[1] == 0x01) {
             uint16_t expected_payload_len = ((uint16_t)rx[7] << 8) | rx[8];
             if (len >= 9 + expected_payload_len) {
-                break; 
+                break;
             }
         }
         elapsed += step;
     }
 
-    // osal_printk("[ZW101] recv(%d): ", len);
-    // for (int i = 0; i < len && i < 16; i++) {
-    //     osal_printk("%02X ", rx[i]);
-    // }
-    // osal_printk("\r\n");
+    if (len > 0) {
+        osal_printk("[ZW101] recv(%d): ", len);
+        for (int i = 0; i < len && i < 16; i++) {
+            osal_printk("%02X ", rx[i]);
+        }
+        osal_printk("\r\n");
+    }
     return len;
 }
+
 // ===================== 指纹识别任务 =====================
 void *fingerprint_task(void *arg)
 {
@@ -120,7 +125,6 @@ void *fingerprint_task(void *arg)
                 is_locked = 1;
                 success   = 0;
                 got_image = 0;
-
                 osal_printk("\r\n[FP] Finger detected!\r\n");
                 osDelay(50);
 
