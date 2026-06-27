@@ -21,7 +21,6 @@
 
 static void sle_uart_entry(void)
 {
-    // 全局 GPIO 初始化(必须最先,只调一次)
     uapi_gpio_init();
 
     osThreadAttr_t attr;
@@ -60,8 +59,6 @@ static void sle_uart_entry(void)
     if (osThreadNew((osThreadFunc_t)dht11_task, NULL, &attr) == NULL) {
         osal_printk("Create DHT11 task fail!\r\n");
     }
-
-    /* ========== 以下任务暂时不启用,定位干扰源 ========== */
 
     /* 5. MQ 气体/酒精 ADC */
     attr.stack_size = MQ_ADC_TASK_STACK_SIZE;
