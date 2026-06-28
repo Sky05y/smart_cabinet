@@ -1,5 +1,7 @@
 # 基于星闪（SLE）的智能药品监管系统
 
+演示视频：https://www.bilibili.com/video/BV1E4TK6eEus/
+
 [🇨🇳 中文](README.md) | [🇺🇸 English](README_EN.md)
 
 ## Why this project
@@ -12,6 +14,7 @@
 全链路工程案例。
 
 本项目提供一个可直接运行的参考实现。
+演示链接https://www.bilibili.com/video/BV1E4TK6eEus/
 
 ## 项目简介
 
