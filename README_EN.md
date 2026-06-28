@@ -1,5 +1,7 @@
 # Intelligent drug supervision system based on Star Flash (SLE)
 
+Demo Video: https://www.bilibili.com/video/BV1E4TK6eEus/
+
 <p align="center">
   <a href="./README.md">简体中文</a> |
   <a href="./README_EN.md">English</a>
